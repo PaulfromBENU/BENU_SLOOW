@@ -21,11 +21,11 @@ use App\Mail\UserRegistered;
 
 if (app('env') !== 'prod') {
 	Route::get('/{slug}', function() {
-		return redirect()->route('landing');
+		return redirect()->route('landing-fr');
 	})->where('slug', '^([a-zA-Z0-9-]{3,})$');
 
 	Route::get('/', function() {
-		return redirect()->route('landing');
+		return redirect()->route('landing-fr');
 	});
 
 	Route::get('/fr', 'GeneralController@landingFr')->name('landing-fr');
