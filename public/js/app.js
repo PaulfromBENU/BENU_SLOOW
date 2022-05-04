@@ -6292,39 +6292,34 @@ function animateWelcomePres(i) {
   $('.welcome-presentation__desc__bar__btn').eq(i).addClass('--active');
 }
 
-$(function () {
-  var i = 1;
-  var welcomeAnimation = setInterval(function () {
-    animateWelcomePres(i);
-
-    if (i < 4) {
-      i++;
-    } else {
-      i = 0;
-    }
-  }, 7000);
-  $('.welcome-presentation__desc__bar__btn').on('click', function () {
-    var index = $('.welcome-presentation__desc__bar__btn').index(this); //Upon click, stop current animation, and restart from new selected menu
-
-    clearInterval(welcomeAnimation);
-    animateWelcomePres(index);
-
-    if (index < 4) {
-      i = index + 1;
-    } else {
-      i = 0;
-    }
-
-    welcomeAnimation = setInterval(function () {
-      animateWelcomePres(i);
-
-      if (i < 4) {
-        i++;
-      } else {
-        i = 0;
-      }
-    }, 7000);
-  });
+$(function () {// let i = 1;
+  // let welcomeAnimation = setInterval(function() {
+  //     animateWelcomePres(i);
+  //     if (i < 4) {
+  //         i++;
+  //     } else {
+  //         i = 0;
+  //     }
+  // }, 7000);
+  // $('.welcome-presentation__desc__bar__btn').on('click', function() {
+  //     let index = $('.welcome-presentation__desc__bar__btn').index(this);
+  //     //Upon click, stop current animation, and restart from new selected menu
+  //     clearInterval(welcomeAnimation);
+  //     animateWelcomePres(index);
+  //     if (index < 4) {
+  //         i = index + 1;
+  //     } else {
+  //         i = 0;
+  //     }
+  //     welcomeAnimation = setInterval(function() {
+  //     animateWelcomePres(i);
+  //     if (i < 4) {
+  //             i++;
+  //         } else {
+  //             i = 0;
+  //         }
+  //     }, 7000);
+  // });
 });
 
 /***/ }),

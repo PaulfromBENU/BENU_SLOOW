@@ -55,7 +55,7 @@
                 <div class="central_textbox">
                     <div class="central_textbox__teaser">
                         <p>
-                            Bientôt....
+                            Bientôt...
                         </p>
                     </div>
                     <h1>BENU SLO0W</h1>

@@ -11,19 +11,19 @@
                     <div>
                         <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU SLO0W</a>
                     </div>
-                    <ul class="flex justify-start header__top-nav__links">
+                    <!-- <ul class="flex justify-start header__top-nav__links">
                         <li>
-                            <a href="{{ route('full-story-'.app()->getLocale()) }}">{{ __('header.story') }}</a>
+                            <a href="#">{{ __('header.story') }}</a>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="{{ route('partners-'.app()->getLocale()) }}">{{ __('header.partners') }}</a>
+                            <a href="#">{{ __('header.partners') }}</a>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('header.vouchers') }}</a>
+                            <a href="#">{{ __('header.vouchers') }}</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </nav>
                 <div class="header__newsletter-btn">
                     @guest
@@ -45,18 +45,13 @@
             </div>
             <div class="flex justify-between header__main-menu">
                 <nav class="header__main-nav flex justify-start">
-                    <div>
-                        <button class="header__main-nav__btn" type="button">
-                            @svg('benu-icon-squares-categories', 'header__main-nav__btn--logo-1')
-                            {{ __('header.creations') }}
-                            @svg('benu-icon-arrow-down', 'header__main-nav__btn--logo-2')
-                        </button>
-                    </div>
-                    <a href="{{ route('news-'.app()->getLocale()) }}" class="header__main-nav__link">{{ __('header.news') }}</a>
+                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-1') }}</a>
 
-                    <a href="{{ route('about-'.app()->getLocale()) }}" class="header__main-nav__link">{{ __('header.about') }}</a>
+                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-2') }}</a>
 
-                    <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="header__main-nav__link">{{ __('header.locations') }}</a>
+                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-3') }}</a>
+
+                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-4') }}</a>
                 </nav>
                 <ul class="header__main-menu__icons flex justify-end">
                     @if(1 == 0)
@@ -67,25 +62,30 @@
                     </li>
                     @endif
                     @auth
-                        <li>
-                            <a href="{{ route('dashboard', ['locale' => app()->getLocale(), 'section' => 'wishlist']) }}" class="header__main-menu__icons__btn">
-                                @svg('benu-icon-heart-favorites', '')
+                        <!-- <li>
+                            <a href="#" class="header__main-menu__icons__btn">
+                                
                             </a>
-                        </li>
+                        </li> -->
                     @endauth
                     @guest
-                        <li>
+                        <!-- li>
                             <a class="header__main-menu__icons__btn" id="connect-btn">
-                                @svg('benu-icon-silhouette-connect')
+                                
                             </a>
-                        </li>
+                        </li> -->
                     @else
-                        <li>
-                            <a href="{{ route('dashboard', ['section' => 'overview']) }}" class="header__main-menu__icons__btn" id="dashboard-btn">
-                                @svg('benu-icon-silhouette-disconnect')
+                        <!-- <li>
+                            <a href="#" class="header__main-menu__icons__btn" id="dashboard-btn">
+                                
                             </a>
-                        </li>
+                        </li> -->
                     @endguest
+                    <li>
+                        <a href="#" class="header__main-menu__icons__btn">
+                            @svg('benu-icon-mail-contact', '')
+                        </a>
+                    </li>
                     <li>
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">
                             {{ strtoupper(app()->getLocale()) }}

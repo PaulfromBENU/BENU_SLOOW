@@ -20,7 +20,7 @@
 			{{ __('footer.more-txt-2') }}
 		</p>
 		<div class="text-center">
-			<a href="{{ route('about-'.app()->getLocale()) }}" class="btn-couture">{{ __('footer.more-learn-2') }}</a>
+			<a href="#" class="btn-couture">{{ __('footer.more-learn-2') }}</a>
 		</div>
 	</div>
 </section>

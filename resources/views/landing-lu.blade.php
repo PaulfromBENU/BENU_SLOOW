@@ -67,36 +67,42 @@
                         Lancement vun der Websäit: 2. Quartal 2022
                     </p>
                     <p class="central_textbox__desc">
-                        Zwou Jeansboxen, déi s Du net méi wëlls? E Pullover, deen Dir um Häerz läit, awer net méi passt? <strong>BENU COUTURE</strong> ass deen éischten UpCycling-Schneideratelier zu Lëtzebuerg, deen seng originell an eenzegaarteg Kreatiounen aus lokale Kleederspenden hierstellt. Eist Team, aus professionelle Schneider:innen an Designer:innen, setz sech all Dag dofir an, mat beschte Stoffqualitéiten déi schéinste Kombinatiounen ze fannen an eenzegaarteg Produite fir Dech hierzestellen: zesummegesat aus virun allem natierleche Materialie bidden si déi héchste Qualitéit a Laangliewegkeet.
+                        <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. Hohe Qualität. Soziale Inklusion. Ja, all das ist in einem einzigen Restaurant möglich! 
                     </p>
                     <p class="central_textbox__desc">
-                        Eis Kreatioune sinn handgemaach a gi kengem cheemeschen Traitement ënnerzunn. <strong>BENU COUTURE</strong> bitt Dir och un, Deng Liblingsstécker ze flécken oder si an enger neier, perséinlecher a just fir Dech bestëmmter Kreatioun z’integréieren.
+                        Dieses erste "Rescued Food"-Restaurant in der Großregion hat sich zum Ziel gesetzt, 80% der eingesetzten Lebensmittel als "Rescued" zu verwenden, d.h. Bio-Lebensmittel, die vom Handel abgelehnt werden, obwohl sie die EU-Normen erfüllen und von unbestreitbarer Qualität sind. In den meisten Fällen ist die Ablehnung auf eine schwankende Nachfrage zurückzuführen oder auf das ästhetische Aussehen der Ware: zu krumm, zu klein, zu...
+                    </p>
+                    <p class="central_textbox__desc">
+                        Mit seinem Angebot an nachhaltiger, vegetarischer und veganer Küche folgt das Restaurant BENU den Prinzipien der Kreislaufwirtschaft und des UpCyclings und hat als Hauptziel die Sensibilisierung der breiten Öffentlichkeit für das Thema Lebensmittelverschwendung, weltweit, aber auch im Großherzogtum.
+                    </p>
+                    <p class="central_textbox__desc">
+                        <strong>BENU SLO0W</strong> ist ein Ort der Entdeckung und des Lernens für alle, die sich für eine innovative Küche und in Vergessenheit geratene Zubereitungs- und Konservierungsmethoden interessieren. Mit seinem Gesamtkonzept legt das Restaurant den Grundstein für eine neue, nachhaltige und informative Form der Gastronomie in Luxemburg und möchte vor allem zeigen, dass auch eine krumme Karotte exquisit und mit überraschendem Geschmack präsentiert werden kann!
                     </p>
                     <ul class="central_textbox__desc">
-                        <li><strong>BENU COUTURE</strong></li>
+                        <li><strong>BENU SLO0W</strong></li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> entwërft a produzéiert lokal eng eenzegaarteg UpCyling-Moud,
+                            <p> bietet eine originelle und innovative Bio-Küche an,
                             </p>
                         </li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> bitt eng grouss Bandbreet vu Gréisste vun XS bis 5XL, esouwéi kleng Wonnerwierker fir déi Jéngsten,
+                            <p> ist ein Ort der Entdeckung und Inspiration,
                             </p>
                         </li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> reparéiert a verwandelt no Dengen individuelle Virstellungen: Faarfwiessel, Design, Gréisst, ...,
+                            <p> versucht, die Verschwendung von Lebensmitteln nachhaltig zu bekämpfen,
                             </p>
                         </li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> sensibiliséiert fir d’Problematik vun der haiteger Moude-Branche, bezitt Stellung an diskutéiert iwwer Theeme ronderëm nohalteg Kleedung.
+                            <p> weckt, bezieht Stellung und diskutiert Themen rund um Lebensmittelproduktion und -verschwendung.
                             </p>
                         </li>
                     </ul>
                     <p class="central_textbox__desc">
-                        <strong>BENU COUTURE</strong> waart op seng eegen Internetsäit couture.benu.lu (viraussiichtlech bis Enn Mee 2022).
+                        Bis die eigene Website für <strong>BENU SLO0W</strong> (voraussichtlich im Frühjahr 2022) fertiggestellt ist, laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
                     </p>
                 </div>
                 <div class="contact-form-container">

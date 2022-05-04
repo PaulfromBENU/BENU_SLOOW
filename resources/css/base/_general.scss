@@ -183,6 +183,14 @@ input[type="checkbox"] {
 	color: $primary-color;
 }
 
+.secondary-color {
+	color: $secondary-color;
+}
+
+.condensed {
+	font-family: 'Barlow Condensed';
+}
+
 .slider-arrow {
 	position: absolute;
 	top: calc(50% - 28px);

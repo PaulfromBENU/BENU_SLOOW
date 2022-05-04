@@ -19,7 +19,7 @@ use App\Mail\UserRegistered;
 
 // In case of landing page activated (use 'landing' as APP_ENV), only the landing page is available from the root address
 
-if (app('env') !== 'prod') {
+if (app('env') == 'landing') {
 	Route::get('/{slug}', function() {
 		return redirect()->route('landing-fr');
 	})->where('slug', '^([a-zA-Z0-9-]{3,})$');
@@ -36,15 +36,20 @@ if (app('env') !== 'prod') {
 	// Home does not need URI translation. Any locale may land on this page, middleware will ensure locale is prepended to the URI.
 	// Same for auth requests, no translation needed.
 	// Dashboard is also common to everyone, due to several redirections that would need to be handled in the auth process
+
+	Route::get('/{slug}', function() {
+		return redirect()->route('home', ['locale' => 'en']);
+	})->where('slug', '^([a-zA-Z0-9-]{3,})$');
+
 	Route::group([
 		'prefix' => '{locale?}',
 		'middleware' => 'setlocale'], function() {
 			Route::get('/', 'GeneralController@home')->name('home');
-			Route::get('/dashboard', 'UserController@show')->name('dashboard')->middleware('createcart');
-			Route::get('/dashboard/{any}', function() {
-				return redirect()->route('dashboard');
-			});
-			Route::post('/dashboard/addresses', 'UserController@addAddress')->name('dashboard.add-address');
+			// Route::get('/dashboard', 'UserController@show')->name('dashboard')->middleware('createcart');
+			// Route::get('/dashboard/{any}', function() {
+			// 	return redirect()->route('dashboard');
+			// });
+			// Route::post('/dashboard/addresses', 'UserController@addAddress')->name('dashboard.add-address');
 			Route::post('/store-newsletter', 'GeneralController@storeNewsletter')->name('newsletter-subscribe');
 			
 			//Auth routes
@@ -74,13 +79,13 @@ if (app('env') !== 'prod') {
 		// Route::get('/'.trans("slugs.payment-validation", [], "lu").'/{order}', 'SaleController@validatePayment')->name('payment-validate-lu');
 		// Route::get('/'.trans("slugs.processed-payment", [], "lu").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-lu');
 
-		// Route::get('/'.trans("slugs.newsletter-subscribe", [], "lu"), 'GeneralController@showNewsletter')->name('newsletter-lu');
+		Route::get('/'.trans("slugs.newsletter-subscribe", [], "lu"), 'GeneralController@showNewsletter')->name('newsletter-lu');
 
 		// Route::get('/'.trans("slugs.invoice", [], "lu").'/{order_code}', 'SaleController@displayInvoice')->name('invoice-lu');
 
 		// Route::get('/'.trans("slugs.show-voucher", [], "lu").'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-lu');
 
-		// Route::get('/'.trans("slugs.footer-legal-mentions", [], "lu"), 'GeneralController@footerLegal')->name('footer.legal-lu');
+		Route::get('/'.trans("slugs.footer-legal-mentions", [], "lu"), 'GeneralController@footerLegal')->name('footer.legal-lu');
 	});
 
 	Route::group([
@@ -109,18 +114,18 @@ if (app('env') !== 'prod') {
 		// Route::get('/validation-paiement/{order}', 'SaleController@validatePayment')->name('payment-validate-fr');
 		// Route::get('/paiement-valide/{order}', 'SaleController@showValidPayment')->name('payment-processed-fr');
 
-		// Route::get('/'.trans("slugs.newsletter-subscribe", [], "fr"), 'GeneralController@showNewsletter')->name('newsletter-fr');
+		Route::get('/'.trans("slugs.newsletter-subscribe", [], "fr"), 'GeneralController@showNewsletter')->name('newsletter-fr');
 
-		Route::get('/test-mail', function() {
-			$user = User::find(2);
+		// Route::get('/test-mail', function() {
+		// 	$user = User::find(2);
 
-			return new UserRegistered($user);
-		});
+		// 	return new UserRegistered($user);
+		// });
 
-		Route::get('/facture/{order_code}', 'SaleController@displayInvoice')->name('invoice-fr');
-		Route::get('/bon-d-achat/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-fr');
+		// Route::get('/facture/{order_code}', 'SaleController@displayInvoice')->name('invoice-fr');
+		// Route::get('/bon-d-achat/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-fr');
 
-		// Route::get('/'.trans("slugs.footer-legal-mentions", [], "fr"), 'GeneralController@footerLegal')->name('footer.legal-fr');
+		Route::get('/'.trans("slugs.footer-legal-mentions", [], "fr"), 'GeneralController@footerLegal')->name('footer.legal-fr');
 	});
 
 	Route::group([
@@ -145,13 +150,13 @@ if (app('env') !== 'prod') {
 		// Route::get('/'.trans("slugs.payment-validation", [], "en").'/{order}', 'SaleController@validatePayment')->name('payment-validate-en');
 		// Route::get('/'.trans("slugs.processed-payment", [], "en").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-en');
 
-		// Route::get('/'.trans("slugs.newsletter-subscribe", [], "en"), 'GeneralController@showNewsletter')->name('newsletter-en');
+		Route::get('/'.trans("slugs.newsletter-subscribe", [], "en"), 'GeneralController@showNewsletter')->name('newsletter-en');
 
 		// Route::get('/'.trans("slugs.invoice", [], "en").'/{order_code}', 'SaleController@displayInvoice')->name('invoice-en');
 
 		// Route::get('/'.trans("slugs.show-voucher", [], "en").'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-en');
 
-		// Route::get('/'.trans("slugs.footer-legal-mentions", [], "en"), 'GeneralController@footerLegal')->name('footer.legal-en');
+		Route::get('/'.trans("slugs.footer-legal-mentions", [], "en"), 'GeneralController@footerLegal')->name('footer.legal-en');
 	});
 
 	Route::group([
@@ -176,17 +181,17 @@ if (app('env') !== 'prod') {
 		// Route::get('/'.trans("slugs.payment-validation", [], "de").'/{order}', 'SaleController@validatePayment')->name('payment-validate-de');
 		// Route::get('/'.trans("slugs.processed-payment", [], "en").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-de');
 
-		// Route::get('/'.trans("slugs.newsletter-subscribe", [], "de"), 'GeneralController@showNewsletter')->name('newsletter-de');
+		Route::get('/'.trans("slugs.newsletter-subscribe", [], "de"), 'GeneralController@showNewsletter')->name('newsletter-de');
 
 		// Route::get('/'.trans("slugs.invoice", [], "de").'/{order_code}', 'SaleController@displayInvoice')->name('invoice-de');
 
 		// Route::get('/'.trans("slugs.show-voucher", [], "de").'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-de');
 
-		// Route::get('/'.trans("slugs.footer-legal-mentions", [], "de"), 'GeneralController@footerLegal')->name('footer.legal-de');
+		Route::get('/'.trans("slugs.footer-legal-mentions", [], "de"), 'GeneralController@footerLegal')->name('footer.legal-de');
 	});
 
-	Route::group([
-		'middleware' => 'setlocale'], function() {
-		Route::get('/{slug?}', 'ModelController@show')->where('slug', '[a-zA-Z0-9]{3,}');
-	});
+	// Route::group([
+	// 	'middleware' => 'setlocale'], function() {
+	// 	Route::get('/{slug?}', 'GeneralController@home')->where('slug', '[a-zA-Z0-9]{3,}');
+	// });
 }

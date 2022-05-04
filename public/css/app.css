@@ -187,6 +187,14 @@ input[type=checkbox]:focus {
   color: #793162;
 }
 
+.secondary-color {
+  color: #96B221;
+}
+
+.condensed {
+  font-family: "Barlow Condensed";
+}
+
 .slider-arrow {
   position: absolute;
   top: calc(50% - 28px);
@@ -407,6 +415,20 @@ input[type=checkbox]:focus {
 .btn-slider-left:hover::after {
   width: 100%;
 }
+.btn-slider-left--secondary:hover {
+  color: #96B221;
+}
+.btn-slider-left--secondary::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 20%;
+  height: 5px;
+  border-radius: 10px;
+  background: #96B221;
+  transition: width 0.5s ease-in-out;
+}
 
 .btn-slider-right {
   position: relative;
@@ -593,7 +615,7 @@ input[type=checkbox]:focus {
 .pagination-index {
   padding: 8px 10px;
   border-radius: 6px;
-  background: #F9E2E2;
+  background: #F1EAEF;
   min-width: 100px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -848,7 +870,7 @@ input[type=checkbox]:focus {
   font-weight: 500;
 }
 .header__main-menu__icons__lang-btn {
-  background-color: #F9E2E2;
+  background-color: #F1EAEF;
   color: #2E1414;
   text-transform: uppercase;
   border-radius: 5px;
@@ -875,7 +897,7 @@ input[type=checkbox]:focus {
   font-weight: 500;
   padding: 0.6rem 1rem;
   cursor: pointer;
-  background-color: #F9E2E2;
+  background-color: #F1EAEF;
   font-family: "Barlow Condensed";
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
@@ -1102,7 +1124,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
 }
 .header-simplified__main-menu__icons__lang-btn {
-  background-color: #F9E2E2;
+  background-color: #F1EAEF;
   color: #2E1414;
   text-transform: uppercase;
   border-radius: 5px;
@@ -1353,7 +1375,7 @@ input[type=checkbox]:focus {
   transition: background-color 0.3s;
 }
 .lang-modal__block:hover {
-  background-color: #F9E2E2;
+  background-color: #F1EAEF;
 }
 .lang-modal__block:hover .lang-modal__block__btn {
   background-color: #793162;
@@ -1369,7 +1391,7 @@ input[type=checkbox]:focus {
   height: 50px;
   width: 50px;
   cursor: pointer;
-  background-color: #F9E2E2;
+  background-color: #F1EAEF;
   color: #2E1414;
   text-transform: uppercase;
   border-radius: 5px;
@@ -1575,7 +1597,7 @@ input[type=checkbox]:focus {
   width: 30px;
   text-align: center;
   color: #793162;
-  background: #F9E2E2;
+  background: #F1EAEF;
   border-radius: 3px;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -2072,7 +2094,7 @@ input[type=checkbox]:focus {
   height: 60px;
   width: 60px;
   border-radius: 6px;
-  background: #F9E2E2;
+  background: #F1EAEF;
   color: #793162;
   font-size: 2rem;
   padding-top: 6px;
@@ -2137,7 +2159,7 @@ input[type=checkbox]:focus {
 }
 .footer-legal__highlight {
   padding: 30px;
-  background: #F9E2E2;
+  background: #F1EAEF;
   border-radius: 12px;
   font: normal normal 700 22px/36px "Barlow";
   text-align: center;
@@ -2160,7 +2182,7 @@ input[type=checkbox]:focus {
 .welcome-presentation__desc__bar {
   padding: 10px 5px;
   margin-bottom: 50px;
-  background: #F9E2E2 0% 0% no-repeat padding-box;
+  background: #F1EAEF 0% 0% no-repeat padding-box;
   border-radius: 8px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -2176,7 +2198,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0.36px;
   color: #2E1414;
   border-radius: 8px;
-  background: #F9E2E2 0% 0% no-repeat padding-box;
+  background: #F1EAEF 0% 0% no-repeat padding-box;
   transition: all 0.2s ease-in-out;
 }
 .welcome-presentation__desc__bar__btn:hover {
@@ -2354,7 +2376,7 @@ input[type=checkbox]:focus {
   border-radius: 50%;
   position: relative;
   margin: auto;
-  color: #F9E2E2;
+  color: #F1EAEF;
   transition: all 0.2s ease-in-out;
 }
 .welcome-others__plus__symbol {
@@ -2366,7 +2388,7 @@ input[type=checkbox]:focus {
   text-align: center;
 }
 .welcome-others__plus:hover {
-  background: #F9E2E2;
+  background: #F1EAEF;
   color: #793162;
 }
 .welcome-others__svg-container {
@@ -2455,7 +2477,7 @@ input[type=checkbox]:focus {
   text-decoration: underline;
 }
 .full-story__highlight {
-  background: #F9E2E2;
+  background: #F1EAEF;
   border-radius: 0.5rem;
   font-size: 1.25rem;
   font-weight: 700;
@@ -2539,7 +2561,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .partners__box__highlight {
-  background: #F9E2E2 0% 0% no-repeat padding-box;
+  background: #F1EAEF 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding: 18px 20px;
 }
@@ -2601,7 +2623,7 @@ input[type=checkbox]:focus {
   padding-right: 10px;
   margin-right: 5px;
   border-radius: 15px;
-  background: #F9E2E2;
+  background: #F1EAEF;
   color: #793162;
   font: normal normal 500 14px/24px "Barlow Condensed";
   text-align: center;
@@ -2668,7 +2690,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 20px/36px "Barlow";
   letter-spacing: 0px;
-  background: #F9E2E2 0% 0% no-repeat padding-box;
+  background: #F1EAEF 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -2720,7 +2742,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s;
 }
 .single-news__prev-next__block:hover {
-  box-shadow: #F9E2E2 0 0 15px;
+  box-shadow: #F1EAEF 0 0 15px;
 }
 .single-news__prev-next__block:hover h3 {
   color: #2E1414;
@@ -2768,7 +2790,7 @@ input[type=checkbox]:focus {
 }
 .register__errors {
   border-radius: 20px;
-  background: #F9E2E2;
+  background: #F1EAEF;
   color: #793162;
   font: normal normal 500 16px/28px "Barlow";
   padding: 20px 40px;
@@ -2901,7 +2923,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .login__validate__question {
-  background: #F9E2E2 0% 0% no-repeat padding-box;
+  background: #F1EAEF 0% 0% no-repeat padding-box;
   border-radius: 8px;
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
@@ -2917,7 +2939,7 @@ input[type=checkbox]:focus {
 }
 .dashboard__nav {
   padding: 29px 0px 29px 100px;
-  background: #F9E2E2 0% 0% no-repeat padding-box;
+  background: #F1EAEF 0% 0% no-repeat padding-box;
   margin-right: 20px;
   width: 27vw;
   position: relative;
@@ -4797,7 +4819,7 @@ input[type=checkbox]:focus {
   padding: 4px 12px;
   border-radius: 8px;
   color: #793162;
-  background: #F9E2E2;
+  background: #F1EAEF;
   text-align: center;
   font: normal normal 600 20px/28px "Barlow Condensed";
   letter-spacing: 0px;
