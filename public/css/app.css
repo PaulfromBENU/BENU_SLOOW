@@ -3913,7 +3913,7 @@ input[type=checkbox]:focus {
   /*padding: 20px 70px;*/
   width: 75%;
   margin: auto;
-  margin-bottom: 65px;
+  margin-bottom: 30px;
   color: var(--benu_couture_couleur_texte);
 }
 @media (min-width: 768px) and (max-width: 1023px) {

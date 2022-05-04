@@ -64,56 +64,46 @@
                     </div>
                     <h1>BENU SLO0W</h1>
                     <p class="central_textbox__sub">
-                        Launch of the website: 2nd quarter 2022
+                        Website launch: 2nd semester 2022
                     </p>
                     <p class="central_textbox__desc">
-                        Two pairs of jeans that you no longer want? A jumper that is dear to you but no longer fits? <strong>BENU COUTURE</strong> is the first UpCycling tailor shop in Luxembourg that produces its imaginative and unique creations on site from local clothing donations. Our team of professional tailors and designers works hard every day to create the most beautiful combinations and unique products for you, using outstanding quality fabrics: Composed mainly of natural materials, they offer the highest quality and durability.
+                        <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. High Quality. Social inclusion. Yes, all this is possible in one restaurant! 
                     </p>
                     <p class="central_textbox__desc">
-                        Our creations are handmade and do not undergo any chemical treatment. <strong>BENU COUTURE</strong> also offers to patch up your favourite pieces or to integrate them into a new, personal creation just for you.
+                        This first "rescued food" restaurant in the Greater Region has set itself the goal of using 80% of the food it processes as "rescued", i.e. organic food that is rejected by the market even though it meets EU standards and is of unquestionable quality. In most cases, the rejection is due to fluctuating demand or to the aesthetic appearance of the goods: too crooked, too small, too...
+                    </p>
+                    <p class="central_textbox__desc">
+                        By offering sustainable, vegetarian and vegan cuisine, the BENU restaurant follows the principles of circular economy and UpCycling and has as its main objective to raise awareness among the general public on the issue of food waste, worldwide but also in the Grand Duchy.
+                    </p>
+                    <p class="central_textbox__desc">
+                        <strong>BENU SLO0W</strong> is a place of discovery and learning for anyone interested in innovative cuisine and forgotten preparation and preservation methods. With its overall concept, the restaurant lays the foundation for a new, sustainable and informative form of gastronomy in Luxembourg and above all wants to show that even a crooked carrot can be presented exquisitely and with surprising taste!
                     </p>
                     <ul class="central_textbox__desc">
-                        <li><strong>BENU COUTURE</strong></li>
+                        <li><strong>BENU SLO0W</strong></li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> designs and produces unique upcycled fashion locally,
+                            <p> offers original and innovative organic cuisine,
                             </p>
                         </li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> offers a wide range of sizes from XS to 5XL as well as wonders for our youngest,
+                            <p> is a place of discovery and inspiration,
                             </p>
                         </li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> repairs and transforms according to your individual ideas: Colour change, design, size, ...,
+                            <p> seeks to combat food waste in a sustainable way,
                             </p>
                         </li>
                         <li class="text-left flex">
                             <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> raises awareness for the problems of today's fashion industry, takes a stand and discusses topics related to sustainable clothing.
+                            <p> awakens, takes a stand and discusses issues around food production and waste.
                             </p>
                         </li>
                     </ul>
                     <p class="central_textbox__desc">
-                        <strong>BENU COUTURE</strong> is waiting for its own website couture.benu.lu (probably by end of May 2022).
+                        Until the dedicated website for <strong>BENU SLO0W</strong> is completed (expected in June 2022), we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                     </p>
-                </div>
-                <div class="contact-form-container">
-                    <div>
-                        <h2 class="text-center mb-6">
-                            Keep in touch
-                        </h2>
-                        <!-- <div>
-                            <form method="POST" class="contact_form">
-                                <input type="email" name="newsletter_email" placeholder="Je m'inscris à la newsletter">
-                                <input type="submit" name="newsletter_btn" value="Je m'inscris">
-                            </form>
-                        </div> -->
-                        <div class="contact-link text-center">
-                            <a href="https://benu.lu/fr/contactez-nous/" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">I subscribe to the newsletter</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
