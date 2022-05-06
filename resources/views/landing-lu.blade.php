@@ -102,7 +102,7 @@
                         </li>
                     </ul>
                     <p class="central_textbox__desc">
-                        Bis déi eegenen Internetsäit fir <strong>BENU SLO0W</strong> fäerdeg ass (viraussiichtlech am Fréijoer 2022), luede mir Dech an eis Haaptsäit <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> ze besichen.
+                        Déi éischt <strong>BENU SLO0W</strong> Websäit wäert viraussiichtlech Enn Mee 2022 online goen. Hei kanns Du méi Detailer iwwer de Start vum BENU SLOOW Restaurant gewuer ginn! Bis dohinner invitéiere mir Dech eis Haaptsäit <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> ze besichen.
                     </p>
                 </div>
                 <div class="contact-form-container">

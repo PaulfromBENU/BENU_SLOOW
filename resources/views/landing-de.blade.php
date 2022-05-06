@@ -102,7 +102,7 @@
                         </li>
                     </ul>
                     <p class="central_textbox__desc mb-1">
-                        Bis die eigene Website für <strong>BENU SLO0W</strong> (voraussichtlich im Frühjahr 2022) fertiggestellt ist, laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
+                        Eine erste Webseite <strong>BENU SLO0W</strong> wird voraussichtlich Ende Mai 2022 online gehen. Hier erfährst du mehr Details zum Start des Restaurants BENU SLOOW! Bis dahin laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
                     </p>
                 </div>
                 <div class="contact-form-container">

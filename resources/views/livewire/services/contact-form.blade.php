@@ -22,7 +22,7 @@
                 @else
                     <label for="contact_first_name">{{ __('forms.first-name') }} *</label>
                 @endif
-                <input type="text" id="contact_first_name" name="first_name" class="input-underline w-full" tabindex="1" minlength="2" maxlength="255" required wire:model.defer="first_name">
+                <input type="text" id="contact_first_name" name="first_name" class="input-underline w-full" tabindex="10" minlength="2" maxlength="255" required wire:model.defer="first_name">
                 @error('first_name')
                     <div class="primary-color">{{ $message }}</div>
                 @enderror
@@ -34,7 +34,7 @@
                 @else
                     <label>{{ __('forms.email') }} *</label>
                 @endif
-                <input type="email" name="contact_email" class="input-underline w-full" tabindex="3" minlength="2" maxlength="255" required wire:model.defer="contact_email">
+                <input type="email" name="contact_email" class="input-underline w-full" tabindex="13" minlength="2" maxlength="255" required wire:model.defer="contact_email">
             </div>
         </div>
 
@@ -48,7 +48,7 @@
                 @else
                     <label>{{ __('forms.last-name') }} *</label>
                 @endif
-                <input type="text" name="last_name" class="input-underline w-full" tabindex="2" minlength="2" maxlength="255" required wire:model="last_name">
+                <input type="text" name="last_name" class="input-underline w-full" tabindex="12" minlength="2" maxlength="255" required wire:model="last_name">
             </div>
             <div class="input-group reactive-label-input">
                 @if($phone != "")
@@ -56,13 +56,13 @@
                 @else
                     <label>{{ __('forms.phone') }} *</label>
                 @endif
-                <input type="text" name="phone" class="input-underline w-full" minlength="6" maxlength="30" tabindex="4" wire:model="phone" required>
+                <input type="text" name="phone" class="input-underline w-full" minlength="6" maxlength="30" tabindex="14" wire:model="phone" required>
             </div>
         </div>
     </div>
     <div class="mt-10 mb-10" style="position: relative;">
         <label style="position: absolute; top: 10px; left: 20px;">{{ __('forms.message') }} *</label>
-        <textarea minlength="1" maxlength="2000" rows="5" class="w-full rounded" tabindex="5" wire:model="message">
+        <textarea minlength="1" maxlength="2000" rows="5" class="w-full rounded" tabindex="15" wire:model="message">
                 
         </textarea>
         <p class="contact__form__form__mandatory">
@@ -70,7 +70,7 @@
         </p>
         <div class="register__options">
             <label for="contact_agreement" class="inline-flex items-center contact__form__form__select">
-                <input id="contact_agreement" type="checkbox" class="rounded border-gray-300 text-red-600 shadow-sm" name="conditions_ok" value="1" tabindex="6" style="margin-top: 2px;" wire:model="conditions_ok" wire:click="restoreButton">
+                <input id="contact_agreement" type="checkbox" class="rounded border-gray-300 text-red-600 shadow-sm" name="conditions_ok" value="1" tabindex="16" style="margin-top: 2px;" wire:model="conditions_ok" wire:click="restoreButton">
                 <span class="ml-8">{{ __('forms.personal-data-agreement') }} *</span>
             </label>
         </div>

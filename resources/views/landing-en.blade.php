@@ -102,7 +102,7 @@
                         </li>
                     </ul>
                     <p class="central_textbox__desc">
-                        Until the dedicated website for <strong>BENU SLO0W</strong> is completed (expected in June 2022), we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
+                        A first website <strong>BENU SLO0W</strong> is expected to go online at the end of May 2022. Find out more details about the launch of the BENU SLOOW restaurant here! Until then, we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                     </p>
                 </div>
             </div>
