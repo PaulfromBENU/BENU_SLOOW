@@ -31,7 +31,7 @@
         </div>
         
         <div class="header_logo">
-            <img src="{{ asset('landing/pictures/logo_benu_couture_blanc.svg') }}" class="header_logo__img" />
+            @svg('logo_benu_sloow_blanc', 'header_logo__img')
         </div>
         <div class="header_socialmedia">
             <p>
