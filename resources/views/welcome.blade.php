@@ -6,6 +6,8 @@
 
 @section('main-content')
     @include('includes.welcome.presentation')
+    @include('includes.welcome.reservation')
+    @include('includes.welcome.faq')
 @endsection
 
 @section('scripts')

@@ -153,6 +153,7 @@ input[type=checkbox]:focus {
   background: transparent;
   position: absolute;
   bottom: 5px;
+  left: 4px;
 }
 .reactive-label-input__show-btn {
   position: absolute;
@@ -341,6 +342,16 @@ input[type=checkbox]:focus {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.success-message {
+  border-radius: 10px;
+  padding: 40px;
+  background: #F1EAEF;
+  color: #793162;
+  margin-top: 20px;
+  border: solid 2px #96B221;
+  font-weight: 600;
 }
 
 .btn-large {
@@ -936,7 +947,7 @@ input[type=checkbox]:focus {
   padding-top: 12px;
   height: 70px;
   text-transform: uppercase;
-  margin-left: 35px;
+  margin-right: 35px;
   text-align: center;
   font: normal normal 600 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
@@ -2022,44 +2033,52 @@ input[type=checkbox]:focus {
   height: 90%;
 }
 
-.footer-all {
+.footer-contact {
   background: #D0D0D033 0% 0% no-repeat padding-box;
-  margin-top: -100px;
+  margin-top: 0px;
   position: relative;
   z-index: 1;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
 }
-.footer-all__txt {
-  font: normal normal 300 44px/53px Barlow Condensed;
+.footer-contact__title {
+  color: #96B221;
+  font: normal normal 700 44px/53px "Barlow Condensed";
+  margin-bottom: 30px;
+}
+.footer-contact__txt {
+  font: normal normal 500 18px/24px "Barlow";
   letter-spacing: 0px;
   color: #2E1414;
 }
-.footer-all__txt--left {
-  margin-left: 6vw;
-  padding-top: 172px;
-  text-align: right;
-  width: 45%;
+.footer-contact__phone {
+  color: #793162;
+  font: normal normal 700 35px/40px "Barlow Condensed";
+  margin-bottom: 20px;
 }
-.footer-all__txt--right {
-  text-align: left;
-  width: 45%;
-  margin-left: calc(50% - 6vw);
-  margin-bottom: 74px;
+.footer-contact__form {
+  width: 60%;
+  min-width: 800px;
+  position: relative;
+  padding-top: 20px;
 }
-.footer-all a {
+.footer-contact a {
   display: block;
   width: 230px;
   margin-left: 19px;
   margin-right: 19px;
   margin-bottom: 100px;
 }
-.footer-all strong {
+.footer-contact strong {
   font-weight: 600;
 }
 
 .footer {
-  padding-top: 102px;
+  padding-top: 60px;
   background: white;
   position: relative;
+  border-top: solid 1px #D0D0D033;
 }
 .footer__contact {
   font: normal normal 500 22px/46px "Barlow Condensed";
@@ -2076,10 +2095,18 @@ input[type=checkbox]:focus {
   color: #2E1414;
 }
 .footer__lists {
-  margin-bottom: 110px;
+  margin-bottom: 80px;
 }
 .footer__lists__col {
-  width: 25%;
+  width: 50%;
+}
+.footer__lists__col__list {
+  padding-top: 5px;
+}
+.footer__lists__col__list li {
+  margin-left: 5px;
+  margin-right: 5px;
+  font: normal normal 500 18px/36px "Barlow Condensed";
 }
 .footer__logo-container {
   position: absolute;
@@ -2100,18 +2127,23 @@ input[type=checkbox]:focus {
   padding-top: 6px;
   text-align: center;
   transition: all 0.2s ease-in-out;
+  margin-right: 20px;
 }
 .footer__social:hover {
   background: #793162;
   color: #FFFFFF;
 }
 .footer h4 {
-  width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   text-align: left;
-  font: normal normal 600 28px/34px "Barlow Condensed";
+  font: normal normal 700 28px/34px "Barlow Condensed";
   letter-spacing: 0px;
   color: #2E1414;
   margin-bottom: 45px;
+  margin-right: 40px;
+  padding-top: 5px;
 }
 .footer ul {
   min-width: 120px;
@@ -2164,6 +2196,96 @@ input[type=checkbox]:focus {
   font: normal normal 700 22px/36px "Barlow";
   text-align: center;
   margin-bottom: 35px;
+}
+
+.contact__form__subtitle {
+  text-align: center;
+  font: normal normal 500 16px/28px "Barlow Condensed";
+  letter-spacing: 0.16px;
+  color: #26254480;
+  margin-bottom: 35px;
+}
+.contact__form__title {
+  text-align: center;
+  font: normal normal 700 44px/53px "Barlow Condensed";
+  letter-spacing: 0px;
+  margin-bottom: 65px;
+}
+.contact__form__form label {
+  font: normal normal 500 16px/28px Barlow;
+  letter-spacing: 0px;
+  color: #2E1414;
+}
+.contact__form__form__mandatory {
+  font: normal normal normal 14px/28px "Barlow";
+  letter-spacing: 0px;
+  color: #262544;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.contact__form__form__select {
+  text-align: left;
+  font: normal normal 400 16px/36px "Barlow";
+  letter-spacing: 0px;
+  color: #5d5d5d;
+}
+.contact__form__form__security {
+  width: 520px;
+}
+.contact__form__form__security p {
+  padding-top: 10px;
+  font: normal normal 500 16px/28px "Barlow";
+  color: #793162;
+}
+.contact__form__form__security input {
+  width: 50px;
+  text-align: center;
+}
+.contact__form__form__security__btn {
+  cursor: pointer;
+  padding-top: 8px;
+  margin-top: -5px;
+}
+.contact__form input[type=text], .contact__form input[type=email] {
+  bottom: 0px;
+  left: 0px;
+}
+.contact__form textarea {
+  border-color: #F1EAEF;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+.contact__form textarea:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: #793162;
+}
+.contact__form__valid {
+  border-radius: 10px;
+  padding: 40px;
+  background: #F1EAEF;
+  color: #793162;
+  margin-top: 20px;
+  border: solid 2px #96B221;
+  font-weight: 600;
+}
+.contact__form__invalid {
+  border-radius: 10px;
+  padding: 40px;
+  background: #F1EAEF;
+  color: #793162;
+  margin-top: 20px;
+  border: solid 2px red;
+  font-weight: 600;
+}
+.contact__form__radio-group {
+  height: 65px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 27px;
+}
+.contact__form__radio-group input[type=radio] {
+  margin-top: -2px;
 }
 
 .welcome-presentation {
@@ -2437,6 +2559,120 @@ input[type=checkbox]:focus {
 .error-page svg {
   max-width: 50vw;
   margin: auto;
+}
+
+.welcome-faq {
+  min-height: 100px;
+  background: #DEE5CD;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.welcome-faq__title {
+  text-align: center;
+  font: normal normal 700 44px/53px "Barlow Condensed";
+  letter-spacing: 0px;
+  margin-bottom: 60px;
+  margin-bottom: 60px;
+}
+.welcome-faq__accordion__header {
+  margin-bottom: 30px;
+  background: #793162 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 34px 120px 34px 50px;
+  text-align: left;
+  font: normal normal 700 28px/28px "Barlow Condensed";
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+.welcome-faq__accordion__header p {
+  margin-right: 15px;
+}
+.welcome-faq__accordion__header__chevron {
+  margin-top: 7px;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+.welcome-faq__accordion__header__chevron--active {
+  transform: rotate(180deg);
+}
+.welcome-faq__accordion__answer {
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+}
+.welcome-faq__accordion__answer li {
+  border-bottom: 1px solid #D9D9D9;
+}
+.welcome-faq__accordion__answer__txt {
+  text-align: left;
+  font: normal normal 500 16px/28px "Barlow";
+  letter-spacing: 0px;
+}
+.welcome-faq__accordion__answer__subanswer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  font: normal normal 500 16px/28px "Barlow";
+  letter-spacing: 0px;
+}
+.welcome-faq__accordion__answer__header {
+  text-align: left;
+  font: normal normal 700 22px/28px "Barlow Condensed";
+  letter-spacing: 0px;
+  border-bottom: 2px solid transparent;
+  margin-top: 25px;
+  height: 40px;
+  cursor: pointer;
+}
+.welcome-faq__accordion__answer__header--active {
+  border-bottom: 2px solid #793162;
+  color: #793162;
+}
+.welcome-faq__accordion__answer__header__plus {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.welcome-faq__accordion__answer__header__minus {
+  font-size: 3.1rem;
+  font-weight: 500;
+}
+
+.welcome-reservation {
+  background: green;
+}
+.welcome-reservation__block {
+  width: 50%;
+  margin: auto;
+  background: #793162;
+  border-radius: 15px;
+  padding: 20px 40px;
+}
+.welcome-reservation__block__title {
+  text-align: center;
+  color: #FFFFFF;
+  font: normal normal 700 32px/28px "Barlow Condensed";
+  margin-bottom: 30px;
+}
+.welcome-reservation__form h4 {
+  text-align: center;
+  color: #FFFFFF;
+  font: normal normal 600 22px/28px "Barlow Condensed";
+  margin-bottom: 15px;
+}
+.welcome-reservation__form__selector select {
+  border-radius: 4px;
+  background: transparent;
+  color: #FFFFFF;
+  width: 300px;
+}
+.welcome-reservation__form__selector select:focus {
+  box-shadow: none;
+  border: solid 1px #96B221;
+}
+.welcome-reservation__form__selector select option {
+  background: transparent;
+  color: #FFFFFF;
 }
 
 .full-story {
@@ -3928,6 +4164,10 @@ input[type=checkbox]:focus {
     font: normal normal 400 36px/43px "Barlow Semi Condensed";
     margin-top: 20px;
   }
+}
+.central_textbox svg {
+  height: 30px;
+  margin-top: -10px;
 }
 .central_textbox__desc {
   font: normal normal 400 18px/33px "Barlow";

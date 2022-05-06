@@ -75,24 +75,24 @@
                         <strong>BENU SLO0W</strong> est un lieu de découverte et d'apprentissage pour tous ceux qui s'intéressent à une cuisine innovante et faisant revivre des méthodes de préparation et de conservation un peu oubliées. Avec son concept global, il pose la première pierre d'une nouvelle forme de gastronomie, durable et informative, au Luxembourg et souhaite surtout montrer qu’une carotte courbée peut aussi être présentée de façon exquise et avec un goût surprenant&nbsp;!
                     </p>
                     <ul class="central_textbox__desc">
-                        <li><strong>BENU SLO0W</strong></li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="mb-3"><strong>BENU SLO0W</strong></li>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> offre une cuisine bio originale et innovatrice,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> est un lieu de découverte et d’inspiration,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> cherche à combattre durablement le gaspillage alimentaire,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> éveille, prend position et discute les sujets liés à la production et au gaspillage alimentaire.
                             </p>
                         </li>

@@ -48,11 +48,13 @@ trait DataImporter {
                 } else {
                     echo "<span style='color: red;'> >>> Translation missing in JSON for ".$page.'.'.$key." in language EN</span><br/>";
                 }
-                if ($translation['de'] != "") {
-                    $updated_translation->de = $translation['de'];
-                } else {
-                    echo "<span style='color: red;'> >>> Translation missing in JSON for ".$page.'.'.$key." in language DE</span><br/>";
-                }
+                // if ($translation['de'] != "") {
+                //     $updated_translation->de = $translation['de'];
+                // } else {
+                //     echo "<span style='color: red;'> >>> Translation missing in JSON for ".$page.'.'.$key." in language DE</span><br/>";
+                // }
+                $translation['de'] = $page.'.'.$key;
+
                 if ($translation['lu'] != "") {
                     $updated_translation->lu = $translation['lu'];
                 } else {
@@ -66,50 +68,7 @@ trait DataImporter {
             } else {
                 // Handle translations persisted in database outside of the Translation table
                 // Includes colors, types, categories, shops description
-                if ($page == 'colors') {
-                    $new_color = Color::firstOrNew(['name' => $key]);
-                    $new_color->name = $key;
-
-                    $new_color_translation = Translation::firstOrNew(['page' => 'colors', 'key' => $key]);
-                    $new_color_translation->fr = $translation['fr'];
-                    $new_color_translation->en = $translation['en'];
-                    $new_color_translation->de = $translation['de'];
-                    $new_color_translation->lu = $translation['lu'];
-                    $new_color_translation->translation_key = $page.'.'.$key;
-
-                    if($new_color->save()  && $new_color_translation->save()) {
-                        echo "<span style='color: green; padding-left: 10px;'>Color ".$key." added and translated in the database</span><br/>";
-                    }
-                } elseif ($page == 'type') {
-                    $new_type = CreationGroup::firstOrNew(['filter_key' => $key]);
-                    $new_type->name_fr = $translation['fr'];
-                    $new_type->name_en = $translation['en'];
-                    $new_type->name_de = $translation['de'];
-                    $new_type->name_lu = $translation['lu'];
-                    $new_type->translation_key = $page.'.'.$key;
-                    if ($new_type->save()) {
-                        echo "<span style='color: green; padding-left: 10px;'>Type ".$key." translated in the database</span><br/>";
-                    }
-                } elseif ($page == 'category') {
-                    $new_category = CreationCategory::firstOrNew(['filter_key' => $key]);
-                    $new_category->name_fr = $translation['fr'];
-                    $new_category->name_en = $translation['en'];
-                    $new_category->name_de = $translation['de'];
-                    $new_category->name_lu = $translation['lu'];
-                    $new_category->translation_key = $page.'.'.$key;
-                    if ($new_category->save()) {
-                        echo "<span style='color: green; padding-left: 10px;'>Category ".$key." translated in the database</span><br/>";
-                    }
-                } elseif ($page == 'shops' && $key == 'description-benu-village') {
-                    $new_shop = Shop::where('filter_key', 'benu-esch')->first();
-                    $new_shop->description_de = $translation['de'];
-                    $new_shop->description_fr = $translation['fr'];
-                    $new_shop->description_lu = $translation['lu'];
-                    $new_shop->description_en = $translation['en'];
-                    if ($new_shop->save()) {
-                        echo "<span style='color: green; padding-left: 10px;'>Shop description for BENU Village translated in the database</span><br/>";
-                    }
-                } elseif ($page == 'services' && strpos($key, 'faq-group') !== false) {
+                if ($page == 'services' && strpos($key, 'faq-group') !== false) {
                     $new_faq_info = new Translation();
                     $new_faq_info->page = $page;
                     $new_faq_info->key = $key;
@@ -128,7 +87,7 @@ trait DataImporter {
                     $new_translation->key = $key;
                     $new_translation->fr = $translation['fr'];
                     $new_translation->lu = $translation['lu'];
-                    $new_translation->de = $translation['de'];
+                    $new_translation->de = $page.'.'.$key;;
                     $new_translation->en = $translation['en'];
                     $new_translation->translation_key = $page.'.'.$key;
                     if ($new_translation->save()) {

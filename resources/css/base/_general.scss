@@ -148,6 +148,7 @@ input[type="checkbox"] {
 		background: transparent;
 		position: absolute;
 		bottom: 5px;
+		left: 4px;
 	}
 	&__show-btn {
 		position: absolute;
@@ -348,4 +349,14 @@ input[type="checkbox"] {
 			opacity: 1;
 		}
 	}
+}
+
+.success-message {
+	border-radius: 10px;
+	padding: 40px;
+	background: $primary-color-light;
+	color: $primary-color;
+	margin-top: 20px;
+	border: solid 2px $secondary-color;
+	font-weight: 600;
 }

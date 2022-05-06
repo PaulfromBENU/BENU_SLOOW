@@ -33,7 +33,7 @@ class ContactForm extends Component
         'last_name' => 'required|min:2',
         'company' => 'nullable|max:100',
         'contact_email' => 'required|email',
-        'phone'  => 'nullable|min:6|max:30',
+        'phone'  => 'required|min:6|max:30',
         'message' => 'min:1|max:2000',
         'conditions_ok' => 'min:0|max:1|nullable',
     ];
@@ -84,6 +84,7 @@ class ContactForm extends Component
             }
 
             $this->message_sent = 1;
+            $new_message->origin = 'SLOOW';
             if ($new_message->save()) {
                 $this->message_valid = 1;
                 $this->submit_feedback = __('forms.feedback-message-ok');

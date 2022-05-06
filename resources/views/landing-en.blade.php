@@ -79,24 +79,24 @@
                         <strong>BENU SLO0W</strong> is a place of discovery and learning for anyone interested in innovative cuisine and forgotten preparation and preservation methods. With its overall concept, the restaurant lays the foundation for a new, sustainable and informative form of gastronomy in Luxembourg and above all wants to show that even a crooked carrot can be presented exquisitely and with surprising taste!
                     </p>
                     <ul class="central_textbox__desc">
-                        <li><strong>BENU SLO0W</strong></li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="mb-3"><strong>BENU SLO0W</strong></li>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> offers original and innovative organic cuisine,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> is a place of discovery and inspiration,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> seeks to combat food waste in a sustainable way,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> awakens, takes a stand and discusses issues around food production and waste.
                             </p>
                         </li>

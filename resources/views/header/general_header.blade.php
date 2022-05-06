@@ -1,7 +1,8 @@
 <header class="header-group">
     <div class="header benu-container flex">
         <a class="header__logo-container" href="{{ route('home', [app()->getLocale()]) }}">
-            <img src="{{ asset('images/svg/logo_benu_couture.svg') }}" class="header__logo header__logo--desktop">
+            @svg('logo_benu_sloow', 'header__logo header__logo--desktop')
+            <!-- <img src="{{ asset('images/svg/logo_benu_sloow.svg') }}" class="header__logo header__logo--desktop"> -->
             <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--scroll">
             <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--mobile">
         </a>
@@ -82,9 +83,9 @@
                         </li> -->
                     @endguest
                     <li>
-                        <a href="#" class="header__main-menu__icons__btn">
+                        <button onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
                             @svg('benu-icon-mail-contact', '')
-                        </a>
+                        </button>
                     </li>
                     <li>
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">

@@ -84,7 +84,7 @@
 							{!! __('header.sloow-desc') !!}
 						</div>
 						<div class="text-center">
-							<a href="https://benu.lu" target="_blank" class="btn-trans btn-trans--b-white btn-hover-sloow">{!! __('header.discover-sloow') !!}</a>
+							<a href="https://sloow.benu.lu" target="_blank" class="btn-trans btn-trans--b-white btn-hover-sloow">{!! __('header.discover-sloow') !!}</a>
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 							{!! __('header.couture-desc') !!}
 						</div>
 						<div class="text-center">
-							<a href="{{ route('home', [app()->getLocale()]) }}" target="_blank" class="btn-trans btn-trans--b-white btn-hover-couture">{!! __('header.discover-couture') !!}</a>
+							<a href="https://couture.benu.lu" target="_blank" class="btn-trans btn-trans--b-white btn-hover-couture">{!! __('header.discover-couture') !!}</a>
 						</div>
 					</div>
 				</div>

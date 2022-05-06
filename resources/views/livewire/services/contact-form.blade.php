@@ -1,19 +1,19 @@
-<form method="POST" action="" id="contact-form" class="contact__form__form w-full m-auto mb-10" wire:submit.prevent="sendMessage" @if($safety_check == 0) onsubmit="event.preventDefault();" @endif>
+<form method="POST" action="" class="contact__form w-full m-auto mb-10" wire:submit.prevent="sendMessage" @if($safety_check == 0) onsubmit="event.preventDefault();" @endif>
     @csrf
     <div class="flex justify-between">
         <div class="w-5/12">
             <div class="flex justify-start input-group contact__form__radio-group">
                 <div class="mr-5 ml-1">
                     <input type="radio" id="contact_gender_male" name="gender" value="male" wire:model="gender">
-                    <label for="contact_gender_male" class="ml-4">{{ __('forms.sir') }}</label><br>
+                    <label for="contact_gender_male" class="pl-4">{{ __('forms.sir') }}</label><br>
                 </div>
                 <div class="mr-5">
                     <input type="radio" id="contact_gender_female" name="gender" value="female" wire:model="gender">
-                    <label for="contact_gender_female" class="ml-4">{{ __('forms.madam') }}</label><br>
+                    <label for="contact_gender_female" class="pl-4">{{ __('forms.madam') }}</label><br>
                 </div>
                 <div>
                     <input type="radio" id="contact_gender_neutral" name="gender" value="neutral" wire:model="gender">
-                    <label for="contact_gender_neutral" class="ml-4">{{ __('forms.neutral') }}</label> 
+                    <label for="contact_gender_neutral" class="pl-4">{{ __('forms.neutral') }}</label> 
                 </div>
             </div>
             <div class="input-group reactive-label-input">
@@ -40,12 +40,7 @@
 
         <div class="w-5/12">
             <div class="input-group reactive-label-input">
-                @if($company != "")
-                    <label class="reactive-label-input__label-active">{{ __('forms.company') }}</label>
-                @else
-                    <label>{{ __('forms.company') }}</label>
-                @endif
-                <input type="text" name="company" class="input-underline w-full" maxlength="100" wire:model.defer="company">
+                
             </div>
             <div class="input-group reactive-label-input">
                 @if($last_name != "")
@@ -59,15 +54,15 @@
                 @if($phone != "")
                     <label class="reactive-label-input__label-active">{{ __('forms.phone') }}</label>
                 @else
-                    <label>{{ __('forms.phone') }}</label>
+                    <label>{{ __('forms.phone') }} *</label>
                 @endif
-                <input type="text" name="phone" class="input-underline w-full" minlength="6" maxlength="30" tabindex="4" wire:model="phone">
+                <input type="text" name="phone" class="input-underline w-full" minlength="6" maxlength="30" tabindex="4" wire:model="phone" required>
             </div>
         </div>
     </div>
     <div class="mt-10 mb-10" style="position: relative;">
         <label style="position: absolute; top: 10px; left: 20px;">{{ __('forms.message') }} *</label>
-        <textarea minlength="1" maxlength="2000" rows="8" class="w-full" tabindex="5" wire:model="message">
+        <textarea minlength="1" maxlength="2000" rows="5" class="w-full rounded" tabindex="5" wire:model="message">
                 
         </textarea>
         <p class="contact__form__form__mandatory">

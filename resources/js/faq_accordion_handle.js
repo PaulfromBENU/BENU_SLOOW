@@ -1,32 +1,45 @@
 function activateAccordeon()
 {
-	$('.faq__accordion__header').on('click', function() {
-		$('.faq__accordion__header__chevron').removeClass('.faq__accordion__header__chevron--active');
-		$('.faq__accordion__header__chevron', this).addClass('.faq__accordion__header__chevron--active');
-		let status = $(this).parent().children('.faq__accordion__answer').css('display');
-		$('.faq__accordion__answer').hide();
+	let resetChevron = 0;
+
+	$('.welcome-faq__accordion__header').on('click', function() {
+		if ($('.welcome-faq__accordion__header__chevron', this).hasClass('.welcome-faq__accordion__header__chevron--active')) {
+			resetChevron = 1;
+			console.log('yes');
+		} else {
+			resetChevron = 0;
+			console.log('nope');
+		}
+		$('.welcome-faq__accordion__header__chevron').removeClass('.welcome-faq__accordion__header__chevron--active');
+		$('.welcome-faq__accordion__header__chevron').css('transform', 'rotate(0deg)');
+		if (!resetChevron) {
+			$('.welcome-faq__accordion__header__chevron', this).addClass('.welcome-faq__accordion__header__chevron--active');
+			$('.welcome-faq__accordion__header__chevron', this).css('transform', 'rotate(180deg)');
+		}
+		let status = $(this).parent().children('.welcome-faq__accordion__answer').css('display');
+		$('.welcome-faq__accordion__answer').hide();
 		if (status == 'none') {
-			$(this).parent().children('.faq__accordion__answer').fadeIn('slow');
+			$(this).parent().children('.welcome-faq__accordion__answer').fadeIn('slow');
 		}
 	});
 
-	$('.faq__accordion__answer__header').on('click', function() {
-		$('.faq__accordion__answer__header').removeClass('faq__accordion__answer__header--active');
-		$(this).addClass('faq__accordion__answer__header--active');
+	$('.welcome-faq__accordion__answer__header').on('click', function() {
+		$('.welcome-faq__accordion__answer__header').removeClass('welcome-faq__accordion__answer__header--active');
+		$(this).addClass('welcome-faq__accordion__answer__header--active');
 
-		let answerStatus = $(this).parent().children('.faq__accordion__answer__subanswer').css('display');
+		let answerStatus = $(this).parent().children('.welcome-faq__accordion__answer__subanswer').css('display');
 
-		$('.faq__accordion__answer__subanswer').hide();
+		$('.welcome-faq__accordion__answer__subanswer').hide();
 		if (answerStatus == 'none') {
-			$('.faq__accordion__answer__header__minus').hide();
-			$('.faq__accordion__answer__header__plus').show();
-			$('.faq__accordion__answer__header__plus', this).hide();
-			$('.faq__accordion__answer__header__minus', this).show();
-			$(this).parent().children('.faq__accordion__answer__subanswer').show();
+			$('.welcome-faq__accordion__answer__header__minus').hide();
+			$('.welcome-faq__accordion__answer__header__plus').show();
+			$('.welcome-faq__accordion__answer__header__plus', this).hide();
+			$('.welcome-faq__accordion__answer__header__minus', this).show();
+			$(this).parent().children('.welcome-faq__accordion__answer__subanswer').show();
 		} else {
-			$(this).removeClass('faq__accordion__answer__header--active');
-			$('.faq__accordion__answer__header__plus').show();
-			$('.faq__accordion__answer__header__minus').hide();
+			$(this).removeClass('welcome-faq__accordion__answer__header--active');
+			$('.welcome-faq__accordion__answer__header__plus').show();
+			$('.welcome-faq__accordion__answer__header__minus').hide();
 		}
 	});
 }

@@ -67,42 +67,42 @@
                         Lancement vun der Websäit: 2. Quartal 2022
                     </p>
                     <p class="central_textbox__desc">
-                        <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. Hohe Qualität. Soziale Inklusion. Ja, all das ist in einem einzigen Restaurant möglich! 
+                        <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. Héich Qualitéit. Sozial Inklusioun. Jo, dat alles ass an engem eenzege Restaurant méiglech!
                     </p>
                     <p class="central_textbox__desc">
-                        Dieses erste "Rescued Food"-Restaurant in der Großregion hat sich zum Ziel gesetzt, 80% der eingesetzten Lebensmittel als "Rescued" zu verwenden, d.h. Bio-Lebensmittel, die vom Handel abgelehnt werden, obwohl sie die EU-Normen erfüllen und von unbestreitbarer Qualität sind. In den meisten Fällen ist die Ablehnung auf eine schwankende Nachfrage zurückzuführen oder auf das ästhetische Aussehen der Ware: zu krumm, zu klein, zu...
+                        Dësen éischte “Rescued Food”-Restaurant an der Groussregioun huet sech als Zil gesat, 80 % vun den agesate Liewensmëttel als “gerett” ze benotzen, d.h. Bio-Liewensmëttel, déi vum Handel ofgeleent gi sinn, obwuel si d’EU-Normen erfëllen a vu beschter Qualitéit sinn. An deene meeschte Fäll ass d’Ofleenung zeréckzeféieren op eng schwankend Nofro oder op dat ästheetescht Ausgesi vun der Wuer: ze kromm, ze kleng, ze...
                     </p>
                     <p class="central_textbox__desc">
-                        Mit seinem Angebot an nachhaltiger, vegetarischer und veganer Küche folgt das Restaurant BENU den Prinzipien der Kreislaufwirtschaft und des UpCyclings und hat als Hauptziel die Sensibilisierung der breiten Öffentlichkeit für das Thema Lebensmittelverschwendung, weltweit, aber auch im Großherzogtum.
+                        Mat enger Offer vun nohalteger, vegetarescher a veganer Kiche geet de BENU Restaurant de Prinzippie vun der Kreeslafwirtschaft an dem Upcycling no. D’Haaptzil vum Restaurant ass d’Sensibiliséierung vun der breeder Ëffentlechkeet fir d’Theema Liewensmëttelverschwendung, weltwäit an och lokal zu Lëtzebuerg.
                     </p>
                     <p class="central_textbox__desc">
-                        <strong>BENU SLO0W</strong> ist ein Ort der Entdeckung und des Lernens für alle, die sich für eine innovative Küche und in Vergessenheit geratene Zubereitungs- und Konservierungsmethoden interessieren. Mit seinem Gesamtkonzept legt das Restaurant den Grundstein für eine neue, nachhaltige und informative Form der Gastronomie in Luxemburg und möchte vor allem zeigen, dass auch eine krumme Karotte exquisit und mit überraschendem Geschmack präsentiert werden kann!
+                        <strong>BENU SLO0W</strong> ass eng Plaz fir ze entdecken an ze léiere fir jiddwereen, deen sech fir innovativ Kichen interesséiert. Hei kanns Du Preparatiouns- a Konservéierungsmethode kenneléieren, déi e bëssen a Vergiess gerode sinn. Mat sengem Gesamtkonzept leet de Restaurant de Grondstee fir eng nei, nohalteg an informativ Gastronomieform zu Lëtzebuerg a wëll virun allem weisen, dass och eng kromm Muert exquisit a mat iwwerraschendem Geschmaach präsentéiert ka ginn!
                     </p>
                     <ul class="central_textbox__desc">
-                        <li><strong>BENU SLO0W</strong></li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> bietet eine originelle und innovative Bio-Küche an,
+                        <li class="mb-3"><strong>BENU SLO0W</strong></li>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
+                            <p> bitt eng originell an innovativ Bio-Kichen un,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> ist ein Ort der Entdeckung und Inspiration,
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
+                            <p> ass eng Plaz vun der Entdeckung an der Inspiratioun,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> versucht, die Verschwendung von Lebensmitteln nachhaltig zu bekämpfen,
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
+                            <p> versicht d’Verschwendung vu Liewensmëttel nohalteg ze bekämpfen,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
-                            <p> weckt, bezieht Stellung und diskutiert Themen rund um Lebensmittelproduktion und -verschwendung.
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
+                            <p> rëselt wakereg, bezitt Stellung an diskutéiert Theeme ronderëm d’Liewensmëttelproduktioun a –verschwendung.
                             </p>
                         </li>
                     </ul>
                     <p class="central_textbox__desc">
-                        Bis die eigene Website für <strong>BENU SLO0W</strong> (voraussichtlich im Frühjahr 2022) fertiggestellt ist, laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
+                        Bis déi eegenen Internetsäit fir <strong>BENU SLO0W</strong> fäerdeg ass (viraussiichtlech am Fréijoer 2022), luede mir Dech an eis Haaptsäit <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> ze besichen.
                     </p>
                 </div>
                 <div class="contact-form-container">

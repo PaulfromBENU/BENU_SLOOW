@@ -6,7 +6,7 @@
 				{!! __('footer.questions-txt-1') !!}
 			</p>
 			<div class="text-center">
-				<a href="#" class="btn-couture">{{ __('footer.questions-contact') }}</a>
+				<button onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="btn-couture">{{ __('footer.questions-contact') }}</button>
 			</div>
 		</div>
 		<div class="footer-more__illustration footer-more__illustration--left">

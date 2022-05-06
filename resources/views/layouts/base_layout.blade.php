@@ -21,7 +21,7 @@
 @endsection
 
 @section('more-styles')
-	<link rel="stylesheet" type="text/css" href="{{ asset('js/services/slick-1.8.1/slick/slick.css') }}"/>
+	<!-- <link rel="stylesheet" type="text/css" href="{{ asset('js/services/slick-1.8.1/slick/slick.css') }}"/> -->
 @endsection
 
 @section('robots-behaviour-top')
@@ -101,10 +101,7 @@
 @endsection
 
 @section('footer')
-	@include('footer.connect')
-	@include('footer.learn_more')
-	@include('footer.more_questions')
-	@include('footer.all_infos')
+	@include('footer.opening_contact')
 	@include('footer.footer')
 @endsection
 

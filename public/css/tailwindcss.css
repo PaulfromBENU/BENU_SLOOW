@@ -1023,6 +1023,9 @@ select {
 .w-1\/4 {
   width: 25%;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-64 {
   width: 16rem;
 }
@@ -1037,9 +1040,6 @@ select {
 }
 .w-3 {
   width: 0.75rem;
-}
-.w-1\/2 {
-  width: 50%;
 }
 .w-3\/5 {
   width: 60%;
@@ -1089,11 +1089,11 @@ select {
 .w-9 {
   width: 2.25rem;
 }
-.w-9\/12 {
-  width: 75%;
-}
 .w-5\/6 {
   width: 83.333333%;
+}
+.w-9\/12 {
+  width: 75%;
 }
 .w-48 {
   width: 12rem;
@@ -1740,6 +1740,9 @@ select {
 }
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+.pt-9 {
+  padding-top: 2.25rem;
 }
 .text-left {
   text-align: left;

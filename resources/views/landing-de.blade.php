@@ -79,29 +79,29 @@
                         <strong>BENU SLO0W</strong> ist ein Ort der Entdeckung und des Lernens für alle, die sich für eine innovative Küche und in Vergessenheit geratene Zubereitungs- und Konservierungsmethoden interessieren. Mit seinem Gesamtkonzept legt das Restaurant den Grundstein für eine neue, nachhaltige und informative Form der Gastronomie in Luxemburg und möchte vor allem zeigen, dass auch eine krumme Karotte exquisit und mit überraschendem Geschmack präsentiert werden kann!
                     </p>
                     <ul class="central_textbox__desc">
-                        <li><strong>BENU SLO0W</strong></li>
+                        <li class="mb-3"><strong>BENU SLO0W</strong></li>
                         <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> bietet eine originelle und innovative Bio-Küche an,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> ist ein Ort der Entdeckung und Inspiration,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> versucht, die Verschwendung von Lebensmitteln nachhaltig zu bekämpfen,
                             </p>
                         </li>
-                        <li class="text-left flex">
-                            <p class="pr-2 pt-2 lg:pt-3">@svg('list_cintre')</p>
+                        <li class="text-left flex mb-1">
+                            <p class="pr-2 pt-2 lg:pt-3">@svg('radish')</p>
                             <p> weckt, bezieht Stellung und diskutiert Themen rund um Lebensmittelproduktion und -verschwendung.
                             </p>
                         </li>
                     </ul>
-                    <p class="central_textbox__desc">
+                    <p class="central_textbox__desc mb-1">
                         Bis die eigene Website für <strong>BENU SLO0W</strong> (voraussichtlich im Frühjahr 2022) fertiggestellt ist, laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
                     </p>
                 </div>

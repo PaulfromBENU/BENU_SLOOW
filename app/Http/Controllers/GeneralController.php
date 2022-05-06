@@ -6,11 +6,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 
-use App\Models\Article;
-use App\Models\Creation;
-use App\Models\CreationCategory;
 use App\Models\NewsArticle;
 use App\Models\Partner;
+use App\Models\Translation;
 use App\Models\User;
 use App\Mail\NewsletterConfirmation;
 use App\Mail\NewsletterConfirmationForAdmin;
@@ -25,7 +23,17 @@ class GeneralController extends Controller
 
     public function home()
     {
-        return view('welcome');
+        $faq_titles_count = 0;
+        $faq_subtitles_count = [];
+        $faq_titles_count = Translation::where('page', 'services')->where('key', 'LIKE', 'faq-group-title-'.'%')->count();
+        for ($i=1; $i <= $faq_titles_count; $i++) { 
+            $faq_subtitles_count[$i] = Translation::where('page', 'services')->where('key', 'LIKE', 'faq-group-'.$i.'-question-title-%')->count();
+        }
+
+        return view('welcome', [
+            'faq_titles_count' => $faq_titles_count, 
+            'faq_subtitles_count' => $faq_subtitles_count,
+        ]);
     }
 
     public function landingFr()
@@ -97,19 +105,20 @@ class GeneralController extends Controller
 
     public function startImport()
     {
-        if(auth::check() && auth::user()->role == 'admin') {
-            set_time_limit(3600);
-            // Article::query()->update(['checked' => '1']);
-            // echo "*** Importation started...<br/>";
-            // $this->importDataFromSophie();
-            // $this->importCreationsFromLou();
-            // $this->importCreationsFromSabine();
-            // $this->createArticlesFromPictures();
-            // $this->updateArticlesFromLouAndSophie();
-            $this->importTranslations();
-        } else {
-            return redirect()->route('login-fr');
-        }
+        $this->importTranslations();
+        // if(auth::check() && auth::user()->role == 'admin') {
+        //     set_time_limit(3600);
+        //     // Article::query()->update(['checked' => '1']);
+        //     // echo "*** Importation started...<br/>";
+        //     // $this->importDataFromSophie();
+        //     // $this->importCreationsFromLou();
+        //     // $this->importCreationsFromSabine();
+        //     // $this->createArticlesFromPictures();
+        //     // $this->updateArticlesFromLouAndSophie();
+        //     $this->importTranslations();
+        // } else {
+        //     return redirect()->route('login-fr');
+        // }
     }
 
     public function showNewsletter()
@@ -156,7 +165,7 @@ class GeneralController extends Controller
                 if($user->save()) {
                     $message = __('auth.newsletter-subscribe-confirm');
                     Mail::to($user->email)->send(new NewsletterConfirmation());
-                    Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin($user));
+                    // Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin($user));
                 }
             }
         }
