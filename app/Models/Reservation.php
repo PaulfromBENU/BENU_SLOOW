@@ -12,6 +12,8 @@ class Reservation extends Model
     // Choice of the database
     protected $connection = 'mysql_sloow';
 
+    protected $guarded = [];
+
     public function opening()
     {
         return $this->belongsTo(Opening::class);

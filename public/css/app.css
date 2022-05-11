@@ -2720,6 +2720,7 @@ input[type=checkbox]:focus {
   color: #FFFFFF;
   bottom: 40px;
   transform: scale(0.8);
+  transform-origin: left;
   z-index: 0;
   position: absolute;
 }
@@ -4121,6 +4122,90 @@ input[type=checkbox]:focus {
   width: 100%;
   background: transparent;
   border-radius: 4px;
+}
+
+.reservations {
+  padding-bottom: 50px;
+}
+.reservations h1 {
+  font-size: 1.4rem;
+  padding-bottom: 15px;
+  border-bottom: solid 1px rgb(234 179 8/var(--tw-bg-opacity));
+  margin-bottom: 10px;
+}
+.reservations__pending {
+  padding-bottom: 10px;
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 10px;
+}
+.reservations__pending button {
+  background: transparent;
+  padding: 5px 15px;
+  border: solid 2px rgb(234 179 8/var(--tw-bg-opacity));
+  transition: all 0.2s;
+  color: lightgrey;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.reservations__pending button:hover {
+  background: rgb(234 179 8/var(--tw-bg-opacity));
+  color: #FFFFFF;
+}
+.reservations__valid__info {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 10px;
+}
+.reservations__valid__selector select {
+  width: 400px;
+  border-radius: 4px;
+  background: transparent;
+}
+.reservations__valid__selector select option {
+  background: #1e1e50;
+  color: rgb(234 179 8/var(--tw-bg-opacity));
+}
+.reservations__creator select {
+  width: 400px;
+  border-radius: 4px;
+  background: transparent;
+}
+.reservations__creator select option {
+  background: #1e1e50;
+  color: rgb(234 179 8/var(--tw-bg-opacity));
+}
+.reservations__form input {
+  background: transparent;
+  color: rgb(234 179 8/var(--tw-bg-opacity));
+}
+.reservations__form input:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: solid 1px rgb(234 179 8/var(--tw-bg-opacity));
+}
+.reservations__form input[type=number] {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.reservations__form textarea {
+  background: transparent;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.reservations__form button {
+  margin-top: 20px;
+  background: transparent;
+  padding: 5px 15px;
+  border: solid 2px rgb(234 179 8/var(--tw-bg-opacity));
+  transition: all 0.2s;
+  color: lightgrey;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.reservations__form button:hover {
+  background: rgb(234 179 8/var(--tw-bg-opacity));
+  color: #FFFFFF;
 }
 
 :root {

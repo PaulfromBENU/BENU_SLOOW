@@ -108,7 +108,6 @@ class GeneralController extends Controller
         $this->importTranslations();
         // if(auth::check() && auth::user()->role == 'admin') {
         //     set_time_limit(3600);
-        //     // Article::query()->update(['checked' => '1']);
         //     // echo "*** Importation started...<br/>";
         //     // $this->importDataFromSophie();
         //     // $this->importCreationsFromLou();

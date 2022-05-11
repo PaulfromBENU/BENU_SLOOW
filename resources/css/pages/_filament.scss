@@ -482,3 +482,97 @@
 		}
 	}
 }
+
+
+.reservations {
+	padding-bottom: 50px;
+	h1 {
+		font-size: 1.4rem;
+		padding-bottom: 15px;
+		border-bottom: solid 1px rgb(234 179 8/var(--tw-bg-opacity));
+		margin-bottom: 10px;
+	}
+	&__pending {
+		padding-bottom: 10px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 10px;
+		button {
+			background: transparent;
+			padding: 5px 15px;
+			border: solid 2px rgb(234 179 8/var(--tw-bg-opacity));
+			transition: all 0.2s;
+			color: lightgrey;
+			border-radius: 5px;
+			font-size: 1.3rem;
+			&:hover {
+				background: rgb(234 179 8/var(--tw-bg-opacity));
+				color: $white;
+			}
+		}
+	}
+	&__valid {
+		&__info {
+			padding-top: 20px;
+			padding-bottom: 10px;
+			border-bottom: solid 1px lightgrey;
+			margin-bottom: 10px;
+		}
+		&__selector {
+			select {
+				width: 400px;
+				border-radius: 4px;
+				background: transparent;
+				option {
+					background: rgb(30, 30, 80);
+					color: rgb(234 179 8/var(--tw-bg-opacity));
+				}
+			}
+		}
+	}
+	&__creator {
+		select {
+			width: 400px;
+			border-radius: 4px;
+			background: transparent;
+			option {
+				background: rgb(30, 30, 80);
+				color: rgb(234 179 8/var(--tw-bg-opacity));
+			}
+		}
+	}
+	&__form {
+		input {
+			background: transparent;
+			color: rgb(234 179 8/var(--tw-bg-opacity));
+			&:focus {
+				outline: none;
+				box-shadow: none;
+				border-bottom: solid 1px rgb(234 179 8/var(--tw-bg-opacity));
+			}
+		}
+		input[type="number"] {
+			font-size: 1.4rem;
+			font-weight: 600;
+		}
+		textarea {
+			background: transparent;
+			border-radius: 4px;
+			margin-bottom: 10px;
+		}
+		button {
+			margin-top: 20px;
+			background: transparent;
+			padding: 5px 15px;
+			border: solid 2px rgb(234 179 8/var(--tw-bg-opacity));
+			transition: all 0.2s;
+			color: lightgrey;
+			border-radius: 5px;
+			font-size: 1.3rem;
+			&:hover {
+				background: rgb(234 179 8/var(--tw-bg-opacity));
+				color: $white;
+			}
+		}
+	}
+}
+

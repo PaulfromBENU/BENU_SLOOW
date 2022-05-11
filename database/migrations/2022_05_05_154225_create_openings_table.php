@@ -19,6 +19,7 @@ class CreateOpeningsTable extends Migration
             $table->dateTime('date');
             $table->string('starting_hour');
             $table->integer('seats');
+            $table->integer('type')->default('0');// 0: hosts table, 1: restaurant
         });
     }
 

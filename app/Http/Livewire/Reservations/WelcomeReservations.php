@@ -88,7 +88,7 @@ class WelcomeReservations extends Component
         }
     }
 
-    public createReservation()
+    public function createReservation()
     {
         $this->validate();
     }
