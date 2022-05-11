@@ -4,31 +4,33 @@
         Choisis une date pour ta réservation
     </h4>
     <div class="text-center welcome-reservation__form__selector">
-        <select wire:model.defer="opening_id">
+        <select wire:model="opening_id">
             <option value="0">
                 Sélectionne une date...
             </option>
             @foreach($openings as $opening)
                 <option wire:key="{{ $opening->id }}" value="{{ $opening->id }}">
-                    {{ $opening->date->format('d\/m\/Y') }} - {{ $opening->starting_hour }}
+                    {{ Carbon\Carbon::parse($opening->date)->format('d\/m\/Y') }} - {{ $opening->starting_hour }}
                 </option>
             @endforeach
         </select>
     </div>
 
     @if($show_res_details)
-    <div>
+    <div class="pt-5">
         <h4 class="text-center">Tu as choisi le repas suivant :</h4>
-        <div class="flex justify-around flex-wrap">
+        <div class="flex justify-around flex-wrap text-white">
             <p>
-                Date : {{ $opening->date->format('d\/m\/Y') }}
+                Date : {{ Carbon\Carbon::parse($opening->date)->format('d\/m\/Y') }}
             </p>
             <p>
                 Heure : {{ $opening->starting_hour }}
             </p>
+            @if($opening->type == '0')
             <p>
-                Places restantes : {{ $opening->seats - $opening->valid_reservations()->count() }}
+                Places restantes : {{ $remaining_seats }}
             </p>
+            @endif
         </div>
     </div>
     @endif
@@ -36,7 +38,7 @@
     @if($show_res_details)
     <div>
     @else
-    <div> <!-- style="display: none;" -->
+    <div style="display: none;"> <!-- style="display: none;" -->
     @endif
         <div>
             <div class="flex justify-center mt-10 mb-5">
@@ -113,15 +115,9 @@
             </div>
             @endif
         @else
-            @if($message_valid)
-                <div class="contact__form__valid">
-                    {{ $submit_feedback }}
-                </div>
-            @else
-                <div class="contact__form__invalid">
-                    {{ $submit_feedback }}
-                </div>
-            @endif
+            <div class="contact__form__valid">
+                Votre demande de réservation a bien été envoyée ! Vous recevrez une confirmation dans les plus brefs délais. Si vous ne recevez pas de nouvelles de notre part rapidement, n'hésitez pas à nous recontacter par téléphone.
+            </div>
         @endif
     </div>
 </form>

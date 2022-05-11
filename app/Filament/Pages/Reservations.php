@@ -55,7 +55,7 @@ class Reservations extends Page
             $this->opening_date = Opening::find($this->opening_date_id);
             $this->remaining_seats = $this->opening_date->seats;
 
-            foreach ($this->opening_date->reservations as $existing_reservation) {
+            foreach ($this->opening_date->valid_reservations as $existing_reservation) {
                 $this->remaining_seats -= $existing_reservation->seats;
             }
             $this->remaining_seats = max(0, $this->remaining_seats);
@@ -118,6 +118,8 @@ class Reservations extends Page
             $new_reservation->phone = $this->res_phone;
             if ($this->res_other_info !== null) {
                 $new_reservation->other_info = $this->res_other_info;
+            } else {
+                $new_reservation->other_info = "";
             }
             $new_reservation->seats = $this->seats_number;
             $new_reservation->valid = 1;

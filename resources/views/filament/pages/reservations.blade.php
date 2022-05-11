@@ -148,7 +148,7 @@
 		@endif
 		@foreach($pending_reservations as $pending_reservation)
 		<div wire:key="pending-{{ $pending_reservation->id }}" class="flex justify-between reservations__pending">
-			<div>
+			<div style="width: 25%;">
 				<p>
 					Reservation made by:
 				</p>
@@ -163,7 +163,7 @@
 				</p>
 			</div>
 
-			<div>
+			<div style="width: 20%;">
 				<p>
 					Number of seats booked:
 				</p>
@@ -173,7 +173,7 @@
 			</div>
 
 			@if($pending_reservation->other_info !== null && $pending_reservation->other_info !== "")
-			<div>
+			<div style="width: 25%;">
 				<p>
 					Additional info:
 				</p>
@@ -181,9 +181,11 @@
 					{{ $pending_reservation->other_info }}
 				</p>
 			</div>
+			@else
+			<div style="width: 25%;"></div>
 			@endif
 
-			<div>
+			<div style="width: 30%; text-align: right;">
 				<button wire:click="validateReservation({{ $pending_reservation->id }})">Validate Reservation</button>
 			</div>
 		</div>

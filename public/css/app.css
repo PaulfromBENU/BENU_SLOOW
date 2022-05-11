@@ -2674,7 +2674,7 @@ input[type=checkbox]:focus {
   border: solid 1px #96B221;
 }
 .welcome-reservation__form__selector select option {
-  background: transparent;
+  background: #793162;
   color: #FFFFFF;
 }
 .welcome-reservation__form__seats-subtitle {
