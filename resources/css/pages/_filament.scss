@@ -516,6 +516,19 @@
 			padding-bottom: 10px;
 			border-bottom: solid 1px lightgrey;
 			margin-bottom: 10px;
+			button {
+				background: transparent;
+				padding: 5px 15px;
+				border: solid 2px rgb(234 179 8/var(--tw-bg-opacity));
+				transition: all 0.2s;
+				color: lightgrey;
+				border-radius: 5px;
+				font-size: 1.3rem;
+				&:hover {
+					background: rgb(234 179 8/var(--tw-bg-opacity));
+					color: $white;
+				}
+			}
 		}
 		&__selector {
 			select {

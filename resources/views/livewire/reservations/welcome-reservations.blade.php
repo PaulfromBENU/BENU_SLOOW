@@ -96,7 +96,7 @@
             </p>
             <div class="register__options">
                 <label for="res_agreement" class="inline-flex items-center contact__form__form__select">
-                    <input id="res_agreement" type="checkbox" class="rounded border-gray-300 text-red-600 shadow-sm" name="res_res_conditions_ok" value="1" tabindex="6" style="margin-top: 2px;" wire:model="res_conditions_ok" wire:click="restoreButton">
+                    <input id="res_agreement" type="checkbox" class="rounded border-gray-300 text-red-600 shadow-sm" name="res_res_conditions_ok" value="1" tabindex="6" style="margin-top: 2px;" wire:model="res_conditions_ok" wire:click="restoreButton" required>
                     <span class="ml-8" style="color: white;">{{ __('forms.personal-data-agreement') }} *</span>
                 </label>
             </div>

@@ -35,6 +35,7 @@ class Reservations extends Page
     public $res_email;
     public $res_phone;
     public $res_other_info;
+    public $confirm_delete = [];
 
     public function mount()
     {
@@ -135,6 +136,23 @@ class Reservations extends Page
         $reservation = Reservation::find($reservation_id);
         $reservation->valid = 1;
         $reservation->save();
+        $this->getAllReservations();
+    }
+
+    public function confirmDelete($reservation_id)
+    {
+        $this->confirm_delete[$reservation_id] = 1;
+    }
+
+    public function unconfirmDelete($reservation_id)
+    {
+        $this->confirm_delete[$reservation_id] = null;
+    }
+
+    public function cancelReservation($reservation_id)
+    {
+        $reservation = Reservation::find($reservation_id);
+        $reservation->delete();
         $this->getAllReservations();
     }
 }

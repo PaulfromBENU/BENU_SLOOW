@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Models\Opening;
 use App\Models\Reservation;
 use App\Mail\ReservationRequest;
+use App\Mail\ReservationConfirmation;
 
 use Carbon\Carbon;
 
@@ -126,9 +127,17 @@ class WelcomeReservations extends Component
                 $new_reservation->other_info = "";
             }
             $new_reservation->seats = $this->seats_number;
-            $new_reservation->valid = 0;
+            if (Opening::find($this->opening_id)->type == '0') {
+                $new_reservation->valid = 1;
+            } else {
+                $new_reservation->valid = 0;
+            }
             if ($new_reservation->save()) {
-                Mail::to($this->res_email)->send(new ReservationRequest($new_reservation));
+                if (Opening::find($this->opening_id)->type == '0') {
+                    Mail::to($this->res_email)->send(new ReservationConfirmation($new_reservation));
+                } else {
+                    Mail::to($this->res_email)->send(new ReservationRequest($new_reservation));
+                }
                 // Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationRequestForAdmin($new_reservation));
                 $this->clearContent();
                 $this->message_sent = 1;

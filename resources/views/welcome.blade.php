@@ -6,6 +6,10 @@
 
 @section('main-content')
     @include('includes.welcome.presentation')
+    @include('includes.welcome.transition_1')
+    @include('includes.welcome.content_1')
+    @include('includes.welcome.transition_2')
+    @include('includes.welcome.concept')
     @include('includes.welcome.reservation')
     @include('includes.welcome.faq')
 @endsection

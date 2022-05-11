@@ -24,9 +24,9 @@
 			@endif
 			@foreach($valid_reservations as $valid_reservation)
 			<div wire:key="valid-{{ $valid_reservation->id }}" class="flex justify-between reservations__valid__info">
-				<div style="width: 30%;">
+				<div style="width: 25%; padding-right: 20px;">
 					<p>
-						Reservation made by:
+						<strong style="color: rgb(234 179 8);">Reservation made by:</strong>
 					</p>
 					<p>
 						{{ ucfirst($valid_reservation->first_name) }} {{ ucfirst($valid_reservation->last_name) }}
@@ -40,9 +40,9 @@
 				</div>
 
 				@if($valid_reservation->other_info !== null && $valid_reservation->other_info !== "")
-				<div style="width: 30%;">
+				<div style="width: 25%; padding-right: 20px;">
 					<p>
-						Additional info:
+						<strong style="color: rgb(234 179 8);">Additional info:</strong>
 					</p>
 					<p>
 						{{ $valid_reservation->other_info }}
@@ -50,14 +50,28 @@
 				</div>
 				@endif
 
-				<div style="width: 30%;">
+				<div style="width: 25%; padding-right: 20px;">
 					<p>
-						Number of seats booked:
+						<strong style="color: rgb(234 179 8);">Number of seats booked:</strong>
 					</p>
 					<p style="font-size: 1.4rem; color: rgb(234 179 8);">
 						{{ $valid_reservation->seats }}
 					</p>
 				</div>
+
+				@if(isset($confirm_delete[$valid_reservation->id]) && $confirm_delete[$valid_reservation->id] !== null)
+				<div style="width: 25%; text-align: center;">
+					<p style="padding-bottom: 8px;">Are you sure? This will permanently delete the reservation.</p>
+					<div class="flex justify-between">
+						<button wire:click="unconfirmDelete({{ $valid_reservation->id }})">Keep Reservation</button>
+						<button wire:click="cancelReservation({{ $valid_reservation->id }})">Cancel Reservation</button>
+					</div>
+				</div>
+				@else
+				<div class="flex justify-end" style="width: 25%; text-align: right;">
+					<button wire:click="confirmDelete({{ $valid_reservation->id }})">Cancel Reservation</button>
+				</div>
+				@endif
 			</div>
 			@endforeach
 		@endif
@@ -148,9 +162,9 @@
 		@endif
 		@foreach($pending_reservations as $pending_reservation)
 		<div wire:key="pending-{{ $pending_reservation->id }}" class="flex justify-between reservations__pending">
-			<div style="width: 25%;">
+			<div style="width: 22%;">
 				<p>
-					Reservation made by:
+					<strong style="color: rgb(234 179 8);">Reservation made by:</strong>
 				</p>
 				<p>
 					{{ ucfirst($pending_reservation->first_name) }} {{ ucfirst($pending_reservation->last_name) }}
@@ -163,9 +177,9 @@
 				</p>
 			</div>
 
-			<div style="width: 20%;">
+			<div style="width: 18%;">
 				<p>
-					Number of seats booked:
+					<strong style="color: rgb(234 179 8);">Number of seats booked:</strong>
 				</p>
 				<p>
 					{{ $pending_reservation->seats }}
@@ -173,21 +187,32 @@
 			</div>
 
 			@if($pending_reservation->other_info !== null && $pending_reservation->other_info !== "")
-			<div style="width: 25%;">
+			<div style="width: 22%;">
 				<p>
-					Additional info:
+					<strong style="color: rgb(234 179 8);">Additional info:</strong>
 				</p>
 				<p>
 					{{ $pending_reservation->other_info }}
 				</p>
 			</div>
 			@else
-			<div style="width: 25%;"></div>
+			<div style="width: 22%;"></div>
 			@endif
 
-			<div style="width: 30%; text-align: right;">
+			@if(isset($confirm_delete[$pending_reservation->id]) && $confirm_delete[$pending_reservation->id] !== null)
+			<div style="width: 38%; text-align: center;">
+				<p style="padding-bottom: 8px;">Are you sure? This will permanently delete the reservation.</p>
+				<div class="flex justify-between">
+					<button wire:click="unconfirmDelete({{ $pending_reservation->id }})">Keep Reservation</button>
+					<button wire:click="cancelReservation({{ $pending_reservation->id }})">Cancel Reservation</button>
+				</div>
+			</div>
+			@else
+			<div class="flex justify-between" style="width: 38%; text-align: right;">
+				<button wire:click="confirmDelete({{ $pending_reservation->id }})">Cancel Reservation</button>
 				<button wire:click="validateReservation({{ $pending_reservation->id }})">Validate Reservation</button>
 			</div>
+			@endif
 		</div>
 		@endforeach
 	</section>

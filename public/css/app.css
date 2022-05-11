@@ -2289,10 +2289,8 @@ input[type=checkbox]:focus {
 }
 
 .welcome-presentation {
-  margin-bottom: 80px;
   width: 100%;
   position: relative;
-  height: min(85vh, 900px);
 }
 .welcome-presentation__desc {
   padding-top: 139px;
@@ -2663,6 +2661,13 @@ input[type=checkbox]:focus {
   font: normal normal 600 22px/28px "Barlow Condensed";
   margin-bottom: 15px;
 }
+.welcome-reservation__form textarea {
+  border: 2px solid #793162;
+}
+.welcome-reservation__form textarea:focus {
+  outline: none;
+  border: 2px solid #96B221;
+}
 .welcome-reservation__form__selector select {
   border-radius: 4px;
   background: transparent;
@@ -2723,6 +2728,287 @@ input[type=checkbox]:focus {
   transform-origin: left;
   z-index: 0;
   position: absolute;
+}
+
+.welcome-transition-1 {
+  width: 100%;
+  min-height: 50vh;
+  margin-bottom: 40px;
+}
+.welcome-transition-1__transition {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+.welcome-transition-1__transition img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.welcome-transition-1__transition--top {
+  position: relative;
+  margin-bottom: -30px;
+  z-index: 2;
+}
+.welcome-transition-1__transition--bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.welcome-transition-1__content {
+  background: #793162;
+  color: #FFFFFF;
+}
+.welcome-transition-1__content__text {
+  width: 38%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.welcome-transition-1__content__text--1 {
+  text-align: left;
+  font: normal normal 700 28px/33px "Barlow";
+  letter-spacing: 0px;
+  margin-bottom: 40px;
+}
+.welcome-transition-1__content__text--2 {
+  text-align: left;
+  font: normal normal 500 18px/33px "Barlow";
+  letter-spacing: 0px;
+}
+.welcome-transition-1__content__img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.welcome-transition-1__content__img img {
+  min-height: 100%;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.welcome-content-1 {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.welcome-content-1 h3 {
+  text-align: center;
+  font: normal normal 700 44px/53px "Barlow Condensed";
+  letter-spacing: 0px;
+  margin-bottom: 90px;
+}
+.welcome-content-1 h2 {
+  text-align: center;
+  font: normal normal 600 135px/90px "Barlow Condensed";
+  letter-spacing: 0px;
+  color: #793162;
+  margin-bottom: 70px;
+}
+.welcome-content-1__initials {
+  color: #96B221;
+  margin-bottom: 100px;
+}
+.welcome-content-1__initials__container {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-align: center;
+  width: calc(25% - 1px);
+  min-width: 300px;
+}
+.welcome-content-1__initials__container__main {
+  font: normal normal 600 48px/60px "Barlow Condensed";
+  letter-spacing: 0px;
+}
+.welcome-content-1__initials__container__sub {
+  font: italic normal 300 28px/60px "Barlow Condensed";
+  letter-spacing: 0px;
+}
+.welcome-content-1__initials__container--border {
+  border-right: solid 1px lightgrey;
+}
+.welcome-content-1__info {
+  text-align: center;
+  font: normal normal 700 28px/33px "Barlow Condensed";
+  letter-spacing: 0px;
+  color: #793162;
+  margin-bottom: 20px;
+}
+
+.welcome-transition-2 {
+  width: 100%;
+  min-height: 50vh;
+  margin-bottom: 40px;
+}
+.welcome-transition-2__transition {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+.welcome-transition-2__transition img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.welcome-transition-2__transition--top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+.welcome-transition-2__transition--bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.welcome-transition-2__content {
+  background: #96B221;
+  color: #FFFFFF;
+}
+.welcome-transition-2__content__text {
+  width: 45%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: 50%;
+  padding-left: 7%;
+  text-align: right;
+}
+.welcome-transition-2__content__text--1 {
+  font: normal normal 700 28px/33px "Barlow";
+  letter-spacing: 0px;
+  margin-bottom: 40px;
+}
+.welcome-transition-2__content__text--2 {
+  font: normal normal 500 18px/33px "Barlow";
+  letter-spacing: 0px;
+}
+.welcome-transition-2__content__img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.welcome-transition-2__content__img img {
+  min-height: 100%;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.welcome-concept {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.welcome-concept h3 {
+  color: #96B221;
+  text-align: center;
+  font: normal normal 700 28px/28px "Barlow Condensed";
+  letter-spacing: 0.28px;
+  margin-bottom: 35px;
+}
+.welcome-concept h2 {
+  text-align: center;
+  font: normal normal 700 44px/53px "Barlow Condensed";
+  letter-spacing: 0px;
+  color: #793162;
+  margin-bottom: 90px;
+}
+.welcome-concept__box {
+  width: 65%;
+  max-width: 980px;
+  min-width: 800px;
+  margin: auto;
+  padding: 80px 40px 80px 40px;
+  margin-bottom: 60px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.welcome-concept__box h4 {
+  text-align: center;
+  font: normal normal 700 28px/34px "Barlow";
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+  color: #96B221;
+}
+.welcome-concept__box__desc {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font: normal normal 500 18px/33px "Barlow";
+  letter-spacing: 0px;
+  margin-bottom: 40px;
+}
+.welcome-concept__box__prices {
+  background: #D0D0D01A 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.welcome-concept__box__prices p {
+  text-align: center;
+  font: normal normal 500 18px/33px "Barlow";
+  letter-spacing: 0px;
+  color: #793162;
+}
+.welcome-concept__box__date {
+  text-align: center;
+  font: normal normal 700 28px/34px "Barlow Condensed";
+  letter-spacing: 0px;
+  color: #96B221;
+}
+.welcome-concept__box__border {
+  position: absolute;
+}
+.welcome-concept__box__border--left {
+  width: 80px;
+  left: -80px;
+  top: -50px;
+  height: calc(100% + 100px);
+}
+.welcome-concept__box__border--top {
+  left: -90px;
+  top: -40px;
+  width: calc(100% + 180px);
+}
+.welcome-concept__box__border--right {
+  width: 80px;
+  right: -80px;
+  top: -50px;
+  height: calc(100% + 100px);
+}
+.welcome-concept__box__border--bottom {
+  left: -90px;
+  bottom: -40px;
+  width: calc(100% + 180px);
+}
+.welcome-concept__box__border img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.welcome-concept__info {
+  width: 70%;
+  max-width: 980px;
+  min-width: 800px;
+  margin: auto;
+  text-align: center;
+  font: normal normal 700 20px/30px "Barlow";
+  letter-spacing: 0px;
+  color: #793162;
+  margin-bottom: 20px;
 }
 
 .full-story {
@@ -4156,6 +4442,19 @@ input[type=checkbox]:focus {
   padding-bottom: 10px;
   border-bottom: solid 1px lightgrey;
   margin-bottom: 10px;
+}
+.reservations__valid__info button {
+  background: transparent;
+  padding: 5px 15px;
+  border: solid 2px rgb(234 179 8/var(--tw-bg-opacity));
+  transition: all 0.2s;
+  color: lightgrey;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.reservations__valid__info button:hover {
+  background: rgb(234 179 8/var(--tw-bg-opacity));
+  color: #FFFFFF;
 }
 .reservations__valid__selector select {
   width: 400px;
