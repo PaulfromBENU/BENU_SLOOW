@@ -16,7 +16,7 @@
         </div> -->
         <div>
             <h3 class="welcome-presentation__desc__title welcome-illustration-1">
-                <span class="primary-color">BENU SLOOW</span> {{ __('welcome.pres-title-1-1') }}
+                <span class="primary-color">BENU SLOOW</span> {!! __('welcome.pres-title-1-1') !!}
             </h3>
             <!-- <h3 class="welcome-presentation__desc__title welcome-illustration-2">
                 {{ __('welcome.pres-title-2-1') }}
@@ -32,7 +32,7 @@
             </h3> -->
         </div>
 
-        <div class="">
+        <div style="max-width: 50%;">
             <p class="font-bold secondary-color mb-5 text-xl">
                 {!! __('welcome.subtitle-1') !!}
             </p>
