@@ -23,9 +23,9 @@
                         <option value="0">
                             Choisir...
                         </option>
-                        @foreach($openings as $opening)
-                            <option wire:key="{{ $opening->id }}" value="{{ $opening->id }}">
-                                {{ Carbon\Carbon::parse($opening->date)->format('d\/m\/Y') }}
+                        @foreach($openings as $opening_option)
+                            <option wire:key="{{ $opening_option->id }}" value="{{ $opening_option->id }}">
+                                {{ Carbon\Carbon::parse($opening_option->date)->format('d\/m\/Y') }}
                             </option>
                         @endforeach
                     </select>

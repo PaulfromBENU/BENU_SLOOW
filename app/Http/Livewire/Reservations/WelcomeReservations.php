@@ -16,6 +16,7 @@ use Carbon\Carbon;
 class WelcomeReservations extends Component
 {
     public $opening_id;
+    public $opening;
     public $show_res_details = 0;
 
     public $seats_number = 1;
@@ -52,23 +53,24 @@ class WelcomeReservations extends Component
         $this->remaining_seats = 0;
         $this->show_res_details = 0;
         $this->opening_id = 0;
+        $this->opening = null;
     }
 
     public function updatedOpeningId()
     {
         if (Opening::find($this->opening_id)) {
-            $opening_date = Opening::find($this->opening_id);
-            $this->remaining_seats = $opening_date->seats;
+            $this->opening = Opening::find($this->opening_id);
+            $this->remaining_seats = $this->opening->seats;
 
-            foreach ($opening_date->valid_reservations as $existing_reservation) {
+            foreach ($this->opening->valid_reservations as $existing_reservation) {
                 $this->remaining_seats -= $existing_reservation->seats;
             }
             $this->remaining_seats = max(0, $this->remaining_seats);
         } else {
-            $this->message_sent = 0;
             $this->show_res_details = 0;
             $this->opening_id = 0;
         }
+        $this->message_sent = 0;
         $this->seats_number = 1;
         $this->show_res_details = 1;
     }
@@ -159,7 +161,7 @@ class WelcomeReservations extends Component
         } else {
             return view('livewire.reservations.welcome-reservations', [
                 'openings' => Opening::where('date', '>', Carbon::now())->get(),
-                'opening' => Opening::find($this->opening_id),
+                'opening' => $this->opening,
             ]);
         }
     }
