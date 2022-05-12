@@ -18,7 +18,7 @@
 
             <div class="input-group reactive-label-input" id="reservation-anchor">
                 <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.select-date') }} *</p>
-                <div class="text-center welcome-reservation__form__selector">
+                <div class="text-left welcome-reservation__form__selector">
                     <select wire:model="opening_id">
                         <option value="0">
                             Choisir...
