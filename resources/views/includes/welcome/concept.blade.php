@@ -18,7 +18,7 @@
 		<div class="welcome-concept__box__border welcome-concept__box__border--right">
 			<img src="{{ asset('images/pictures/benu-sloow-partie-table-hotes-border-right.png') }}">
 		</div>
-		<h4>
+		<h4 id="host-anchor">
 			Qui ne connaît pas le concept français de table d’hôtes, très proche de la cuisine ?
 		</h4>
 		<p class="welcome-concept__box__desc">

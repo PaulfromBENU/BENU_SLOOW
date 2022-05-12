@@ -18,7 +18,7 @@
             </p>
         </div>
         <div class="">
-            <a href="#" class="btn-slider-left btn-slider-left--secondary font-bold text-lg">{!! __('welcome.pres-link-1') !!}</a>
+            <button onclick="document.getElementById('host-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="btn-slider-left btn-slider-left--secondary font-bold text-lg">{!! __('welcome.pres-link-1') !!}</button>
         </div>
     </div>
 </section>
