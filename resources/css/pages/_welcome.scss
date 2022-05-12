@@ -4,10 +4,14 @@
 	width: 100%;
 	position: relative;
 	height: calc(100vh - 320px);
-	min-height: 550px;
+	min-height: 530px;
+	@include large {
+		height: calc(100vh - 345px);
+		min-height: 550px;
+	}
 	// height: min(calc(100vh - 250px), 800px);
 	&__desc {
-		padding-top: 139px;
+		padding-top: 109px;
 		position: relative;
 		z-index: 2;
 		top: 0;
@@ -280,7 +284,7 @@
 	min-height: 100px;
 	background: $third-color;
 	padding-top: 100px;
-	padding-bottom: 40px;
+	padding-bottom: 130px;
 	svg {
 		position: absolute;
 		// bottom: 0px;
@@ -363,15 +367,31 @@
 		}
 	}
 	&__sponsor {
-		height: 80px;
-		border-top: $primary-color solid 2px;
-		border-bottom: $primary-color solid 2px;
-		background: $white;
+		height: 82px;
+		width: 100%;
+		// border-top: $primary-color solid 2px;
+		// border-bottom: $primary-color solid 2px;
+		background: $primary-color;
 		z-index: 5;
+		color: $white;
+		bottom: 0;
 		p {
 			padding-top: 24px;
-			color: $primary-color;
+			color: $white;
 			font: normal normal 500 22px/28px 'Barlow';
+		}
+		&__logo {
+			background: $white;
+			position: relative;
+			z-index: 5;
+			box-shadow: grey 0 0 10px;
+			height: calc(100% + 60px);
+			margin-top: -30px;
+			padding: 20px;
+			border-radius: 10px;
+			img {
+				margin-top: 4px;
+			}
 		}
 	}
 }

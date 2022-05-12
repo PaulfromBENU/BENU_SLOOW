@@ -2037,7 +2037,7 @@ input[type=checkbox]:focus {
   margin-top: 0px;
   position: relative;
   z-index: 1;
-  padding-top: 260px;
+  padding-top: 130px;
   padding-bottom: 40px;
   text-align: center;
 }
@@ -2291,10 +2291,16 @@ input[type=checkbox]:focus {
   width: 100%;
   position: relative;
   height: calc(100vh - 320px);
-  min-height: 550px;
+  min-height: 530px;
+}
+@media (min-width: 1720px) {
+  .welcome-presentation {
+    height: calc(100vh - 345px);
+    min-height: 550px;
+  }
 }
 .welcome-presentation__desc {
-  padding-top: 139px;
+  padding-top: 109px;
   position: relative;
   z-index: 2;
   top: 0;
@@ -2564,7 +2570,7 @@ input[type=checkbox]:focus {
   min-height: 100px;
   background: #BECB9C;
   padding-top: 100px;
-  padding-bottom: 40px;
+  padding-bottom: 130px;
 }
 .welcome-faq svg {
   position: absolute;
@@ -2640,16 +2646,30 @@ input[type=checkbox]:focus {
   font-weight: 500;
 }
 .welcome-faq__sponsor {
-  height: 80px;
-  border-top: #793162 solid 2px;
-  border-bottom: #793162 solid 2px;
-  background: #FFFFFF;
+  height: 82px;
+  width: 100%;
+  background: #793162;
   z-index: 5;
+  color: #FFFFFF;
+  bottom: 0;
 }
 .welcome-faq__sponsor p {
   padding-top: 24px;
-  color: #793162;
+  color: #FFFFFF;
   font: normal normal 500 22px/28px "Barlow";
+}
+.welcome-faq__sponsor__logo {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 5;
+  box-shadow: grey 0 0 10px;
+  height: calc(100% + 60px);
+  margin-top: -30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.welcome-faq__sponsor__logo img {
+  margin-top: 4px;
 }
 
 .welcome-reservation {

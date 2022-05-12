@@ -34,18 +34,20 @@
 			@endfor
 		</ul>
 	</div>
-	@svg('light-green-soil-bottom')
-	<div class="welcome-faq__sponsor benu-container absolute flex justify-between">
-		<div class="flex justify-start">
-			<div class="mr-5">
-				<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}" style="height: 100%;">
+
+	<div class="welcome-faq__sponsor absolute">
+		<div class="benu-container flex justify-between" style="height: 100%;">
+			<div class="flex justify-start">
+				<div class="mr-10 welcome-faq__sponsor__logo">
+					<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}">
+				</div>
+				<p>
+					{{ __('welcome.sponsor-thanks-1') }}
+				</p>
 			</div>
-			<p>
-				{{ __('welcome.sponsor-thanks-1') }}
-			</p>
-		</div>
-		<div class="pt-7">
-			<a href="#" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
+			<div class="pt-7">
+				<a href="#" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
+			</div>
 		</div>
 	</div>
 </section>
