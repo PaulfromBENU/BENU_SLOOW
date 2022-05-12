@@ -277,8 +277,12 @@
 .welcome-faq {
 	min-height: 100px;
 	background: $third-color;
-	padding-top: 60px;
+	padding-top: 100px;
 	padding-bottom: 40px;
+	svg {
+		position: absolute;
+		// bottom: 0px;
+	}
 	&__title {
 		text-align: center;
 		font: normal normal 700 44px/53px 'Barlow Condensed';
@@ -360,13 +364,35 @@
 
 
 .welcome-reservation {
-	background: green;
+	position: relative;
+	&__bg {
+		position: absolute;
+		width: 100%;
+		top: 20px;
+		z-index: 2;
+		img {
+			width: 100%;
+		}
+		svg {
+			position: absolute;
+			bottom: -60px;
+		}
+	}
+	&__bottom-bg {
+		background: $third-color; 
+		width: 100%; 
+		position: absolute; 
+		bottom: 0; 
+		height: 60%;
+	}
 	&__block {
 		width: 50%;
 		margin: auto;
 		background: $primary-color;
-		border-radius: 15px;
-		padding: 20px 40px;
+		border-radius: 21px;
+		padding: 45px 80px;
+		position: relative;
+		z-index: 3;
 		&__title {
 			text-align: center;
 			color: $white;
@@ -390,14 +416,23 @@
 			}
 		}
 		&__selector {
+			margin-bottom: 12px;
 			select {
 				border-radius: 4px;
 				background: transparent;
 				color: $white;
 				width: 300px;
+				border: none;
+				text-align: left;
+				font: normal normal 800 48px/28px 'Barlow Condensed';
+				letter-spacing: 0px;
+				height: 60px;
+				padding-left: 5px;
+				position: relative;
+				left: -9px;
 				&:focus {
 					box-shadow: none;
-					border: solid 1px $secondary-color;
+					border: none;
 				}
 				option {
 					background: $primary-color;
@@ -452,6 +487,38 @@
 			z-index: 0;
 			position: absolute;
 		}
+		&__heavy {
+			color: $white;
+			text-align: left;
+			font: normal normal 800 48px/28px 'Barlow Condensed';
+			letter-spacing: 0px;
+		}
+		&__guests {
+			padding-top: 15px;
+			&__btn {
+				border: solid 2px $white;
+				border-radius: 6px;
+				padding: 2px 10px 8px 10px;
+				margin-top: -3px;
+				margin-left: 10px;
+				font: normal normal 600 38px/28px 'Barlow';
+				cursor: pointer;
+				color: $white;
+				transition: all 0.2s;
+				background: transparent;
+				&:hover {
+					color: $primary-color;
+					background: $white;
+				}
+			}
+		}
+		&__mandatory {
+			color: $white;
+			margin-bottom: 20px;
+			text-align: left;
+			font: normal normal 500 16px/36px 'Barlow';
+			letter-spacing: 0px;
+		}
 	}
 }
 
@@ -462,7 +529,7 @@
 	margin-bottom: 40px;
 	&__transition {
 		width: 100%;
-		max-height: 400px;
+		// max-height: 400px;
 		overflow: hidden;
 		img {
 			width: 100%;
@@ -470,7 +537,7 @@
 		}
 		&--top {
 			position: relative;
-			margin-bottom: -30px;
+			margin-bottom: -80px;
 			z-index: 2;
 		}
 		&--bottom {
@@ -486,8 +553,8 @@
 		color: $white;
 		&__text {
 			width: 38%;
-			padding-top: 120px;
-			padding-bottom: 120px;
+			padding-top: 150px;
+			padding-bottom: 150px;
 			&--1 {
 				text-align: left;
 				font: normal normal 700 28px/33px 'Barlow';
@@ -649,12 +716,12 @@
 		margin-bottom: 90px;
 	}
 	&__box {
-		width: 65%;
+		width: 55%;
 		max-width: 980px;
 		min-width: 800px;
 		margin: auto;
 		padding: 80px 40px 80px 40px;
-		margin-bottom: 60px;
+		margin-bottom: 80px;
 		height: fit-content;
 		h4 {
 			text-align: center;
@@ -675,7 +742,7 @@
 			background: #D0D0D01A 0% 0% no-repeat padding-box;
 			border-radius: 15px;
 			padding: 20px;
-			width: 80%;
+			width: 90%;
 			margin: auto;
 			margin-bottom: 70px;
 			p {
@@ -698,6 +765,7 @@
 				left: -80px;
 				top: -50px;
 				height: calc(100% + 100px);
+				z-index: 2;
 			}
 			&--top {
 				left: -90px;
@@ -722,7 +790,7 @@
 		}
 	}
 	&__info {
-		width: 70%;
+		width: 50%;
 		max-width: 980px;
 		min-width: 800px;
 		margin: auto;

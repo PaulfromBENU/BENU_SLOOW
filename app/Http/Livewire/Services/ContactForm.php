@@ -62,6 +62,9 @@ class ContactForm extends Component
     {
         if ($this->user_sum == $this->checksum_number_1 + $this->checksum_number_2) {
             $this->safety_check = 1;
+        } else {
+            $this->checksum_number_1 = rand(1, 10);
+            $this->checksum_number_2 = rand(1, 10);
         }
     }
 

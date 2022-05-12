@@ -237,6 +237,7 @@ input[type="checkbox"] {
 .svg-fill-primary-light {
 	//opacity: 0.5;
 	fill: $primary-color-medium;
+	transition: fill 0.3s;
 }
 
 .svg-primary-white {

@@ -1,6 +1,6 @@
-<section class="welcome-faq" id="services-faq">
+<section class="welcome-faq relative" id="services-faq">
 	<div class="w-1/2 m-auto">
-		<h2 class="welcome-faq__title">{!! __('services.faq-title') !!}</h2>
+		<h2 class="welcome-faq__title primary-color">{!! __('services.faq-title') !!}</h2>
 		<ul class="welcome-faq__accordion">
 			@for($index = 1; $index <= $faq_titles_count; $index ++)
 				<li>
@@ -34,4 +34,5 @@
 			@endfor
 		</ul>
 	</div>
+	@svg('light-green-soil-bottom')
 </section>

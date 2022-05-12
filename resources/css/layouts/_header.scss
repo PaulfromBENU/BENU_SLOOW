@@ -166,13 +166,20 @@
 				width: 50px;
 				cursor: pointer;
 				display: block;
+				transition: all 0.2s;
 				img {
 					max-height: 100%;
 					max-width: 100%;
 				}
-				&:hover {
-					fill: $primary-color;
-				}
+				// &:hover {
+				// 	fill: $primary-color;
+				// 	svg {
+				// 		path {
+				// 			fill: $primary-color;
+				// 		}
+				// 		fill: $primary-color;
+				// 	}
+				// }
 				&__cart-counter {
 					position: absolute;
 					bottom: 0;

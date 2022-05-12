@@ -1,28 +1,48 @@
-<header class="header-group-simplified">
-    <div class="header-simplified benu-container flex">
-        <a class="header-simplified__logo-container" href="{{ route('home', [app()->getLocale()]) }}">
-            <img src="{{ asset('images/svg/logo_benu_couture.svg') }}" class="header-simplified__logo header-simplified__logo--desktop">
-            <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header-simplified__logo header-simplified__logo--scroll">
-            <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header-simplified__logo header-simplified__logo--mobile">
+<header class="header-group">
+    <div class="header benu-container flex">
+        <a class="header__logo-container" href="{{ route('home', [app()->getLocale()]) }}">
+            @svg('logo_benu_sloow', 'header__logo header__logo--desktop')
+            <!-- <img src="{{ asset('images/svg/logo_benu_sloow.svg') }}" class="header__logo header__logo--desktop"> -->
+            <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--scroll">
+            <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--mobile">
         </a>
-        <div class="header-simplified__menus-container flex flex-col justify-center">
-            <div class="flex justify-between header-simplified__main-menu">
-                <nav class="header-simplified__backlink flex justify-start">
-                    <a href="{{ route('cart-'.app()->getLocale()) }}" class="primary-color flex">@svg('arrow_left', 'header-simplified__arrow-left') {{ __('cart.modify-cart') }}</a>
+        <div class="header__menus-container">
+            <div class="flex justify-between header__top-menu">
+                <nav class="header__top-nav flex justify-start">
+                    <div>
+                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU SLO0W</a>
+                    </div>
                 </nav>
-                <ul class="header-simplified__main-menu__icons flex justify-end">
-                    <li class="header-simplified__main-menu__icons__info">
-                        {{ __('cart.secure-payment') }}
-                    </li>
-                    @auth
-                    <li style="margin-top: -12px;">
-                        <a href="{{ route('dashboard', ['section' => 'overview']) }}" class="header__main-menu__icons__btn" id="dashboard-btn">
-                            @svg('benu-icon-silhouette-disconnect')
+                <div class="header__newsletter-btn">
+                    @guest
+                    <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="header__newsletter-btn__link">
+                        {{ __('header.newsletter') }}
+                    </a>
+                    @else
+                        @if(auth()->user()->newsletter == '0')
+                        <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="header__newsletter-btn__link">
+                            {{ __('header.newsletter') }}
                         </a>
+                        @else
+                        <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="header__newsletter-btn__link">
+                            {{ __('header.newsletter-unsubscribe') }}
+                        </a>
+                        @endif
+                    @endguest
+                </div>
+            </div>
+            <div class="flex justify-between header__main-menu">
+                <nav class="header__main-nav flex justify-start">
+                    <a href="{{ route('home', ['locale' => app()->getLocale()]) }}" class="header__main-nav__link inline-block">< {{ __('header.back-to-home') }}</a>
+                </nav>
+                <ul class="header__main-menu__icons flex justify-end">
+                    <li>
+                        <button onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
+                            @svg('benu-icon-mail-contact', '')
+                        </button>
                     </li>
-                    @endauth
-                    <li style="margin-top: -12px;">
-                        <button class="header-simplified__main-menu__icons__lang-btn" id="lang-selector">
+                    <li>
+                        <button class="header__main-menu__icons__lang-btn" id="lang-selector">
                             {{ strtoupper(app()->getLocale()) }}
                         </button>
                     </li>

@@ -10,7 +10,7 @@
 	.Dusk{fill:#FFFFFF;}
 	.Foliage_GS{fill:#FDDD35;}
 	.Pompadour_GS{fill-rule:evenodd;clip-rule:evenodd;fill:#68AADD;}
-	.st0{fill:#BECB9C;}
+	.st0-transition-soil{fill:#BECB9C;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="-197.2012" x2="0.7071" y2="-196.494">
 	<stop  offset="0" style="stop-color:#E5E5E9"/>
@@ -21,7 +21,7 @@
 	<stop  offset="0.8949" style="stop-color:#808081"/>
 	<stop  offset="1" style="stop-color:#6B6D6D"/>
 </linearGradient>
-<path class="st0" d="M41.3,135C41.3,135,41.3,135,41.3,135L41.3,135C41.3,135,41.3,135,41.3,135z M0,143.4c0.1,11.9,0,23.8,0,35.7
+<path class="st0-transition-soil" d="M41.3,135C41.3,135,41.3,135,41.3,135L41.3,135C41.3,135,41.3,135,41.3,135z M0,143.4c0.1,11.9,0,23.8,0,35.7
 	c280,0,559.9,0,839.9,0c0.1,0,0.2,0,0.3,0c1,0.2,1.2-0.2,1.2-1.1c0-12.8,0-25.6,0-38.5c-1-0.3-2.4,0.3-3.1-1
 	c-0.2-0.3-0.4-0.3-0.7-0.1c-0.3,0.2-0.3,0.4-0.1,0.7c0.3,0.3,0.5,0.6,0.9,1c-0.7-0.1-1,1-1.5,0.6c-1.2-1-2.4,0-3.1,0.4
 	c-0.8,0.4-0.9,0.4-1.1-0.2c-0.2-0.4-0.3-0.7-0.8-0.7c-1.5,0.3-1.6,0.2-1.6-1.2c1,0.2,2,1.7,3.1,0c0.2-0.3,0.5,0.1,0.7,0.2

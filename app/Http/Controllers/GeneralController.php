@@ -56,6 +56,11 @@ class GeneralController extends Controller
         return view('landing-lu');
     }
 
+    public function showInfos()
+    {
+        return view('extra-infos');
+    }
+
     public function showFullStory()
     {
         return view('full-story');

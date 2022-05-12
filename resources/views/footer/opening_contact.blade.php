@@ -1,4 +1,8 @@
+@if(Route::CurrentRouteName() == 'home')
 <section class="footer-contact">
+@else
+<section class="footer-contact" style="padding-top: 50px;">
+@endif
 	<h4 class="footer-contact__title">Heures d'ouverture</h4>
 	<p class="footer-contact__txt">
 		{{ __('footer.opening-hours-text-1') }}

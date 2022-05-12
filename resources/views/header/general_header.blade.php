@@ -83,6 +83,11 @@
                         </li> -->
                     @endguest
                     <li>
+                        <button onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
+                            @svg('calendar', '')
+                        </button>
+                    </li>
+                    <li>
                         <button onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
                             @svg('benu-icon-mail-contact', '')
                         </button>

@@ -86,6 +86,7 @@ if (app('env') == 'landing') {
 		// Route::get('/'.trans("slugs.show-voucher", [], "lu").'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-lu');
 
 		Route::get('/'.trans("slugs.footer-legal-mentions", [], "lu"), 'GeneralController@footerLegal')->name('footer.legal-lu');
+		Route::get('/'.trans("slugs.extra-infos", [], "lu"), 'GeneralController@showInfos')->name('extra-infos-lu');
 	});
 
 	Route::group([
@@ -126,6 +127,7 @@ if (app('env') == 'landing') {
 		// Route::get('/bon-d-achat/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-fr');
 
 		Route::get('/'.trans("slugs.footer-legal-mentions", [], "fr"), 'GeneralController@footerLegal')->name('footer.legal-fr');
+		Route::get('/'.trans("slugs.extra-infos", [], "fr"), 'GeneralController@showInfos')->name('extra-infos-fr');
 	});
 
 	Route::group([
@@ -157,6 +159,7 @@ if (app('env') == 'landing') {
 		// Route::get('/'.trans("slugs.show-voucher", [], "en").'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-en');
 
 		Route::get('/'.trans("slugs.footer-legal-mentions", [], "en"), 'GeneralController@footerLegal')->name('footer.legal-en');
+		Route::get('/'.trans("slugs.extra-infos", [], "en"), 'GeneralController@showInfos')->name('extra-infos-en');
 	});
 
 	Route::group([
@@ -188,6 +191,7 @@ if (app('env') == 'landing') {
 		// Route::get('/'.trans("slugs.show-voucher", [], "de").'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-de');
 
 		Route::get('/'.trans("slugs.footer-legal-mentions", [], "de"), 'GeneralController@footerLegal')->name('footer.legal-de');
+		Route::get('/'.trans("slugs.extra-infos", [], "de"), 'GeneralController@showInfos')->name('extra-infos-de');
 	});
 
 	// Route::group([

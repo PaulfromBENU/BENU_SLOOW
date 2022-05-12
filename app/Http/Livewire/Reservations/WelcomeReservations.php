@@ -51,6 +51,7 @@ class WelcomeReservations extends Component
         $this->res_conditions_ok = 0;
         $this->remaining_seats = 0;
         $this->show_res_details = 0;
+        $this->opening_id = 0;
     }
 
     public function updatedOpeningId()
@@ -63,6 +64,10 @@ class WelcomeReservations extends Component
                 $this->remaining_seats -= $existing_reservation->seats;
             }
             $this->remaining_seats = max(0, $this->remaining_seats);
+        } else {
+            $this->message_sent = 0;
+            $this->show_res_details = 0;
+            $this->opening_id = 0;
         }
         $this->seats_number = 1;
         $this->show_res_details = 1;

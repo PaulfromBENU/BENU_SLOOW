@@ -41,7 +41,11 @@
     @include('header.harmonica_menu')
 	
 	<!-- Menu and Nav header -->
-	@include('header.general_header')
+	@if(Route::CurrentRouteName() == 'home')
+		@include('header.general_header')
+	@else
+		@include('header.simplified_header')
+	@endif
 @endsection
 
 @section('modals')

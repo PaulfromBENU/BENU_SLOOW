@@ -14,9 +14,9 @@
 						<li><a href="#">Menu 4</a></li>
 					</ul>
 					<ul class="footer__lists__col__list flex justify-start">
-						<li><a href="#">Politique de confidentialité</a></li>
+						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#anchor-part-1">Politique de confidentialité</a></li>
 						<li style="color: lightgrey;">|</li>
-						<li><a href="#">Mentions légales</a></li>
+						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#anchor-part-2">Mentions légales</a></li>
 					</ul>
 				</div>
 			</div>
