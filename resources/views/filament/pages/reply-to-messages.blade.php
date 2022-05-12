@@ -48,7 +48,7 @@
 				</form>
 				@else
 				<div class="w-full text-center">
-					<a href="mailto:{{ $messages->first()->email }}" class="hover:underline">
+					<a href="mailto:{{ $messages->first()->email }}?subject=BENU - Contact&body={{ $messages->last()->message }}" class="hover:underline">
 						No  BENU account - Send reply by e-mail
 					</a>
 				</div>
