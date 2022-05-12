@@ -1,5 +1,5 @@
 <section class="welcome-faq relative" id="services-faq">
-	<div class="w-1/2 m-auto">
+	<div class="w-1/2 m-auto pb-10">
 		<h2 class="welcome-faq__title primary-color">{!! __('services.faq-title') !!}</h2>
 		<ul class="welcome-faq__accordion">
 			@for($index = 1; $index <= $faq_titles_count; $index ++)
@@ -35,4 +35,17 @@
 		</ul>
 	</div>
 	@svg('light-green-soil-bottom')
+	<div class="welcome-faq__sponsor benu-container absolute flex justify-between">
+		<div class="flex justify-start">
+			<div class="mr-5">
+				<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}" style="height: 100%;">
+			</div>
+			<p>
+				{{ __('welcome.sponsor-thanks-1') }}
+			</p>
+		</div>
+		<div class="pt-7">
+			<a href="#" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
+		</div>
+	</div>
 </section>

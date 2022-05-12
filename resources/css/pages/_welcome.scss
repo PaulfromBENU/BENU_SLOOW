@@ -3,7 +3,9 @@
 	// margin-bottom: 80px;
 	width: 100%;
 	position: relative;
-	// height: min(85vh, 900px);
+	height: calc(100vh - 320px);
+	min-height: 550px;
+	// height: min(calc(100vh - 250px), 800px);
 	&__desc {
 		padding-top: 139px;
 		position: relative;
@@ -46,7 +48,7 @@
 			margin-bottom: 55px;
 		}
 		&__text {
-			width: 32vw;
+			width: 42vw;
 			text-align: left;
 			font: normal normal 500 18px/33px 'Barlow';
 			letter-spacing: 0px;
@@ -358,6 +360,18 @@
 					font-weight: 500;
 				}
 			}
+		}
+	}
+	&__sponsor {
+		height: 80px;
+		border-top: $primary-color solid 2px;
+		border-bottom: $primary-color solid 2px;
+		background: $white;
+		z-index: 5;
+		p {
+			padding-top: 24px;
+			color: $primary-color;
+			font: normal normal 500 22px/28px 'Barlow';
 		}
 	}
 }

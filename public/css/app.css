@@ -2290,6 +2290,8 @@ input[type=checkbox]:focus {
 .welcome-presentation {
   width: 100%;
   position: relative;
+  height: calc(100vh - 320px);
+  min-height: 550px;
 }
 .welcome-presentation__desc {
   padding-top: 139px;
@@ -2336,7 +2338,7 @@ input[type=checkbox]:focus {
   margin-bottom: 55px;
 }
 .welcome-presentation__desc__text {
-  width: 32vw;
+  width: 42vw;
   text-align: left;
   font: normal normal 500 18px/33px "Barlow";
   letter-spacing: 0px;
@@ -2636,6 +2638,18 @@ input[type=checkbox]:focus {
 .welcome-faq__accordion__answer__header__minus {
   font-size: 3.1rem;
   font-weight: 500;
+}
+.welcome-faq__sponsor {
+  height: 80px;
+  border-top: #793162 solid 2px;
+  border-bottom: #793162 solid 2px;
+  background: #FFFFFF;
+  z-index: 5;
+}
+.welcome-faq__sponsor p {
+  padding-top: 24px;
+  color: #793162;
+  font: normal normal 500 22px/28px "Barlow";
 }
 
 .welcome-reservation {
