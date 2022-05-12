@@ -97,6 +97,11 @@
 .header {
 	z-index: 10;
 	background-color: white;
+	&__hamburger {
+		padding: 16px 12px;
+		font-size: 1.5rem;
+		color: $primary-color;
+	}
 	&__home-title {
 		color: $primary-color;
 		font: normal normal 600 24px/29px 'Barlow Condensed';
@@ -141,6 +146,9 @@
 			}
 		}
 		&--mobile {
+			height: 60%;
+			top: 20%;
+			left: 5px;
 			@include desktop {
 				display: none;
 			}
@@ -203,6 +211,9 @@
 				font: normal normal 500 20px/24px 'Barlow Condensed';
 				letter-spacing: 0px;
 				transition: all 0.2s ease-in-out;
+				@include mobile {
+					margin-right: 5px;
+				}
 				&:hover {
 					background-color: $primary-color;
 					color: white;
@@ -210,6 +221,13 @@
 			}
 			li {
 				padding-left: 1.1rem;
+			}
+			@include tablet {
+
+			}
+			@include mobile {
+				margin-top: -11px;
+				margin-bottom: 1px;
 			}
 		}
 	}
@@ -432,6 +450,9 @@
 			}
 		}
 		&--mobile {
+			height: 60%;
+			top: 20%;
+			left: 5px;
 			@include desktop {
 				display: none;
 			}
@@ -473,6 +494,10 @@
 			}
 			li {
 				padding-left: 1.1rem;
+			}
+			@include mobile {
+				margin-top: -11px;
+				margin-bottom: 1px;
 			}
 		}
 	}

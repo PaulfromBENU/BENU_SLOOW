@@ -9,8 +9,8 @@
             </h3>
         </div>
 
-        <div style="max-width: 40%;">
-            <p class="font-bold secondary-color mb-5 text-xl">
+        <div>
+            <p class="font-bold secondary-color mb-5 text-lg lg:text-xl">
                 {!! __('welcome.subtitle-1') !!}
             </p>
             <p class="welcome-illustration-1 welcome-presentation__desc__text">
