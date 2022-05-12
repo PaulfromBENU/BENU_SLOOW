@@ -4,8 +4,9 @@ namespace App\Filament\Pages;
 
 use Filament\Pages\Page;
 
-use App\Models\ContactMessage;
 use App\Models\BenuAnswer;
+use App\Models\ContactMessage;
+use App\Models\User;
 
 class ReplyToMessages extends Page
 {
@@ -25,6 +26,7 @@ class ReplyToMessages extends Page
 
     public $unread_messages;
     public $benu_answer;
+    public $is_registered = [];
 
     public function mount()
     {
@@ -39,6 +41,14 @@ class ReplyToMessages extends Page
             if (!in_array($unread_message->thread, $unread_messages_threads)) {
                 array_push($unread_messages_threads, $unread_message->thread);
             }
+            if (User::where('email', $unread_message->email)
+                    ->whereIn('role', ['admin', 'user', 'author', 'editor'])
+                    ->count() > 0) {
+                $this->is_registered[$unread_message->email] = true;
+            } else {
+                $this->is_registered[$unread_message->email] = null;
+            }
+            
         }
 
         $this->unread_messages = collect([]);
