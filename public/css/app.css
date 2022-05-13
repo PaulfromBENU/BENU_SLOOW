@@ -2497,6 +2497,12 @@ input[type=checkbox]:focus {
   z-index: 2;
   top: 0;
   left: 0;
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .welcome-presentation__desc {
+    width: 100%;
+  }
 }
 .welcome-presentation__desc__bar {
   padding: 10px 5px;
