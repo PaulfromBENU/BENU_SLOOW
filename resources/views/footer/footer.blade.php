@@ -13,10 +13,15 @@
 						<li style="color: lightgrey;">|</li>
 						<li><a href="#">Menu 4</a></li>
 					</ul>
-					<ul class="footer__lists__col__list flex justify-start">
-						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#anchor-part-1">Politique de confidentialité</a></li>
+					<ul class="footer__lists__col__list flex justify-start flex-wrap">
+						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#data-protection">Protection des données</a></li>
 						<li style="color: lightgrey;">|</li>
-						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#anchor-part-2">Mentions légales</a></li>
+						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#legal-mentions">Mentions légales</a></li>
+						<li style="color: lightgrey;">|</li>
+						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#kulturpass">Kulturpass</a></li>
+						<li style="color: lightgrey;">|</li>
+						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#general-conditions">Conditions générales</a></li>
+						
 					</ul>
 				</div>
 			</div>

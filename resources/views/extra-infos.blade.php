@@ -23,7 +23,7 @@
 @section('main-content')
     <section class="benu-container pt-10">
         <h2 class="login__subtitle">{{ __('infos.subtitle-1') }}</h2>
-        <h1 class="login__title mb-10" id="anchor-part-1">{{ __('infos.title-1') }}<br/>Protection des données</h1>
+        <h1 class="login__title mb-10" id="data-protection">{{ __('infos.title-1') }}<br/>Protection des données</h1>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
             <!-- <h3 class="primary-color">
@@ -56,7 +56,7 @@
 
     <section class="benu-container pt-10">
         <!-- <h2 class="login__subtitle">{{ __('infos.subtitle-2') }}</h2> -->
-        <h2 class="login__title mb-10" id="anchor-part-1">{{ __('infos.title-2') }}<br/>Mentions légales</h2>
+        <h2 class="login__title mb-10" id="legal-mentions">{{ __('infos.title-2') }}<br/>Mentions légales</h2>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
             <!-- <h3 class="primary-color">
@@ -113,7 +113,7 @@
 
     <section class="benu-container pt-10 pb-10">
         <!-- <h2 class="login__subtitle">{{ __('infos.subtitle-3') }}</h2> -->
-        <h2 class="login__title mb-10" id="anchor-part-1">{{ __('infos.title-3') }}<br/>Kulturpass</h2>
+        <h2 class="login__title mb-10" id="kulturpass">{{ __('infos.title-3') }}<br/>Kulturpass</h2>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
             <h3 class="primary-color">
@@ -145,7 +145,7 @@
 
     <section class="benu-container pt-10 pb-10">
         <!-- <h2 class="login__subtitle">{{ __('infos.subtitle-4') }}</h2> -->
-        <h2 class="login__title mb-10" id="anchor-part-1">{{ __('infos.title-4') }}<br/>Conditions générales</h2>
+        <h2 class="login__title mb-10" id="general-conditions">{{ __('infos.title-4') }}<br/>Conditions générales</h2>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
             <h3 class="primary-color">
