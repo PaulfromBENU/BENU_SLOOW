@@ -1,12 +1,16 @@
 <section class="welcome-faq relative" id="services-faq">
-	<div class="w-1/2 m-auto pb-10">
+	<div class="w-5/6 lg:w-1/2 m-auto pb-10">
 		<h2 class="welcome-faq__title primary-color">{!! __('services.faq-title') !!}</h2>
 		<ul class="welcome-faq__accordion">
 			@for($index = 1; $index <= $faq_titles_count; $index ++)
 				<li>
 					<div class="welcome-faq__accordion__header flex justify-between">
-						<p>{!! __('services.faq-group-title-'.$index) !!}</p>
-						<p><img src="{{ asset('images/pictures/chevron_bottom_white.png') }}" class="welcome-faq__accordion__header__chevron"></p>
+						<p class="w-4/5">{!! __('services.faq-group-title-'.$index) !!}</p>
+						<div class="w-1/6 flex flex-col justify-center">
+							<p class="flex justify-end">
+								<img src="{{ asset('images/pictures/chevron_bottom_white.png') }}" class="welcome-faq__accordion__header__chevron">
+							</p>
+						</div>
 					</div>
 
 					<div class="welcome-faq__accordion__answer" style="display: none;">
@@ -36,16 +40,16 @@
 	</div>
 
 	<div class="welcome-faq__sponsor absolute">
-		<div class="benu-container flex justify-between" style="height: 100%;">
-			<div class="flex justify-start">
-				<div class="mr-10 welcome-faq__sponsor__logo">
+		<div class="benu-container flex justify-between flex-wrap flex-col lg:flex-row" style="height: 100%;">
+			<div class="flex flex-col lg:flex-row justify-start" style="height: 100%;">
+				<div class="lg:mr-10 welcome-faq__sponsor__logo">
 					<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}">
 				</div>
-				<p>
+				<p class="text-center lg:text-left">
 					{{ __('welcome.sponsor-thanks-1') }}
 				</p>
 			</div>
-			<div class="pt-7">
+			<div class="pt-7 text-center lg:text-left">
 				<a href="#" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
 			</div>
 		</div>

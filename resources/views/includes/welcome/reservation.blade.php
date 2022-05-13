@@ -1,6 +1,6 @@
 <section class="welcome-reservation">
 	<div class="welcome-reservation__block">
-		<h2 class="welcome-reservation__block__title">Je souhaite réserver</h2>
+		<h2 class="welcome-reservation__block__title"  id="reservation-anchor-mobile">Je souhaite réserver</h2>
 		@livewire('reservations.welcome-reservations')
 	</div>
 	<div class="welcome-reservation__bg">

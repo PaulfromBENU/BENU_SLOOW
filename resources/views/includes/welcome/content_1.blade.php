@@ -5,7 +5,7 @@
 	<h2>
 		SLO0W
 	</h2>
-	<div class="welcome-content-1__initials flex justify-between flex-wrap">
+	<div class="welcome-content-1__initials flex flex-col md:flex-row justify-between">
 		<div class="welcome-content-1__initials__container welcome-content-1__initials__container--border">
 			<p class="welcome-content-1__initials__container__main">
 				<span class="primary-color">S</span>ustainable
@@ -14,6 +14,7 @@
 				<em>(Durable)</em>
 			</p>
 		</div>
+		<div class="mobile-only welcome-content-1__initials__container__separator"></div>
 		<div class="welcome-content-1__initials__container welcome-content-1__initials__container--border">
 			<p class="welcome-content-1__initials__container__main">
 				<span class="primary-color">L</span>ocal
@@ -22,6 +23,7 @@
 				<em>(local)</em>
 			</p>
 		</div>
+		<div class="mobile-only welcome-content-1__initials__container__separator"></div>
 		<div class="welcome-content-1__initials__container welcome-content-1__initials__container--border">
 			<p class="welcome-content-1__initials__container__main">
 				<span class="primary-color">O</span>rganic
@@ -30,6 +32,7 @@
 				<em>(bio)</em>
 			</p>
 		</div>
+		<div class="mobile-only welcome-content-1__initials__container__separator"></div>
 		<div class="welcome-content-1__initials__container">
 			<p class="welcome-content-1__initials__container__main">
 				<span class="primary-color">0W</span> Zero Waste

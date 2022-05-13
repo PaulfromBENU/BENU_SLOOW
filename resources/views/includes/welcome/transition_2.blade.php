@@ -20,7 +20,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="welcome-transition-1__transition welcome-transition-1__transition--bottom">
+	<div class="welcome-transition-2__transition welcome-transition-2__transition--bottom">
 		<img src="{{ asset('images/pictures/benu-sloow-white-transition-1.png') }}">
 	</div>
 </section>

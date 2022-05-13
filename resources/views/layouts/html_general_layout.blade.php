@@ -72,6 +72,25 @@
 
                 <!-- Footer -->
                 @yield('footer')
+
+                <!-- Sticky bottom nav bar for mobiles -->
+                <div class="welcome-mobile-nav mobile-only flex justify-around">
+                    <div>
+                        <a href="{{ route('home', ['locale' => app()->getLocale()]) }}" class="header__main-menu__icons__btn">
+                            @svg('calendar', '')
+                        </a>
+                    </div>
+                    <div>
+                        <button onclick="document.getElementById('reservation-anchor-mobile').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
+                            @svg('calendar', '')
+                        </button>
+                    </div>
+                    <div>
+                        <button onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
+                            @svg('benu-icon-mail-contact', '')
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 

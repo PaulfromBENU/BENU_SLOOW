@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="benu-container">
-		<div class="flex flex-start footer__lists">
-			<div class="footer__lists__col flex justify-start">
+		<div class="flex justify-start flex-wrap footer__lists">
+			<div class="footer__lists__col flex flex-col lg:flex-row justify-start">
 				<h4>BENU SLOOW</h4>
 				<div>
 					<ul class="footer__lists__col__list flex justify-start">
@@ -20,11 +20,13 @@
 					</ul>
 				</div>
 			</div>
-			<div class="footer__lists__col flex justify-center">
+			<div class="footer__lists__col flex flex-col lg:flex-row justify-start lg:justify-center">
 				<h4>{{ __('footer.footer-title-5') }}</h4>
-				<a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="footer__social"><i class="fab fa-linkedin-in"></i></a>
-				<a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+				<div class="flex justify-start">
+					<a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="footer__social"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="footer__copyright">
