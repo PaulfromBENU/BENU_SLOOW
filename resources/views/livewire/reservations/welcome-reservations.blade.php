@@ -66,11 +66,11 @@
                     <p class="welcome-reservation__form__heavy mr-7" style="width: 30px;">
                         {{ $seats_number }}
                     </p>
-                    <button class="welcome-reservation__form__guests__btn" wire:click.prevent.stop="updateSeatsNumber('up')">
-                        +
-                    </button>
                     <button class="welcome-reservation__form__guests__btn" wire:click.prevent.stop="updateSeatsNumber('down')">
                         -
+                    </button>
+                    <button class="welcome-reservation__form__guests__btn" wire:click.prevent.stop="updateSeatsNumber('up')">
+                        +
                     </button>
                 </div>
             </div>
