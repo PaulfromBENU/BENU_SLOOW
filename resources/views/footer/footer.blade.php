@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="footer__lists__col flex flex-col lg:flex-row justify-start lg:justify-center">
-				<h4>{{ __('footer.footer-title-social') }}</h4>
+				<h4>{{ __('welcome.footer-title-social') }}</h4>
 				<div class="flex justify-start">
 					<a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
 					<a href="#" class="footer__social"><i class="fab fa-linkedin-in"></i></a>

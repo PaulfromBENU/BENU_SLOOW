@@ -24,7 +24,7 @@
     <section class="benu-container login">
         @if(session('success') !== null)
         <div class="p-5 m-auto text-center mb-5 font-bold w-2/3 success-message" style="border-radius: 8px;">
-            {{ __('auth.newsletter-subscribe-success') }}
+            {!! __('auth.newsletter-subscribe-success') !!}
         </div>
         @endif
 

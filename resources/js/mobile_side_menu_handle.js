@@ -1,10 +1,12 @@
 function toggleMobileSideMenu(menuStatus)
 {
 	if (menuStatus == 1) {
-		$('#side-mobile').css('left', '100vw');
+		$('#side-mobile').css('bottom', '100vh');
+		$('#mobile-menu-btn').removeClass('header__hamburger--active');
 		menuActive = 0;
 	} else {
-		$('#side-mobile').css('left', '0');
+		$('#side-mobile').css('bottom', '0');
+		$('#mobile-menu-btn').addClass('header__hamburger--active');
 		menuActive = 1;
 	}
 }

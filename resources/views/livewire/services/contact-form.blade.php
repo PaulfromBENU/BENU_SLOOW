@@ -63,7 +63,7 @@
 
     <div class="mt-10 mb-10" style="position: relative;">
         <label style="position: absolute; top: 10px; left: 20px;">{{ __('forms.message') }} *</label>
-        <textarea minlength="1" maxlength="2000" rows="3" class="w-full rounded" tabindex="15" wire:model="message"></textarea>
+        <textarea minlength="1" maxlength="1000" rows="3" class="w-full rounded" tabindex="15" wire:model="message"></textarea>
         <p class="contact__form__form__mandatory">
             * {{ __('forms.mandatory-fields') }}
         </p>
