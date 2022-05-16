@@ -21,9 +21,11 @@
 	@include mobile {
 		right: 4px;
 		width: calc(100% - 8px);
+		max-width: 350px;
 		padding: 16px 10px;
+		top: 120px;
 	}
-	@media(min-width: 1721px) {
+	@include large {
 		right: calc(50vw - 860px + 5%);
 	}
 	&__block {

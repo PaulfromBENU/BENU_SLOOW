@@ -1461,10 +1461,12 @@ input[type=checkbox]:focus {
   .lang-modal {
     right: 4px;
     width: calc(100% - 8px);
+    max-width: 350px;
     padding: 16px 10px;
+    top: 120px;
   }
 }
-@media (min-width: 1721px) {
+@media (min-width: 1720px) {
   .lang-modal {
     right: calc(50vw - 860px + 5%);
   }
@@ -2483,6 +2485,14 @@ input[type=checkbox]:focus {
     min-height: 550px;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-presentation {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 40px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-presentation {
     height: -webkit-fit-content;
@@ -2497,7 +2507,12 @@ input[type=checkbox]:focus {
   z-index: 2;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 58%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-presentation__desc {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .welcome-presentation__desc {
@@ -2541,6 +2556,12 @@ input[type=checkbox]:focus {
   color: #2E1414;
   margin-bottom: 55px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-presentation__desc__title {
+    font: normal normal 700 28px/34px "Barlow Condensed";
+    margin-bottom: 25px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-presentation__desc__title {
     font: normal normal 700 28px/34px "Barlow Condensed";
@@ -2548,12 +2569,18 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-presentation__desc__text {
-  width: 42vw;
+  width: 100%;
   text-align: left;
-  font: normal normal 500 18px/33px "Barlow";
+  font: normal normal 500 17px/31px "Barlow";
   letter-spacing: 0px;
   color: #2E1739;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-presentation__desc__text {
+    width: 100%;
+    font: normal normal 500 16px/28px "Barlow";
+  }
 }
 @media (max-width: 767px) {
   .welcome-presentation__desc__text {
@@ -2571,6 +2598,13 @@ input[type=checkbox]:focus {
 .welcome-presentation__desc__link:hover {
   color: #2E1414;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-presentation__desc {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-presentation__desc {
     padding-top: 40px;
@@ -2582,12 +2616,27 @@ input[type=checkbox]:focus {
   position: absolute;
   right: 0;
   top: 0;
-  width: 47%;
+  width: 44%;
   overflow: hidden;
   z-index: 1;
 }
 .welcome-presentation__illustration img {
   width: 100%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-presentation__illustration {
+    position: relative;
+    right: 0;
+    width: 100%;
+    max-height: 60vh;
+    height: 250px;
+  }
+  .welcome-presentation__illustration img, .welcome-presentation__illustration svg {
+    height: 100%;
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (max-width: 767px) {
   .welcome-presentation__illustration {
@@ -2814,12 +2863,28 @@ input[type=checkbox]:focus {
 .welcome-faq svg {
   position: absolute;
 }
+.welcome-faq__container {
+  width: 50%;
+  margin: auto;
+  min-width: 700px;
+}
+@media (max-width: 767px) {
+  .welcome-faq__container {
+    width: 90%;
+    min-width: 100px;
+  }
+}
 .welcome-faq__title {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
   margin-bottom: 60px;
   margin-bottom: 60px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-faq__title {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-faq__title {
@@ -2922,6 +2987,16 @@ input[type=checkbox]:focus {
   color: #FFFFFF;
   bottom: 0;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-faq__sponsor {
+    position: relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    bottom: -50px;
+    padding-bottom: 40px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-faq__sponsor {
     position: relative;
@@ -2946,6 +3021,13 @@ input[type=checkbox]:focus {
   margin-top: -30px;
   padding: 20px;
   border-radius: 10px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-faq__sponsor__logo {
+    max-width: 300px;
+    margin: auto;
+    margin-top: -40px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-faq__sponsor__logo {
@@ -2996,11 +3078,12 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .welcome-reservation__bottom-bg {
-    height: 100%;
+    height: 90%;
   }
 }
 .welcome-reservation__block {
   width: 50%;
+  min-width: 700px;
   margin: auto;
   background: #793162;
   border-radius: 21px;
@@ -3008,11 +3091,20 @@ input[type=checkbox]:focus {
   position: relative;
   z-index: 3;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__block {
+    width: 90%;
+    top: 110px;
+    padding: 40px 20px;
+    min-width: 100px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-reservation__block {
     width: 90%;
     top: 110px;
     padding: 40px 20px;
+    min-width: 100px;
   }
 }
 .welcome-reservation__block__title {
@@ -3020,6 +3112,12 @@ input[type=checkbox]:focus {
   color: #FFFFFF;
   font: normal normal 700 32px/28px "Barlow Condensed";
   margin-bottom: 30px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__block__title {
+    font: normal normal 700 28px/34px "Barlow Condensed";
+    letter-spacing: 0px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-reservation__block__title {
@@ -3048,6 +3146,12 @@ input[type=checkbox]:focus {
   outline: none;
   border: 2px solid #96B221;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__form textarea {
+    margin-bottom: 15px;
+    height: 150px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-reservation__form textarea {
     margin-bottom: 15px;
@@ -3059,6 +3163,11 @@ input[type=checkbox]:focus {
 }
 .welcome-reservation__form__selector {
   margin-bottom: 12px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__form__selector {
+    margin-bottom: 0px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-reservation__form__selector {
@@ -3150,6 +3259,11 @@ input[type=checkbox]:focus {
 .welcome-reservation__form__guests {
   padding-top: 15px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__form__guests {
+    max-width: 300px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-reservation__form__guests {
     max-width: 300px;
@@ -3231,6 +3345,12 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
   margin-bottom: 40px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-1__content__text--1 {
+    font: normal normal 700 24px/32px "Barlow";
+    letter-spacing: 0px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-transition-1__content__text--1 {
     font: normal normal 700 24px/32px "Barlow";
@@ -3242,9 +3362,23 @@ input[type=checkbox]:focus {
   font: normal normal 500 18px/33px "Barlow";
   letter-spacing: 0px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-1__content__text--2 {
+    font: normal normal 500 18px/28px "Barlow";
+  }
+}
 @media (max-width: 767px) {
   .welcome-transition-1__content__text--2 {
     font: normal normal 500 18px/28px "Barlow";
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-1__content__text {
+    width: 100%;
+    padding-top: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 767px) {
@@ -3265,6 +3399,20 @@ input[type=checkbox]:focus {
   overflow: hidden;
   opacity: 0.5;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-1__content__img {
+    position: relative;
+    width: 110%;
+    max-height: max(300px, 50vh);
+    bottom: 0;
+    right: 0;
+    padding-top: 0px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    opacity: 0.4;
+    margin-left: 5%;
+  }
+}
 @media (max-width: 767px) {
   .welcome-transition-1__content__img {
     position: relative;
@@ -3281,10 +3429,16 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-transition-1__content__img img {
-  min-height: 100%;
+  min-height: min(600px, 100%);
   width: 100%;
+  max-height: 600px;
   -o-object-fit: fill;
      object-fit: fill;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-1__content__img img {
+    height: 100%;
+  }
 }
 @media (max-width: 767px) {
   .welcome-transition-1__content__img img {
@@ -3530,11 +3684,11 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .welcome-concept__box {
-    width: 120%;
-    max-width: 120%;
-    min-width: 120%;
-    margin-left: -10%;
-    padding: 60px 40px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: 0%;
+    padding: 60px 30px;
   }
 }
 .welcome-concept__box h4 {
@@ -3618,12 +3772,12 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .welcome-concept__box__border--top {
-    left: -50%;
-    top: -50px;
-    width: 200%;
+    left: -60%;
+    top: -60px;
+    width: 220%;
   }
   .welcome-concept__box__border--top img {
-    height: 80px;
+    transform: scale(1.2);
   }
 }
 .welcome-concept__box__border--right {
@@ -3640,11 +3794,11 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .welcome-concept__box__border--bottom {
     left: -50%;
-    bottom: -50px;
+    bottom: -60px;
     width: 200%;
   }
   .welcome-concept__box__border--bottom img {
-    height: 80px;
+    transform: scale(1.2);
   }
 }
 .welcome-concept__box__border img {
@@ -3692,7 +3846,9 @@ input[type=checkbox]:focus {
   z-index: 101;
   left: 100vw;
   transition: left 0.4s;
-  padding-top: 20vh;
+  padding-top: max(25vh, 120px);
+  overflow: auto;
+  padding-bottom: 20px;
 }
 .side-mobile__links {
   margin-bottom: 40px;

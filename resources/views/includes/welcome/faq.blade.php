@@ -1,5 +1,5 @@
 <section class="welcome-faq relative" id="services-faq">
-	<div class="w-5/6 lg:w-1/2 m-auto pb-10">
+	<div class="welcome-faq__container pb-10">
 		<h2 class="welcome-faq__title primary-color">{!! __('services.faq-title') !!}</h2>
 		<ul class="welcome-faq__accordion">
 			@for($index = 1; $index <= $faq_titles_count; $index ++)

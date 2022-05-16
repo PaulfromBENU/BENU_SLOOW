@@ -9,6 +9,10 @@
 		height: calc(100vh - 345px);
 		min-height: 550px;
 	}
+	@include tablet {
+		height: fit-content;
+		padding-bottom: 40px;
+	}
 	@include mobile {
 		height: fit-content;
 		padding-bottom: 40px;
@@ -20,7 +24,10 @@
 		z-index: 2;
 		top: 0;
 		left: 0;
-		width: 50%;
+		width: 58%;
+		@include tablet {
+			width: 100%;
+		}
 		@include mobile {
 			width: 100%;
 		}
@@ -58,18 +65,26 @@
 			letter-spacing: 0px;
 			color: $dark-text;
 			margin-bottom: 55px;
+			@include tablet {
+				font: normal normal 700 28px/34px 'Barlow Condensed';
+				margin-bottom: 25px;
+			}
 			@include mobile {
 				font: normal normal 700 28px/34px 'Barlow Condensed';
 				margin-bottom: 25px;
 			}
 		}
 		&__text {
-			width: 42vw;
+			width: 100%;
 			text-align: left;
-			font: normal normal 500 18px/33px 'Barlow';
+			font: normal normal 500 17px/31px 'Barlow';
 			letter-spacing: 0px;
 			color: #2E1739;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
+			@include tablet {
+				width: 100%;
+				font: normal normal 500 16px/28px 'Barlow';
+			}
 			@include mobile {
 				width: 100%;
 				font: normal normal 500 16px/28px 'Barlow';
@@ -85,6 +100,11 @@
 				color: $dark-text;
 			}
 		}
+		@include tablet {
+			padding-top: 40px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
 		@include mobile {
 			padding-top: 40px;
 			padding-left: 10px;
@@ -95,13 +115,25 @@
 		position: absolute;
 		right: 0;
 		top: 0;
-		width: 47%;
+		width: 44%;
 		overflow: hidden;
 		z-index: 1;
 		// height: 80vh;
 		//background: lightgrey;
 		img {
 			width: 100%;
+		}
+		@include tablet {
+			position: relative;
+			right: 0;
+			width: 100%;
+			max-height: 60vh;
+			height: 250px;
+			img, svg {
+				height: 100%;
+				margin: auto;
+				object-fit: contain;
+			}
 		}
 		@include mobile {
 			position: relative;
@@ -328,12 +360,24 @@
 		position: absolute;
 		// bottom: 0px;
 	}
+	&__container {
+		width: 50%;
+		margin: auto;
+		min-width: 700px;
+		@include mobile {
+			width: 90%;
+			min-width: 100px;
+		}
+	}
 	&__title {
 		text-align: center;
 		font: normal normal 700 44px/53px 'Barlow Condensed';
 		letter-spacing: 0px;
 		margin-bottom: 60px;
 		margin-bottom: 60px;
+		@include tablet {
+			padding-top: 100px;
+		}
 		@include mobile {
 			text-align: center;
 			font: normal normal 700 28px/34px 'Barlow Condensed';
@@ -437,6 +481,12 @@
 		z-index: 5;
 		color: $white;
 		bottom: 0;
+		@include tablet {
+			position: relative;
+			height: fit-content;
+			bottom: -50px;
+			padding-bottom: 40px;
+		}
 		@include mobile {
 			position: relative;
 			height: fit-content;
@@ -457,6 +507,11 @@
 			margin-top: -30px;
 			padding: 20px;
 			border-radius: 10px;
+			@include tablet {
+				max-width: 300px;
+				margin: auto;
+				margin-top: -40px;
+			}
 			@include mobile {
 				max-width: 300px;
 				margin: auto;
@@ -503,27 +558,39 @@
 		bottom: 0; 
 		height: 60%;
 		@include mobile {
-			height: 100%;
+			height: 90%;
 		}
 	}
 	&__block {
 		width: 50%;
+		min-width: 700px;
 		margin: auto;
 		background: $primary-color;
 		border-radius: 21px;
 		padding: 45px 80px;
 		position: relative;
 		z-index: 3;
+		@include tablet {
+			width: 90%;
+			top: 110px;
+			padding: 40px 20px;
+			min-width: 100px;
+		}
 		@include mobile {
 			width: 90%;
 			top: 110px;
 			padding: 40px 20px;
+			min-width: 100px;
 		}
 		&__title {
 			text-align: center;
 			color: $white;
 			font: normal normal 700 32px/28px 'Barlow Condensed';
 			margin-bottom: 30px;
+			@include tablet {
+				font: normal normal 700 28px/34px 'Barlow Condensed';
+				letter-spacing: 0px;
+			}
 			@include mobile {
 				font: normal normal 700 28px/34px 'Barlow Condensed';
 				letter-spacing: 0px;
@@ -547,6 +614,11 @@
 				outline: none;
 				border: 2px solid $secondary-color;
 			}
+			@include tablet {
+				// margin-top: 15px; 
+				margin-bottom: 15px;
+				height: 150px;
+			}
 			@include mobile {
 				// margin-top: 15px; 
 				margin-bottom: 15px;
@@ -558,6 +630,9 @@
 		}
 		&__selector {
 			margin-bottom: 12px;
+			@include tablet {
+				margin-bottom: 0px;
+			}
 			@include mobile {
 				// margin-top: 15px; 
 				margin-bottom: 0px;
@@ -648,6 +723,9 @@
 		}
 		&__guests {
 			padding-top: 15px;
+			@include tablet {
+				max-width: 300px;
+			}
 			@include mobile {
 				max-width: 300px;
 			}
@@ -723,6 +801,10 @@
 				font: normal normal 700 28px/33px 'Barlow';
 				letter-spacing: 0px;
 				margin-bottom: 40px;
+				@include tablet {
+					font: normal normal 700 24px/32px 'Barlow';
+					letter-spacing: 0px;
+				}
 				@include mobile {
 					font: normal normal 700 24px/32px 'Barlow';
 					letter-spacing: 0px;
@@ -732,9 +814,19 @@
 				text-align: left;
 				font: normal normal 500 18px/33px 'Barlow';
 				letter-spacing: 0px;
+				@include tablet {
+					font: normal normal 500 18px/28px 'Barlow';
+				}
 				@include mobile {
 					font: normal normal 500 18px/28px 'Barlow';
 				}
+			}
+			@include tablet {
+				width: 100%;
+				padding-top: 130px;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-bottom: 0px;
 			}
 			@include mobile {
 				width: 100%;
@@ -752,6 +844,18 @@
 			right: 0;
 			overflow: hidden;
 			opacity: 0.5;
+			@include tablet {
+				position: relative;
+				width: 110%;
+				max-height: max(300px, 50vh);
+				bottom: 0;
+				right: 0;
+				padding-top: 0px;
+				margin-top: -20px;
+				padding-bottom: 30px;
+				opacity: 0.4;
+				margin-left: 5%;
+			}
 			@include mobile {
 				position: relative;
 				width: 100%;
@@ -766,9 +870,13 @@
 				margin-left: -20%;
 			}
 			img {
-				min-height: 100%;
+				min-height: min(600px, 100%);
 				width: 100%;
+				max-height: 600px;
 				object-fit: fill;
+				@include tablet {
+					height: 100%;
+				}
 				@include mobile {
 					height: 100%;
 				}
@@ -993,11 +1101,11 @@
 		margin-bottom: 80px;
 		height: fit-content;
 		@include mobile {
-			width: 120%;
-			max-width: 120%;
-			min-width: 120%;
-			margin-left: -10%;
-			padding: 60px 40px;
+			width: 100%;
+			max-width: 100%;
+			min-width: 100%;
+			margin-left: 0%;
+			padding: 60px 30px;
 		}
 		h4 {
 			text-align: center;
@@ -1067,11 +1175,11 @@
 				top: -40px;
 				width: calc(100% + 180px);
 				@include mobile {
-					left: -50%;
-					top: -50px;
-					width: 200%;
+					left: -60%;
+					top: -60px;
+					width: 220%;
 					img {
-						height: 80px;
+						transform: scale(1.2);
 					}
 				}
 			}
@@ -1087,10 +1195,10 @@
 				width: calc(100% + 180px);
 				@include mobile {
 					left: -50%;
-					bottom: -50px;
+					bottom: -60px;
 					width: 200%;
 					img {
-						height: 80px;
+						transform: scale(1.2);
 					}
 				}
 			}
@@ -1141,7 +1249,9 @@
 	z-index: 101;
 	left: 100vw;
 	transition: left 0.4s;
-	padding-top: 20vh;
+	padding-top: max(25vh, 120px);
+	overflow: auto;
+	padding-bottom: 20px;
 	&__links {
 		margin-bottom: 40px;
 		li {
