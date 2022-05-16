@@ -3194,9 +3194,20 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-faq__sponsor p {
-  padding-top: 24px;
+  padding-top: 25px;
   color: #FFFFFF;
-  font: normal normal 500 22px/28px "Barlow";
+  font: normal normal 500 1.25vw/28px "Barlow";
+  height: 100%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-faq__sponsor p {
+    font: normal normal 500 20px/28px "Barlow";
+  }
+}
+@media (max-width: 767px) {
+  .welcome-faq__sponsor p {
+    font: normal normal 500 18px/28px "Barlow";
+  }
 }
 .welcome-faq__sponsor__logo {
   background: #FFFFFF;

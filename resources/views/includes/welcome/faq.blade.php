@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="welcome-faq__sponsor absolute">
-		<div class="benu-container flex justify-between flex-wrap flex-col lg:flex-row" style="height: 100%;">
+		<div class="benu-container flex justify-between flex-col lg:flex-row" style="height: 100%;">
 			<div class="flex flex-col lg:flex-row justify-start" style="height: 100%;">
 				<div class="lg:mr-10 welcome-faq__sponsor__logo">
 					<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}">
@@ -49,7 +49,7 @@
 					{{ __('welcome.sponsor-thanks-1') }}
 				</p>
 			</div>
-			<div class="pt-7 text-center lg:text-left">
+			<div class="pt-7 text-center lg:text-left" style="min-width: 180px;">
 				<a href="#" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
 			</div>
 		</div>

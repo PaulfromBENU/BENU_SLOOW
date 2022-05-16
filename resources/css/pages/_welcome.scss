@@ -494,9 +494,17 @@
 			padding-bottom: 40px;
 		}
 		p {
-			padding-top: 24px;
+			padding-top: 25px;
 			color: $white;
-			font: normal normal 500 22px/28px 'Barlow';
+			// font: normal normal 500 22px/28px 'Barlow';
+			font: normal normal 500 1.25vw/28px 'Barlow';
+			height: 100%;
+			@include tablet {
+				font: normal normal 500 20px/28px 'Barlow';
+			}
+			@include mobile {
+				font: normal normal 500 18px/28px 'Barlow';
+			}
 		}
 		&__logo {
 			background: $white;
