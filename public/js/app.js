@@ -5478,8 +5478,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! animate.css */ "./node_modules/animate.css/animate.css");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! ./header_creations_menu */ "./resources/js/header_creations_menu.js");
-
 __webpack_require__(/*! ./header_scroll_behaviour */ "./resources/js/header_scroll_behaviour.js");
 
 __webpack_require__(/*! ./harmonica_animation */ "./resources/js/harmonica_animation.js");
@@ -5499,6 +5497,8 @@ __webpack_require__(/*! ./faq_accordion_handle */ "./resources/js/faq_accordion_
 __webpack_require__(/*! ./sidebar_handler */ "./resources/js/sidebar_handler.js");
 
 __webpack_require__(/*! ./payment_tunnel_behaviour */ "./resources/js/payment_tunnel_behaviour.js");
+
+__webpack_require__(/*! ./mobile_side_menu_handle */ "./resources/js/mobile_side_menu_handle.js");
 
 
 window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"];
@@ -5730,119 +5730,6 @@ $(function () {
 
 /***/ }),
 
-/***/ "./resources/js/header_creations_menu.js":
-/*!***********************************************!*\
-  !*** ./resources/js/header_creations_menu.js ***!
-  \***********************************************/
-/***/ (() => {
-
-$(function () {
-  var creationsBarStatus = 'off';
-  var fullMenuStatus = 'off';
-  $('#creations-nav-toggle').on('click', function () {
-    $(this).toggleClass('header__main-nav__btn--active'); //$('#creations-nav-toggle path').toggleClass('svg-primary-white--active');
-
-    if (creationsBarStatus == 'off') {
-      $('.creations-navbar').fadeIn();
-      creationsBarStatus = 'on';
-    } else {
-      $('.creations-navbar').fadeOut();
-      creationsBarStatus = 'off';
-    }
-  });
-  $('#creations-nav-toggle').on('mouseenter', function () {
-    $('#creations-nav-toggle path').addClass('svg-primary-white--active');
-  });
-  $('#creations-nav-toggle').on('mouseleave', function () {
-    if (creationsBarStatus == 'off') {
-      $('#creations-nav-toggle path').removeClass('svg-primary-white--active');
-    }
-  });
-  $(window).on('scroll', function () {
-    var scrollTop = $(window).scrollTop();
-
-    if (scrollTop > 120 && creationsBarStatus == 'on') {
-      $('#creations-nav-toggle').removeClass('header__main-nav__btn--active');
-      $('.creations-navbar__menu').css('max-height', '0px');
-      $('.creations-navbar').fadeOut(400, function () {
-        $('#creations-nav-toggle path').removeClass('svg-primary-white--active');
-        $('.creations-navbar__nav__toggle').removeClass('creations-navbar__nav__toggle--active');
-      });
-      creationsBarStatus = 'off';
-      fullMenuStatus = 'off';
-    }
-  });
-  $('.creations-navbar__nav__toggle').on('mouseenter', function () {
-    //Remove all menus to avoid multiple display
-    $('.creations-navbar__nav__toggle').removeClass('creations-navbar__nav__toggle--active'); //Add menu of hovered toggle
-
-    $(this).addClass('creations-navbar__nav__toggle--active');
-    $('.creations-navbar__menu').css('max-height', '280px');
-    fullMenuStatus = 'on';
-  });
-  $('.creations-navbar__nav__toggle-link').on('mouseenter', function () {
-    //Remove all menus to avoid multiple display
-    $('.creations-navbar__nav__toggle').removeClass('creations-navbar__nav__toggle--active'); //Add menu of hovered toggle
-
-    $('.creations-navbar__menu').css('max-height', '0px');
-    fullMenuStatus = 'off';
-  });
-  $('#nav-toggle-unisex').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-unisex').show();
-  });
-  $('#nav-toggle-adult').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-adult').show();
-  });
-  $('#nav-toggle-woman').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-woman').show();
-  });
-  $('#nav-toggle-man').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-man').show();
-  });
-  $('#nav-toggle-child').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-child').show();
-  });
-  $('#nav-toggle-accessories').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-accessories').show();
-  });
-  $('#nav-toggle-home').on('mouseenter', function () {
-    $('.creations-navbar__menu__list').hide();
-    $('.navbar-list-home').show();
-  });
-  $('.creations-navbar__menu').on('mouseleave', function () {
-    $('.creations-navbar__menu').css('max-height', '0px');
-    $('.creations-navbar__nav__toggle').removeClass('creations-navbar__nav__toggle--active');
-    fullMenuStatus = 'off'; //$('.creations-navbar__menu__list').fadeOut('fast');
-  });
-  $('.creations-navbar__nav__toggle').on('click', function () {
-    if (fullMenuStatus == 'on') {
-      $('.creations-navbar__menu').css('max-height', '0px');
-      $('.creations-navbar__nav__toggle').removeClass('creations-navbar__nav__toggle--active');
-      fullMenuStatus = 'off';
-    }
-  });
-  $('.creations-navbar').on('mouseleave', function () {
-    if (creationsBarStatus == 'on') {
-      $('#creations-nav-toggle').removeClass('header__main-nav__btn--active');
-      $('.creations-navbar__menu').css('max-height', '0px');
-      $('.creations-navbar').fadeOut(400, function () {
-        $('#creations-nav-toggle path').removeClass('svg-primary-white--active');
-        $('.creations-navbar__nav__toggle').removeClass('creations-navbar__nav__toggle--active');
-      });
-      creationsBarStatus = 'off';
-      fullMenuStatus = 'off';
-    }
-  });
-});
-
-/***/ }),
-
 /***/ "./resources/js/header_icons_hover.js":
 /*!********************************************!*\
   !*** ./resources/js/header_icons_hover.js ***!
@@ -6015,6 +5902,31 @@ $(function () {
   activateInputsDynamicBehaviour();
   Livewire.on('activateInputs', function () {
     activateInputsDynamicBehaviour();
+  });
+});
+
+/***/ }),
+
+/***/ "./resources/js/mobile_side_menu_handle.js":
+/*!*************************************************!*\
+  !*** ./resources/js/mobile_side_menu_handle.js ***!
+  \*************************************************/
+/***/ (() => {
+
+function toggleMobileSideMenu(menuStatus) {
+  if (menuStatus == 1) {
+    $('#side-mobile').css('left', '100vw');
+    menuActive = 0;
+  } else {
+    $('#side-mobile').css('left', '0');
+    menuActive = 1;
+  }
+}
+
+var menuActive = 0;
+$(function () {
+  $('#mobile-menu-btn').on('click', function () {
+    toggleMobileSideMenu(menuActive);
   });
 });
 

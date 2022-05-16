@@ -91,6 +91,24 @@
                         </button>
                     </div>
                 </div>
+
+                <!-- Side menu for mobile -->
+                <div id="side-mobile" class="side-mobile mobile-only benu-container">
+                    <ul class="side-mobile__links">
+                        <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">Accueil</a></li>
+                        <li><a href="#">Partie 1</a></li>
+                        <li><a href="#">Partie 2</a></li>
+                        <li><a href="#">Partie 3</a></li>
+                    </ul>
+                    <div class="mb-5">
+                        <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="btn-couture-plain btn-couture-plain--fit inline-block" style="margin-left: 0px; width: 100%; border-radius: 8px;">Inscris-toi à la newsletter</a>
+                    </div>
+                    <div class="flex justify-start pt-5">
+                        <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
 

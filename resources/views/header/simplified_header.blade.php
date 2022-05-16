@@ -1,6 +1,6 @@
 <header class="header-group">
     <div class="header benu-container flex">
-        <div class="mobile-only header__hamburger">
+        <div id="mobile-menu-btn" class="mobile-only header__hamburger">
             <button>
                 <i class="fas fa-bars"></i>
             </button>
