@@ -1,6 +1,6 @@
 <section class="benu-container welcome-content-1 relative">
 	<h3>
-		Laisse-toi surprendre&nbsp;!
+		{!! __('welcome.content-1-title') !!}&nbsp;!
 	</h3>
 	<h2>
 		SLO0W
@@ -11,7 +11,7 @@
 				<span class="primary-color">S</span>ustainable
 			</p>
 			<p class="welcome-content-1__initials__container__sub">
-				<em>(Durable)</em>
+				<em>({!! __('welcome.content-1-sustainable') !!})</em>
 			</p>
 		</div>
 		<div class="mobile-only welcome-content-1__initials__container__separator"></div>
@@ -20,7 +20,7 @@
 				<span class="primary-color">L</span>ocal
 			</p>
 			<p class="welcome-content-1__initials__container__sub">
-				<em>(local)</em>
+				<em>({!! __('welcome.content-1-local') !!})</em>
 			</p>
 		</div>
 		<div class="mobile-only welcome-content-1__initials__container__separator"></div>
@@ -29,7 +29,7 @@
 				<span class="primary-color">O</span>rganic
 			</p>
 			<p class="welcome-content-1__initials__container__sub">
-				<em>(bio)</em>
+				<em>({!! __('welcome.content-1-organic') !!})</em>
 			</p>
 		</div>
 		<div class="mobile-only welcome-content-1__initials__container__separator"></div>
@@ -38,11 +38,11 @@
 				<span class="primary-color">0W</span> Zero Waste
 			</p>
 			<p class="welcome-content-1__initials__container__sub">
-				<em>(zéro déchet)</em>
+				<em>({!! __('welcome.content-1-zero-waste') !!})</em>
 			</p>
 		</div>
 	</div>
 	<p class="welcome-content-1__info">
-		Tu découvres BENU SLOOW dans le nouvel écovillage BENU VILLAGE !
+		{!! __('welcome.content-1-discover-sloow') !!}
 	</p>
 </section>

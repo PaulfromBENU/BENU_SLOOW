@@ -93,13 +93,13 @@
                 <!-- Side menu for mobile -->
                 <div id="side-mobile" class="side-mobile mobile-only benu-container">
                     <ul class="side-mobile__links">
-                        <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">Accueil</a></li>
-                        <li><a href="#">Partie 1</a></li>
-                        <li><a href="#">Partie 2</a></li>
-                        <li><a href="#">Partie 3</a></li>
+                        <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{!! __('welcome.side-menu-home') !!}</a></li>
+                        <li><a href="#">{!! __('welcome.side-menu-link-1') !!}</a></li>
+                        <li><a href="#">{!! __('welcome.side-menu-link-2') !!}</a></li>
+                        <li><a href="#">{!! __('welcome.side-menu-link-3') !!}</a></li>
                     </ul>
                     <div class="mb-5">
-                        <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="btn-couture-plain btn-couture-plain--fit inline-block" style="margin-left: 0px; width: 100%; border-radius: 8px;">Inscris-toi à la newsletter</a>
+                        <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="btn-couture-plain btn-couture-plain--fit inline-block" style="margin-left: 0px; width: 100%; border-radius: 8px;">{!! __('welcome.side-menu-newsletter-register') !!}</a>
                     </div>
                     <div class="flex justify-start pt-5">
                         <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>

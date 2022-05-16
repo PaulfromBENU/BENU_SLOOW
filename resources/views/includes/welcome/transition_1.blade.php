@@ -6,10 +6,10 @@
 		<div class="benu-container">
 			<div class="welcome-transition-1__content__text">
 				<p class="welcome-transition-1__content__text--1">
-					Notre équipe de cuisine compose chaque jour de nouvelles explosions de saveurs innovantes à partir d’aliments « sauvés » de grande qualité, complétés par des herbes sauvages locales aromatiques, des épices très fines et des ingrédients soigneusement sélectionnés !
+					{!! __('welcome.transition-1-text-1') !!}
 				</p>
 				<p class="welcome-transition-1__content__text--2">
-					Et ce n’est pas tout : tous les ingrédients proviennent d’une agriculture écologiquement contrôlée et, si possible, de la production locale. Tout est frais. Le tout sous la devise Slow-Food...
+					{!! __('welcome.transition-1-text-2') !!}
 				</p>
 			</div>
 			<div class="welcome-transition-1__content__img">

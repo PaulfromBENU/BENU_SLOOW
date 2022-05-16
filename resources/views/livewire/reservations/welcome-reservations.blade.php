@@ -35,7 +35,7 @@
                 <div class="text-left welcome-reservation__form__selector">
                     <select wire:model="opening_id">
                         <option value="0">
-                            Choisir...
+                            {!! __('forms.reservation-choose') !!}
                         </option>
                         @foreach($openings as $opening_option)
                             <option wire:key="{{ $opening_option->id }}" value="{{ $opening_option->id }}">
@@ -115,7 +115,7 @@
         @endif
     @else
         <div class="contact__form__valid">
-            Votre demande de réservation a bien été envoyée ! Vous recevrez une confirmation dans les plus brefs délais. Si vous ne recevez pas de nouvelles de notre part rapidement, n'hésitez pas à nous recontacter par téléphone.
+            {!! __('forms.reservation-confirmation-message') !!}
         </div>
     @endif
 

@@ -1,9 +1,9 @@
 <section class="benu-container welcome-concept relative">
 	<h3>
-		Nous nous réjouissons de t'accueillir&nbsp;!
+		{!! __('welcome.concept-title-1') !!}&nbsp;!
 	</h3>
 	<h2>
-		La table d'hôtes
+		{!! __('welcome.concept-hosts-table') !!}
 	</h2>
 	<div class="welcome-concept__box relative">
 		<div class="welcome-concept__box__border welcome-concept__box__border--bottom">
@@ -19,27 +19,27 @@
 			<img src="{{ asset('images/pictures/benu-sloow-partie-table-hotes-border-right.png') }}">
 		</div>
 		<h4 id="host-anchor">
-			Qui ne connaît pas le concept français de table d’hôtes, très proche de la cuisine ?
+			{!! __('welcome.concept-subtitle-1') !!}
 		</h4>
 		<p class="welcome-concept__box__desc">
-			Dans une première phase de 4 semaines, BENU SLOOW lance en exclusivité cette même Table d’Hôtes, où 12 invités trouvent une place confortable directement près du four en argile construit de manière participative. Le ou la chef raconte des histoires sur le concept BENU SLOOW et te fait découvrir de nombreux détails sur la préparation de chacun des 7 plats du menu découverte. La dégustation commune se transforme ainsi en un moment de bien-être unique. Surprenant et disruptif.
+			{!! __('welcome.concept-explanation-1') !!}
 		</p>
 		<div class="welcome-concept__box__prices">
 			<p>
-				Prix par personne sans boissons : <strong>150€</strong>
+				{!! __('welcome.concept-price-no-drinks') !!}: <strong>150€</strong>
 			</p>
 			<p>
-				Prix par personne avec une sélection de boissons alcoolisées : <strong>200€</strong>
+				{!! __('welcome.concept-price-with-drinks') !!}: <strong>200€</strong>
 			</p>
 			<p>
-				Prix par personne avec une sélection de boissons non alcoolisées : <strong>180€</strong>
+				{!! __('welcome.concept-price-with-softs') !!}: <strong>180€</strong>
 			</p>
 		</div>
 		<p class="welcome-concept__box__date">
-			BENU SLOOW débute le XX.XX.XXXX avec sa Table d’Hôtes
+			{!! __('welcome.concept-start-date') !!}
 		</p>
 	</div>
 	<p class="welcome-concept__info">
-		Les personnes titulaires du Kulturpass bénéficient d’une réduction de 50% sur toutes les prestations BENU.
+		{!! __('welcome.concept-kulturpass-discount') !!}
 	</p>
 </section>
