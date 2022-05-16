@@ -2,16 +2,16 @@
     @csrf
     <div class="">
         <div class="flex justify-center lg:justify-between flex-wrap">
-            <div class="w-full lg:w-5/12 flex justify-between lg:justify-start input-group contact__form__radio-group">
-                <div class="mr-5 ml-1">
+            <div class="w-full lg:w-5/12 flex flex-wrap justify-around lg:justify-start input-group contact__form__radio-group">
+                <div class="lg:mr-5 mb-3 ml-1" style="min-width: 120px;">
                     <input type="radio" id="contact_gender_male" name="gender" value="male" wire:model="gender">
                     <label for="contact_gender_male" class="pl-4">{{ __('forms.sir') }}</label><br>
                 </div>
-                <div class="mr-5">
+                <div class="lg:mr-5 mb-3" style="min-width: 120px;">
                     <input type="radio" id="contact_gender_female" name="gender" value="female" wire:model="gender">
                     <label for="contact_gender_female" class="pl-4">{{ __('forms.madam') }}</label><br>
                 </div>
-                <div>
+                <div class="mb-3" style="min-width: 120px;">
                     <input type="radio" id="contact_gender_neutral" name="gender" value="neutral" wire:model="gender">
                     <label for="contact_gender_neutral" class="pl-4">{{ __('forms.neutral') }}</label> 
                 </div>

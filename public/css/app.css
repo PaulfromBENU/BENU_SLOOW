@@ -1022,9 +1022,14 @@ input[type=checkbox]:focus {
 .header__logo-container {
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
+  min-width: 55px;
   background-color: #793162;
+}
+@media (max-width: 767px) {
+  .header__logo-container {
+    width: 60px;
+    height: 60px;
+  }
 }
 .header__logo {
   position: absolute;
@@ -2641,6 +2646,7 @@ input[type=checkbox]:focus {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 27px;
+  max-width: 100%;
 }
 .contact__form__radio-group input[type=radio] {
   margin-top: -2px;
@@ -2649,7 +2655,7 @@ input[type=checkbox]:focus {
   .contact__form__radio-group {
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 350px;
+    max-width: 400px;
   }
 }
 

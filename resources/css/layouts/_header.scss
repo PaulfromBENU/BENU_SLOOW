@@ -129,9 +129,12 @@
 	&__logo-container {
 		position: relative;
 		display: block;
-		width: 60px;
-		height: 60px;
+		min-width: 55px;
 		background-color: $primary-color;
+		@include mobile {
+			width: 60px;
+			height: 60px;
+		}
 	}
 	&__logo {
 		position: absolute;

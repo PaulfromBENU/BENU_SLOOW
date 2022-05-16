@@ -417,13 +417,14 @@
 			margin-top: 5px;
 			margin-bottom: 5px;
 			padding-top: 27px;
+			max-width: 100%;
 			input[type='radio'] {
 				margin-top: -2px;
 			}
 			@include mobile {
 				padding-left: 15px;
 				padding-right: 15px;
-				max-width: 350px;
+				max-width: 400px;
 			}
 		}
 	}
