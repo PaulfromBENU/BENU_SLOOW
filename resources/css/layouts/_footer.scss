@@ -163,6 +163,9 @@
 	background: white;
 	position: relative;
 	border-top: solid 1px $light-grey-transparent;
+	@include mobile {
+		padding-bottom: 60px;
+	}
 	&__contact {
 		font: normal normal 500 22px/46px 'Barlow Condensed';
 		letter-spacing: 0px;
@@ -215,7 +218,7 @@
 		bottom: 0;
 		left: calc(50% - 22px);
 		@include mobile {
-			bottom: 102px;
+			bottom: 162px;
 			left: calc(50% - 16px);
 		}
 		&__logo {
