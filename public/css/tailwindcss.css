@@ -1062,9 +1062,6 @@ select {
 .w-11 {
   width: 2.75rem;
 }
-.w-5\/6 {
-  width: 83.333333%;
-}
 .w-1\/6 {
   width: 16.666667%;
 }
@@ -1100,6 +1097,9 @@ select {
 }
 .w-auto {
   width: auto;
+}
+.w-5\/6 {
+  width: 83.333333%;
 }
 .w-9\/12 {
   width: 75%;
@@ -2893,10 +2893,6 @@ select {
     width: 50%;
   }
 
-  .md\:w-2\/3 {
-    width: 66.666667%;
-  }
-
   .md\:max-w-md {
     max-width: 28rem;
   }
@@ -3061,20 +3057,16 @@ select {
     display: none;
   }
 
-  .lg\:w-1\/2 {
-    width: 50%;
-  }
-
   .lg\:w-5\/12 {
     width: 41.666667%;
   }
 
-  .lg\:w-2\/3 {
-    width: 66.666667%;
-  }
-
   .lg\:w-1\/4 {
     width: 25%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .lg\:max-w-\[20em\] {

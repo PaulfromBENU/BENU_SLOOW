@@ -1,5 +1,5 @@
 <header class="header-group">
-    <div class="header benu-container flex">
+    <div class="header benu-container flex justify-between lg:justify-start">
         <div id="mobile-menu-btn" class="mobile-only header__hamburger">
             <button>
                 <i class="fas fa-bars"></i>
