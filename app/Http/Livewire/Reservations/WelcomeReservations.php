@@ -34,6 +34,8 @@ class WelcomeReservations extends Component
     public $checksum_number_2;
     public $user_sum;
 
+    protected $listeners = ['dateSelected' => 'selectDate'];
+
     protected $rules = [
         'res_first_name' => 'required|min:2',
         'res_last_name' => 'required|min:2',
@@ -148,8 +150,30 @@ class WelcomeReservations extends Component
                 // Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationRequestForAdmin($new_reservation));
                 $this->clearContent();
                 $this->message_sent = 1;
+                $this->opening_id = 0;
             }
         }
+    }
+
+    public function selectDate($date)
+    {
+        // dd($date);
+        if (Opening::where('date', $date)->count() > 0) {
+            $this->opening = Opening::where('date', $date)->first();
+            $this->opening_id = $this->opening->id;
+            $this->remaining_seats = $this->opening->seats;
+
+            foreach ($this->opening->valid_reservations as $existing_reservation) {
+                $this->remaining_seats -= $existing_reservation->seats;
+            }
+            $this->remaining_seats = max(0, $this->remaining_seats);
+        } else {
+            $this->show_res_details = 0;
+            $this->opening_id = 0;
+        }
+        $this->message_sent = 0;
+        $this->seats_number = 1;
+        $this->show_res_details = 1;
     }
 
     public function render()

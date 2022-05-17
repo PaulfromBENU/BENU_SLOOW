@@ -566,6 +566,90 @@ input[type=checkbox]:focus {
   }
 }
 
+.datepicker {
+  position: relative;
+}
+.datepicker input[type=text] {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+  background: transparent;
+  color: #FFFFFF;
+  width: 300px;
+  border: none;
+  text-align: left;
+  font: normal normal 800 48px/28px "Barlow Condensed";
+  letter-spacing: 0px;
+  height: 70px;
+  padding-left: 5px;
+  position: relative;
+  left: -9px;
+  cursor: pointer;
+}
+.datepicker input[type=text]:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #793162;
+}
+.datepicker__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #793162;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.datepicker__selector {
+  position: absolute;
+  z-index: 100;
+  width: 500px;
+  min-height: 150px;
+  top: 52px;
+  left: 0;
+  border: none;
+  border-radius: 2px;
+  background: white;
+  padding: 10px;
+  border-bottom: #793162 solid 1px;
+}
+@media (max-width: 767px) {
+  .datepicker__selector {
+    width: 100%;
+  }
+}
+.datepicker__selector__year {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #793162;
+  font-weight: bold;
+}
+.datepicker__selector__month {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #96B221;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.datepicker__selector__days {
+  width: 100%;
+}
+.datepicker__selector__days__active {
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #793162;
+  border-radius: 10px;
+  padding: 3px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.datepicker__selector__days__active:hover {
+  background: #96B221;
+  color: #793162;
+}
+.datepicker__selector__days__inactive {
+  color: grey;
+}
+
 .btn-large {
   text-transform: uppercase;
   width: 333px;

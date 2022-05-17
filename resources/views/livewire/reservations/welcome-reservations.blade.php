@@ -33,7 +33,8 @@
             <div class="w-full lg:w-5/12 input-group reactive-label-input" id="reservation-anchor">
                 <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.select-date') }} *</p>
                 <div class="text-left welcome-reservation__form__selector">
-                    <select wire:model="opening_id">
+                    @livewire('tools.datepicker')
+                    <!-- <select wire:model="opening_id">
                         <option value="0">
                             {!! __('forms.reservation-choose') !!}
                         </option>
@@ -42,7 +43,7 @@
                                 {{ Carbon\Carbon::parse($opening_option->date)->format('d\/m\/Y') }}
                             </option>
                         @endforeach
-                    </select>
+                    </select> -->
                 </div>
             </div>
 
