@@ -198,10 +198,13 @@
 	}
 }
 
-body {
+body, html {
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: 'Barlow', sans-serif;
+	position: relative;
+	width: 100vw;
+	overflow-x: hidden;
 }
 
 .color-circle {
@@ -262,7 +265,7 @@ body {
 	width: 100vw;
 	z-index: 1;
 	@include mobile {
-		padding-top: 100px;
+		padding-top: 70px;
 	}
 }
 

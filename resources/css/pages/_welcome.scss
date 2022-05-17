@@ -473,7 +473,7 @@
 		}
 	}
 	&__sponsor {
-		height: 82px;
+		height: 102px;
 		width: 100%;
 		// border-top: $primary-color solid 2px;
 		// border-bottom: $primary-color solid 2px;
@@ -494,13 +494,14 @@
 			padding-bottom: 40px;
 		}
 		p {
-			padding-top: 25px;
 			color: $white;
 			// font: normal normal 500 22px/28px 'Barlow';
-			font: normal normal 500 1.25vw/28px 'Barlow';
-			height: 100%;
+			font: normal normal 500 18px/24px 'Barlow';
+			text-align: center;
 			@include tablet {
-				font: normal normal 500 20px/28px 'Barlow';
+				padding-top: 25px;
+				padding-bottom: 25px;
+				font: normal normal 500 18px/28px 'Barlow';
 			}
 			@include mobile {
 				font: normal normal 500 18px/28px 'Barlow';

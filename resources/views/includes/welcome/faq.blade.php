@@ -45,11 +45,11 @@
 				<div class="lg:mr-10 welcome-faq__sponsor__logo">
 					<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}">
 				</div>
-				<p class="text-center lg:text-left">
-					{{ __('welcome.sponsor-thanks-1') }}
-				</p>
+				<div class="text-center lg:text-left flex flex-col justify-center">
+					<p>{{ __('welcome.sponsor-thanks-1') }}</p>
+				</div>
 			</div>
-			<div class="pt-7 text-center lg:text-left" style="min-width: 180px;">
+			<div class="text-center lg:text-left flex flex-col justify-center" style="min-width: 200px;">
 				<a href="#" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
 			</div>
 		</div>

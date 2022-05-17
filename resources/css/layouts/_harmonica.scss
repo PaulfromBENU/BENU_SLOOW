@@ -8,6 +8,9 @@
 	cursor: pointer;
 	color: $dark-text;
 	transition: color 0.2s, background 0.3s;
+	@include mobile {
+		height: 40px;
+	}
 	&:hover {
 		color: $white;
 		background: $dark-bg 0% 0% no-repeat padding-box;
@@ -23,6 +26,10 @@
 		text-transform: uppercase;
 		font: normal normal bold 16px/19px 'Barlow Condensed';
 		letter-spacing: 0.32px;
+		@include mobile {
+			height: 40px;
+			padding-top: 10px;
+		}
 		&--active {
 			position: absolute;
 			top: -50px;

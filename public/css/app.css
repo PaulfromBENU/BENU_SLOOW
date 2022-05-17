@@ -175,10 +175,13 @@
   }
 }
 
-body {
+body, html {
   margin: 0px;
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .color-circle {
@@ -241,7 +244,7 @@ body {
 }
 @media (max-width: 767px) {
   .content-wrapper {
-    padding-top: 100px;
+    padding-top: 70px;
   }
 }
 
@@ -976,6 +979,11 @@ input[type=checkbox]:focus {
   background-color: white;
   max-height: 150px;
 }
+@media (max-width: 767px) {
+  .header-group {
+    top: 40px;
+  }
+}
 
 .header-group-simplified {
   position: fixed;
@@ -992,16 +1000,16 @@ input[type=checkbox]:focus {
   background-color: white;
 }
 .header__hamburger {
-  padding: 6px 6px;
+  padding: 2px 2px;
   font-size: 1.5rem;
   color: #793162;
   background-color: #F1EAEF;
   border-radius: 6px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   text-align: center;
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-top: 4px;
+  margin-right: 9px;
   transition: all 0.2s;
   cursor: pointer;
 }
@@ -1027,8 +1035,9 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .header__logo-container {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    min-width: 0px;
   }
 }
 .header__logo {
@@ -1071,6 +1080,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .header__logo--scroll {
     display: none;
+    left: 2px;
   }
 }
 .header__logo--mobile {
@@ -1091,6 +1101,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .header__logo--mobile {
     display: block;
+    left: 2px;
   }
 }
 .header__main-menu {
@@ -1100,6 +1111,12 @@ input[type=checkbox]:focus {
   height: 50px;
   width: 50px;
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .header__main-menu__icons button {
+    height: 42px;
+    width: 42px;
+  }
 }
 .header__main-menu__icons__btn {
   padding: 10px;
@@ -1125,6 +1142,13 @@ input[type=checkbox]:focus {
   font-size: 0.85rem;
   text-align: center;
   font-weight: 500;
+}
+@media (max-width: 767px) {
+  .header__main-menu__icons__lang-container {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
 }
 .header__main-menu__icons__lang-btn {
   background-color: #F1EAEF;
@@ -1235,7 +1259,7 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .header__menus-container {
-    padding-top: 15px;
+    padding-top: 10px;
     width: auto;
   }
 }
@@ -1369,6 +1393,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .header-simplified__logo--scroll {
     display: none;
+    left: 2px;
   }
 }
 .header-simplified__logo--mobile {
@@ -1389,6 +1414,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .header-simplified__logo--mobile {
     display: block;
+    left: 2px;
   }
 }
 .header-simplified__main-menu {
@@ -1401,6 +1427,19 @@ input[type=checkbox]:focus {
   height: 50px;
   width: 50px;
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .header-simplified__main-menu__icons button {
+    height: 42px;
+    width: 42px;
+  }
+}
+@media (max-width: 767px) {
+  .header-simplified__main-menu__icons__lang-container {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
 }
 .header-simplified__main-menu__icons__lang-btn {
   background-color: #F1EAEF;
@@ -1446,6 +1485,11 @@ input[type=checkbox]:focus {
   color: #2E1414;
   transition: color 0.2s, background 0.3s;
 }
+@media (max-width: 767px) {
+  .harmonica-bar {
+    height: 40px;
+  }
+}
 .harmonica-bar:hover {
   color: #FFFFFF;
   background: #2E1414 0% 0% no-repeat padding-box;
@@ -1461,6 +1505,12 @@ input[type=checkbox]:focus {
   text-transform: uppercase;
   font: normal normal bold 16px/19px "Barlow Condensed";
   letter-spacing: 0.32px;
+}
+@media (max-width: 767px) {
+  .harmonica-bar__title {
+    height: 40px;
+    padding-top: 10px;
+  }
 }
 .harmonica-bar__title--active {
   position: absolute;
@@ -3166,7 +3216,7 @@ input[type=checkbox]:focus {
   font-weight: 500;
 }
 .welcome-faq__sponsor {
-  height: 82px;
+  height: 102px;
   width: 100%;
   background: #793162;
   z-index: 5;
@@ -3194,14 +3244,15 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-faq__sponsor p {
-  padding-top: 25px;
   color: #FFFFFF;
-  font: normal normal 500 1.25vw/28px "Barlow";
-  height: 100%;
+  font: normal normal 500 18px/24px "Barlow";
+  text-align: center;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-faq__sponsor p {
-    font: normal normal 500 20px/28px "Barlow";
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font: normal normal 500 18px/28px "Barlow";
   }
 }
 @media (max-width: 767px) {

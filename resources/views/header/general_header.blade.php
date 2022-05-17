@@ -1,5 +1,5 @@
 <header class="header-group">
-    <div class="header benu-container flex justify-between lg:justify-start">
+    <div class="header benu-container flex justify-start">
         <div id="mobile-menu-btn" class="mobile-only header__hamburger">
             <button>
                 <i class="fas fa-bars"></i>
@@ -102,7 +102,7 @@
                             @svg('benu-icon-mail-contact', '')
                         </button>
                     </li>
-                    <li>
+                    <li class="header__main-menu__icons__lang-container">
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">
                             {{ strtoupper(app()->getLocale()) }}
                         </button>

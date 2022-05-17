@@ -51,7 +51,7 @@
                             @svg('benu-icon-mail-contact', '')
                         </button>
                     </li>
-                    <li>
+                    <li class="header__main-menu__icons__lang-container">
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">
                             {{ strtoupper(app()->getLocale()) }}
                         </button>
