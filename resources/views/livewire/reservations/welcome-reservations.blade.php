@@ -87,6 +87,16 @@
         </div>
     </div>
 
+    @if($opening_id !== 0 && $opening->type == '0')
+    <div class="welcome-reservation__form__desc">
+        {{ __('welcome.desc-hosts-table') }}
+    </div>
+    @elseif($opening_id !== 0 && $opening->type == '1')
+    <div class="welcome-reservation__form__desc">
+        {{ __('welcome.desc-normal-restaurant') }}
+    </div>
+    @endif
+
 
     <div class="mt-12 mb-5" style="position: relative;">
         <label style="position: absolute; top: 10px; left: 20px;" class="primary-color">{!! __('forms.res-message') !!}</label>

@@ -3626,6 +3626,17 @@ input[type=checkbox]:focus {
   color: #793162;
   background: #FFFFFF;
 }
+.welcome-reservation__form__desc {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 20px 30px;
+  border: solid #FFFFFF 2px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 600;
+}
 .welcome-reservation__form__mandatory {
   color: #FFFFFF;
   margin-bottom: 20px;
