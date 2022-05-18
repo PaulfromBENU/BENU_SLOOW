@@ -803,6 +803,7 @@ input[type=checkbox]:focus {
 .btn-couture:hover {
   background: #793162;
   color: #FFFFFF;
+  border: solid 2px #FFFFFF;
 }
 .btn-couture--transparent {
   background: transparent;
@@ -2488,6 +2489,7 @@ input[type=checkbox]:focus {
   color: #793162;
   font: normal normal 700 35px/40px "Barlow Condensed";
   margin-bottom: 20px;
+  text-align: center;
 }
 .footer-contact__form {
   width: 60%;
@@ -4192,8 +4194,8 @@ input[type=checkbox]:focus {
 }
 .welcome-mobile-nav__link svg {
   margin: auto;
-  height: 18px;
-  width: 18px;
+  height: 22px;
+  width: 22px;
 }
 .welcome-mobile-nav__link:hover {
   color: #793162;

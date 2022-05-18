@@ -107,11 +107,11 @@
         <div class="contact__form__form__security flex w-2/3 m-auto justify-between flex-wrap">
             <p style="color: white;">{!! __('forms.security-question') !!} {{ $checksum_number_1 }} + {{ $checksum_number_2 }}&nbsp;?</p>
             <input type="text" minlength="1" maxlength="2" class="ml-8 input-underline rounded" tabindex="7" required wire:model.defer="user_sum" style="height: 40px;">
-            <div wire:click="checkResSum" class="contact__form__form__security__btn btn-couture-plain">{{ __('forms.check') }}</div>
+            <div wire:click="checkResSum" class="contact__form__form__security__btn btn-couture">{{ __('forms.check') }}</div>
         </div>
         @elseif($safety_check == 1)
         <div class="text-center">
-            <button class="btn-couture-plain m-auto" style="height: 50px;">{{ __('forms.send-message') }}</button>
+            <button class="btn-couture m-auto" style="height: 50px;">{{ __('forms.send-message') }}</button>
         </div>
         @endif
     @else

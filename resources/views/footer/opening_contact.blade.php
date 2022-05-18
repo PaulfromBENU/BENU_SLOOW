@@ -1,5 +1,5 @@
 <section class="footer-contact">
-	<h4 class="footer-contact__title">Heures d'ouverture</h4>
+	<h4 class="footer-contact__title">{{ __('footer.opening-hours-title-1') }}</h4>
 	<p class="footer-contact__txt">
 		{{ __('footer.opening-hours-text-1') }}
 	</p>
@@ -7,7 +7,7 @@
 		<em>{{ __('footer.opening-hours-text-2') }}</em>
 	</p>
 
-	<h4 class="footer-contact__title" id="contact-anchor">Contact</h4>
+	<h4 class="footer-contact__title" id="contact-anchor">{{ __('footer.contact-title-1') }}</h4>
 	<p class="footer-contact__txt">
 		BENU VILLAGE Esch ASBL
 	</p>
