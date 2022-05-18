@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="grid grid-cols-7 datepicker__selector__month">
-            <div class="text-center" wire:click.prevent="changeMonth('down')" style="cursor: pointer;">
+            <div class="text-center hover:text-gray-800 transition" wire:click.prevent="changeMonth('down')" style="cursor: pointer;">
                 <button><</button>
             </div>
             @php
@@ -42,7 +42,7 @@
             <p class="text-center col-span-5">
                 {{ $text_months_localized[str_pad($selected_month, 2, 0, STR_PAD_LEFT)] }}
             </p>
-            <div class="text-center hover:font-bold" wire:click.prevent="changeMonth('up')" style="cursor: pointer;">
+            <div class="text-center hover:text-gray-800 transition" wire:click.prevent="changeMonth('up')" style="cursor: pointer;">
                 <button>></button>
             </div>
         </div>

@@ -90,7 +90,7 @@ class Datepicker extends Component
         }
 
         $this->days_with_info[$days_equivalence[$first_day]] = [
-            "day" => 1,
+            "day" => '01',
             "with_opening" => $with_opening,
         ];
 
