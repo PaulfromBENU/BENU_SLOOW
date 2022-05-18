@@ -7,18 +7,24 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
+use App\Models\User;
+
 class NewsletterConfirmation extends Mailable
 {
     use Queueable, SerializesModels;
+
+    public $user;
+    public $locale;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(User $user)
     {
-
+        $this->user = $user;
+        $this->locale = session('locale');
     }
 
     /**

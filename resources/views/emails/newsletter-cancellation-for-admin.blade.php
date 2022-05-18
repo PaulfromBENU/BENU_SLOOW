@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 
-    <title>Newsletter BENU - confirmation d'inscription</title>
+    <title>Newsletter BENU - nouvelle inscription</title>
 </head>
 <body style="width: 80%; margin-left: 10%; font-family: 'Barlow';">
     <div style="width: 100%; margin-bottom: 50px; text-align: center;">
@@ -18,20 +18,18 @@
     </div>
     <div>
         <p>
-            <strong>Bonjour {{ ucfirst($user->first_name) }},</strong>
+            <strong>Moien,</strong>
         </p>
         <p>
-            Nous confirmons ton inscription à notre newsletter, et nous t'en remercions.
+            Un utilisateur souhaite annuler son inscription à la newsletter BENU. Il s'agit de l'utilisateur suivant :
         </p>
+        <ul>
+            <li>Prénom et Nom : {{ ucfirst($user->first_name) }} {{ ucfirst($user->last_name) }}</li>
+            <li>Email : {{ $user->email }}</li>
+            <li>Langue utilisateur : {{ strtoupper($locale) }}</li>
+        </ul>
         <p>
-            Si tu souhaites te désinscrire, tu peux cliquer <a href="{{ route('newsletter-stop-'.$locale, ['id' => rand(10, 99).rand(10, 99).rand(10, 99).$user->id]) }}" style="color: #27955B">ici</a>.
-        </p>
-
-        <p>
-            À bientôt sur nos plates-formes ou dans notre magasin !
-        </p>
-        <p>
-            <em><strong>L'équipe BENU</strong></em>
+            Merci de mettre cette information à jour dans la base de données MailChimp ! :)
         </p>
     </div>
 </body>

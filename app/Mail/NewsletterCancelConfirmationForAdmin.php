@@ -9,15 +9,10 @@ use Illuminate\Queue\SerializesModels;
 
 use App\Models\User;
 
-class NewsletterConfirmationForAdmin extends Mailable
+class NewsletterCancelConfirmationForAdmin extends Mailable
 {
     use Queueable, SerializesModels;
 
-    /**
-     * The order instance.
-     *
-     * @var \App\Models\User
-     */
     public $user;
     public $locale;
 
@@ -39,6 +34,6 @@ class NewsletterConfirmationForAdmin extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')->subject('Nouvelle inscription newsletter depuis BENU SLO0W')->view('emails.newsletter-confirmation-for-admin');
+        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')->subject('! Annulation inscription newsletter depuis BENU SLO0W')->view('emails.newsletter-cancellation-for-admin');
     }
 }
