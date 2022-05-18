@@ -15,7 +15,7 @@
             <div class="pl-5 pr-5">
                 >
             </div>
-            <a href="{{ route('login-'.app()->getLocale()) }}" class="primary-color"><strong>{{ __('breadcrumbs.newsletter-subscribe') }}</strong></a>
+            <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="primary-color"><strong>{{ __('breadcrumbs.newsletter-subscribe') }}</strong></a>
         </div>
     </div>
 @endsection
