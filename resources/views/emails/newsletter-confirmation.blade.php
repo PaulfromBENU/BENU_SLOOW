@@ -24,7 +24,7 @@
             Nous confirmons ton inscription à notre newsletter, et nous t'en remercions.
         </p>
         <p>
-            Si tu souhaites te désinscrire, tu peux cliquer <a href="#" style="color: #D41C1B">ici</a> (lien a modifier).
+            Si tu souhaites te désinscrire, tu peux cliquer <a href="#" style="color: #27955B">ici</a> (lien a mettre à jour).
         </p>
 
         <p>

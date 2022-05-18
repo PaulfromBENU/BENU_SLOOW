@@ -143,6 +143,7 @@ class GeneralController extends Controller
                 auth()->user()->save();
                 $message = __('auth.newsletter-subscribe-confirm');
                 Mail::to($auth()->user()->email)->send(new NewsletterConfirmation());
+                // Mail::to($auth()->user()->email)->send(new NewsletterConfirmationForAdmin($auth()->user()));
                 Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin($auth()->user()));
             }
         } else {
@@ -152,6 +153,7 @@ class GeneralController extends Controller
                 $user->save();
                 $message = __('auth.newsletter-subscribe-confirm');
                 Mail::to($user->email)->send(new NewsletterConfirmation());
+                // Mail::to($user->email)->send(new NewsletterConfirmationForAdmin($user));
                 Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin($user));
             } else {
                 $user = new User();
