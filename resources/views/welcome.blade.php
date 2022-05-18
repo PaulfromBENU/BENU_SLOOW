@@ -30,4 +30,25 @@
         $('#welcome-bullet-presentation').html(newText);
     });
 </script>
+
+<script type="text/javascript">
+    // Show a loader on reservation submission
+    function setLoading(isLoading) {
+        if (isLoading) {
+            // Disable the button and show a loader
+            $('#spinner').show();
+            $('#button-text').hide();
+        } else {
+            $('#spinner').hide();
+            $('#button-text').show();
+        }
+    }
+
+    $(function() {
+        setLoading(false);
+        Livewire.on('sendingConfirmation', function() {
+            setLoading(true);
+        });
+    });
+</script>
 @endsection

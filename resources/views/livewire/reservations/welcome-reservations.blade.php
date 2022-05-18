@@ -121,7 +121,12 @@
         </div>
         @elseif($safety_check == 1)
         <div class="text-center">
-            <button class="btn-couture m-auto" style="height: 50px;">{{ __('forms.send-message') }}</button>
+            <button id="button-text" class="btn-couture m-auto" style="height: 50px;" wire:click="$emit('sendingConfirmation')">
+                {{ __('forms.send-message') }}
+            </button>
+            <div class="spinner hidden text-center" id="spinner" style="height: 50px;">
+                <img src="{{ asset('images/loaders/loader-sloow-3.gif') }}" style="height: 100%; margin: auto;">
+            </div>
         </div>
         @endif
     @else

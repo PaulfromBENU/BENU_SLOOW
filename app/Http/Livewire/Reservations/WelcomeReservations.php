@@ -10,6 +10,7 @@ use App\Models\Opening;
 use App\Models\Reservation;
 use App\Mail\ReservationRequest;
 use App\Mail\ReservationConfirmation;
+use App\Mail\ReservationNotificationForAdmin;
 
 use Carbon\Carbon;
 
@@ -123,6 +124,7 @@ class WelcomeReservations extends Component
     public function createReservation()
     {
         $this->validate();
+
         if (Opening::find($this->opening_id) && $this->res_conditions_ok == '1') {
             $new_reservation = new Reservation();
             $new_reservation->opening_id = $this->opening_id;
@@ -147,7 +149,8 @@ class WelcomeReservations extends Component
                 } else {
                     Mail::to($this->res_email)->send(new ReservationRequest($new_reservation));
                 }
-                // Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationRequestForAdmin($new_reservation));
+                // Mail::to('paul.guillard@benu.lu')->send(new ReservationNotificationForAdmin($new_reservation));
+                Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationNotificationForAdmin($new_reservation));
                 $this->clearContent();
                 $this->message_sent = 1;
                 $this->opening_id = 0;
