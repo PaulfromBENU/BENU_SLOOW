@@ -179,9 +179,13 @@ body, html {
   margin: 0px;
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
-  position: relative;
   width: 100vw;
-  overflow-x: hidden;
+}
+@media (max-width: 767px) {
+  body, html {
+    position: relative;
+    overflow-x: hidden;
+  }
 }
 
 .color-circle {
@@ -3894,7 +3898,12 @@ input[type=checkbox]:focus {
 .welcome-transition-2 {
   width: 100%;
   min-height: 50vh;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-2 {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 767px) {
   .welcome-transition-2 {
@@ -3919,11 +3928,12 @@ input[type=checkbox]:focus {
   transform: rotate(180deg);
 }
 .welcome-transition-2__transition--bottom {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
   z-index: 2;
+  margin-top: -80px;
 }
 .welcome-transition-2__content {
   background: #96B221;
@@ -3946,6 +3956,18 @@ input[type=checkbox]:focus {
   font: normal normal 500 18px/33px "Barlow";
   letter-spacing: 0px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-2__content__text {
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 290px;
+    margin-left: 0;
+    text-align: left;
+    z-index: 0;
+  }
+}
 @media (max-width: 767px) {
   .welcome-transition-2__content__text {
     width: 100%;
@@ -3960,7 +3982,7 @@ input[type=checkbox]:focus {
 }
 .welcome-transition-2__content__img {
   position: absolute;
-  width: 50%;
+  max-width: 60%;
   height: 100%;
   top: 0;
   left: 0;
@@ -3970,13 +3992,36 @@ input[type=checkbox]:focus {
 .welcome-transition-2__content__img img {
   min-height: 100%;
   width: 100%;
+  max-width: 100%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-2__content__img img {
+    height: auto;
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .welcome-transition-2__content__img img {
     height: auto;
     width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-2__content__img {
+    position: absolute;
+    max-height: max(300px, 50vh);
+    top: auto;
+    bottom: -5vh;
+    right: 0;
+    padding-top: 0px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    opacity: 0.4;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0%;
   }
 }
 @media (max-width: 767px) {
@@ -3991,6 +4036,7 @@ input[type=checkbox]:focus {
     padding-bottom: 30px;
     opacity: 0.4;
     width: 100%;
+    max-width: 100%;
     margin-left: 0%;
   }
 }

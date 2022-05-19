@@ -5,7 +5,7 @@
 	<div class="welcome-transition-2__content flex justify-center relative">
 		<div class="benu-container">
 			<div class="welcome-transition-2__content__img">
-				<img src="{{ asset('images/pictures/benu-sloow-photo-parsley.png') }}">
+				<img src="{{ asset('images/pictures/benu-sloow-transition-2.png') }}">
 			</div>
 			<div class="welcome-transition-2__content__text">
 				<p class="welcome-transition-2__content__text--1">
@@ -21,6 +21,6 @@
 		</div>
 	</div>
 	<div class="welcome-transition-2__transition welcome-transition-2__transition--bottom">
-		<img src="{{ asset('images/pictures/benu-sloow-white-transition-1.png') }}">
+		<img src="{{ asset('images/pictures/benu-sloow-white-transition-vegetables-1.png') }}">
 	</div>
 </section>

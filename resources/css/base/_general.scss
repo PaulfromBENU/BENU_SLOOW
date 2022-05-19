@@ -199,12 +199,14 @@
 }
 
 body, html {
+	@include mobile {
+		position: relative;
+		overflow-x: hidden;
+	}
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: 'Barlow', sans-serif;
-	position: relative;
 	width: 100vw;
-	overflow-x: hidden;
 }
 
 .color-circle {
