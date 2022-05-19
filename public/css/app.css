@@ -2982,13 +2982,13 @@ input[type=checkbox]:focus {
     width: 100%;
     max-width: 100%;
     max-height: 60vh;
-    height: 250px;
+    height: 280px;
   }
   .welcome-presentation__illustration img, .welcome-presentation__illustration svg {
     height: 100%;
     margin: auto;
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
