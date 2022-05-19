@@ -1029,6 +1029,9 @@
 			// 	background: $white;
 			// 	height: 40px;
 			// }
+			@include mobile {
+				margin-top: -55px;
+			}
 		}
 	}
 	&__content {
@@ -1129,8 +1132,14 @@
 .welcome-concept {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	margin-top: -150px;
+	z-index: 2;
+	@include tablet {
+		margin-top: -100px;
+	}
 	@include mobile {
-		background: $white;
+		margin-top: -40px;
+		// background: $white;
 	}
 	h3 {
 		color: $secondary-color;
