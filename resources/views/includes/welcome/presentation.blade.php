@@ -13,8 +13,10 @@
             <p class="font-bold secondary-color mb-4 text-lg lg:text-xl" style="text-shadow: white 0 0 1px;">
                 {!! __('welcome.subtitle-1') !!}
             </p>
-            <p class="welcome-illustration-1 welcome-presentation__desc__text">
+            <p class="welcome-presentation__desc__text">
                 {!! __('welcome.pres-txt-1') !!}
+            <br/>
+                {!! __('welcome.pres-txt-2') !!}
             </p>
         </div>
         <div class="">

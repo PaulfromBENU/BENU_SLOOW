@@ -38,7 +38,7 @@
             </div>
 
             <div class="w-full lg:w-5/12 input-group reactive-label-input mt-5">
-                <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.res-time') }} *</p>
+                <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.res-time') }}</p>
                 <div class="text-left welcome-reservation__form__heavy pt-3 pb-3">
                     @if($opening_id !== 0)
                     {{ $opening->starting_hour }}
@@ -68,7 +68,7 @@
 
             @if($opening_id !== 0 && $opening->type == '0')
             <div class="w-full lg:w-5/12 input-group reactive-label-input pt-4 pb-4">
-                <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.res-remaining-seats') }} *</p>
+                <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.res-remaining-seats') }}</p>
                 <div class="text-left welcome-reservation__form__heavy pt-3">
                     {{ $remaining_seats }} <span style="font-weight: 300;">/ {{ $opening->seats }}</span>
                 </div>
@@ -105,7 +105,7 @@
     @if(!$message_sent)
         @if(!$safety_check)
         <div class="contact__form__form__security flex w-2/3 m-auto justify-between flex-wrap">
-            <p style="color: white;">{!! __('forms.security-question') !!} {{ $checksum_number_1 }} + {{ $checksum_number_2 }}&nbsp;?</p>
+            <p style="color: white;">{!! __('forms.security-question') !!} {{ $checksum_number_1 }} + {{ $checksum_number_2 }}&nbsp;? *</p>
             <input type="text" minlength="1" maxlength="2" class="ml-8 input-underline rounded" tabindex="7" required wire:model.defer="user_sum" style="height: 40px;">
             <div wire:click="checkResSum" class="contact__form__form__security__btn btn-couture">{{ __('forms.check') }}</div>
         </div>

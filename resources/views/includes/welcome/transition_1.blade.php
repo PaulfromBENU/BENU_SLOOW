@@ -11,6 +11,9 @@
 				<p class="welcome-transition-1__content__text--2">
 					{!! __('welcome.transition-1-text-2') !!}
 				</p>
+				<p class="welcome-transition-1__content__text--2">
+					{!! __('welcome.transition-1-text-3') !!}
+				</p>
 			</div>
 			<div class="welcome-transition-1__content__img">
 				<img src="{{ asset('images/pictures/benu-sloow-photo-ugly-vegetables-ld.png') }}">
