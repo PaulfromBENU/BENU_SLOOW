@@ -4238,7 +4238,7 @@ input[type=checkbox]:focus {
     max-width: 100%;
     min-width: 100%;
     text-align: center;
-    font: normal normal 700 20px/30px "Barlow";
+    font: normal normal 500 16px/26px "Barlow";
   }
 }
 
