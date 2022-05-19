@@ -62,7 +62,7 @@
                     @for($i = 0; $i < 7; $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
@@ -77,7 +77,7 @@
                     @for($i = 7; $i < 14; $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click.prevent="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
@@ -92,7 +92,7 @@
                     @for($i = 14; $i < 21; $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click.prevent="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
@@ -107,7 +107,7 @@
                     @for($i = 21; $i < 28; $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click.prevent="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
@@ -123,7 +123,7 @@
                     @for($i = 28; $i < min(35, sizeof($days_with_info)); $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click.prevent="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
@@ -140,7 +140,7 @@
                     @for($i = 35; $i < min(42, sizeof($days_with_info)); $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click.prevent="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
@@ -157,7 +157,7 @@
                     @for($i = 42; $i < sizeof($days_with_info); $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click.prevent="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}">
+                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else

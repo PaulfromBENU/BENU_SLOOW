@@ -34,16 +34,6 @@
                 <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.select-date') }} *</p>
                 <div class="text-left welcome-reservation__form__selector">
                     @livewire('tools.datepicker')
-                    <!-- <select wire:model="opening_id">
-                        <option value="0">
-                            {!! __('forms.reservation-choose') !!}
-                        </option>
-                        @foreach($openings as $opening_option)
-                            <option wire:key="{{ $opening_option->id }}" value="{{ $opening_option->id }}">
-                                {{ Carbon\Carbon::parse($opening_option->date)->format('d\/m\/Y') }}
-                            </option>
-                        @endforeach
-                    </select> -->
                 </div>
             </div>
 

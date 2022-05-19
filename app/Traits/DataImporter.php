@@ -48,12 +48,12 @@ trait DataImporter {
                 } else {
                     echo "<span style='color: red;'> >>> Translation missing in JSON for ".$page.'.'.$key." in language EN</span><br/>";
                 }
-                // if ($translation['de'] != "") {
-                //     $updated_translation->de = $translation['de'];
-                // } else {
-                //     echo "<span style='color: red;'> >>> Translation missing in JSON for ".$page.'.'.$key." in language DE</span><br/>";
-                // }
-                $translation['de'] = $page.'.'.$key;
+                if ($translation['de'] != "") {
+                    $updated_translation->de = $translation['de'];
+                } else {
+                    echo "<span style='color: red;'> >>> Translation missing in JSON for ".$page.'.'.$key." in language DE</span><br/>";
+                }
+                // $translation['de'] = $page.'.'.$key;
 
                 if ($translation['lu'] != "") {
                     $updated_translation->lu = $translation['lu'];
@@ -87,7 +87,7 @@ trait DataImporter {
                     $new_translation->key = $key;
                     $new_translation->fr = $translation['fr'];
                     $new_translation->lu = $translation['lu'];
-                    $new_translation->de = $page.'.'.$key;;
+                    $new_translation->de = $translation['de'];
                     $new_translation->en = $translation['en'];
                     $new_translation->translation_key = $page.'.'.$key;
                     if ($new_translation->save()) {

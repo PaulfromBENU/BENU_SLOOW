@@ -754,17 +754,17 @@
   {
     "page": "Home",
     "key": "welcome.desc-normal-restaurant",
-    "de": "Wir begrüßen Dich zum Table d'hôtes mit einem 7 Gänge- Erlebnismenü!",
-    "fr": "Nous te souhaitons la bienvenue à la table d'hôtes avec un menu découverte de 7 plats !",
-    "en": "We welcome you to the table d'hôtes with a 7-course experience menu!",
+    "de": "Wir begrüßen Dich im Restaurant BENU SLOOW \"à la carte\" !",
+    "fr": "Nous te souhaitons la bienvenue au restaurant BENU SLOOW \"à la carte\" !",
+    "en": "We welcome you to the restaurant BENU SLOOW \"à la carte\" !",
     "lu": ""
   },
   {
     "page": "Home",
     "key": "welcome.desc-hosts-table",
-    "de": "Wir begrüßen Dich im Restaurant BENU SLOOW \"à la carte\" !",
-    "fr": "Nous te souhaitons la bienvenue au restaurant BENU SLOOW \"à la carte\" !",
-    "en": "We welcome you to the restaurant BENU SLOOW \"à la carte\" !",
+    "de": "Wir begrüßen Dich zum Table d'hôtes mit einem 7 Gänge- Erlebnismenü!",
+    "fr": "Nous te souhaitons la bienvenue à la table d'hôtes avec un menu découverte de 7 plats !",
+    "en": "We welcome you to the table d'hôtes with a 7-course experience menu!",
     "lu": ""
   },
   {
@@ -850,7 +850,7 @@
   {
     "page": "Home",
     "key": "welcome.sponsor-thanks-1",
-    "de": "Wir danken der OEuvre Nationale de Secours Grande-Duchesse Charlotte für die großzügige Unterstützung des Projektes BENU REUSE.",
+    "de": "Wir danken der OEuvre Nationale de Secours Grande-Duchesse Charlotte für die großzügige Unterstützung des Projektes BENU SLOOW.",
     "fr": "BENU SLOOW remercie l'OEuvre Nationale de Secours Grande-Duchesse Charlottepour son soutien dans ce projet.",
     "en": "We thank the OEuvre Nationale de Secours Grande-Duchesse Charlotte for the generous support of the BENU SLOOW project.",
     "lu": "Mir soen der OEuvre Nationale de Secours Grande-Duchesse Charlotte Merci fir dee generéise Support vum BENU SLOOW Projet."
@@ -1025,7 +1025,7 @@
   },
   {
     "page": "extra infos",
-    "key": "infos.privacy-policy",
+    "key": "infos.title-1",
     "de": "Datenschutz",
     "fr": "Politique de confidentialité",
     "en": "Privacy policy",
@@ -1034,10 +1034,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-1",
-    "de": "Persönliche Daten wie Name, Vorname, E-Mail-Adresse und Telefonnummer werden vertraulich behandelt. Sie werden nur im Rahmen der Online-Reservierung bzw. bei der Anmeldung zum Newsletter durch BENU VILLAGE Esch asbl verwendet. Die Daten werden bis zum Abschluss der Transaktion verwendet und für die gesetzliche Frist im Sinne des Datenschutzrechts gespeichert.",
-    "fr": "Les données personnelles telles que nom, prénom, numéro de téléphone et adresse électronique sont traitées de manière confidentielle. Elles sont utilisées uniquement dans le cadre de la reservation en ligne par BENU VILLAGE Esch asbl. Les données sont utilisées jusqu’à la fin de la transaction et sont sauvegardées pour le délai légal tel que défini par la loi sur la protection des données.",
-    "en": "Personal data such as surname, first name, telephone number, e-mail address and bank details are treated confidentially. They are used only in the context of online-reservation by BENU VILLAGE Esch asbl. The data is used until the end of the transaction and is saved for the legal period as defined by the data protection law.",
-    "lu": "Perséinlech Donnéeë wéi Numm, Virnumm, Telefonsnummer, E-Mail Adress a Bankdetailer gi vertraulech behandelt. Si ginn nëmme benotzt am Kontext vun der Online Vermëttlung vu BENU, dem Bezuelungsservice an dem Liwwerservice. D'Date gi benotzt bis d'Enn vun der Transaktioun a gi gespäichert fir d'legal Period wéi definéiert vum Dateschutzgesetz."
+    "de": "Persönliche Daten wie Name, Vorname, E-Mail-Adresse und Telefonnummer werden vertraulich behandelt. Sie werden nur im Rahmen der Online-Reservierung durch BENU VILLAGE Esch asbl verwendet. Die Daten werden bis zum Abschluss der Transaktion verwendet und für die gesetzliche Frist im Sinne des Datenschutzrechts gespeichert.",
+    "fr": "Les données personnelles telles que le nom, le prénom, l'adresse e-mail et le numéro de téléphone sont traitées de manière confidentielle. Elles ne sont utilisées que dans le cadre de la réservation en ligne par BENU VILLAGE Esch asbl. Les données sont utilisées jusqu'à la conclusion de la transaction et sont conservées pendant la durée légale au sens de la législation sur la protection des données.",
+    "en": "Personal data such as surname, first name, e-mail address and telephone number are treated confidentially. They are only used within the framework of the online reservation by BENU VILLAGE Esch asbl. The data will be used until the transaction is completed and will be stored for the legal period as defined by data protection law.",
+    "lu": ""
   },
   {
     "page": "extra infos",
@@ -1050,10 +1050,18 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-3",
-    "de": "Wir erheben und verarbeiten insbesondere Ihren Namen, Vornamen, E-Mail-Adresse, Telefonnummer, IP-Adresse, historische Verbindungsdaten für Reservierungen ausschließlich im Rahmen und für den Zeitraum, der für die Reservierung unbedingt erforderlich ist. Der obligatorische oder optionale Charakter der Datenerhebung wird Ihnen bei der Erhebung durch ein Sternchen angezeigt.",
+    "de": "Wir erheben und verarbeiten insbesondere Deinen Namen, Vornamen, E-Mail-Adresse, Telefonnummer, IP-Adresse, historische Verbindungsdaten für Reservierungen ausschließlich im Rahmen und für den Zeitraum, der für die Reservierung unbedingt erforderlich ist. Der obligatorische oder optionale Charakter der Datenerhebung wird Dir bei der Erhebung durch ein Sternchen angezeigt.",
     "fr": "Nous collectons et traitons notamment ton nom, prénom, adresse email, numéro de téléphone, adresse IP, données de connexions historiques de reservations données d’analyses fonctionnelles et comportementales exclusivement dans le cadre de et pour une durée strictement nécessaire pour la reservation. Le caractère obligatoire ou facultatif de la collecte des données t’ est signalé lors de la collecte par un astérisque.",
     "en": "We collect and process in particular your name, first name, email address, telephone number, IP address, historical connection data for reservations, functional and behavioral analysis data exclusively within the framework of and for a period strictly necessary for the reservation. The compulsory or optional nature of the data collection is indicated to you during the collection by an asterisk.",
     "lu": "Mir sammelen a veraarbechten besonnesch Däi Numm, Virnumm, E -Mail Adress, Telefonsnummer, IP Adress, historesch Verbindungsdate fir Reservatiounen funktionell a Verhalensanalysedaten exklusiv am Kader vun a fir eng Period strikt noutwendeg fir d'Reservatioun. Déi obligatoresch oder fakultativ Natur vun der Datesammlung gëtt Dir wärend der Sammlung vun engem Asterisk uginn."
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-1-4",
+    "de": "Die für die Anmeldung zum BENU Newsletter erhobenen Daten (Vorname, Name und E-Mail-Adresse) werden ausschließlich genutzt, um Dir BENU Informations-E-Mails zuzuschicken. Die Daten tauschen wir mit niemandem, demnach auch mit keiner beliebigen Organisation, Verwaltung, Unternehmen, Interessensgruppe oder anderen. Sobald Du Dich vom Newsletter abmeldest, werden sämtliche Daten, die im Zusammenhang mit Deiner Person stehen, gelöscht.",
+    "fr": "Les données collectées pour l'inscription à la newsletter BENU (prénom, nom et adresse e-mail) sont exclusivement utilisées pour t'envoyer des e-mails d'information BENU. Nous n'échangeons ces données avec personne, et par conséquent avec aucune organisation, administration, entreprise, groupe d'intérêt ou autre. Dès que tu te désinscris de la newsletter, toutes les données en rapport avec ta personne sont supprimées.",
+    "en": "The data collected for the registration to the BENU newsletter (first name, last name and e-mail address) are used exclusively to send you BENU information e-mails. We do not exchange the data with anyone, including any organisation, administration, company, interest group or others. As soon as you unsubscribe from the newsletter, all data related to your person will be deleted.",
+    "lu": ""
   },
   {
     "page": "extra infos",
