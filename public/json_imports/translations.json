@@ -402,9 +402,17 @@
   {
     "page": "Home",
     "key": "welcome.pres-txt-1",
-    "de": "Das BENU-Küchenteam komponiert aus hochwertigen „geretteten“ Lebensmitteln, ergänzt durch aromatische lokale Wildkräuter, feinste Gewürze und sorgsam ausgewählte Zutaten, täglich neue innovative Geschmacksexplosionen!  \nUnd nicht nur das:  Alle Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich auch aus lokaler Produktion. Alles frisch. Alles unter dem Motto Slow-Food …\nBENU SLOOW startet am XX.XX.XXXX mit seinem Table d’Hôtes.",
-    "fr": "Notre équipe de cuisine compose chaque jour de nouvelles explosions de saveurs innovantes à partir d'aliments \"sauvés\" de grande qualité, complétés par des herbes sauvages locales aromatiques, des épices très fines et des ingrédients soigneusement sélectionnés !  \n\nEt ce n'est pas tout : tous les ingrédients proviennent d'une agriculture écologiquement contrôlée et, si possible, de la production locale. Tout est frais. Le tout sous la devise Slow-Food ...\n\n\nBENU SLOOW débute le XX.XX.XXXX avec sa Table d'Hôtes.",
-    "en": "The BENU kitchen team composes new innovative taste explosions every day from high-quality \"rescued\" food, complemented by aromatic local wild herbs, the finest spices and carefully selected ingredients! \n \nAnd not only that: all ingredients come from ecologically controlled agriculture and, if possible, from local production. Everything fresh. Everything under the motto Slow Food ...\n\nBENU SLOOW starts on XX.XX.XXXX with its Table d'Hôtes.",
+    "de": "Das BENU-Küchenteam komponiert aus hochwertigen „geretteten“ Lebensmitteln, ergänzt durch aromatische lokale Wildkräuter, feinste Gewürze und sorgsam ausgewählte Zutaten, täglich neue innovative Geschmacksexplosionen!  \nUnd nicht nur das:  Alle Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich auch aus lokaler Produktion. Alles frisch. Alles unter dem Motto Slow-Food …",
+    "fr": "Notre équipe de cuisine compose chaque jour de nouvelles explosions de saveurs innovantes à partir d'aliments \"sauvés\" de grande qualité, complétés par des herbes sauvages locales aromatiques, des épices très fines et des ingrédients soigneusement sélectionnés !  \n\nEt ce n'est pas tout : tous les ingrédients proviennent d'une agriculture écologiquement contrôlée et, si possible, de la production locale. Tout est frais. Le tout sous la devise Slow-Food ...",
+    "en": "The BENU kitchen team composes new innovative taste explosions every day from high-quality \"rescued\" food, complemented by aromatic local wild herbs, the finest spices and carefully selected ingredients! \n \nAnd not only that: all ingredients come from ecologically controlled agriculture and, if possible, from local production. Everything fresh. Everything under the motto Slow Food ...",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-txt-2",
+    "de": "BENU SLOOW startet am XX.XX.XXXX mit seinem Table d’Hôtes.",
+    "fr": "BENU SLOOW débute le XX.XX.XXXX avec sa Table d'Hôtes.",
+    "en": "BENU SLOOW starts on XX.XX.XXXX with its Table d'Hôtes.",
     "lu": ""
   },
   {
@@ -426,9 +434,17 @@
   {
     "page": "Home",
     "key": "welcome.transition-1-text-2",
-    "de": "(Zu) viel frisches Obst und Gemüse, das sowohl hochwertig ist als auch den EU Normen entspricht, erreicht den Einzelhandel nie. Wieso? \n\nWeil der Laden immer, also auch kurz vor Schluss, voll sein muss. Viel Ware wartet so auf die Abnahme während die neue Ware bereits angeliefert wird.\n\nDie \"überschüssigen\" Lebensmittel werden regelmäßig entsorgt …",
-    "fr": "Une (trop) grande quantité de fruits et légumes frais, à la fois de qualité et conformes aux normes européennes, n'atteint jamais le commerce de détail. Pourquoi ? \n\nParce que le magasin doit toujours être plein, même juste avant la fermeture. Une grande partie de la marchandise attend ainsi d'être enlevée alors que la nouvelle marchandise est déjà livrée.\n\nLes aliments \"excédentaires\" sont régulièrement jetés ...",
-    "en": "(Too) much fresh fruit and vegetables that are both high quality and meet EU standards never reach the retail sector. Why? \n\nBecause the shop always has to be full, even shortly before closing time. So a lot of goods are waiting to be taken away while the new goods are already being delivered.\n\nThe \"surplus\" food is regularly disposed of ...",
+    "de": "(Zu) viel frisches Obst und Gemüse, das sowohl hochwertig ist als auch den EU Normen entspricht, erreicht den Einzelhandel nie. Wieso? \n\nWeil der Laden immer, also auch kurz vor Schluss, voll sein muss. Viel Ware wartet so auf die Abnahme während die neue Ware bereits angeliefert wird.",
+    "fr": "Une (trop) grande quantité de fruits et légumes frais, à la fois de qualité et conformes aux normes européennes, n'atteint jamais le commerce de détail. Pourquoi ? \n\nParce que le magasin doit toujours être plein, même juste avant la fermeture. Une grande partie de la marchandise attend ainsi d'être enlevée alors que la nouvelle marchandise est déjà livrée.",
+    "en": "(Too) much fresh fruit and vegetables that are both high quality and meet EU standards never reach the retail sector. Why? \n\nBecause the shop always has to be full, even shortly before closing time. So a lot of goods are waiting to be taken away while the new goods are already being delivered.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.transition-1-text-3",
+    "de": "Die \"überschüssigen\" Lebensmittel werden regelmäßig entsorgt …",
+    "fr": "Les aliments \"excédentaires\" sont régulièrement jetés ...",
+    "en": "The \"surplus\" food is regularly disposed of ...",
     "lu": ""
   },
   {
@@ -490,17 +506,33 @@
   {
     "page": "Home",
     "key": "welcome.transition-2-text-2",
-    "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, Upcycling und ZeroWaste. \n\nDie Realisierung des Ökodorfes BENU VILLAGE wurde durch die großzügige Unterstützung der Gemeinde Esch-sur-Alzette ermöglicht !  Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung und das Wirtschaftsministerium.",
-    "fr": "BENU SLOOW est une nouvelle construction, mais des matériaux démontés d'autres projets de construction et des restes d'entreprises ont été utilisés pour la construction. En tant que première partie centrale de BENU VILLAGE, BENU SLOOW mise résolument sur l'économie circulaire, l'upcycling et le ZeroWaste. \n\nLa réalisation de l'écovillage BENU VILLAGE a été rendue possible grâce au généreux soutien de la commune d'Esch-sur-Alzette !  Les autres soutiens engagés sont le Ministère de l'Environnement, du Climat et du Développement durable et le Ministère de l'Economie.",
-    "en": "BENU SLOOW is being built from scratch, but dismantled materials from other construction projects and leftover materials from businesses were used for the construction. As the first and central part of BENU VILLAGE, BENU SLOOW consistently focuses on circular economy, upcycling and ZeroWaste. \n\nThe realisation of the ecovillage BENU VILLAGE was made possible by the generous support of the municipality of Esch-sur-Alzette !  Other engaged supporters are the Ministry of Environment, Climate and Sustainable Development and the Ministry of Economy.",
+    "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, Upcycling und ZeroWaste.",
+    "fr": "BENU SLOOW est une nouvelle construction, mais des matériaux démontés d'autres projets de construction et des restes d'entreprises ont été utilisés pour la construction. En tant que première partie centrale de BENU VILLAGE, BENU SLOOW mise résolument sur l'économie circulaire, l'upcycling et le ZeroWaste.",
+    "en": "BENU SLOOW is being built from scratch, but dismantled materials from other construction projects and leftover materials from businesses were used for the construction. As the first and central part of BENU VILLAGE, BENU SLOOW consistently focuses on circular economy, upcycling and ZeroWaste.",
     "lu": ""
   },
   {
     "page": "Home",
     "key": "welcome.transition-2-text-3",
-    "de": "Als Teil von BENU VILLAGE ist BENU SLOOW mehr als ein Restaurant. Es ist vielmehr ein Ort der Entdeckung, des Erlebens und der Begegnung… \n…. zwischen jung und alt, zwischen unterschiedlichen Menschen und Kulturen!",
-    "fr": "Faisant partie de BENU VILLAGE, BENU SLOOW est plus qu'un restaurant. C'est plutôt un lieu de découverte, d'expérience et de rencontre... \n.... entre jeunes et moins jeunes, entre personnes et cultures différentes !",
-    "en": "As part of BENU VILLAGE, BENU SLOOW is more than a restaurant. It is rather a place of discovery, experience and encounter... \n.... between young and old, between different people and cultures!",
+    "de": "Die Realisierung des Ökodorfes BENU VILLAGE wurde durch die großzügige Unterstützung der Gemeinde Esch-sur-Alzette ermöglicht !  Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung und das Wirtschaftsministerium.",
+    "fr": "La réalisation de l'écovillage BENU VILLAGE a été rendue possible grâce au généreux soutien de la commune d'Esch-sur-Alzette !  Les autres soutiens engagés sont le Ministère de l'Environnement, du Climat et du Développement durable et le Ministère de l'Economie.",
+    "en": "The realisation of the ecovillage BENU VILLAGE was made possible by the generous support of the municipality of Esch-sur-Alzette !  Other engaged supporters are the Ministry of Environment, Climate and Sustainable Development and the Ministry of Economy.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.transition-2-text-4",
+    "de": "Als Teil von BENU VILLAGE ist BENU SLOOW mehr als ein Restaurant. Es ist vielmehr ein Ort der Entdeckung, des Erlebens und der Begegnung…",
+    "fr": "Faisant partie de BENU VILLAGE, BENU SLOOW est plus qu'un restaurant. C'est plutôt un lieu de découverte, d'expérience et de rencontre...",
+    "en": "As part of BENU VILLAGE, BENU SLOOW is more than a restaurant. It is rather a place of discovery, experience and encounter...",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.transition-2-text-5",
+    "de": "…. zwischen jung und alt, zwischen unterschiedlichen Menschen und Kulturen !",
+    "fr": ".... entre jeunes et moins jeunes, entre personnes et cultures différentes !",
+    "en": ".... between young and old, between different people and cultures !",
     "lu": ""
   },
   {

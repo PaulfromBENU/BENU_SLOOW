@@ -11,13 +11,13 @@
 				<p class="welcome-transition-2__content__text--1 mb-3">
 					{!! __('welcome.transition-2-text-1') !!}
 				</p>
-				<p class="welcome-transition-2__content__text--2 mb-3">
+				<p class="welcome-transition-2__content__text--2">
 					{!! __('welcome.transition-2-text-2') !!}
 				</p>
-				<p class="welcome-transition-2__content__text--2 mb-3">
+				<p class="welcome-transition-2__content__text--2">
 					{!! __('welcome.transition-2-text-3') !!}
 				</p>
-				<p class="welcome-transition-2__content__text--2 mb-3">
+				<p class="welcome-transition-2__content__text--2">
 					{!! __('welcome.transition-2-text-4') !!}
 				</p>
 				<p class="welcome-transition-2__content__text--2">
