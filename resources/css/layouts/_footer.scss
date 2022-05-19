@@ -351,7 +351,7 @@
 				color: darken(darkgrey, 30);
 			}
 			&__security {
-				width: 520px;
+				width: 610px;
 				@include mobile {
 					width: 100%;
 					text-align: center;
@@ -362,6 +362,7 @@
 					padding-top: 10px;
 					font: normal normal 500 16px/28px 'Barlow';
 					color: $primary-color;
+					min-width: 290px;
 				}
 				input {
 					width: 50px;
