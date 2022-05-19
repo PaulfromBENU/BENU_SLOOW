@@ -3345,7 +3345,7 @@ input[type=checkbox]:focus {
 }
 .welcome-faq__sponsor p {
   color: #FFFFFF;
-  font: normal normal 500 18px/24px "Barlow";
+  font: normal normal 700 18px/24px "Barlow";
   text-align: center;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
