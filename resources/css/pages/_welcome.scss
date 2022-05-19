@@ -1228,6 +1228,8 @@
 			font: normal normal 700 28px/34px 'Barlow Condensed';
 			letter-spacing: 0px;
 			color: $secondary-color;
+			padding: 30px;
+			padding-bottom: 50px;
 			@include mobile {
 				font: normal normal 700 24px/33px 'Barlow Condensed';
 			}
@@ -1280,12 +1282,12 @@
 		}
 	}
 	&__info {
-		width: 50%;
-		max-width: 980px;
-		min-width: 800px;
+		// width: 50%;
+		// max-width: 980px;
+		// min-width: 800px;
 		margin: auto;
 		text-align: center;
-		font: normal normal 700 20px/30px 'Barlow';
+		font: normal normal 500 16px/26px 'Barlow';
 		letter-spacing: 0px;
 		color: $primary-color;
 		margin-bottom: 20px;

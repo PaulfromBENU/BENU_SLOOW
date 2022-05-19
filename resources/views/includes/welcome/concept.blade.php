@@ -35,11 +35,11 @@
 				{!! __('welcome.concept-price-with-softs') !!}: <strong>180€</strong>
 			</p>
 		</div>
-		<p class="welcome-concept__box__date">
-			{!! __('welcome.concept-start-date') !!}
+		<p class="welcome-concept__info">
+			{!! __('welcome.concept-kulturpass-discount') !!}
 		</p>
 	</div>
-	<p class="welcome-concept__info">
-		{!! __('welcome.concept-kulturpass-discount') !!}
+	<p class="welcome-concept__box__date">
+		{!! __('welcome.concept-start-date') !!}
 	</p>
 </section>
