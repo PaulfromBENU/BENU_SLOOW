@@ -4241,6 +4241,12 @@ input[type=checkbox]:focus {
     font: normal normal 500 16px/26px "Barlow";
   }
 }
+.welcome-concept__info a {
+  transition: color 0.2s;
+}
+.welcome-concept__info a:hover {
+  color: #96B221;
+}
 
 .welcome-mobile-nav {
   position: fixed;

@@ -85,7 +85,7 @@
             </ul>
         </div>
 
-        <div class="w-full lg:w-2/3 m-auto mb-5">
+        <div class="w-full lg:w-2/3 m-auto mb-5" id="kulturpass">
             <!-- <h3 class="primary-color">
                 <strong>{{ __('infos.content-title-2-3') }}</strong>
             </h3> -->
@@ -116,7 +116,7 @@
 
     <section class="benu-container pt-10 pb-10">
         <!-- <h2 class="login__subtitle">{{ __('infos.subtitle-3') }}</h2> -->
-        <h2 class="login__title mb-10" id="kulturpass">{{ __('infos.title-3') }}</h2>
+        <h2 class="login__title mb-10">{{ __('infos.title-3') }}</h2>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
             <h3 class="primary-color">

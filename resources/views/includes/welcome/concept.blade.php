@@ -37,6 +37,8 @@
 		</div>
 		<p class="welcome-concept__info">
 			{!! __('welcome.concept-kulturpass-discount') !!}
+			<br/>
+			<a href="{{ route('extra-infos-'.app()->getLocale()) }}#kulturpass">{!! __('welcome.concept-kulturpass-learn-more') !!}</a>
 		</p>
 	</div>
 	<p class="welcome-concept__box__date">
