@@ -3693,11 +3693,21 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-transition-1__transition--bottom {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: -110px;
   left: 0;
   width: 100%;
   z-index: 2;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-transition-1__transition--bottom {
+    margin-top: -100px;
+  }
+}
+@media (max-width: 767px) {
+  .welcome-transition-1__transition--bottom {
+    margin-top: -60px;
+  }
 }
 .welcome-transition-1__content {
   background: #793162;
@@ -3816,12 +3826,20 @@ input[type=checkbox]:focus {
 }
 
 .welcome-content-1 {
-  padding-top: 70px;
+  padding-top: 0px;
   padding-bottom: 50px;
+  margin-top: -140px;
+  z-index: 3;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-content-1 {
+    margin-top: -100px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-content-1 {
-    padding-top: 40px;
+    margin-top: -40px;
+    padding-top: 0px;
   }
 }
 .welcome-content-1 h3 {
@@ -3830,10 +3848,16 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
   margin-bottom: 90px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-content-1 h3 {
+    font: normal normal 700 35px/44px "Barlow Condensed";
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 767px) {
   .welcome-content-1 h3 {
-    font: normal normal 700 28px/34px "Barlow Condensed";
-    margin-bottom: 50px;
+    font: normal normal 700 26px/34px "Barlow Condensed";
+    margin-bottom: 30px;
   }
 }
 .welcome-content-1 h2 {
@@ -3842,6 +3866,12 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
   color: #793162;
   margin-bottom: 70px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-content-1 h2 {
+    font: normal normal 600 100px/90px "Barlow Condensed";
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-content-1 h2 {
@@ -3859,6 +3889,11 @@ input[type=checkbox]:focus {
   text-align: center;
   width: calc(25% - 1px);
   min-width: 220px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-content-1__initials__container {
+    min-width: 120px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-content-1__initials__container {
@@ -3878,9 +3913,19 @@ input[type=checkbox]:focus {
   font: normal normal 600 48px/60px "Barlow Condensed";
   letter-spacing: 0px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-content-1__initials__container__main {
+    font: normal normal 600 34px/45px "Barlow Condensed";
+  }
+}
 .welcome-content-1__initials__container__sub {
   font: italic normal 300 28px/60px "Barlow Condensed";
   letter-spacing: 0px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-content-1__initials__container__sub {
+    font: italic normal 300 22px/60px "Barlow Condensed";
+  }
 }
 .welcome-content-1__initials__container--border {
   border-right: solid 1px lightgrey;

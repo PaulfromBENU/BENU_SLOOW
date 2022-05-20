@@ -1,6 +1,6 @@
 <section class="benu-container welcome-concept relative">
 	<h3>
-		{!! __('welcome.concept-title-1') !!}&nbsp;!
+		{!! __('welcome.concept-title-1') !!}
 	</h3>
 	<h2>
 		{!! __('welcome.concept-hosts-table') !!}

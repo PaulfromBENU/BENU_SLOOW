@@ -810,11 +810,19 @@
 			}
 		}
 		&--bottom {
-			position: absolute;
-			bottom: 0;
+			position: relative;
+			// bottom: calc(-250px + 6vw);
+			margin-top: -110px;
 			left: 0;
 			width: 100%;
 			z-index: 2;
+			@include tablet {
+				margin-top: -100px;
+			}
+			@include mobile {
+				margin-top: -60px;
+				// bottom: calc(-90px + 10vw);
+			}
 		}
 	}
 	&__content {
@@ -915,19 +923,29 @@
 
 
 .welcome-content-1 {
-	padding-top: 70px;
+	padding-top: 0px;
 	padding-bottom: 50px;
+	margin-top: -140px;
+	z-index: 3;
+	@include tablet {
+		margin-top: -100px;
+	}
 	@include mobile {
-		padding-top: 40px;
+		margin-top: -40px;
+		padding-top: 0px;
 	}
 	h3 {
 		text-align: center;
 		font: normal normal 700 44px/53px 'Barlow Condensed';
 		letter-spacing: 0px;
 		margin-bottom: 90px;
-		@include mobile {
-			font: normal normal 700 28px/34px 'Barlow Condensed';
+		@include tablet {
+			font: normal normal 700 35px/44px 'Barlow Condensed';
 			margin-bottom: 50px;
+		}
+		@include mobile {
+			font: normal normal 700 26px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
 		}
 	}
 	h2 {
@@ -936,6 +954,10 @@
 		letter-spacing: 0px;
 		color: $primary-color;
 		margin-bottom: 70px;
+		@include tablet {
+			font: normal normal 600 100px/90px 'Barlow Condensed';
+			margin-bottom: 50px;
+		}
 		@include mobile {
 			font: normal normal 600 84px/90px 'Barlow Condensed';
 			margin-bottom: 50px;
@@ -950,6 +972,9 @@
 			text-align: center;
 			width: calc(25% - 1px);
 			min-width: 220px;
+			@include tablet {
+				min-width: 120px;
+			}
 			@include mobile {
 				width: 300px;
 				margin: auto;
@@ -965,10 +990,16 @@
 			&__main {
 				font: normal normal 600 48px/60px 'Barlow Condensed';
 				letter-spacing: 0px;
+				@include tablet {
+					font: normal normal 600 34px/45px 'Barlow Condensed';
+				}
 			}
 			&__sub {
 				font: italic normal 300 28px/60px 'Barlow Condensed';
 				letter-spacing: 0px;
+				@include tablet {
+					font: italic normal 300 22px/60px 'Barlow Condensed';
+				}
 			}
 			&--border {
 				border-right: solid 1px lightgrey;
