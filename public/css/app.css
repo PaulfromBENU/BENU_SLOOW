@@ -708,6 +708,7 @@ input[type=checkbox]:focus {
   width: fit-content;
   transition: all 0.2s ease-in-out;
   height: 40px;
+  color: #2E1739;
 }
 .btn-slider-left::after {
   content: "";

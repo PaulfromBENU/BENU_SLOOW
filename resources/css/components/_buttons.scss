@@ -46,6 +46,7 @@
 	width: fit-content;
 	transition: $transition-base;
 	height: 40px;
+	color: $dark-text;
 	&::after {
 		content: "";
 		position: absolute;
