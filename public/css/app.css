@@ -2461,7 +2461,6 @@ input[type=checkbox]:focus {
   position: relative;
   z-index: 1;
   padding-top: 130px;
-  padding-bottom: 40px;
   text-align: center;
 }
 @media (max-width: 767px) {
@@ -2516,6 +2515,12 @@ input[type=checkbox]:focus {
 }
 .footer-contact strong {
   font-weight: 600;
+}
+.footer-contact__map {
+  width: 100%;
+  background: #96B221;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .footer {

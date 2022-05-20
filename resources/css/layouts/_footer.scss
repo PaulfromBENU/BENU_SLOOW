@@ -110,7 +110,7 @@
 	position: relative;
 	z-index: 1;
 	padding-top: 130px;
-	padding-bottom: 40px;
+	// padding-bottom: 40px;
 	text-align: center;
 	@include mobile {
 		padding-top: 70px;
@@ -156,6 +156,12 @@
 	}
 	strong {
 		font-weight: 600;
+	}
+	&__map {
+		width: 100%;
+		background: $secondary-color;
+		padding-top: 2px;
+		padding-bottom: 2px;
 	}
 }
 
