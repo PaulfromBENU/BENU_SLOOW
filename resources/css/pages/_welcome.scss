@@ -849,13 +849,13 @@
 			}
 			&--2 {
 				text-align: left;
-				font: normal normal 500 18px/33px 'Barlow';
+				font: normal normal 500 15px/28px 'Barlow';
 				letter-spacing: 0px;
 				@include tablet {
-					font: normal normal 500 18px/28px 'Barlow';
+					font: normal normal 500 15px/28px 'Barlow';
 				}
 				@include mobile {
-					font: normal normal 500 18px/28px 'Barlow';
+					font: normal normal 500 15px/28px 'Barlow';
 				}
 			}
 			@include tablet {
@@ -1084,7 +1084,7 @@
 				margin-bottom: 40px;
 			}
 			&--2 {
-				font: normal normal 500 18px/33px 'Barlow';
+				font: normal normal 500 15px/28px 'Barlow';
 				letter-spacing: 0px;
 			}
 			@include tablet {
@@ -1225,14 +1225,14 @@
 			padding-left: 10px;
 			padding-right: 10px;
 			text-align: center;
-			font: normal normal 500 18px/33px 'Barlow';
+			font: normal normal 500 15px/28px 'Barlow';
 			letter-spacing: 0px;
 			margin-bottom: 40px;
 			@include mobile {
 				padding-left: 0;
 				padding-right: 0;
 				text-align: left;
-				font: normal normal 500 18px/28px 'Barlow';
+				font: normal normal 500 15px/28px 'Barlow';
 			}
 		}
 		&__prices {
@@ -1319,7 +1319,7 @@
 		// min-width: 800px;
 		margin: auto;
 		text-align: center;
-		font: normal normal 500 16px/26px 'Barlow';
+		font: normal normal 500 15px/28px 'Barlow';
 		letter-spacing: 0px;
 		color: $primary-color;
 		margin-bottom: 20px;
@@ -1328,7 +1328,7 @@
 			max-width: 100%;
 			min-width: 100%;
 			text-align: center;
-			font: normal normal 500 16px/26px 'Barlow';
+			font: normal normal 500 15px/28px 'Barlow';
 		}
 		a {
 			transition: color 0.2s;
