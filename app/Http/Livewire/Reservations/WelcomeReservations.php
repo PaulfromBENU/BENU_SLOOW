@@ -28,6 +28,7 @@ class WelcomeReservations extends Component
     public $res_conditions_ok;
     public $res_message;
     public $remaining_seats;
+    public $initial_remaining_seats;
 
     public $message_sent = 0;
     public $safety_check = 0;
@@ -54,6 +55,7 @@ class WelcomeReservations extends Component
         $this->checksum_number_2 = rand(1, 10);
         $this->res_conditions_ok = 0;
         $this->remaining_seats = 0;
+        $this->initial_remaining_seats = 0;
         $this->show_res_details = 0;
         $this->opening_id = 0;
         $this->opening = null;
@@ -69,6 +71,7 @@ class WelcomeReservations extends Component
                 $this->remaining_seats -= $existing_reservation->seats;
             }
             $this->remaining_seats = max(0, $this->remaining_seats);
+            $this->initial_remaining_seats = $this->remaining_seats;
         } else {
             $this->show_res_details = 0;
             $this->opening_id = 0;
@@ -110,13 +113,15 @@ class WelcomeReservations extends Component
         if ($direction == "up") {
             if (Opening::find($this->opening_id)) {
                 $opening = Opening::find($this->opening_id);
-                if ($this->seats_number < $this->remaining_seats) {
+                if ($this->seats_number < $this->initial_remaining_seats) {
                     $this->seats_number ++;
+                    $this->remaining_seats = $this->initial_remaining_seats - $this->seats_number;
                 }
             }
         } else {
             if ($this->seats_number > 1) {
                 $this->seats_number --;
+                $this->remaining_seats = $this->initial_remaining_seats - $this->seats_number;
             }
         }
     }
@@ -170,6 +175,9 @@ class WelcomeReservations extends Component
                 $this->remaining_seats -= $existing_reservation->seats;
             }
             $this->remaining_seats = max(0, $this->remaining_seats);
+            $this->initial_remaining_seats = $this->remaining_seats;
+            // Include initial seat suggested
+            $this->remaining_seats -= 1;
         } else {
             $this->show_res_details = 0;
             $this->opening_id = 0;
