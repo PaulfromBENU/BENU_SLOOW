@@ -16,5 +16,9 @@ let menuActive = 0;
 $(function() {
 	$('#mobile-menu-btn').on('click', function() {
 		toggleMobileSideMenu(menuActive);
-	})
+	});
+
+	$('.side-mobile-link').on('click', function() {
+		toggleMobileSideMenu(1);
+	});
 });

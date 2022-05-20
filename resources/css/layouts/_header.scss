@@ -330,6 +330,7 @@
 			font: normal normal 600 18px/22px 'Barlow Condensed';
 			letter-spacing: 0.36px;
 			transition: color 0.3s ease-in-out;
+			cursor: pointer;
 			&::before {
 				background-color: $primary-color;
 				color: $primary-color;

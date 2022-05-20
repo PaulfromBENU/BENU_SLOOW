@@ -51,13 +51,13 @@
             </div>
             <div class="flex justify-between header__main-menu">
                 <nav class="header__main-nav flex justify-start mobile-hidden">
-                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-1') }}</a>
+                    <a onclick="document.getElementById('host-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-1') }}</a>
 
-                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-2') }}</a>
+                    <a onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-2') }}</a>
 
-                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-3') }}</a>
+                    <a onclick="document.getElementById('faq-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-3') }}</a>
 
-                    <a href="#" class="header__main-nav__link inline-block">{{ __('header.title-4') }}</a>
+                    <a onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-4') }}</a>
                 </nav>
                 <nav class="mobile-only">
                     <div>

@@ -1322,6 +1322,7 @@ input[type=checkbox]:focus {
   font: normal normal 600 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
   transition: color 0.3s ease-in-out;
+  cursor: pointer;
 }
 .header__main-nav__link::before {
   background-color: #793162;
@@ -2983,7 +2984,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .welcome-presentation__illustration {
     position: relative;
-    right: 0;
+    right: -10px;
     width: 100%;
     max-width: 100%;
     max-height: 60vh;

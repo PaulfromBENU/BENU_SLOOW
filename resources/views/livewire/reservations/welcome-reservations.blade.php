@@ -4,7 +4,7 @@
     <div class="relative">
         <div class="flex justify-center lg:justify-between flex-wrap">
             <div class="w-full lg:w-5/12 input-group reactive-label-input">
-                <p class="welcome-reservation__form__labels">{{ __('forms.first-name') }} *</p>
+                <p class="welcome-reservation__form__labels" id="reservation-anchor">{{ __('forms.first-name') }} *</p>
                 <input type="text" id="res_first_name" name="res_first_name" class="input-underline w-full" tabindex="1" minlength="2" maxlength="255" required wire:model.defer="res_first_name" style="color: white;">
                 @error('res_first_name')
                     <div class="primary-color">{{ $message }}</div>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="flex justify-center lg:justify-between flex-wrap">
-            <div class="w-full lg:w-5/12 input-group reactive-label-input" id="reservation-anchor">
+            <div class="w-full lg:w-5/12 input-group reactive-label-input">
                 <p class="welcome-reservation__form__labels" style="position: relative; bottom: 0;">{{ __('forms.select-date') }} *</p>
                 <div class="text-left welcome-reservation__form__selector">
                     @livewire('tools.datepicker')
@@ -124,5 +124,4 @@
             {!! __('forms.reservation-confirmation-message') !!}
         </div>
     @endif
-
 </form>
