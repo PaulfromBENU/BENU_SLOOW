@@ -130,10 +130,10 @@
   {
     "page": "Home",
     "key": "header.discover-break",
-    "de": "Ein neuer Standort wird bis Ende 2023 eingerichtet. Weitere Informationen:",
-    "fr": "Un nouveau site sera mis en place d'ici fin 2023. Plus d'informations :",
-    "en": "A new site will be established by the end of 2023. Further information:",
-    "lu": "En neie Site gëtt bis Enn 2023 ageriicht. Méi Informatiounen:"
+    "de": "Entdecke die Website BENU VILLAGE ESCH ASBL",
+    "fr": "Découvrir le site BENU VILLAGE ESCH ASBL",
+    "en": "Discover the BENU VILLAGE ESCH ASBL website",
+    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
   },
   {
     "page": "Newsletter",
@@ -317,7 +317,7 @@
     "de": "Wähle Deine Sprache",
     "fr": "Choisis ta langue",
     "en": "Choose your language",
-    "lu": ""
+    "lu": "Wiel Deng Sprooch"
   },
   {
     "page": "Home",
@@ -506,7 +506,7 @@
   {
     "page": "Home",
     "key": "welcome.transition-2-text-2",
-    "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, Upcycling und ZeroWaste.",
+    "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, Upcycling und ZeroWaste. Unterstützt wird das Restaurant BENU SLOOW von der OEuvre Nationale de Secours Grande-Duchesse Charlotte.",
     "fr": "BENU SLOOW est une nouvelle construction, mais des matériaux démontés d'autres projets de construction et des restes d'entreprises ont été utilisés pour la construction. En tant que première partie centrale de BENU VILLAGE, BENU SLOOW mise résolument sur l'économie circulaire, l'upcycling et le ZeroWaste.",
     "en": "BENU SLOOW is being built from scratch, but dismantled materials from other construction projects and leftover materials from businesses were used for the construction. As the first and central part of BENU VILLAGE, BENU SLOOW consistently focuses on circular economy, upcycling and ZeroWaste.",
     "lu": ""
@@ -514,14 +514,22 @@
   {
     "page": "Home",
     "key": "welcome.transition-2-text-3",
-    "de": "Die Realisierung des Ökodorfes BENU VILLAGE wurde durch die großzügige Unterstützung der Gemeinde Esch-sur-Alzette ermöglicht !  Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung und das Wirtschaftsministerium.",
+    "de": "Die Realisierung des Ökodorfes BENU VILLAGE wird durch die großzügige Unterstützung der Gemeinde Esch-sur-Alzette ermöglicht !  Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung und das Wirtschaftsministerium.",
     "fr": "La réalisation de l'écovillage BENU VILLAGE a été rendue possible grâce au généreux soutien de la commune d'Esch-sur-Alzette !  Les autres soutiens engagés sont le Ministère de l'Environnement, du Climat et du Développement durable et le Ministère de l'Economie.",
     "en": "The realisation of the ecovillage BENU VILLAGE was made possible by the generous support of the municipality of Esch-sur-Alzette !  Other engaged supporters are the Ministry of Environment, Climate and Sustainable Development and the Ministry of Economy.",
     "lu": ""
   },
   {
-    "page": "Home",
+    "page": "",
     "key": "welcome.transition-2-text-4",
+    "de": "Wir danken all unseren Unterstützern für ihr großartiges  Engagement!",
+    "fr": "Nous remercions tous nos soutiens pour leur formidable engagement !",
+    "en": "We thank all our supporters for their great commitment!",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.transition-2-text-5",
     "de": "Als Teil von BENU VILLAGE ist BENU SLOOW mehr als ein Restaurant. Es ist vielmehr ein Ort der Entdeckung, des Erlebens und der Begegnung…",
     "fr": "Faisant partie de BENU VILLAGE, BENU SLOOW est plus qu'un restaurant. C'est plutôt un lieu de découverte, d'expérience et de rencontre...",
     "en": "As part of BENU VILLAGE, BENU SLOOW is more than a restaurant. It is rather a place of discovery, experience and encounter...",
@@ -529,7 +537,7 @@
   },
   {
     "page": "Home",
-    "key": "welcome.transition-2-text-5",
+    "key": "welcome.transition-2-text-6",
     "de": "…. zwischen jung und alt, zwischen unterschiedlichen Menschen und Kulturen !",
     "fr": ".... entre jeunes et moins jeunes, entre personnes et cultures différentes !",
     "en": ".... between young and old, between different people and cultures !",
@@ -605,6 +613,14 @@
     "de": "Personen mit Kulturpass erhalten einen 50% Rabatt auf sämtliche BENU Leistungen.",
     "fr": "Les personnes titulaires du Kulturpass bénéficient d'une réduction de 50% sur toutes les prestations BENU.",
     "en": "Les personnes titulaires du Kulturpass bénéficient d'une réduction de 50% sur toutes les prestations BENU.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.concept-kulturpass-learn-more",
+    "de": "Mehr über den Kulturpass erfahren",
+    "fr": "En savoir plus sur la Kulturpass",
+    "en": "Learn more about the Kulturpass",
     "lu": ""
   },
   {
@@ -883,7 +899,7 @@
     "page": "Home",
     "key": "welcome.sponsor-thanks-1",
     "de": "Wir danken der OEuvre Nationale de Secours Grande-Duchesse Charlotte für die großzügige Unterstützung des Projektes BENU SLOOW.",
-    "fr": "BENU SLOOW remercie l'OEuvre Nationale de Secours Grande-Duchesse Charlottepour son soutien dans ce projet.",
+    "fr": "BENU SLOOW remercie l'OEuvre Nationale de Secours Grande-Duchesse Charlotte pour son soutien dans ce projet.",
     "en": "We thank the OEuvre Nationale de Secours Grande-Duchesse Charlotte for the generous support of the BENU SLOOW project.",
     "lu": "Mir soen der OEuvre Nationale de Secours Grande-Duchesse Charlotte Merci fir dee generéise Support vum BENU SLOOW Projet."
   },
@@ -929,6 +945,22 @@
   },
   {
     "page": "Home",
+    "key": "footer.contact-opening-1",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "footer.contact-opening-2",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
     "key": "forms.sir",
     "de": "Herr",
     "fr": "M.",
@@ -958,6 +990,14 @@
     "fr": "Message (max. 1000 caractères)",
     "en": "Message (max. 1000 characters)",
     "lu": "Message (max. 1000 Zeechen)"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.map-explanation",
+    "de": "Du findest den Eingang zum Restaurant BENU SLOOW am dem Bvd John Fitzgerald Kennedy. Der Zugang von der Rue d'Audun ist zur Moment noch nicht möglich.",
+    "fr": "Tu trouveras l'entrée du restaurant BENU SLOOW sur le Bvd John Fitzgerald Kennedy. L'accès depuis la rue d'Audun n'est pas encore possible.",
+    "en": "You will find the entrance to the BENU SLOOW restaurant on Bvd John Fitzgerald Kennedy. Access from Rue d'Audun is not possible at the moment.",
+    "lu": ""
   },
   {
     "page": "Home",
@@ -1066,7 +1106,7 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-1",
-    "de": "Persönliche Daten wie Name, Vorname, E-Mail-Adresse und Telefonnummer werden vertraulich behandelt. Sie werden nur im Rahmen der Online-Reservierung durch BENU VILLAGE Esch asbl verwendet. Die Daten werden bis zum Abschluss der Transaktion verwendet und für die gesetzliche Frist im Sinne des Datenschutzrechts gespeichert.",
+    "de": "Persönliche Daten wie Name, Vorname, E-Mail-Adresse und Telefonnummer werden vertraulich behandelt. Sie werden nur im Rahmen der Online-Reservierung bis zum Abschluss der Transaktion durch BENU VILLAGE Esch asbl verwendet. Die Daten werden für die gesetzliche Frist im Sinne des Datenschutzrechts gespeichert.",
     "fr": "Les données personnelles telles que le nom, le prénom, l'adresse e-mail et le numéro de téléphone sont traitées de manière confidentielle. Elles ne sont utilisées que dans le cadre de la réservation en ligne par BENU VILLAGE Esch asbl. Les données sont utilisées jusqu'à la conclusion de la transaction et sont conservées pendant la durée légale au sens de la législation sur la protection des données.",
     "en": "Personal data such as surname, first name, e-mail address and telephone number are treated confidentially. They are only used within the framework of the online reservation by BENU VILLAGE Esch asbl. The data will be used until the transaction is completed and will be stored for the legal period as defined by data protection law.",
     "lu": ""
@@ -1106,7 +1146,7 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-2-1",
-    "de": "Willkommen auf der Internetseite sloow.benu.lu , die von BENU VILLAGE ESCH asbl betrieben wird.\n\nSitz der BENU VILLAGE ESCH asbl :",
+    "de": "Willkommen auf der Internetseite sloow.benu.lu (benusloow.lu), die von BENU VILLAGE ESCH asbl betrieben wird.\n\nSitz der BENU VILLAGE ESCH asbl :",
     "fr": "Bienvenue sur le site sloow.benu.lu exploité par BENU VILLAGE ESCH asbl.\n\nSiège de BENU VILLAGE ESCH asbl :",
     "en": "Welcome to the website sloow.benu.lu operated by BENU VILLAGE ESCH asbl.\n\nSeat of BENU VILLAGE ESCH asbl :",
     "lu": "Wëllkomm op der Websäit sloow.benu.lu bedriwwe vum BENU VILLAGE ESCH asbl. \n\nSëtz vun BENU VILLAGE ESCH asbl:"
@@ -1178,17 +1218,233 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-3-1",
-    "de": "",
-    "fr": "",
-    "en": "",
+    "de": "Der Kulturpass soll es allen Menschen - unabhängig vom ihrem Einkommen - ermöglichen, am kulturellen Leben in Luxemburg teilzunehmen. Als Kulturpassinhaber:in erhältst Du schon heute freien Zugang zu den verschiedenen Partnermuseen und eine Eintrittskarte für kulturelle Veranstaltungen wie Tanzaufführungen, Konzerte und Theaterstücke, für die Cinémathèque oder Festivals zum Preis von 1,50 Euro.",
+    "fr": "Le Kulturpass doit permettre à toutes les personnes - indépendamment de leurs revenus - de participer à la vie culturelle au Luxembourg. En tant que détenteur(trice) du Kulturpass, tu bénéficies déjà d'un accès gratuit aux différents musées partenaires et d'un billet d'entrée pour des manifestations culturelles telles que des spectacles de danse, des concerts et des pièces de théâtre, pour la Cinémathèque ou des festivals au prix de 1,50 euro.",
+    "en": "The Culture Pass is intended to enable all people - regardless of their income - to participate in cultural life in Luxembourg. As a culture pass holder, you already receive free access to the various partner museums and a ticket for cultural events such as dance performances, concerts and plays, for the Cinémathèque or festivals for the price of 1.50 euros.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-3-2",
+    "de": "Wir bei BENU möchten ein Stück weiter gehen. Wir wünschen uns, dass das Angebot des Kulturpasses über kulturelle Veranstaltungen hinaus auch auf andere Bereiche ausgeweitet wird. Daher gewähren wir Dir als Kulturpassinhaber:in eine Ermäßigung auf alle unsere Serviceleistungen und Produkte. Ob ein Besuch im Restaurant BENU SLOOW oder der Kauf eines Kleidungsstückes im BENU Shop…. Du zahlst überall die Hälfte des regulären Preises.",
+    "fr": "We at BENU would like to go a bit further. We would like to see the offer of the culture pass extended beyond cultural events to other areas. Therefore, we grant you a discount on all our services and products as a culture pass holder. Whether a visit to the BENU SLOOW restaurant or the purchase of a piece of clothing in the BENU Shop.... You pay half the regular price everywhere.",
+    "en": "Chez BENU, nous souhaitons aller un peu plus loin. Nous souhaitons que l'offre du Kulturpass s'étende au-delà des manifestations culturelles à d'autres domaines. C'est pourquoi, en tant que détenteur du Kulturpass, nous t'accordons une réduction sur tous nos services et produits. Qu'il s'agisse d'une visite au restaurant BENU SLOOW ou de l'achat d'un vêtement dans la boutique BENU.... Tu paieras partout la moitié du prix normal.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-3-3",
+    "de": "Weitere Informationen zum Kulturpass findest Du auf https://kulturpass.lu.",
+    "fr": "Tu trouveras plus d'informations sur le Kulturpass sur https://kulturpass.lu.",
+    "en": "You can find more information about the Culture Pass at https://kulturpass.lu.",
     "lu": ""
   },
   {
     "page": "extra infos",
     "key": "infos.title-4",
-    "de": "Algemeine Nutzungsbedingungen",
+    "de": "Allgemeine Nutzungsbedingungen",
     "fr": "Conditions générales",
     "en": "Terms & Conditions",
     "lu": "Allgemeng Konditiounen"
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-1",
+    "de": "Einleitung",
+    "fr": "Introduction",
+    "en": "Introduction",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-1",
+    "de": "Die Adresse http://www.sloow.benu.lu (www.benusloow.lu) ist eine im Internet zugängliche Website der BENU VILLAGE ESCH asbl mit Sitz in 50, Rue des Celtes, L-1318 Luxembourg.\nDie vorliegenden Nutzungsbedingungen definieren die Bedingungen und Modalitäten, nach denen die Nutzer:innen Serviceleistungen der Internetseite in Anspruch nehmen können, z.B. die Möglichkeit Online-Reservierungen für das Restaurant BENU SLOOW vorzunehmen.",
+    "fr": "L'adresse http://www.sloow.benu.lu (www.benusloow.lu) est un site web accessible sur Internet de BENU VILLAGE ESCH asbl, dont le siège social est situé 50, Rue des Celtes, L-1318 Luxembourg.\nLes présentes conditions d'utilisation ont pour objet de définir les conditions et modalités dans lesquelles les utilisateurs peuvent accéder aux services proposés par le site, tels que la possibilité d'effectuer des réservations en ligne pour le restaurant BENU SLOOW.",
+    "en": "The address http://www.sloow.benu.lu (www.benusloow.lu) is an Internet-accessible website of BENU VILLAGE ESCH asbl, whose registered office is at 50, Rue des Celtes, L-1318 Luxembourg.\nThe present terms of use define the conditions and modalities according to which users may use the services of the website, such as the possibility of making online reservations for the BENU SLOOW restaurant.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-2",
+    "de": "Restaurant BENU SLOOW",
+    "fr": "Restaurant BENU SLOOW",
+    "en": "Restaurant BENU SLOOW",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-2",
+    "de": "Das Restaurant BENU SLOOW verarbeitet für die Zubereitung seiner Gerichte und Produkte „gerettete“ Lebensmittel (rescued food). Hierbei handelt es sich um überschüssige Lebensmittel, die weggeworfen würden, obwohl sie noch ausreichend lang haltbar und hochwertig sind und den EU Normen entsprechen.\nBENU SLOOW strebt einen Anteil von 80% an „geretteten“ Lebensmitteln als Zutaten für die Zubereitung seiner Gerichte und Produkte an. \nEs wird weder Fleisch noch Fisch verarbeitet. Neben vegetarischen Gerichten werden im Restaurant auch rein vegane Gerichte angeboten. Alle verwendeten Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich aus lokaler Produktion.",
+    "fr": "Le restaurant BENU SLOOW utilise des aliments \"sauvés\" (rescued food) pour la préparation de ses plats et produits. Il s'agit d'aliments excédentaires qui seraient jetés alors qu'ils se conservent encore suffisamment longtemps, sont de bonne qualité et répondent aux normes européennes.\nBENU SLOOW vise une proportion de 80% d'aliments \"sauvés\" comme ingrédients pour la préparation de ses plats et produits. \nNi viande ni poisson ne sont utilisés. Outre les plats végétariens, le restaurant propose également des plats entièrement végétaliens. Tous les ingrédients utilisés proviennent de l'agriculture écologiquement contrôlée et, si possible, de la production locale.",
+    "en": "The BENU SLOOW restaurant uses \"rescued\" food in the preparation of its dishes and products. This is surplus food that would be thrown away even though it has a sufficiently long shelf life, is of high quality and complies with EU standards.\nBENU SLOOW strives for an 80% share of \"rescued\" food as ingredients for the preparation of its dishes and products. \nNeither meat nor fish is processed. In addition to vegetarian dishes, the restaurant also offers purely vegan dishes. All ingredients used come from ecologically controlled agriculture and, if possible, from local production.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-3",
+    "de": "Table d’hôtes",
+    "fr": "Table d’hôtes",
+    "en": "Table d’hôtes",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-3",
+    "de": "In der Anfangsphase startet das Restaurant BENU SLOOW mit einer Table d’hôtes. Diese empfängt die Gäste an den auf der Homepage angegebenen Terminen jeweils um 19:00Uhr. Die Teilnahme an der Table d’hôtes ist nur unter Voranmeldung möglich. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 2791 1949 vorgenommen werden. \nBei der Table d’hôtes werden jeweils bis zu maximal 12 Personen angenommen, die gemeinsam an einem Tisch ein täglich wechselndes 7-gängiges vegetarisches Menü serviert bekommen.\nDer Preis beträgt pro Person",
+    "fr": "Dans sa phase initiale, le restaurant BENU SLOOW démarre avec une table d'hôtes. Celle-ci accueille les hôtes aux dates indiquées sur la page d'accueil, à 19 heures. La participation à la table d'hôtes n'est possible que sur réservation. L'inscription peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 2791 1949. \nLa table d'hôtes accueille jusqu'à 12 personnes au maximum, qui se voient servir ensemble à une table un menu végétarien à sept plats qui change tous les jours.\nLe prix par personne est de",
+    "en": "In the initial phase, the BENU SLOOW restaurant will start with a table d'hôtes. The table d'hôtes welcomes guests on the dates listed on the homepage at 7:00 pm. Participation in the table d'hôtes is only possible with advance reservation. Reservations can be made online using the reservation form or by calling +352 2791 1949. \nThe table d'hôtes accepts a maximum of 12 people at a time, who are served a daily changing 7-course vegetarian menu together at one table.\nThe price per person is",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-3-bullet-1",
+    "de": "ohne Getränke: 150 Euro",
+    "fr": "sans boissons : 150 euros",
+    "en": "without drinks: 150 euros",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-3-bullet-2",
+    "de": "mit ausgewählten alkoholischen Getränken: 200 Euro",
+    "fr": "avec une sélection de boissons alcoolisées : 200 euros",
+    "en": "with selected alcoholic beverages: 200 euros",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-3-bullet-3",
+    "de": "mit ausgewählten nicht-alkoholischen Getränken: 180 Euro",
+    "fr": "avec une sélection de boissons non alcoolisées : 180 euros",
+    "en": "with selected non-alcoholic drinks: 180 euros",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-4",
+    "de": "Restaurant à la carte",
+    "fr": "Restaurant \"à la carte",
+    "en": "Restaurant \"à la carte",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-4",
+    "de": "Im Anschluss an das Angebot der Table d’hôtes öffnet das Restaurant BENU SLOOW an den auf der Homepage angegebenen Terminen als reguläres Restaurant „à la carte“. Das Restaurant kann mit und ohne Voranmeldung zu den angegebenen Öffnungszeiten besucht werden. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 2791 1949 vorgenommen werden.\nDas Restaurant bietet eine täglich wechselnde Speisekarte mit unterschiedlichen vegetarischen und veganen Gerichten.",
+    "fr": "Suite à l'offre de la table d'hôtes, le restaurant BENU SLOOW ouvre ses portes en tant que restaurant régulier \"à la carte\" aux dates indiquées sur la page d'accueil. Le restaurant peut être visité avec ou sans réservation aux heures d'ouverture indiquées. La réservation peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 2791 1949.\nLe restaurant propose une carte qui change tous les jours et qui comprend différents plats végétariens et végétaliens.",
+    "en": "After the table d'hôtes offer, the BENU SLOOW restaurant opens as a regular \"à la carte\" restaurant on the dates indicated on the homepage. The restaurant can be visited with or without advance reservation during the opening hours indicated. Reservations can be made online using the reservation form or by calling +352 2791 1949.\nThe restaurant offers a daily changing menu with different vegetarian and vegan dishes.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-5",
+    "de": "Reservierung",
+    "fr": "Réservation",
+    "en": "Reservation",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-5",
+    "de": "Bei der Reservierung gibt der/die Nutzer:in den Vornamen, den Namen, die Telefonnummer und die E-Mail-Adresse an, wählt das gewünschte Datum aus und nennt die Anzahl der Gäste.\nMit der Auswahl des Datums wird gleichzeitig gewählt, ob es sich um die Teilnahme an einer Table d’hôtes handelt oder um die Reservierung eines Tisches im Restaurant „à la carte“. \nDer/die Nutzer:in verpflichtet sich, bei der Reservierung BENU aktuelle, vollständige und richtige Angaben zur Verfügung zu stellen. BENU ist demzufolge über jede Änderung der Angaben zu unterrichten. Mit der Reservierung stimmt der/die Nutzer:in den Allgemeinen Nutzungsbedingungen und den Datenschutzrichtlinien von BENU zu.\nDer/die Nutzer:in erhält eine Bestätigung der Reservierung per E-Mail.\nBENU ist berechtigt, vom Kunden eine angemessene Vorauszahlung oder Sicherheitsleistung in Form einer Kreditkartengarantie, einer Anzahlung oder Ähnlichem zu verlangen.",
+    "fr": "Lors de la réservation, l'utilisateur(trice) indique son prénom, son nom, son numéro de téléphone et son adresse e-mail, choisit la date souhaitée et indique le nombre de convives.\nEn choisissant la date, il choisit en même temps s'il s'agit de participer à une table d'hôtes ou de réserver une table dans un restaurant \"à la carte\". \nL'utilisateur/utilisatrice s'engage à fournir à BENU des informations actuelles, complètes et correctes lors de la réservation. BENU doit donc être informé de toute modification des données. En effectuant une réservation, l'utilisateur accepte les conditions générales d'utilisation et la politique de confidentialité de BENU.\nL'utilisateur(trice) reçoit une confirmation de la réservation par e-mail.\nBENU est en droit d'exiger du client un paiement anticipé approprié ou une garantie sous forme de garantie de carte de crédit, d'acompte ou autre.",
+    "en": "When making a reservation, the user enters his/her first name, surname, telephone number and e-mail address, selects the desired date and indicates the number of guests.\nWith the selection of the date, it is simultaneously selected whether it is a question of participation in a table d'hôtes or the reservation of a table in the restaurant \"à la carte\". \nThe user is obliged to provide BENU with up-to-date, complete and correct information when making the reservation. BENU must therefore be informed of any changes to the details. By making a reservation, the user agrees to the General Terms of Use and the Privacy Policy of BENU.\nThe user will receive a confirmation of the reservation by e-mail.\nBENU is entitled to demand a reasonable advance payment or security deposit from the customer in the form of a credit card guarantee, a deposit or similar.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-6",
+    "de": "Annullierung einer Reservierung",
+    "fr": "Annulation d'une réservation",
+    "en": "Cancellation of a reservation",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-6",
+    "de": "Die Reservierung an der Table d’hôtes kann bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu storniert werden.\nErfolgt die Stornierung später, also in weniger als 4 Werktagen vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.\nDie Stornierungsfrist für einen Tisch im Restaurant „à la carte“ beträgt 24 Stunden. Erfolgt die Stornierung später, also innerhalb der 24 Stunden vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.",
+    "fr": "La réservation à la table d'hôtes peut être annulée au plus tard 4 jours ouvrables avant la date réservée, par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.\nSi l'annulation intervient plus tard, c'est-à-dire moins de 4 jours ouvrables avant la date réservée, ou pas du tout, BENU peut facturer au client/à la cliente les frais occasionnés.\nLe délai d'annulation pour une table au restaurant \"à la carte\" est de 24 heures. Si l'annulation a lieu plus tard, c'est-à-dire dans les 24 heures avant la date réservée, ou si elle n'a pas lieu, BENU peut facturer au client les frais occasionnés.",
+    "en": "The reservation at the table d'hôtes can be cancelled at least 4 working days before the reserved date by calling +352 2791 1949 or by sending an email to info@benusloow.lu.\nIf the cancellation is made later, i.e. less than 4 working days before the reserved date, or not at all, BENU may charge the customer for any expenses incurred.\nThe cancellation period for a table in the \"à la carte\" restaurant is 24 hours. If the cancellation is made later, i.e. within the 24 hours before the reserved date, or not at all, BENU may charge the customer for the expenses incurred.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-7",
+    "de": "Kulturpass",
+    "fr": "Kulturpass",
+    "en": "Kulturpass",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-7-1",
+    "de": "Inhaber:innen eines Kulturpasses erhalten auf alle Leistungen von BENU eine Ermäßigung von 50%. Kulturpassinhaber:innen sind gebeten ihren Kulturpass beim Besuch des Restaurants BENU SLOOW mitzubringen.\nÜber die Cultur’All asbl können folgende Personengruppen einen Kulturpass erhalten:",
+    "fr": "Les détenteurs d'un Kulturpass bénéficient d'une réduction de 50% sur toutes les prestations de BENU. Les détenteurs du Kulturpass sont priés d'apporter leur Kulturpass lors de leur visite au restaurant BENU SLOOW.\nLes groupes de personnes suivants peuvent obtenir un Kulturpass par le biais de Cultur'All asbl :",
+    "en": "Holders of a culture pass receive a 50% discount on all BENU services. Culture pass holders are requested to bring their culture pass with them when visiting the BENU SLOOW restaurant.\nThrough Cultur'All asbl, the following groups of people can obtain a culture pass:",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-7-bullet-1",
+    "de": "Jede Person oder Familie mit einem bescheidenen Einkommen, die in Luxemburg wohnt",
+    "fr": "Toute personne ou famille à revenus modestes résidant au Luxembourg.",
+    "en": "Any person or family with a modest income living in Luxembourg.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-7-bullet-2",
+    "de": "Jede Person, die einen Antrag auf internationalen Schutz gestellt hat",
+    "fr": "Toute personne ayant introduit une demande de protection internationale",
+    "en": "Any person who has filed an application for international protection",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-7-bullet-3",
+    "de": "Jede Person, die vorübergehenden Schutz erhalten hat",
+    "fr": "Toute personne ayant obtenu une protection temporaire.",
+    "en": "Any person who has been granted temporary protection",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-7-2",
+    "de": "Weitere Informationen über den Kulturpass sind erhältlich auf https://kulturpass.lu.",
+    "fr": "De plus amples informations sur le Kulturpass sont disponibles sur https://kulturpass.lu.",
+    "en": "More information about the culture pass is available at https://kulturpass.lu.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-8",
+    "de": "Newsletter",
+    "fr": "Newsletter",
+    "en": "Newsletter",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-8",
+    "de": "Auf der homepage http://www.sloow.benu.lu (www.benusloow.lu) ist die Anmeldung zum BENU Newsletter möglich. Für die Anmeldung gibt der/die Nutzer:in den Vornamen, den Namen und die E-Mail-Adresse an. \nEine Abmeldung vom Newsletter ist jederzeit formlos möglich, per E-Mail an admin@benuvillageesch.lu mit dem Zusatz ‚ABMELDEN‘.",
+    "fr": "Sur la page d'accueil http://www.sloow.benu.lu (www.benusloow.lu), il est possible de s'inscrire à la newsletter BENU. Pour s'inscrire, l'utilisateur:in indique son prénom, son nom et son adresse e-mail. \nIl est possible de se désinscrire de la newsletter à tout moment et sans formalité, par e-mail à admin@benuvillageesch.lu avec la mention 'ANNULER'.",
+    "en": "Registration for the BENU newsletter is possible on the homepage http://www.sloow.benu.lu (www.benusloow.lu). To register, the user must enter his/her first name, surname and e-mail address. \nIt is possible to unsubscribe from the newsletter at any time by sending an e-mail to admin@benuvillageesch.lu with the addition 'ABMELDEN'.",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-title-4-9",
+    "de": "Gutscheine",
+    "fr": "Bons d'achat",
+    "en": "Vouchers",
+    "lu": ""
+  },
+  {
+    "page": "extra infos",
+    "key": "infos.content-txt-4-9",
+    "de": "BENU Gutscheine, erhältlich auf allen BENU Webseiten, ausser www.benu.lu und www.benureuse.lu, können für sämtliche BENU Leistungen und Produkte, so auch beim Besuch im BENU SLOOW Restaurant, eingesetzt werden. Sie sind zeitlich nicht begrenzt.",
+    "fr": "Les bons d'achat BENU, disponibles sur tous les sites Internet BENU, à l'exception de www.benu.lu et www.benureuse.lu, peuvent être utilisés pour toutes les prestations et tous les produits BENU, y compris pour une visite au restaurant BENU SLOOW. Ils ne sont pas limités dans le temps.",
+    "en": "BENU vouchers, available on all BENU websites except www.benu.lu and www.benureuse.lu, can be used for all BENU services and products, including a visit to the BENU SLOOW restaurant. They are not limited in time.",
+    "lu": ""
   }
 ]

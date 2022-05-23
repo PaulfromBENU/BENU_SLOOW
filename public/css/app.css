@@ -1695,12 +1695,22 @@ input[type=checkbox]:focus {
   .harmonica-menu__content__col {
     height: 12.5%;
     width: 100%;
+    transition: height 0.45s;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    background: #FFFFFF;
   }
 }
 @media (max-width: 767px) {
   .harmonica-menu__content__col {
     height: 12.5%;
     width: 100%;
+    transition: height 0.45s;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    background: #FFFFFF;
   }
 }
 .harmonica-menu__content__col__banner {
@@ -1807,6 +1817,20 @@ input[type=checkbox]:focus {
   display: none;
   width: 100%;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .harmonica-menu__content__col__open {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (max-width: 767px) {
+  .harmonica-menu__content__col__open {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
 .harmonica-menu__content__col__open__desc {
   padding: 5% 12%;
   padding-top: 30vh;
@@ -1814,12 +1838,12 @@ input[type=checkbox]:focus {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .harmonica-menu__content__col__open__desc {
-    padding: 5% 6%;
+    padding: 4% 6% 5% 6%;
   }
 }
 @media (max-width: 767px) {
   .harmonica-menu__content__col__open__desc {
-    padding: 5% 6%;
+    padding: 2% 6% 5% 6%;
   }
 }
 .harmonica-menu__content__col__open__desc h4 {
@@ -1830,13 +1854,13 @@ input[type=checkbox]:focus {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .harmonica-menu__content__col__open__desc h4 {
-    font: normal normal bold 52px/46px "Barlow Condensed";
+    font: normal normal bold 52px/40px "Barlow Condensed";
     font-size: 3vh;
   }
 }
 @media (max-width: 767px) {
   .harmonica-menu__content__col__open__desc h4 {
-    font: normal normal bold 52px/46px "Barlow Condensed";
+    font: normal normal bold 52px/40px "Barlow Condensed";
     font-size: 3vh;
   }
 }
@@ -1867,7 +1891,7 @@ input[type=checkbox]:focus {
   .harmonica-menu__content__col__open__desc__text--mobile {
     display: block;
     margin-bottom: 20px;
-    font: normal normal normal 16px/28px "Barlow Condensed";
+    font: normal normal normal 14px/20px "Barlow Condensed";
     font-size: 2vh;
   }
 }
@@ -1875,7 +1899,7 @@ input[type=checkbox]:focus {
   .harmonica-menu__content__col__open__desc__text--mobile {
     display: block;
     margin-bottom: 20px;
-    font: normal normal normal 16px/28px "Barlow Condensed";
+    font: normal normal normal 14px/20px "Barlow Condensed";
     font-size: 2vh;
   }
 }

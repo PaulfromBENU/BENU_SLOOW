@@ -59,7 +59,8 @@ $(function() {
             }
             currentCol = this;
             if ($(window).width() < 1024) {
-                $(currentCol).css('height', '43%');
+                let newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+                $(currentCol).css('height', newHeight);
             } else {
                 $(currentCol).css('width', '43%');
             }
@@ -76,7 +77,8 @@ $(function() {
         } else if (columnClicked == 'off') {
             currentCol = this;
             if ($(window).width() < 1024) {
-                $(currentCol).css('height', '43%');
+                let newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+                $(currentCol).css('height', newHeight);
             } else {
                 $(currentCol).css('width', '43%');
             }

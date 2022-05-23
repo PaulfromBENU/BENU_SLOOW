@@ -5688,7 +5688,8 @@ $(function () {
       currentCol = this;
 
       if ($(window).width() < 1024) {
-        $(currentCol).css('height', '43%');
+        var newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+        $(currentCol).css('height', newHeight);
       } else {
         $(currentCol).css('width', '43%');
       }
@@ -5707,7 +5708,9 @@ $(function () {
       currentCol = this;
 
       if ($(window).width() < 1024) {
-        $(currentCol).css('height', '43%');
+        var _newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+
+        $(currentCol).css('height', _newHeight);
       } else {
         $(currentCol).css('width', '43%');
       }
