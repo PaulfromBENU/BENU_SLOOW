@@ -21,9 +21,6 @@
 @endsection
 
 @section('main-content')
-    <div class="w-1/2 m-auto mt-10 mb-10">
-        @livewire('tools.datepicker')
-    </div>
     <section class="benu-container pt-10">
         <h2 class="login__subtitle">{{ __('infos.subtitle-1') }}</h2>
         <h1 class="login__title mb-10" id="data-protection">{{ __('infos.title-1') }}</h1>
