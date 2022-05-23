@@ -1662,7 +1662,7 @@ input[type=checkbox]:focus {
   left: 0;
   z-index: 100;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: #2E1739 0% 0% no-repeat padding-box;
   padding: 50px;
   display: none;
@@ -1822,6 +1822,7 @@ input[type=checkbox]:focus {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    width: 101%;
   }
 }
 @media (max-width: 767px) {
@@ -1829,6 +1830,7 @@ input[type=checkbox]:focus {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    width: 101%;
   }
 }
 .harmonica-menu__content__col__open__desc {

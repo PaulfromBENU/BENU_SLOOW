@@ -79,7 +79,7 @@
 	left: 0;
 	z-index: 100;
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	background: $dark-bg 0% 0% no-repeat padding-box;
 	padding: 50px;
 	display: none;
@@ -210,9 +210,11 @@
 				width: 100%;
 				@include tablet {
 					height: fit-content;
+					width: 101%;
 				}
 				@include mobile {
 					height: fit-content;
+					width: 101%;
 				}
 				&__desc {
 					padding: 5% 12%;
