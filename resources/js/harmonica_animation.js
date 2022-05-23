@@ -58,17 +58,16 @@ $(function() {
                 }
             }
             currentCol = this;
-            if ($(window).width() < 1024) {
-                let newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
-                $(currentCol).css('height', newHeight);
-            } else {
-                $(currentCol).css('width', '43%');
-            }
+
             if ($(window).width() < 1024) {
                 $('.harmonica-menu__content__col__closed', currentCol).hide();
                 $('.harmonica-menu__content__col__open', currentCol).show();
                 columnClicked = 'on';
+                let newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+                console.log(newHeight);
+                $(currentCol).css('height', newHeight);
             } else {
+                $(currentCol).css('width', '43%');
                 $('.harmonica-menu__content__col__closed', currentCol).fadeOut(400, function() {
                     $('.harmonica-menu__content__col__open', currentCol).fadeIn();
                     columnClicked = 'on';
@@ -76,17 +75,16 @@ $(function() {
             }
         } else if (columnClicked == 'off') {
             currentCol = this;
-            if ($(window).width() < 1024) {
-                let newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
-                $(currentCol).css('height', newHeight);
-            } else {
-                $(currentCol).css('width', '43%');
-            }
+            
             if ($(window).width() < 1024) {
                 $('.harmonica-menu__content__col__closed', currentCol).hide();
                 $('.harmonica-menu__content__col__open', currentCol).show();
                 columnClicked = 'on';
+                let newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+                console.log(newHeight);
+                $(currentCol).css('height', newHeight);
             } else {
+                $(currentCol).css('width', '43%');
                 $('.harmonica-menu__content__col__closed', currentCol).fadeOut(400, function() {
                     $('.harmonica-menu__content__col__open', currentCol).fadeIn();
                     columnClicked = 'on';

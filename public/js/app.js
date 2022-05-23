@@ -5688,17 +5688,14 @@ $(function () {
       currentCol = this;
 
       if ($(window).width() < 1024) {
-        var newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
-        $(currentCol).css('height', newHeight);
-      } else {
-        $(currentCol).css('width', '43%');
-      }
-
-      if ($(window).width() < 1024) {
         $('.harmonica-menu__content__col__closed', currentCol).hide();
         $('.harmonica-menu__content__col__open', currentCol).show();
         columnClicked = 'on';
+        var newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+        console.log(newHeight);
+        $(currentCol).css('height', newHeight);
       } else {
+        $(currentCol).css('width', '43%');
         $('.harmonica-menu__content__col__closed', currentCol).fadeOut(400, function () {
           $('.harmonica-menu__content__col__open', currentCol).fadeIn();
           columnClicked = 'on';
@@ -5708,18 +5705,16 @@ $(function () {
       currentCol = this;
 
       if ($(window).width() < 1024) {
-        var _newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
-
-        $(currentCol).css('height', _newHeight);
-      } else {
-        $(currentCol).css('width', '43%');
-      }
-
-      if ($(window).width() < 1024) {
         $('.harmonica-menu__content__col__closed', currentCol).hide();
         $('.harmonica-menu__content__col__open', currentCol).show();
         columnClicked = 'on';
+
+        var _newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
+
+        console.log(_newHeight);
+        $(currentCol).css('height', _newHeight);
       } else {
+        $(currentCol).css('width', '43%');
         $('.harmonica-menu__content__col__closed', currentCol).fadeOut(400, function () {
           $('.harmonica-menu__content__col__open', currentCol).fadeIn();
           columnClicked = 'on';
