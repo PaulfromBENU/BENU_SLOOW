@@ -142,15 +142,6 @@
                 {{ __('infos.content-txt-3-3') }}
             </p>
         </div>
-
-        <div class="w-full lg:w-2/3 m-auto mb-5">
-            <h3 class="primary-color">
-                <strong>{{ __('infos.content-title-3-3') }}</strong>
-            </h3>
-            <p>
-                {{ __('infos.content-txt-3-3') }}
-            </p>
-        </div>
     </section>
 
     <section class="benu-container pt-10 pb-10">
@@ -182,10 +173,10 @@
             <p>
                 {{ __('infos.content-txt-4-3') }}
             </p>
-            <ul>
-                <li>{{ __('infos.content-txt-4-3-bullet-1') }}</li>
-                <li>{{ __('infos.content-txt-4-3-bullet-2') }}</li>
-                <li>{{ __('infos.content-txt-4-3-bullet-3') }}</li>
+            <ul class="mt-2">
+                <li>• {{ __('infos.content-txt-4-3-bullet-1') }}</li>
+                <li>• {{ __('infos.content-txt-4-3-bullet-2') }}</li>
+                <li>• {{ __('infos.content-txt-4-3-bullet-3') }}</li>
             </ul>
         </div>
 
@@ -223,10 +214,10 @@
             <p>
                 {{ __('infos.content-txt-4-7-1') }}
             </p>
-            <ul>
-                <li>{{ __('infos.content-txt-4-7-bullet-1') }}</li>
-                <li>{{ __('infos.content-txt-4-7-bullet-2') }}</li>
-                <li>{{ __('infos.content-txt-4-7-bullet-3') }}</li>
+            <ul class="mt-2 mb-2">
+                <li>• {{ __('infos.content-txt-4-7-bullet-1') }}</li>
+                <li>• {{ __('infos.content-txt-4-7-bullet-2') }}</li>
+                <li>• {{ __('infos.content-txt-4-7-bullet-3') }}</li>
             </ul>
             <p>
                 {{ __('infos.content-txt-4-7-2') }}
