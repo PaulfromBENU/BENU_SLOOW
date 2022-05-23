@@ -813,7 +813,7 @@
 		&--bottom {
 			position: relative;
 			// bottom: calc(-250px + 6vw);
-			margin-top: -110px;
+			margin-top: -100px;
 			left: 0;
 			width: 100%;
 			z-index: 2;
@@ -831,8 +831,8 @@
 		color: $white;
 		&__text {
 			width: 38%;
-			padding-top: 150px;
-			padding-bottom: 150px;
+			padding-top: 170px;
+			padding-bottom: 200px;
 			&--1 {
 				text-align: left;
 				font: normal normal 700 28px/33px 'Barlow';
