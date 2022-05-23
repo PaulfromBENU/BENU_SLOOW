@@ -8,7 +8,7 @@
 				<p class="welcome-transition-1__content__text--1">
 					{!! __('welcome.transition-1-text-1') !!}
 				</p>
-				<p class="welcome-transition-1__content__text--2">
+				<p class="welcome-transition-1__content__text--2 mb-3">
 					{!! __('welcome.transition-1-text-2') !!}
 				</p>
 				<p class="welcome-transition-1__content__text--2">
