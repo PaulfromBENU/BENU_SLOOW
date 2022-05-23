@@ -55,6 +55,13 @@
 
             </p>
         </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <p>
+                {{ __('infos.content-txt-1-4') }}
+
+            </p>
+        </div>
     </section>
 
     <section class="benu-container pt-10">
@@ -119,20 +126,20 @@
         <h2 class="login__title mb-10">{{ __('infos.title-3') }}</h2>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
-            <h3 class="primary-color">
-                <strong>{{ __('infos.content-title-3-1') }}</strong>
-            </h3>
             <p>
                 {{ __('infos.content-txt-3-1') }}
             </p>
         </div>
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
-            <h3 class="primary-color">
-                <strong>{{ __('infos.content-title-3-2') }}</strong>
-            </h3>
             <p>
                 {{ __('infos.content-txt-3-2') }}
+            </p>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <p>
+                {{ __('infos.content-txt-3-3') }}
             </p>
         </div>
 
@@ -174,6 +181,73 @@
             </h3>
             <p>
                 {{ __('infos.content-txt-4-3') }}
+            </p>
+            <ul>
+                <li>{{ __('infos.content-txt-4-3-bullet-1') }}</li>
+                <li>{{ __('infos.content-txt-4-3-bullet-2') }}</li>
+                <li>{{ __('infos.content-txt-4-3-bullet-3') }}</li>
+            </ul>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <h3 class="primary-color">
+                <strong>{{ __('infos.content-title-4-4') }}</strong>
+            </h3>
+            <p>
+                {{ __('infos.content-txt-4-4') }}
+            </p>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <h3 class="primary-color">
+                <strong>{{ __('infos.content-title-4-5') }}</strong>
+            </h3>
+            <p>
+                {{ __('infos.content-txt-4-5') }}
+            </p>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <h3 class="primary-color">
+                <strong>{{ __('infos.content-title-4-6') }}</strong>
+            </h3>
+            <p>
+                {{ __('infos.content-txt-4-6') }}
+            </p>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <h3 class="primary-color">
+                <strong>{{ __('infos.content-title-4-7') }}</strong>
+            </h3>
+            <p>
+                {{ __('infos.content-txt-4-7-1') }}
+            </p>
+            <ul>
+                <li>{{ __('infos.content-txt-4-7-bullet-1') }}</li>
+                <li>{{ __('infos.content-txt-4-7-bullet-2') }}</li>
+                <li>{{ __('infos.content-txt-4-7-bullet-3') }}</li>
+            </ul>
+            <p>
+                {{ __('infos.content-txt-4-7-2') }}
+            </p>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <h3 class="primary-color">
+                <strong>{{ __('infos.content-title-4-8') }}</strong>
+            </h3>
+            <p>
+                {{ __('infos.content-txt-4-8') }}
+            </p>
+        </div>
+
+        <div class="w-full lg:w-2/3 m-auto mb-5">
+            <h3 class="primary-color">
+                <strong>{{ __('infos.content-title-4-9') }}</strong>
+            </h3>
+            <p>
+                {{ __('infos.content-txt-4-9') }}
             </p>
         </div>
     </section>
