@@ -5692,7 +5692,6 @@ $(function () {
         $('.harmonica-menu__content__col__open', currentCol).show();
         columnClicked = 'on';
         var newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
-        console.log(newHeight);
         $(currentCol).css('height', newHeight);
       } else {
         $(currentCol).css('width', '43%');
@@ -5711,7 +5710,6 @@ $(function () {
 
         var _newHeight = $(this).children('.harmonica-menu__content__col__open').css('height');
 
-        console.log(_newHeight);
         $(currentCol).css('height', _newHeight);
       } else {
         $(currentCol).css('width', '43%');
