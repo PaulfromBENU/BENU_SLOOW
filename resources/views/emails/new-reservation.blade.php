@@ -18,23 +18,27 @@
 	</div>
 	<div>
 		<p>
-			<strong>Bonjour {{ $reservation->first_name }},</strong>
+			<strong>{{ __('emails.new-request-hello') }} {{ $reservation->first_name }} !</strong>
 		</p>
 		<p>
-			Nous avons bien reçu votre demande de réservation dans notre restaurant BENU SLO0W&nbsp;! Nous vous confirmerons votre réservation dans les plus brefs délais, après vérification des places disponibles.
+			{{ __('emails.new-request-txt-1') }}
 		</p>
 		<p>
-			Vous avez réservé pour {{ $reservation->seats }} personne(s), pour le repas suivant :
+			{{ __('emails.new-request-txt-2') }} <a href="{{ route('home', ['locale' => app()->getLocale()]) }}">sloow.benu.lu</a>.
+		</p>
+		<p>
+			{{ __('emails.new-request-details') }}&nbsp;:
 		</p>
 		<ul>
-			<li>Date : {{ Carbon\Carbon::parse($reservation->opening->date)->format('d\/m\/Y') }}</li>
-			<li>Heure : {{ $reservation->opening->starting_hour }}</li>
-			<li>Adresse : adresse du restaurant</li>
+			<li>{{ __('emails.new-request-date') }} : {{ Carbon\Carbon::parse($reservation->opening->date)->format('d\/m\/Y') }}</li>
+			<li>{{ __('emails.new-request-time') }} : {{ $reservation->opening->starting_hour }}</li>
+			<li>{{ __('emails.new-request-number-of-seats') }} : {{ $reservation->seats }}</li>
+			<li>{{ __('emails.new-request-address') }} : {{ __('emails.new-request-restaurant-address') }}</li>
 		</ul>
-		<p>
+<!-- 		<p>
 			Le service commencera à l'heure indiquée, merci d'être le plus à l'heure possible pour ne rien rater de l'expérience !
-		</p>
-		<p>
+		</p> -->
+		<!-- <p>
 			En cas d'annulation, merci de prévenir au plus vite afin que nous puissions réorganiser le service.
 		</p>
 
@@ -43,9 +47,9 @@
 		</p>
 		<p>
 			À très bientôt pour partager ce repas ensemble !
-		</p>
+		</p> -->
 		<p>
-			<em><strong>L'équipe BENU SLO0W</strong></em>
+			<em><strong>{{ __('emails.new-request-regards') }} BENU SLO0W</strong></em>
 		</p>
 	</div>
 </body>

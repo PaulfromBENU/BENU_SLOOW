@@ -18,34 +18,50 @@
 	</div>
 	<div>
 		<p>
-			<strong>Bonjour {{ $reservation->first_name }},</strong>
+			<strong>{{ __('emails.new-reservation-hello') }} {{ $reservation->first_name }},</strong>
 		</p>
 		<p>
-			Nous confirmons ta réservation pour un repas dans notre restaurant BENU SLO0W&nbsp;!
+			@if($reservation->opening->type == '0')
+			{{ __('emails.new-reservation-hosts-table-confirmation') }} BENU SLO0W&nbsp;!
+			@else
+			{{ __('emails.new-reservation-restaurant-confirmation') }} BENU SLO0W&nbsp;!
+			@endif
 		</p>
 		<p>
-			Tu as réservé pour {{ $reservation->seats }} personne(s), pour le repas suivant :
+			@if($reservation->opening->type == '0')
+			{{ __('emails.new-reservation-hosts-details-1') }} {{ $reservation->seats }} {{ __('emails.new-reservation-people') }}&nbsp;:
+			@else
+			{{ __('emails.new-reservation-restaurant-details-1') }} {{ $reservation->seats }} {{ __('emails.new-reservation-people') }}&nbsp;:
+			@endif
 		</p>
 		<ul>
-			<li>Date : {{ Carbon\Carbon::parse($reservation->opening->date)->format('d\/m\/Y') }}</li>
-			<li>Heure : {{ $reservation->opening->starting_hour }}</li>
-			<li>Adresse : adresse du restaurant</li>
+			<li>{{ __('emails.new-reservation-date') }} : {{ Carbon\Carbon::parse($reservation->opening->date)->format('d\/m\/Y') }}</li>
+			<li>{{ __('emails.new-reservation-time') }} : {{ $reservation->opening->starting_hour }}</li>
+			<li>{{ __('emails.new-reservation-address') }} : {{ __('emails.new-reservation-restaurant-address') }}</li>
 		</ul>
 		<p>
-			Le service commencera à l'heure indiquée, merci d'être le plus à l'heure possible pour ne rien rater de l'expérience !
+			{{ __('emails.new-reservation-be-on-time') }}
 		</p>
 		<p>
-			En cas d'annulation, merci de prévenir au plus vite afin que nous puissions réorganiser le service.
+			@if($reservation->opening->type == '0')
+			{{ __('emails.new-reservation-hosts-cancellation') }}
+			@else
+			{{ __('emails.new-reservation-restaurant-cancellation') }}
+			@endif
 		</p>
 
 		<p>
-			Pour toute question, n'hésite pas à nous contacter par téléphone au +352 27 91 19 49.
+			{{ __('emails.new-reservation-more-info-1') }} <a href="{{ route('home', ['locale' => app()->getLocale()]) }}">sloow.benu.lu</a>. {{ __('emails.new-reservation-more-info-2') }}
 		</p>
 		<p>
-			À très bientôt pour partager ce repas ensemble !
+			@if($reservation->opening->type == '0')
+			{{ __('emails.new-reservation-hosts-welcome') }}
+			@else
+			{{ __('emails.new-reservation-restaurant-welcome') }}
+			@endif
 		</p>
 		<p>
-			<em><strong>L'équipe BENU SLO0W</strong></em>
+			<em><strong>{{ __('emails.new-reservation-regards') }} BENU SLO0W</strong></em>
 		</p>
 	</div>
 </body>
