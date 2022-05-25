@@ -3467,6 +3467,7 @@ input[type=checkbox]:focus {
   width: 75%;
   margin: auto;
   padding-top: 10px;
+  padding-bottom: 30px;
 }
 @media (max-width: 767px) {
   .welcome-faq__accordion__answer {
@@ -3480,6 +3481,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
+  margin-bottom: 20px;
 }
 .welcome-faq__accordion__answer__subanswer {
   padding-top: 20px;

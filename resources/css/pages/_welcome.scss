@@ -436,6 +436,7 @@
 			width: 75%;
 			margin: auto;
 			padding-top: 10px;
+			padding-bottom: 30px;
 			@include mobile {
 				width: 100%;
 			}
@@ -446,6 +447,7 @@
 				text-align: left;
 				font: normal normal 500 16px/28px 'Barlow';
 				letter-spacing: 0px;
+				margin-bottom: 20px;
 			}
 			&__subanswer {
 				padding-top: 20px;
