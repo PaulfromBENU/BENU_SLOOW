@@ -26,7 +26,7 @@
 		<p>
 			{{ __('emails.new-request-txt-2') }} <a href="{{ route('home', ['locale' => app()->getLocale()]) }}">sloow.benu.lu</a>.
 		</p>
-		<p>
+		<!-- <p>
 			{{ __('emails.new-request-details') }}&nbsp;:
 		</p>
 		<ul>
@@ -34,7 +34,7 @@
 			<li>{{ __('emails.new-request-time') }} : {{ $reservation->opening->starting_hour }}</li>
 			<li>{{ __('emails.new-request-number-of-seats') }} : {{ $reservation->seats }}</li>
 			<li>{{ __('emails.new-request-address') }} : {{ __('emails.new-request-restaurant-address') }}</li>
-		</ul>
+		</ul> -->
 <!-- 		<p>
 			Le service commencera à l'heure indiquée, merci d'être le plus à l'heure possible pour ne rien rater de l'expérience !
 		</p> -->

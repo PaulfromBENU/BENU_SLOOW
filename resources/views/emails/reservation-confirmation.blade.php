@@ -29,9 +29,9 @@
 		</p>
 		<p>
 			@if($reservation->opening->type == '0')
-			{{ __('emails.new-reservation-hosts-details-1') }} {{ $reservation->seats }} {{ __('emails.new-reservation-people') }}&nbsp;:
+			{{ __('emails.new-reservation-hosts-details-1') }} {{ $reservation->seats }} {{ __('emails.new-reservation-host-people') }}&nbsp;:
 			@else
-			{{ __('emails.new-reservation-restaurant-details-1') }} {{ $reservation->seats }} {{ __('emails.new-reservation-people') }}&nbsp;:
+			{{ __('emails.new-reservation-restaurant-details-1') }} {{ $reservation->seats }} {{ __('emails.new-reservation-restaurant-people') }}&nbsp;:
 			@endif
 		</p>
 		<ul>
@@ -39,9 +39,13 @@
 			<li>{{ __('emails.new-reservation-time') }} : {{ $reservation->opening->starting_hour }}</li>
 			<li>{{ __('emails.new-reservation-address') }} : {{ __('emails.new-reservation-restaurant-address') }}</li>
 		</ul>
+
+		@if($reservation->opening->type == '0')
 		<p>
 			{{ __('emails.new-reservation-be-on-time') }}
 		</p>
+		@endif
+		
 		<p>
 			@if($reservation->opening->type == '0')
 			{{ __('emails.new-reservation-hosts-cancellation') }}
