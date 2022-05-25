@@ -136,7 +136,7 @@
 
         <div class="w-full lg:w-2/3 m-auto mb-5">
             <p>
-                {{ __('infos.content-txt-3-3') }}
+                {{ __('infos.content-txt-3-3') }} <a href="https://kulturpass.lu" target="_blank" class="primary-color hover:text-gray-800 transition font-semibold">kulturpass.lu</a>.
             </p>
         </div>
     </section>
