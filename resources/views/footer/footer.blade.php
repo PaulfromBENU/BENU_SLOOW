@@ -5,13 +5,13 @@
 				<h4>BENU SLOOW</h4>
 				<div>
 					<ul class="footer__lists__col__list flex justify-start">
-						<li><a href="#">{!! __('welcome.footer-menu-1') !!}</a></li>
+						<li><a onclick="document.getElementById('host-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-1') !!}</a></li>
 						<li style="color: lightgrey;">|</li>
-						<li><a href="#">{!! __('welcome.footer-menu-2') !!}</a></li>
+						<li><a onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-2') !!}</a></li>
 						<li style="color: lightgrey;">|</li>
-						<li><a href="#">{!! __('welcome.footer-menu-3') !!}</a></li>
+						<li><a onclick="document.getElementById('faq-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-3') !!}</a></li>
 						<li style="color: lightgrey;">|</li>
-						<li><a href="#">{!! __('welcome.footer-menu-4') !!}</a></li>
+						<li><a onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-4') !!}</a></li>
 					</ul>
 					<ul class="footer__lists__col__list flex justify-start flex-wrap">
 						<li><a href="{{ route('extra-infos-'.app()->getLocale()) }}#data-protection">{!! __('welcome.footer-data-protection') !!}</a></li>

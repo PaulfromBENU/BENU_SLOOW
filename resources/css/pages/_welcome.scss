@@ -1321,8 +1321,8 @@
 		text-align: center;
 		font: normal normal 500 15px/28px 'Barlow';
 		letter-spacing: 0px;
-		color: $primary-color;
 		margin-bottom: 20px;
+		color: $dark-text;
 		@include mobile {
 			width: 100%;
 			max-width: 100%;
@@ -1331,7 +1331,9 @@
 			font: normal normal 500 15px/28px 'Barlow';
 		}
 		a {
+			color: $primary-color;
 			transition: color 0.2s;
+			font-weight: 600;
 			&:hover {
 				color: $secondary-color;
 			}

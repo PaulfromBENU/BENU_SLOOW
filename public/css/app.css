@@ -4470,8 +4470,8 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 15px/28px "Barlow";
   letter-spacing: 0px;
-  color: #793162;
   margin-bottom: 20px;
+  color: #2E1739;
 }
 @media (max-width: 767px) {
   .welcome-concept__info {
@@ -4483,7 +4483,9 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-concept__info a {
+  color: #793162;
   transition: color 0.2s;
+  font-weight: 600;
 }
 .welcome-concept__info a:hover {
   color: #96B221;
