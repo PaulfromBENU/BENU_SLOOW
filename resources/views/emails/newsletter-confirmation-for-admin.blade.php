@@ -14,18 +14,22 @@
 </head>
 <body style="width: 80%; margin-left: 10%; font-family: 'Barlow';">
     <div style="width: 100%; margin-bottom: 50px; text-align: center;">
-        <img src="{{ $message->embed(asset('images/pictures/logo_benu_couture.png')) }}" style="height: 180px; margin: auto;" />
+        <img src="{{ $message->embed(asset('images/pictures/logo_benu_green.png')) }}" style="height: 180px; margin: auto;" />
     </div>
     <div>
         <p>
             <strong>Moien,</strong>
         </p>
         <p>
-            Une nouvelle demande d'inscription à la newsletter a été envoyée depuis BENU COUTURE ! Les coordonnées de la personne sont les suivantes :
+            Une nouvelle demande d'inscription à la newsletter a été envoyée depuis <span style="color: #793162;">BENU SLO0W</span> ! Les coordonnées de la personne sont les suivantes :
         </p>
         <ul>
-            <li>{{ ucfirst($user->first_name) }} {{ ucfirst($user->last_name) }}</li>
+            <li>Prénom et Nom : {{ ucfirst($user->first_name) }} {{ ucfirst($user->last_name) }}</li>
             <li>Email : {{ $user->email }}</li>
+            <li>Langue utilisateur : {{ strtoupper($locale) }}</li>
+            <li>URL : {{ route('newsletter-'.$locale) }}</li>
+            <li>Date et heure de connection : {{ Carbon\Carbon::now()->format('d\/m\/Y H:i:s') }}</li>
+            <li>Adresse IP : {{ \Request::ip() }}</li>
         </ul>
         <p>
             Merci de mettre cette information à jour dans la base de données MailChimp ! :)

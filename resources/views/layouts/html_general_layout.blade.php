@@ -17,21 +17,29 @@
         <meta name="keywords" content="@yield('seo-keywords-top')" />
 
         <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('static/favicon/apple-touch-icon.png') }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('static/favicon/favicon-32x32.png') }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('static/favicon/favicon-16x16.png') }}">
-        <link rel="manifest" href="{{ asset('static/favicon/site.webmanifest') }}">
         <link rel="mask-icon" href="{{ asset('static/favicon/safari-pinned-tab.svg') }}" color="#f9941d">
-
-        <meta name="msapplication-TileColor" content="#f9941d">
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('images/favicon/apple-icon-57x57.png') }}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('images/favicon/apple-icon-60x60.png') }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/favicon/apple-icon-72x72.png') }}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('images/favicon/apple-icon-76x76.png') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/favicon/apple-icon-114x114.png') }}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('images/favicon/apple-icon-120x120.png') }}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('images/favicon/apple-icon-144x144.png') }}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('images/favicon/apple-icon-152x152.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicon/apple-icon-180x180.png') }}">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{{ asset('images/favicon/android-icon-192x192.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('images/favicon/favicon-96x96.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicon/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('images/favicon/manifest.json') }}">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="{{ asset('images/favicon/ms-icon-144x144.png') }}">
         <meta name="theme-color" content="#ffffff">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+<!--         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 
         <!-- Favicon -->
 
@@ -57,7 +65,7 @@
     </head>
 
     <body class="antialiased overflow-x-hidden">
-        <div class="min-h-screen">
+        <div class="min-h-screen max-w-full overflow-x-hidden">
             <!-- Page header -->
             @yield('header')
 
@@ -72,6 +80,64 @@
 
                 <!-- Footer -->
                 @yield('footer')
+
+                <!-- Sticky bottom nav bar for mobiles -->
+                <div class="welcome-mobile-nav mobile-only flex justify-around">
+                    <a href="{{ route('home', ['locale' => app()->getLocale()]) }}" class="inline-block welcome-mobile-nav__link">
+                        <button class="header__main-menu__icons__btn">
+                            @svg('benu-sloow-mobile-home', '')
+                        </button>
+                        <p>
+                            {!! __('welcome.nav-home') !!}
+                        </p>
+                    </a>
+                    <div onclick="document.getElementById('reservation-anchor-mobile').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="welcome-mobile-nav__link">
+                        <button class="header__main-menu__icons__btn">
+                            @svg('calendar', '')
+                        </button>
+                        <p>
+                            {!! __('welcome.nav-reservation') !!}
+                        </p>
+                    </div>
+                    <div onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="welcome-mobile-nav__link">
+                        <button class="header__main-menu__icons__btn">
+                            @svg('benu-icon-mail-contact', '')
+                        </button>
+                        <p>
+                            {!! __('welcome.nav-contact') !!}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Side menu for mobile -->
+                <div id="side-mobile" class="side-mobile mobile-only benu-container">
+                    <ul class="side-mobile__links">
+                        <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{!! __('welcome.side-menu-home') !!}</a></li>
+                        <li>
+                            <a onclick="document.getElementById('host-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;" class="side-mobile-link">
+                                {!! __('welcome.side-menu-link-1') !!}
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;" class="side-mobile-link">
+                                {!! __('welcome.side-menu-link-2') !!}
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="document.getElementById('faq-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;" class="side-mobile-link">
+                                {!! __('welcome.side-menu-link-3') !!}
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="mb-5">
+                        <a href="{{ route('newsletter-'.app()->getLocale()) }}" class="btn-couture-plain btn-couture-plain--fit inline-block" style="margin-left: 0px; width: 100%; border-radius: 8px;">{!! __('welcome.side-menu-newsletter-register') !!}</a>
+                    </div>
+                    <div class="flex justify-start pt-5">
+                        <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
 

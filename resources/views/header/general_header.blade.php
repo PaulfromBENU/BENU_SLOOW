@@ -1,29 +1,35 @@
 <header class="header-group">
-    <div class="header benu-container flex">
+    <div class="header benu-container flex justify-start">
+        <div id="mobile-menu-btn" class="mobile-only header__hamburger">
+            <button>
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
         <a class="header__logo-container" href="{{ route('home', [app()->getLocale()]) }}">
-            <img src="{{ asset('images/svg/logo_benu_couture.svg') }}" class="header__logo header__logo--desktop">
+            @svg('logo_benu_sloow', 'header__logo header__logo--desktop')
+            <!-- <img src="{{ asset('images/svg/logo_benu_sloow.svg') }}" class="header__logo header__logo--desktop"> -->
             <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--scroll">
             <img src="{{ asset('images/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--mobile">
         </a>
         <div class="header__menus-container">
-            <div class="flex justify-between header__top-menu">
+            <div class="flex justify-between header__top-menu mobile-hidden">
                 <nav class="header__top-nav flex justify-start">
                     <div>
                         <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU SLO0W</a>
                     </div>
-                    <ul class="flex justify-start header__top-nav__links">
+                    <!-- <ul class="flex justify-start header__top-nav__links">
                         <li>
-                            <a href="{{ route('full-story-'.app()->getLocale()) }}">{{ __('header.story') }}</a>
+                            <a href="#">{{ __('header.story') }}</a>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="{{ route('partners-'.app()->getLocale()) }}">{{ __('header.partners') }}</a>
+                            <a href="#">{{ __('header.partners') }}</a>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('header.vouchers') }}</a>
+                            <a href="#">{{ __('header.vouchers') }}</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </nav>
                 <div class="header__newsletter-btn">
                     @guest
@@ -44,19 +50,19 @@
                 </div>
             </div>
             <div class="flex justify-between header__main-menu">
-                <nav class="header__main-nav flex justify-start">
+                <nav class="header__main-nav flex justify-start mobile-hidden">
+                    <a onclick="document.getElementById('host-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-1') }}</a>
+
+                    <a onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-2') }}</a>
+
+                    <a onclick="document.getElementById('faq-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-3') }}</a>
+
+                    <a onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-4') }}</a>
+                </nav>
+                <nav class="mobile-only">
                     <div>
-                        <button class="header__main-nav__btn" type="button">
-                            @svg('benu-icon-squares-categories', 'header__main-nav__btn--logo-1')
-                            {{ __('header.creations') }}
-                            @svg('benu-icon-arrow-down', 'header__main-nav__btn--logo-2')
-                        </button>
+                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU SLO0W</a>
                     </div>
-                    <a href="{{ route('news-'.app()->getLocale()) }}" class="header__main-nav__link">{{ __('header.news') }}</a>
-
-                    <a href="{{ route('about-'.app()->getLocale()) }}" class="header__main-nav__link">{{ __('header.about') }}</a>
-
-                    <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="header__main-nav__link">{{ __('header.locations') }}</a>
                 </nav>
                 <ul class="header__main-menu__icons flex justify-end">
                     @if(1 == 0)
@@ -67,26 +73,36 @@
                     </li>
                     @endif
                     @auth
-                        <li>
-                            <a href="{{ route('dashboard', ['locale' => app()->getLocale(), 'section' => 'wishlist']) }}" class="header__main-menu__icons__btn">
-                                @svg('benu-icon-heart-favorites', '')
+                        <!-- <li>
+                            <a href="#" class="header__main-menu__icons__btn">
+                                
                             </a>
-                        </li>
+                        </li> -->
                     @endauth
                     @guest
-                        <li>
+                        <!-- li>
                             <a class="header__main-menu__icons__btn" id="connect-btn">
-                                @svg('benu-icon-silhouette-connect')
+                                
                             </a>
-                        </li>
+                        </li> -->
                     @else
-                        <li>
-                            <a href="{{ route('dashboard', ['section' => 'overview']) }}" class="header__main-menu__icons__btn" id="dashboard-btn">
-                                @svg('benu-icon-silhouette-disconnect')
+                        <!-- <li>
+                            <a href="#" class="header__main-menu__icons__btn" id="dashboard-btn">
+                                
                             </a>
-                        </li>
+                        </li> -->
                     @endguest
-                    <li>
+                    <li class="mobile-hidden">
+                        <button onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
+                            @svg('calendar', '')
+                        </button>
+                    </li>
+                    <li class="mobile-hidden">
+                        <button onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-menu__icons__btn">
+                            @svg('benu-icon-mail-contact', '')
+                        </button>
+                    </li>
+                    <li class="header__main-menu__icons__lang-container">
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">
                             {{ strtoupper(app()->getLocale()) }}
                         </button>

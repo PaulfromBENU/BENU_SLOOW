@@ -46,6 +46,7 @@
 	width: fit-content;
 	transition: $transition-base;
 	height: 40px;
+	color: $dark-text;
 	&::after {
 		content: "";
 		position: absolute;
@@ -61,6 +62,26 @@
 		color: $primary-color;
 		&::after {
 			width: 100%;
+		}
+	}
+	&--secondary {
+		&:hover {
+			color: $primary-color;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			width: 20%;
+			height: 5px;
+			border-radius: 10px;
+			background: $secondary-color;
+			transition: width 0.5s ease-in-out;
+		}
+		@include mobile {
+			font: normal normal 700 18px/22px 'Barlow Condensed';
+			letter-spacing: 0.36px;
 		}
 	}
 }
@@ -123,6 +144,7 @@
 	&:hover {
 		background: $primary-color;
 		color: $white;
+		border: solid 2px $white;
 	}
 	&--transparent {
 		background: transparent;

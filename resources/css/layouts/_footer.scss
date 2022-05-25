@@ -104,26 +104,47 @@
 	}
 }
 
-.footer-all {
+.footer-contact {
 	background: $light-grey-transparent 0% 0% no-repeat padding-box;
-	margin-top: -100px;
+	margin-top: 0px;
 	position: relative;
 	z-index: 1;
+	padding-top: 130px;
+	// padding-bottom: 40px;
+	text-align: center;
+	@include mobile {
+		padding-top: 70px;
+	}
+	&__title {
+		color: $secondary-color;
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		margin-bottom: 30px;
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+	}
 	&__txt {
-		font: normal normal 300 44px/53px Barlow Condensed;
+		font: normal normal 500 18px/24px 'Barlow';
 		letter-spacing: 0px;
 		color: $dark-text;
-		&--left {
-			margin-left: 6vw;
-			padding-top: 172px;
-			text-align: right;
-			width: 45%;
+		@include mobile {
+			font: normal normal 500 16px/28px 'Barlow';
 		}
-		&--right {
-			text-align: left;
-			width: 45%;
-			margin-left: calc(50% - 6vw);
-			margin-bottom: 74px;
+	}
+	&__phone {
+		color: $primary-color;
+		font: normal normal 700 35px/40px 'Barlow Condensed';
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	&__form {
+		width: 60%;
+		min-width: 800px;
+		position: relative;
+		padding-top: 20px;
+		@include mobile {
+			min-width: 300px;
+			width: 100%;
 		}
 	}
 	a {
@@ -136,12 +157,22 @@
 	strong {
 		font-weight: 600;
 	}
+	&__map {
+		width: 100%;
+		background: $secondary-color;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
 }
 
 .footer {
-	padding-top: 102px;
+	padding-top: 60px;
 	background: white;
 	position: relative;
+	border-top: solid 1px $light-grey-transparent;
+	@include mobile {
+		padding-bottom: 60px;
+	}
 	&__contact {
 		font: normal normal 500 22px/46px 'Barlow Condensed';
 		letter-spacing: 0px;
@@ -158,19 +189,50 @@
 		font: normal normal 500 16px/36px 'Barlow';
 		letter-spacing: 0px;
 		color: $dark-text;
+		@include mobile {
+			padding-top: 100px;
+			width: 100%;
+			padding-left: 16%;
+			padding-right: 16%;
+			margin: auto;
+			text-align: center;
+			height: 180px;
+		}
 	}
 	&__lists {
-		margin-bottom: 110px;
+		margin-bottom: 80px;
 		&__col {
-			width: 25%;
+			width: 50%;
+			@include mobile {
+				width: 100%;
+				margin-bottom: 40px;
+			}
+			h4 {
+				margin-bottom: 10px !important;
+			}
+			&__list {
+				padding-top: 5px;
+				li {
+					margin-left: 5px;
+					margin-right: 5px;
+					font: normal normal 500 18px/36px 'Barlow Condensed';
+				}
+			}
 		}
 	}
 	&__logo-container {
 		position: absolute;
 		bottom: 0;
 		left: calc(50% - 22px);
+		@include mobile {
+			bottom: 162px;
+			left: calc(50% - 16px);
+		}
 		&__logo {
 			width: 44px;
+			@include mobile {
+				width: 32px;
+			}
 		}
 	}
 	&__social {
@@ -184,18 +246,21 @@
 		padding-top: 6px;
 		text-align: center;
 		transition: $transition-base;
+		margin-right: 20px;
 		&:hover {
 			background: $primary-color;
 			color: $white;
 		}
 	}
 	h4 {
-		width: 100%;
+		width: fit-content;
 		text-align: left;
-		font: normal normal 600 28px/34px 'Barlow Condensed';
+		font: normal normal 700 28px/34px 'Barlow Condensed';
 		letter-spacing: 0px;
 		color: $dark-text;
 		margin-bottom: 45px;
+		margin-right: 40px;
+		padding-top: 5px;
 	}
 	ul {
 		min-width: 120px;
@@ -249,5 +314,129 @@
 		font: normal normal 700 22px/36px 'Barlow';
 		text-align: center;
 		margin-bottom: 35px;
+	}
+}
+
+.contact {
+	&__form {
+		@include mobile {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		&__subtitle {
+			text-align: center;
+			font: normal normal 500 16px/28px 'Barlow Condensed';
+			letter-spacing: 0.16px;
+			color: #26254480;
+			margin-bottom: 35px;
+		}
+		&__title {
+			text-align: center;
+			font: normal normal 700 44px/53px 'Barlow Condensed';
+			letter-spacing: 0px;
+			margin-bottom: 65px;
+		}
+		&__form {
+			label {
+				//color: darken(darkgrey, 30);
+				font: normal normal 500 16px/28px Barlow;
+				letter-spacing: 0px;
+				color: #2E1414;
+			}
+			&__mandatory {
+				font: normal normal normal 14px/28px 'Barlow';
+				letter-spacing: 0px;
+				color: #262544;
+				margin-bottom: 35px;
+				text-align: left;
+			}
+			&__select {
+				text-align: left;
+				font: normal normal 400 16px/36px 'Barlow';
+				letter-spacing: 0px;
+				color: darken(darkgrey, 30);
+			}
+			&__security {
+				width: 610px;
+				@include mobile {
+					width: 100%;
+					text-align: center;
+					margin: auto;
+					flex-direction: column;
+				}
+				p {
+					padding-top: 10px;
+					font: normal normal 500 16px/28px 'Barlow';
+					color: $primary-color;
+					min-width: 290px;
+				}
+				input {
+					width: 50px;
+					text-align: center;
+					@include mobile {
+						margin: auto;
+						margin-top: 30px;
+						margin-bottom: 30px;
+					}
+				}
+				&__btn {
+					cursor: pointer;
+					padding-top: 8px;
+					margin-top: -5px;
+					height: 50px; 
+					margin-left: 30px;
+					@include mobile {
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+		input[type=text], input[type=email] {
+			bottom: 0px;
+			left: 0px;
+		}
+		textarea {
+			border-color: $primary-color-light;
+			padding: 50px;
+			margin-bottom: 30px;
+			&:focus {
+				box-shadow: none;
+				outline: none;
+				border-color: $primary-color;
+			}
+		}
+		&__valid {
+			border-radius: 10px;
+			padding: 40px;
+			background: $primary-color-light;
+			color: $primary-color;
+			margin-top: 20px;
+			border: solid 2px $secondary-color;
+			font-weight: 600;
+		}
+		&__invalid {
+			border-radius: 10px;
+			padding: 40px;
+			background: $primary-color-light;
+			color: $primary-color;
+			margin-top: 20px;
+			border: solid 2px red;
+			font-weight: 600;
+		}
+		&__radio-group {
+			height: 65px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			padding-top: 27px;
+			max-width: 100%;
+			input[type='radio'] {
+				margin-top: -2px;
+			}
+			@include mobile {
+				padding-left: 15px;
+				padding-right: 15px;
+				max-width: 400px;
+			}
+		}
 	}
 }

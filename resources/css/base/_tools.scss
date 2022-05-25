@@ -1,0 +1,85 @@
+.datepicker {
+	position: relative;
+	input[type="text"] {
+		width: 100%;
+		max-width: 300px;
+		// border-radius: 4px;
+		// height: 50px;
+		// color: $white;
+		border-radius: 4px;
+		background: transparent;
+		color: $white;
+		width: 300px;
+		border: none;
+		text-align: left;
+		font: normal normal 800 48px/28px 'Barlow Condensed';
+		letter-spacing: 0px;
+		height: 70px;
+		padding-left: 5px;
+		position: relative;
+		left: -9px;
+		cursor: pointer;
+		&:focus {
+			outline: none;
+			box-shadow: none;
+			border-color: $primary-color;
+		}
+	}
+	&__close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		color: $primary-color;
+		font-size: 1.3rem;
+		cursor: pointer;
+	}
+	&__selector {
+		position: absolute;
+		z-index: 100;
+		width: 500px;
+		min-height: 150px;
+		top: 52px;
+		left: 0;
+		border: none;
+		border-radius: 2px;
+		// box-shadow: $primary-color-light 0 4px 20px;
+		background: white;
+		padding: 10px;
+		border-bottom: $primary-color solid 1px;
+		@include mobile {
+			width: 100%;
+		}
+		&__year {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			color: $primary-color;
+			font-weight: bold;
+		}
+		&__month {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			color: $secondary-color;
+			font-weight: 500;
+			font-size: 1.2rem;
+		}
+		&__days {
+			width: 100%;
+			&__active {
+				cursor: pointer;
+				color: $white;
+				background: $primary-color;
+				border-radius: 10px;
+				padding: 3px;
+				font-weight: 600;
+				transition: all 0.2s;
+				&:hover {
+					background: $secondary-color;
+					color: $primary-color;
+				}
+			}
+			&__inactive {
+				color: grey;
+			}
+		}
+	}
+}

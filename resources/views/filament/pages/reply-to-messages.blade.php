@@ -35,6 +35,7 @@
 					</div>
 				@endforeach
 
+				@if(isset($is_registered[$messages->first()->email]) && $is_registered[$messages->first()->email])
 				<h5>Add a reply:</h5>
 				<form method="POST" wire:submit.prevent="sendReply({{ $thread }})">
 					@csrf
@@ -45,6 +46,13 @@
 						</button>
 					</div>
 				</form>
+				@else
+				<div class="w-full text-center">
+					<a href="mailto:{{ $messages->first()->email }}?subject=BENU - Contact&body={{ $messages->last()->message }}" class="hover:underline">
+						No  BENU account - Send reply by e-mail
+					</a>
+				</div>
+				@endif
 			</div>
 		</div>
 	@endforeach

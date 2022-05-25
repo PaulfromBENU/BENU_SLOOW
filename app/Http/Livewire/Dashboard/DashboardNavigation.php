@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 use Livewire\WithFileUploads;
-use App\Traits\ArticleAnalyzer;
+// use App\Traits\ArticleAnalyzer;
 use App\Models\GeneralCondition;
 use App\Models\Kulturpass;
 
@@ -17,7 +17,7 @@ use Illuminate\Validation\Rule;
 
 class DashboardNavigation extends Component
 {
-    use ArticleAnalyzer;
+    // use ArticleAnalyzer;
     use WithFileUploads;
 
     public $section;

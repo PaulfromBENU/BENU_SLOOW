@@ -6,6 +6,12 @@
 
 @section('main-content')
     @include('includes.welcome.presentation')
+    @include('includes.welcome.transition_1')
+    @include('includes.welcome.content_1')
+    @include('includes.welcome.transition_2')
+    @include('includes.welcome.concept')
+    @include('includes.welcome.reservation')
+    @include('includes.welcome.faq')
 @endsection
 
 @section('scripts')
@@ -22,6 +28,27 @@
             }
         });
         $('#welcome-bullet-presentation').html(newText);
+    });
+</script>
+
+<script type="text/javascript">
+    // Show a loader on reservation submission
+    function setLoading(isLoading) {
+        if (isLoading) {
+            // Disable the button and show a loader
+            $('#spinner').show();
+            $('#button-text').hide();
+        } else {
+            $('#spinner').hide();
+            $('#button-text').show();
+        }
+    }
+
+    $(function() {
+        setLoading(false);
+        Livewire.on('sendingConfirmation', function() {
+            setLoading(true);
+        });
     });
 </script>
 @endsection

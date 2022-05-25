@@ -19,6 +19,7 @@ class NewsletterConfirmationForAdmin extends Mailable
      * @var \App\Models\User
      */
     public $user;
+    public $locale;
 
     /**
      * Create a new message instance.
@@ -28,6 +29,7 @@ class NewsletterConfirmationForAdmin extends Mailable
     public function __construct(User $user)
     {
         $this->user = $user;
+        $this->locale = session('locale');
     }
 
     /**
@@ -37,6 +39,6 @@ class NewsletterConfirmationForAdmin extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')->subject('Nouvelle inscription newsletter depuis BENU COUTURE')->view('emails.newsletter-confirmation-for-admin');
+        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')->subject('Nouvelle inscription newsletter depuis BENU SLO0W')->view('emails.newsletter-confirmation-for-admin');
     }
 }
