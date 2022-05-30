@@ -22,9 +22,9 @@
 		</p>
 		<p>
 			@if($reservation->opening->type == '0')
-			{{ __('emails.new-reservation-hosts-table-confirmation') }} BENU SLO0W&nbsp;!
+			{{ __('emails.new-reservation-hosts-table-confirmation') }}&nbsp;!
 			@else
-			{{ __('emails.new-reservation-restaurant-confirmation') }} BENU SLO0W&nbsp;!
+			{{ __('emails.new-reservation-restaurant-confirmation') }}&nbsp;!
 			@endif
 		</p>
 		<p>

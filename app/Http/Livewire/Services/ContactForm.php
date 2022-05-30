@@ -118,6 +118,7 @@ class ContactForm extends Component
         $this->message = "";
         $this->company = "";
         $this->conditions_ok = "";
+        $this->emit('activateInputs'); // Used to reload JS for accordeon behaviour
     }
 
     public function render()
