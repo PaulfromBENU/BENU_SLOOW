@@ -1895,7 +1895,7 @@ input[type=checkbox]:focus {
   .harmonica-menu__content__col__open__desc__text--mobile {
     display: block;
     margin-bottom: 20px;
-    font: normal normal normal 14px/20px "Barlow Condensed";
+    font: normal normal normal 14px/22px "Barlow Condensed";
     font-size: 2vh;
   }
 }
@@ -1903,7 +1903,7 @@ input[type=checkbox]:focus {
   .harmonica-menu__content__col__open__desc__text--mobile {
     display: block;
     margin-bottom: 20px;
-    font: normal normal normal 14px/20px "Barlow Condensed";
+    font: normal normal normal 14px/22px "Barlow Condensed";
     font-size: 2vh;
   }
 }
