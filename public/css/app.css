@@ -3598,7 +3598,7 @@ input[type=checkbox]:focus {
 
 .welcome-reservation {
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 .welcome-reservation__bg {
   position: absolute;
@@ -3896,7 +3896,7 @@ input[type=checkbox]:focus {
   margin-top: -100px;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 4;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-transition-1__transition--bottom {

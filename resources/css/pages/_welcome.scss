@@ -548,7 +548,7 @@
 
 .welcome-reservation {
 	position: relative;
-	z-index: 2;
+	z-index: 4;
 	&__bg {
 		position: absolute;
 		width: 100%;
@@ -820,7 +820,7 @@
 			margin-top: -100px;
 			left: 0;
 			width: 100%;
-			z-index: 2;
+			z-index: 4;
 			@include tablet {
 				margin-top: -100px;
 			}
