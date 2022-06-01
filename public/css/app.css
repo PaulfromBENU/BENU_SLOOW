@@ -4181,16 +4181,15 @@ input[type=checkbox]:focus {
   transform: rotate(180deg);
 }
 .welcome-transition-2__transition--bottom {
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   z-index: 2;
-  margin-top: -80px;
 }
 @media (max-width: 767px) {
   .welcome-transition-2__transition--bottom {
-    margin-top: -55px;
+    margin-top: -40px;
   }
 }
 .welcome-transition-2__content {
@@ -4302,7 +4301,6 @@ input[type=checkbox]:focus {
 .welcome-concept {
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-top: -150px;
   z-index: 2;
 }
 @media (min-width: 768px) and (max-width: 1023px) {

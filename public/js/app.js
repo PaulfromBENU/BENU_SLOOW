@@ -5803,7 +5803,7 @@ $(function () {
 
 
       if ($('#welcome-concept__bg').length > 0 && scrollTop > 1500 && scrollTop < initialBgPos + 1000) {
-        $('#welcome-concept__bg').css('top', scrollTop / 5 - 700); //initialBgPos - 650 + 
+        $('#welcome-concept__bg').css('top', scrollTop / 6.2 - 450); //initialBgPos - 650 + 
       }
     });
   }
