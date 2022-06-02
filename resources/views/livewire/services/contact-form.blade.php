@@ -4,15 +4,15 @@
         <div class="flex justify-center lg:justify-between flex-wrap">
             <div class="w-full lg:w-5/12 flex flex-wrap justify-around lg:justify-start input-group contact__form__radio-group">
                 <div class="lg:mr-5 mb-3 ml-1" style="min-width: 120px;">
-                    <input type="radio" id="contact_gender_male" name="gender" value="male" wire:model="gender">
+                    <input type="radio" id="contact_gender_male" name="gender" value="male" wire:model.defer="gender">
                     <label for="contact_gender_male" class="pl-4">{{ __('forms.sir') }}</label><br>
                 </div>
                 <div class="lg:mr-5 mb-3" style="min-width: 120px;">
-                    <input type="radio" id="contact_gender_female" name="gender" value="female" wire:model="gender">
+                    <input type="radio" id="contact_gender_female" name="gender" value="female" wire:model.defer="gender">
                     <label for="contact_gender_female" class="pl-4">{{ __('forms.madam') }}</label><br>
                 </div>
                 <div class="mb-3" style="min-width: 120px;">
-                    <input type="radio" id="contact_gender_neutral" name="gender" value="neutral" wire:model="gender">
+                    <input type="radio" id="contact_gender_neutral" name="gender" value="neutral" wire:model.defer="gender">
                     <label for="contact_gender_neutral" class="pl-4">{{ __('forms.neutral') }}</label> 
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 @else
                     <label>{{ __('forms.last-name') }} *</label>
                 @endif
-                <input type="text" name="last_name" class="input-underline w-full" tabindex="12" minlength="2" maxlength="255" required wire:model="last_name">
+                <input type="text" name="last_name" class="input-underline w-full" tabindex="12" minlength="2" maxlength="255" required wire:model.defer="last_name">
             </div>
         </div>
 
@@ -56,7 +56,7 @@
                 @else
                     <label>{{ __('forms.phone') }} *</label>
                 @endif
-                <input type="text" name="phone" class="input-underline w-full" minlength="6" maxlength="30" tabindex="14" wire:model="phone" required>
+                <input type="text" name="phone" class="input-underline w-full" minlength="6" maxlength="30" tabindex="14" wire:model.defer="phone" required>
             </div>
         </div>
     </div>

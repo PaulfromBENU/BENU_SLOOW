@@ -360,6 +360,7 @@
 	background: $third-color;
 	padding-top: 100px;
 	padding-bottom: 130px;
+	z-index: 2;
 	@include mobile {
 		padding-bottom: 30px;
 	}
@@ -436,6 +437,7 @@
 			width: 75%;
 			margin: auto;
 			padding-top: 10px;
+			padding-bottom: 30px;
 			@include mobile {
 				width: 100%;
 			}
@@ -446,6 +448,7 @@
 				text-align: left;
 				font: normal normal 500 16px/28px 'Barlow';
 				letter-spacing: 0px;
+				margin-bottom: 20px;
 			}
 			&__subanswer {
 				padding-top: 20px;
@@ -545,6 +548,7 @@
 
 .welcome-reservation {
 	position: relative;
+	z-index: 4;
 	&__bg {
 		position: absolute;
 		width: 100%;
@@ -816,7 +820,7 @@
 			margin-top: -100px;
 			left: 0;
 			width: 100%;
-			z-index: 2;
+			z-index: 4;
 			@include tablet {
 				margin-top: -100px;
 			}
@@ -1028,6 +1032,7 @@
 	width: 100%;
 	min-height: 50vh;
 	margin-bottom: 0px;
+	z-index: 3;
 	@include tablet {
 		margin-bottom: 0;
 	}
@@ -1050,12 +1055,12 @@
 			transform: rotate(180deg);
 		}
 		&--bottom {
-			position: relative;
+			position: absolute;
 			bottom: 0;
 			left: 0;
 			width: 100%;
 			z-index: 2;
-			margin-top: -80px;
+			// margin-top: -60px;
 			// padding-bottom: 50px;
 			// &::after {
 			// 	content: "";
@@ -1064,7 +1069,7 @@
 			// 	height: 40px;
 			// }
 			@include mobile {
-				margin-top: -55px;
+				margin-top: -40px;
 			}
 		}
 	}
@@ -1166,8 +1171,9 @@
 .welcome-concept {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-top: -150px;
+	// margin-top: -150px;
 	z-index: 2;
+	// overflow-y: hidden;
 	@include tablet {
 		margin-top: -100px;
 	}
@@ -1193,6 +1199,18 @@
 		margin-bottom: 90px;
 		@include mobile {
 			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+	}
+	&__bg {
+		width: 100%; 
+		position: absolute; 
+		top:  0; 
+		left: 0;
+		@include tablet {
+			display: none;
+		}
+		@include mobile {
+			display: none;
 		}
 	}
 	&__box {
@@ -1321,8 +1339,8 @@
 		text-align: center;
 		font: normal normal 500 15px/28px 'Barlow';
 		letter-spacing: 0px;
-		color: $primary-color;
 		margin-bottom: 20px;
+		color: $dark-text;
 		@include mobile {
 			width: 100%;
 			max-width: 100%;
@@ -1331,7 +1349,9 @@
 			font: normal normal 500 15px/28px 'Barlow';
 		}
 		a {
+			color: $primary-color;
 			transition: color 0.2s;
+			font-weight: 600;
 			&:hover {
 				color: $secondary-color;
 			}

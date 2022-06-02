@@ -154,8 +154,8 @@ class WelcomeReservations extends Component
                 } else {
                     Mail::to($this->res_email)->send(new ReservationRequest($new_reservation));
                 }
-                // Mail::to('paul.guillard@benu.lu')->send(new ReservationNotificationForAdmin($new_reservation));
-                Mail::to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationNotificationForAdmin($new_reservation));
+                // Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new ReservationNotificationForAdmin($new_reservation));
+                Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationNotificationForAdmin($new_reservation));
                 $this->clearContent();
                 $this->message_sent = 1;
                 $this->opening_id = 0;

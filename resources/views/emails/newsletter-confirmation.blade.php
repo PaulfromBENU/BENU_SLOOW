@@ -21,7 +21,7 @@
             <strong>{{ __('emails.newsletter-confirmation-hello') }} {{ ucfirst($user->first_name) }},</strong>
         </p>
         <p>
-            {{ __('emails.newsletter-confirmation-txt-1') }} : DE. {{ __('emails.newsletter-confirmation-txt-2') }}
+            {{ __('emails.newsletter-confirmation-txt-1') }} : {{ strtoupper($user->favorite_language) }}. {{ __('emails.newsletter-confirmation-txt-2') }}
         </p>
         <p>
             {{ __('emails.newsletter-confirmation-info-1') }}

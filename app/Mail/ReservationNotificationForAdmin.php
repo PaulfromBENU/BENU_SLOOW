@@ -34,7 +34,7 @@ class ReservationNotificationForAdmin extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')
+        return $this->from(env('MAIL_FROM_ADDRESS_ADMIN'), 'BENU')
                     ->subject('BENU SLOOW - Demande de réservation')
                     ->view('emails.new-reservation-notification');
     }
