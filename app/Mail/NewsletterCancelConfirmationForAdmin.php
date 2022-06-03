@@ -34,6 +34,6 @@ class NewsletterCancelConfirmationForAdmin extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS_ADMIN'), 'BENU')->subject('! Annulation inscription newsletter depuis BENU SLO0W')->view('emails.newsletter-cancellation-for-admin');
+        return $this->from(env('MAIL_FROM_ADDRESS_ADMIN'), 'benusloow@benusloow.lu')->subject('! Annulation inscription newsletter depuis BENU SLO0W')->view('emails.newsletter-cancellation-for-admin');
     }
 }
