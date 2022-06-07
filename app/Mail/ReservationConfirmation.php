@@ -34,7 +34,7 @@ class ReservationConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')
+        return $this->from(config('mail.mailers.smtp.sender'), 'BENU')
                     ->subject('BENU - Demande de réservation reçue')
                     ->view('emails.reservation-confirmation');
     }
