@@ -86,6 +86,7 @@ return [
             'transport' => 'failover',
             'mailers' => [
                 'smtp',
+                'smtp_admin',
                 'log',
             ],
         ],
@@ -103,7 +104,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'paul.guillard@benu.lu'),
+        'address' => env('MAIL_FROM_ADDRESS', 'info@benusloow.lu'),
         'name' => env('MAIL_FROM_NAME', 'BENU'),
     ],
 
