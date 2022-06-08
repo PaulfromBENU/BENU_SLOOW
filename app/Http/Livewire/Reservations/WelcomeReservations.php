@@ -8,9 +8,7 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Models\Opening;
 use App\Models\Reservation;
-use App\Mail\ReservationRequest;
-use App\Mail\ReservationConfirmation;
-use App\Mail\ReservationNotificationForAdmin;
+use App\Jobs\SendReservationEmails;
 
 use Carbon\Carbon;
 
@@ -149,13 +147,9 @@ class WelcomeReservations extends Component
                 $new_reservation->valid = 0;
             }
             if ($new_reservation->save()) {
-                if (Opening::find($this->opening_id)->type == '0') {
-                    Mail::to($this->res_email)->send(new ReservationConfirmation($new_reservation));
-                } else {
-                    Mail::to($this->res_email)->send(new ReservationRequest($new_reservation));
-                }
-                // Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new ReservationNotificationForAdmin($new_reservation));
-                Mail::mailer('smtp_admin')->to(config('mail.mailers.smtp_admin.admin_receiver'))->send(new ReservationNotificationForAdmin($new_reservation));
+                // dispatch here
+                SendReservationEmails::dispatch($this->opening_id, $new_reservation, $this->res_email);
+
                 $this->clearContent();
                 $this->message_sent = 1;
                 $this->opening_id = 0;
