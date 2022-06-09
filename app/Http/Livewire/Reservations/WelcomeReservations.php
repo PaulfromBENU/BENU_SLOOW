@@ -148,7 +148,7 @@ class WelcomeReservations extends Component
             }
             if ($new_reservation->save()) {
                 // dispatch here
-                SendReservationEmails::dispatch($this->opening_id, $new_reservation, $this->res_email);
+                SendReservationEmails::dispatchAfterResponse($this->opening_id, $new_reservation, $this->res_email);
 
                 $this->clearContent();
                 $this->message_sent = 1;
