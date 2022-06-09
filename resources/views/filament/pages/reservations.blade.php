@@ -21,6 +21,10 @@
 					No valid reservation for the moment for this date...
 				</em>
 			</p>
+			@else
+			<p class="text-center reservations__valid__seats">
+				Occupied seats: {{ $available_seats - $remaining_seats }} / {{ $available_seats }}
+			</p>
 			@endif
 			@foreach($valid_reservations as $valid_reservation)
 			<div wire:key="valid-{{ $valid_reservation->id }}" class="flex justify-between reservations__valid__info">
@@ -28,7 +32,7 @@
 					<p>
 						<strong style="color: rgb(234 179 8);">Reservation made by:</strong>
 					</p>
-					<p>
+					<p style="font-size: 1.3rem;">
 						{{ ucfirst($valid_reservation->first_name) }} {{ ucfirst($valid_reservation->last_name) }}
 					</p>
 					<p>
@@ -166,7 +170,7 @@
 				<p>
 					<strong style="color: rgb(234 179 8);">Reservation made by:</strong>
 				</p>
-				<p>
+				<p style="font-size: 1.3rem;">
 					{{ ucfirst($pending_reservation->first_name) }} {{ ucfirst($pending_reservation->last_name) }}
 				</p>
 				<p>
@@ -175,13 +179,17 @@
 				<p>
 					Phone: <strong style="color: rgb(234 179 8);">{{ $pending_reservation->phone }}</strong>
 				</p>
+				<p>
+					(Requested on: 
+					{{ Carbon\Carbon::parse($pending_reservation->created_at)->format('d\/m\/Y') }})
+				</p>
 			</div>
 
 			<div style="width: 18%;">
 				<p>
 					<strong style="color: rgb(234 179 8);">Number of seats booked:</strong>
 				</p>
-				<p>
+				<p style="font-size: 1.3rem;">
 					{{ $pending_reservation->seats }}
 				</p>
 			</div>
@@ -201,16 +209,24 @@
 
 			@if(isset($confirm_delete[$pending_reservation->id]) && $confirm_delete[$pending_reservation->id] !== null)
 			<div style="width: 38%; text-align: center;">
-				<p style="padding-bottom: 8px;">Are you sure? This will permanently delete the reservation.</p>
+				<p style="padding-top: 10px; padding-bottom: 15px;">Are you sure? This will permanently delete the reservation.</p>
 				<div class="flex justify-between">
 					<button wire:click="unconfirmDelete({{ $pending_reservation->id }})">Keep Reservation</button>
 					<button wire:click="cancelReservation({{ $pending_reservation->id }})">Cancel Reservation</button>
 				</div>
 			</div>
 			@else
-			<div class="flex justify-between" style="width: 38%; text-align: right;">
-				<button wire:click="confirmDelete({{ $pending_reservation->id }})">Cancel Reservation</button>
-				<button wire:click="validateReservation({{ $pending_reservation->id }})">Validate Reservation</button>
+			<div style="width: 38%; text-align: center;">
+				<p style="padding-top: 10px; padding-bottom: 15px;">
+					Reservation for: 
+					<strong style="color: rgb(234 179 8);">
+						{{ Carbon\Carbon::parse($pending_reservation->opening->date)->format('d\/m\/Y') }} at {{ $pending_reservation->opening->starting_hour }}
+					</strong>
+				</p>
+				<div class="flex justify-between">
+					<button wire:click="confirmDelete({{ $pending_reservation->id }})">Cancel Reservation</button>
+					<button wire:click="validateReservation({{ $pending_reservation->id }})">Validate Reservation</button>
+				</div>
 			</div>
 			@endif
 		</div>

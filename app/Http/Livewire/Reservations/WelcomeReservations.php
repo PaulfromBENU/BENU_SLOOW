@@ -135,6 +135,7 @@ class WelcomeReservations extends Component
             $new_reservation->last_name = ucfirst($this->res_last_name);
             $new_reservation->email = $this->res_email;
             $new_reservation->phone = $this->res_phone;
+            $new_reservation->language = strtolower(app()->getLocale());
             if ($this->res_message !== null) {
                 $new_reservation->other_info = $this->res_message;
             } else {

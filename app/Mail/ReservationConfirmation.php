@@ -24,7 +24,7 @@ class ReservationConfirmation extends Mailable
     public function __construct(Reservation $reservation)
     {
         $this->reservation = $reservation;
-        $this->locale = session('locale');
+        $this->locale = strtolower($reservation->language);
     }
 
     /**

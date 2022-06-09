@@ -6009,6 +6009,7 @@ input[type=checkbox]:focus {
   color: lightgrey;
   border-radius: 5px;
   font-size: 1.3rem;
+  max-height: 60px;
 }
 .reservations__pending button:hover {
   background: rgb(234 179 8/var(--tw-bg-opacity));
@@ -6032,6 +6033,12 @@ input[type=checkbox]:focus {
 .reservations__valid__info button:hover {
   background: rgb(234 179 8/var(--tw-bg-opacity));
   color: #FFFFFF;
+}
+.reservations__valid__seats {
+  font-size: 1.4rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(234 179 8/var(--tw-bg-opacity));
 }
 .reservations__valid__selector select {
   width: 400px;
