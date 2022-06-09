@@ -60,12 +60,14 @@ class ContactMessageResource extends Resource
             ->columns([
                 Tables\Columns\BooleanColumn::make('is_read'),
                 Tables\Columns\BooleanColumn::make('is_answered'),
+                Tables\Columns\BooleanColumn::make('closed'),
                 Tables\Columns\TextColumn::make('message'),
                 Tables\Columns\TextColumn::make('first_name'),
                 Tables\Columns\TextColumn::make('last_name'),
                 Tables\Columns\TextColumn::make('gender'),
                 Tables\Columns\TextColumn::make('email'),
                 Tables\Columns\TextColumn::make('phone'),
+                Tables\Columns\TextColumn::make('origin'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime(),
                 Tables\Columns\TextColumn::make('updated_at')

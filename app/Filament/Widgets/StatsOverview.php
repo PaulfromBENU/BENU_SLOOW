@@ -51,7 +51,7 @@ class StatsOverview extends BaseWidget
             ->descriptionIcon($users_icon)
             ->chart($last_users_count)
             ->color($user_color),
-            Card::make('Pending reservations', Reservation::whereHas('opening', function ($query) {
+            Card::make('Valid reservations', Reservation::whereHas('opening', function ($query) {
                 $query->where('date', '>=', Carbon::now());
             })->where('valid', '1')->count())
             ->description('Over 8 days')

@@ -50,6 +50,7 @@ class AppServiceProvider extends ServiceProvider
                 'Site Data',
                 'Shops & Partners',
             ]);
+            // Filament::registerTheme(mix('css/filament.css'));
         });
     }
 }
