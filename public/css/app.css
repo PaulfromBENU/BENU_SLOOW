@@ -7964,7 +7964,9 @@ input[type=checkbox]:focus {
 
 .filament-logo {
   max-height: 50px;
-  margin-top: 17px;
+  margin-top: 15px;
+  padding: 3px;
+  background: #793162;
 }
 .filament-logo__title {
   font-size: 1.5rem;
