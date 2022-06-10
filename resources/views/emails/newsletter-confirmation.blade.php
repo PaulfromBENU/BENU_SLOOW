@@ -12,7 +12,7 @@
 
     <title>Newsletter BENU - confirmation d'inscription</title>
 </head>
-<body style="width: 80%; margin-left: 10%; font-family: 'Barlow';">
+<body style="width: 80%; margin-left: 10%; font-family: 'Barlow' !important;">
     <style type=“text/css”>
         @import url (https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap) ;
     </style>
