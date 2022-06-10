@@ -5852,7 +5852,7 @@ input[type=checkbox]:focus {
   padding-top: 0px;
   padding-bottom: 50px;
   margin-top: -140px;
-  z-index: 3;
+  z-index: 5;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-content-1 {
