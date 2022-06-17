@@ -22,7 +22,7 @@
 	</style>
 	<![endif]-->
 	<div style="width: 100%; margin-bottom: 50px; text-align: center;">
-		<img src="{{ $message->embed(public_path('/images/svg/logo_benu_sloow.svg')) }}" style="height: 180px; margin: auto;" />
+		<img src="{{ $message->embed(public_path('/images/pictures/logo_benu_sloow.png')) }}" style="height: 180px; margin: auto;" />
 	</div>
 	<font face="'Barlow';">
 		<div>
