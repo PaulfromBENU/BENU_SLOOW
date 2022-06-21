@@ -6346,7 +6346,7 @@ input[type=checkbox]:focus {
 .welcome-mobile-nav {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 55px;
   background: #FFFFFF;
   z-index: 100;
