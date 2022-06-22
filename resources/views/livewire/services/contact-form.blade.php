@@ -1,6 +1,6 @@
 <form method="POST" action="" class="contact__form w-full m-auto mb-10" wire:submit.prevent="sendMessage" @if($safety_check == 0) onsubmit="event.preventDefault();" @endif>
     @csrf
-    <div class="">
+    <div>
         <div class="flex justify-center lg:justify-between flex-wrap">
             <div class="w-full lg:w-5/12 flex flex-wrap justify-around lg:justify-start input-group contact__form__radio-group">
                 <div class="lg:mr-5 mb-3 ml-1" style="min-width: 120px;">
