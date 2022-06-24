@@ -1208,8 +1208,9 @@
 	&__bg {
 		width: 100%; 
 		position: absolute; 
-		top:  0; 
+		top:  -50px; 
 		left: 0;
+		z-index: -1;
 		@include tablet {
 			display: none;
 		}
@@ -1284,6 +1285,8 @@
 			color: $secondary-color;
 			padding: 30px;
 			padding-bottom: 50px;
+			width: 50%;
+			margin-left: 25%;
 			@include mobile {
 				font: normal normal 700 24px/33px 'Barlow Condensed';
 			}
@@ -1365,7 +1368,7 @@
 
 
 .welcome-mobile-nav {
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 	width: 100vw;
 	height: 55px;

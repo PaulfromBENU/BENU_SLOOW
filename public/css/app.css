@@ -6168,8 +6168,9 @@ input[type=checkbox]:focus {
 .welcome-concept__bg {
   width: 100%;
   position: absolute;
-  top: 0;
+  top: -50px;
   left: 0;
+  z-index: -1;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-concept__bg {
@@ -6261,6 +6262,8 @@ input[type=checkbox]:focus {
   color: #96B221;
   padding: 30px;
   padding-bottom: 50px;
+  width: 50%;
+  margin-left: 25%;
 }
 @media (max-width: 767px) {
   .welcome-concept__box__date {
@@ -6344,7 +6347,8 @@ input[type=checkbox]:focus {
 }
 
 .welcome-mobile-nav {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   bottom: 0;
   width: 100vw;
   height: 55px;

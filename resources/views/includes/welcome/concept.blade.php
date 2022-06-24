@@ -1,5 +1,5 @@
 <section class="welcome-concept relative">
-	<img src="{{ asset('images/pictures/benu-sloow-vegetables-background.jpg') }}" class="welcome-concept__bg" id="welcome-concept__bg" />
+	<img src="{{ asset('images/pictures/benu-sloow-vegetables-background-LD.png') }}" class="welcome-concept__bg" id="welcome-concept__bg" />
 	<h3>
 		{!! __('welcome.concept-title-1') !!}
 	</h3>
