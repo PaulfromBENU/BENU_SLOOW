@@ -1219,13 +1219,15 @@
 		}
 	}
 	&__box {
-		width: 55%;
+		width: 60%;
 		max-width: 980px;
 		min-width: 800px;
 		margin: auto;
 		padding: 80px 40px 80px 40px;
 		margin-bottom: 80px;
 		height: fit-content;
+		background: $white;
+		border-radius: 20px;
 		@include mobile {
 			width: 100%;
 			max-width: 100%;
@@ -1295,15 +1297,21 @@
 			position: absolute;
 			&--left {
 				width: 80px;
-				left: -80px;
-				top: -50px;
-				height: calc(100% + 100px);
+				// left: -80px;
+				left: -50px;
+				top: 0px;
+				// top: -50px;
+				// height: calc(100% + 100px);
+				height: 100%;
 				z-index: 2;
 			}
 			&--top {
-				left: -90px;
-				top: -40px;
-				width: calc(100% + 180px);
+				// left: -90px;
+				// top: -40px;
+				// width: calc(100% + 180px);
+				left: 0px;
+				top: -50px;
+				width: 100%;
 				@include mobile {
 					left: -60%;
 					top: -60px;
@@ -1315,14 +1323,19 @@
 			}
 			&--right {
 				width: 80px;
-				right: -80px;
-				top: -50px;
-				height: calc(100% + 100px);
+				right: -60px;
+				// top: -50px;
+				// height: calc(100% + 100px);
+				top: 0px;
+				height: 100%;
 			}
 			&--bottom {
-				left: -90px;
-				bottom: -40px;
-				width: calc(100% + 180px);
+				// left: -90px;
+				// bottom: -40px;
+				// width: calc(100% + 180px);
+				left: 0px;
+				bottom: -50px;
+				width: 100%;
 				@include mobile {
 					left: -50%;
 					bottom: -60px;

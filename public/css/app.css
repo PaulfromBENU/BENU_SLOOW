@@ -6183,7 +6183,7 @@ input[type=checkbox]:focus {
   }
 }
 .welcome-concept__box {
-  width: 55%;
+  width: 60%;
   max-width: 980px;
   min-width: 800px;
   margin: auto;
@@ -6192,6 +6192,8 @@ input[type=checkbox]:focus {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  background: #FFFFFF;
+  border-radius: 20px;
 }
 @media (max-width: 767px) {
   .welcome-concept__box {
@@ -6275,15 +6277,15 @@ input[type=checkbox]:focus {
 }
 .welcome-concept__box__border--left {
   width: 80px;
-  left: -80px;
-  top: -50px;
-  height: calc(100% + 100px);
+  left: -50px;
+  top: 0px;
+  height: 100%;
   z-index: 2;
 }
 .welcome-concept__box__border--top {
-  left: -90px;
-  top: -40px;
-  width: calc(100% + 180px);
+  left: 0px;
+  top: -50px;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .welcome-concept__box__border--top {
@@ -6297,14 +6299,14 @@ input[type=checkbox]:focus {
 }
 .welcome-concept__box__border--right {
   width: 80px;
-  right: -80px;
-  top: -50px;
-  height: calc(100% + 100px);
+  right: -60px;
+  top: 0px;
+  height: 100%;
 }
 .welcome-concept__box__border--bottom {
-  left: -90px;
-  bottom: -40px;
-  width: calc(100% + 180px);
+  left: 0px;
+  bottom: -50px;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .welcome-concept__box__border--bottom {
