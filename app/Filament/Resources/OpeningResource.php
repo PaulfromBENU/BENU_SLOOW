@@ -23,6 +23,11 @@ class OpeningResource extends Resource
 
     protected static ?string $navigationGroup = 'Meals & Reservations';
 
+    protected static function shouldRegisterNavigation(): bool
+    {
+        return (auth()->user()->role == 'admin' || auth()->user()->role == 'editor');
+    }
+
     public static function form(Form $form): Form
     {
         return $form

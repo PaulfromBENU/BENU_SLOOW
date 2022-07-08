@@ -8,9 +8,7 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Models\Opening;
 use App\Models\Reservation;
-use App\Mail\ReservationRequest;
-use App\Mail\ReservationConfirmation;
-use App\Mail\ReservationNotificationForAdmin;
+use App\Jobs\SendReservationEmails;
 
 use Carbon\Carbon;
 
@@ -137,6 +135,7 @@ class WelcomeReservations extends Component
             $new_reservation->last_name = ucfirst($this->res_last_name);
             $new_reservation->email = $this->res_email;
             $new_reservation->phone = $this->res_phone;
+            $new_reservation->language = strtolower(app()->getLocale());
             if ($this->res_message !== null) {
                 $new_reservation->other_info = $this->res_message;
             } else {
@@ -149,13 +148,9 @@ class WelcomeReservations extends Component
                 $new_reservation->valid = 0;
             }
             if ($new_reservation->save()) {
-                if (Opening::find($this->opening_id)->type == '0') {
-                    Mail::to($this->res_email)->send(new ReservationConfirmation($new_reservation));
-                } else {
-                    Mail::to($this->res_email)->send(new ReservationRequest($new_reservation));
-                }
-                // Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new ReservationNotificationForAdmin($new_reservation));
-                Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new ReservationNotificationForAdmin($new_reservation));
+                // dispatch here
+                SendReservationEmails::dispatchAfterResponse($this->opening_id, $new_reservation, $this->res_email);
+
                 $this->clearContent();
                 $this->message_sent = 1;
                 $this->opening_id = 0;

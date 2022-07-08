@@ -22,6 +22,11 @@ class GeneralConditionResource extends Resource
 
     protected static ?string $navigationGroup = 'Site Data';
 
+    protected static function shouldRegisterNavigation(): bool
+    {
+        return (auth()->user()->role == 'ignore');
+    }
+
     public static function form(Form $form): Form
     {
         return $form

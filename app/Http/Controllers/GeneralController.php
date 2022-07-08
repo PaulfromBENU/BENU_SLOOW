@@ -4,19 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Mail;
 
 use App\Models\NewsArticle;
 use App\Models\Partner;
 use App\Models\Translation;
 use App\Models\User;
-use App\Mail\NewsletterConfirmation;
-use App\Mail\NewsletterConfirmationForAdmin;
-use App\Mail\NewsletterCancelConfirmationForAdmin;
 
 use App\Traits\DataImporter;
 
 use App\Http\Requests\NewsletterRequest;
+
+use App\Jobs\SendNewsletterEmail;
+use App\Jobs\SendNewsletterCancellation;
 
 class GeneralController extends Controller
 {
@@ -144,8 +143,8 @@ class GeneralController extends Controller
                 auth()->user()->favorite_language = session('locale');
                 auth()->user()->save();
                 $message = __('auth.newsletter-subscribe-confirm');
-                Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new NewsletterConfirmationForAdmin(auth()->user()));
-                Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin(auth()->user()));
+                // dispatch here
+                SendNewsletterEmail::dispatchAfterResponse(auth()->user());
             }
         } else {
             if (User::where('email', $request->newsletter_email)->count() > 0) {
@@ -154,8 +153,7 @@ class GeneralController extends Controller
                 $user->favorite_language = session('locale');
                 $user->save();
                 $message = __('auth.newsletter-subscribe-confirm');
-                Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new NewsletterConfirmationForAdmin($user));
-                Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin($user));
+                SendNewsletterEmail::dispatchAfterResponse($user);
             } else {
                 $user = new User();
                 $user->email = $request->newsletter_email;
@@ -172,8 +170,7 @@ class GeneralController extends Controller
                 $user->general_comment = "";
                 if($user->save()) {
                     $message = __('auth.newsletter-subscribe-confirm');
-                    Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new NewsletterConfirmationForAdmin($user));
-                    Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterConfirmationForAdmin($user));
+                    SendNewsletterEmail::dispatchAfterResponse($user);
                 }
             }
         }
@@ -190,8 +187,7 @@ class GeneralController extends Controller
             if ($user->newsletter == '2') {
                 $user->newsletter = 0;
                 $user->save();
-                Mail::mailer('smtp_admin')->to('paul.guillard@benu.lu')->send(new NewsletterCancelConfirmationForAdmin($user));
-                Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterCancelConfirmationForAdmin($user));
+                SendNewsletterCancellation::dispatchAfterResponse($user);
             }
             return view('newsletter-cancelled');
         }

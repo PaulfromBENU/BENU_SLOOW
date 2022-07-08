@@ -103,7 +103,7 @@
 
 				<div class="welcome-faq__accordion__answer" style="display: none;">
 					<p class="welcome-faq__accordion__answer__txt">
-						{!! __('services.faq-group-desc-5-1') !!}
+						{!! __('services.faq-group-desc-5-1') !!} <a href="mailto:info@benusloow.lu" class="primary-color hover:text-gray-800 transition">info@benusloow.lu</a>.
 					</p>
 					<p class="welcome-faq__accordion__answer__txt">
 						{!! __('services.faq-group-desc-5-2') !!}

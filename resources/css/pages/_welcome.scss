@@ -931,7 +931,7 @@
 	padding-top: 0px;
 	padding-bottom: 50px;
 	margin-top: -140px;
-	z-index: 3;
+	z-index: 5;
 	@include tablet {
 		margin-top: -100px;
 	}
@@ -1187,6 +1187,8 @@
 		font: normal normal 700 28px/28px 'Barlow Condensed';
 		letter-spacing: 0.28px;
 		margin-bottom: 35px;
+		position: relative;
+		z-index: 3;
 		@include mobile {
 			font: normal normal 700 24px/33px 'Barlow Condensed';
 		}
@@ -1197,6 +1199,8 @@
 		letter-spacing: 0px;
 		color: $primary-color;
 		margin-bottom: 90px;
+		position: relative;
+		z-index: 3;
 		@include mobile {
 			font: normal normal 700 28px/34px 'Barlow Condensed';
 		}
@@ -1204,8 +1208,9 @@
 	&__bg {
 		width: 100%; 
 		position: absolute; 
-		top:  0; 
+		top:  -50px; 
 		left: 0;
+		z-index: -1;
 		@include tablet {
 			display: none;
 		}
@@ -1214,13 +1219,15 @@
 		}
 	}
 	&__box {
-		width: 55%;
+		width: 60%;
 		max-width: 980px;
 		min-width: 800px;
 		margin: auto;
 		padding: 80px 40px 80px 40px;
 		margin-bottom: 80px;
 		height: fit-content;
+		background: $white;
+		border-radius: 20px;
 		@include mobile {
 			width: 100%;
 			max-width: 100%;
@@ -1280,6 +1287,8 @@
 			color: $secondary-color;
 			padding: 30px;
 			padding-bottom: 50px;
+			width: 50%;
+			margin-left: 25%;
 			@include mobile {
 				font: normal normal 700 24px/33px 'Barlow Condensed';
 			}
@@ -1288,15 +1297,21 @@
 			position: absolute;
 			&--left {
 				width: 80px;
-				left: -80px;
-				top: -50px;
-				height: calc(100% + 100px);
+				// left: -80px;
+				left: -50px;
+				top: 0px;
+				// top: -50px;
+				// height: calc(100% + 100px);
+				height: 100%;
 				z-index: 2;
 			}
 			&--top {
-				left: -90px;
-				top: -40px;
-				width: calc(100% + 180px);
+				// left: -90px;
+				// top: -40px;
+				// width: calc(100% + 180px);
+				left: 0px;
+				top: -50px;
+				width: 100%;
 				@include mobile {
 					left: -60%;
 					top: -60px;
@@ -1308,14 +1323,19 @@
 			}
 			&--right {
 				width: 80px;
-				right: -80px;
-				top: -50px;
-				height: calc(100% + 100px);
+				right: -60px;
+				// top: -50px;
+				// height: calc(100% + 100px);
+				top: 0px;
+				height: 100%;
 			}
 			&--bottom {
-				left: -90px;
-				bottom: -40px;
-				width: calc(100% + 180px);
+				// left: -90px;
+				// bottom: -40px;
+				// width: calc(100% + 180px);
+				left: 0px;
+				bottom: -50px;
+				width: 100%;
 				@include mobile {
 					left: -50%;
 					bottom: -60px;
@@ -1361,9 +1381,9 @@
 
 
 .welcome-mobile-nav {
-	position: fixed;
+	position: sticky;
 	bottom: 0;
-	width: 100%;
+	width: 100vw;
 	height: 55px;
 	background: $white;
 	z-index: 100;

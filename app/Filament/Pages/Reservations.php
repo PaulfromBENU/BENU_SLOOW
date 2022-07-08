@@ -7,6 +7,8 @@ use Filament\Pages\Page;
 use App\Models\Opening;
 use App\Models\Reservation;
 
+use App\Jobs\SendReservationConfirmation;
+
 use Carbon\Carbon;
 
 class Reservations extends Page
@@ -28,6 +30,7 @@ class Reservations extends Page
     public $valid_opening_date;
     public $opening_date_id;
     public $opening_date;
+    public $available_seats;
     public $remaining_seats;
     public $seats_number;
     public $res_first_name;
@@ -55,6 +58,7 @@ class Reservations extends Page
         if (Opening::find($this->opening_date_id)) {
             $this->opening_date = Opening::find($this->opening_date_id);
             $this->remaining_seats = $this->opening_date->seats;
+            $this->available_seats = $this->opening_date->seats;
 
             foreach ($this->opening_date->valid_reservations as $existing_reservation) {
                 $this->remaining_seats -= $existing_reservation->seats;
@@ -67,6 +71,13 @@ class Reservations extends Page
 
         if (Opening::find($this->valid_opening_date_id)) {
             $this->valid_opening_date = Opening::find($this->valid_opening_date_id);
+            $this->remaining_seats = $this->valid_opening_date->seats;
+            foreach ($this->valid_opening_date->valid_reservations as $existing_reservation) {
+                $this->remaining_seats -= $existing_reservation->seats;
+            }
+            $this->remaining_seats = max(0, $this->remaining_seats);
+            
+            $this->available_seats = $this->valid_opening_date->seats;
             $this->show_valid_reservations = true;
             $this->valid_reservations = $this->valid_opening_date->reservations()->where('valid', '1')->get();
         } else {
@@ -136,6 +147,7 @@ class Reservations extends Page
         $reservation = Reservation::find($reservation_id);
         $reservation->valid = 1;
         $reservation->save();
+        SendReservationConfirmation::dispatchAfterResponse($reservation);
         $this->getAllReservations();
     }
 

@@ -1,7 +1,7 @@
 @extends('layouts.base_layout')
 
 @section('title')
-    Bienvenue sur BENU SLO0W
+    {{ __('slugs.welcome-sloow') }}
 @endsection
 
 @section('main-content')

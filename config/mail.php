@@ -43,6 +43,8 @@ return [
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
             'auth_mode' => null,
+            'admin_receiver' => env('MAIL_TO_ADMIN_ADDRESS'),
+            'sender' => env('MAIL_FROM_ADDRESS'),
         ],
 
         'smtp_admin' => [
@@ -54,6 +56,8 @@ return [
             'password' => env('MAIL_PASSWORD_ADMIN'),
             'timeout' => null,
             'auth_mode' => null,
+            'admin_receiver' => env('MAIL_TO_ADMIN_ADDRESS'),
+            'sender' => env('MAIL_FROM_ADDRESS_ADMIN'),
         ],
 
         'ses' => [
@@ -86,6 +90,7 @@ return [
             'transport' => 'failover',
             'mailers' => [
                 'smtp',
+                'smtp_admin',
                 'log',
             ],
         ],
@@ -103,7 +108,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'paul.guillard@benu.lu'),
+        'address' => env('MAIL_FROM_ADDRESS', 'info@benusloow.lu'),
         'name' => env('MAIL_FROM_NAME', 'BENU'),
     ],
 

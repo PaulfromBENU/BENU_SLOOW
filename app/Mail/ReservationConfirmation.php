@@ -24,7 +24,7 @@ class ReservationConfirmation extends Mailable
     public function __construct(Reservation $reservation)
     {
         $this->reservation = $reservation;
-        $this->locale = session('locale');
+        $this->locale = strtolower($reservation->language);
     }
 
     /**
@@ -34,7 +34,7 @@ class ReservationConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS'), 'BENU')
+        return $this->from(config('mail.mailers.smtp.sender'), 'BENU')
                     ->subject('BENU - Demande de réservation reçue')
                     ->view('emails.reservation-confirmation');
     }

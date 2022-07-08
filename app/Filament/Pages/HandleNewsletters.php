@@ -4,11 +4,10 @@ namespace App\Filament\Pages;
 
 use Filament\Pages\Page;
 
-use Illuminate\Support\Facades\Mail;
-
 use App\Models\User;
-use App\Mail\NewsletterConfirmation;
-use App\Mail\NewsletterCancelConfirmationForAdmin;
+
+use App\Jobs\SendNewsletterConfirmation;
+use App\Jobs\SendNewsletterCancellation;
 
 class HandleNewsletters extends Page
 {
@@ -47,7 +46,8 @@ class HandleNewsletters extends Page
             $user->newsletter = 2;
              // 1 = newsletter requested, 2 = newletter confirmed
             if ($user->save()) {
-                Mail::mailer('smtp')->to($user->email)->send(new NewsletterConfirmation($user, strtolower($user->favorite_language)));
+                // Dispatch here
+                SendNewsletterConfirmation::dispatchAfterResponse($user);
                 $this->updateUsers();
             }
         }
@@ -58,7 +58,7 @@ class HandleNewsletters extends Page
         if (User::find($user_id)) {
             $user = User::find($user_id);
             $user->newsletter = 0;
-            Mail::mailer('smtp_admin')->to(env('MAIL_TO_ADMIN_ADDRESS'))->send(new NewsletterCancelConfirmationForAdmin($user));
+            SendNewsletterCancellation::dispatchAfterResponse($user);
             if ($user->role == 'newsletter') {
                 $user->forceDelete();
             } else {

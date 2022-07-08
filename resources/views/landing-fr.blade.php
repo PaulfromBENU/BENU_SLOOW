@@ -94,16 +94,16 @@
                             Lancement du site&nbsp;: 2ème trimestre 2022
                         </p>
                         <p class="central_textbox__desc">
-                            <strong>BENU SLO0W</strong>&nbsp;: Slow Food. Rescued Food. Zero Waste. Haute Qualité. Inclusion sociale. Oui, tout ceci est possible dans un seul et même restaurant&nbsp;! 
+                            <strong>BENU SLO0W</strong>&nbsp;: Slow Food. Rescued Food. Zero Waste. Haute qualité. Inclusion sociale. Oui, tout ceci est possible dans un seul et même restaurant&nbsp;! 
                         </p>
                         <p class="central_textbox__desc">
-                            Ce premier restaurant «&nbsp;rescued food&nbsp;» de la Grande Région se donne comme objectif d’utiliser, à raison de 80% des denrées utilisées, du «&nbsp;rescued&nbsp;», c’est-à-dire des aliments bio refusés par le commerce malgré leur satisfaction des normes UE et leur qualité incontestable. Dans la plupart des cas, ce refus résulte de la fluctuation de la demande ou bien encore de l’aspect surtout esthétique de la marchandise&nbsp;: trop courbé, trop petit, trop...
+                            Ce premier restaurant "Rescued Food" de la Grande Région se donne comme objectif d’utiliser, à raison de 80% des denrées utilisées, du "Rescued", c’est-à-dire des aliments bio refusés par le commerce malgré leur satisfaction aux normes de l'UE et leur qualité incontestable. Dans la plupart des cas, ce refus résulte de la fluctuation de la demande ou bien de l’aspect esthétique de la marchandise&nbsp;: trop courbé, trop petit, trop...
                         </p>
                         <p class="central_textbox__desc">
-                            Offrant une cuisine durable, végétarienne et végétalienne (vegane), le restaurant BENU s'inscrit dans les principes de l'Économie Circulaire et de l’UpCycling et poursuit comme but principal la sensibilisation du grand public sur le gaspillage alimentaire, au monde entier mais aussi au Grand-Duché.
+                            Offrant une cuisine durable, végétarienne et végétalienne (vegane), le restaurant BENU s'inscrit dans les principes de l'Économie Circulaire et de l’UpCycling et poursuit, comme objectif principal, la sensibilisation du grand public sur le gaspillage alimentaire, dans le monde mais aussi plus particulièrement au Grand-Duché.
                         </p>
                         <p class="central_textbox__desc">
-                            <strong>BENU SLO0W</strong> est un lieu de découverte et d'apprentissage pour tous ceux qui s'intéressent à une cuisine innovante et faisant revivre des méthodes de préparation et de conservation un peu oubliées. Avec son concept global, il pose la première pierre d'une nouvelle forme de gastronomie, durable et informative, au Luxembourg et souhaite surtout montrer qu’une carotte courbée peut aussi être présentée de façon exquise et avec un goût surprenant&nbsp;!
+                            <strong>BENU SLO0W</strong> est un lieu de découverte et d'apprentissage pour tous ceux qui s'intéressent à une cuisine innovante et faisant revivre des méthodes de préparation et de conservation un peu oubliées. Avec son concept global, il pose la première pierre d'une nouvelle forme de gastronomie, durable et informative au Luxembourg et souhaite surtout montrer qu’une carotte courbée peut aussi être présentée de façon exquise et avec un goût surprenant&nbsp;!
                         </p>
                         <ul class="central_textbox__desc">
                             <li class="mb-3"><strong>BENU SLO0W</strong></li>
@@ -129,7 +129,7 @@
                             </li>
                         </ul>
                         <p class="central_textbox__desc">
-                            Un premier site web <strong>BENU SLO0W</strong> devrait être mis en ligne fin juin 2022. Tu trouveras ici plus de détails sur le lancement du restaurant BENU SLOOW ! D'ici là, nous t'invitons à visiter notre site principal <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
+                            Un premier site web <strong>BENU SLO0W</strong> devrait être mis en ligne fin août 2022. Tu trouveras ici plus de détails sur le lancement du restaurant BENU SLOOW ! D'ici là, nous t'invitons à visiter notre site principal <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                         </p>
                     </div>
                     <div class="contact-form-container">

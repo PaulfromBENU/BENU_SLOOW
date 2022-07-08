@@ -12,9 +12,17 @@
 
 	<title>Demande de réservation - BENU SLOOW</title>
 </head>
-<body style="width: 80%; margin-left: 10%; font-family: 'Barlow';">
+<body style="width: 80%; margin-left: 10%; font-family: 'Barlow' !important;">
+	<style type=“text/css”>
+		@import url (https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap) ;
+	</style>
+	<!--[if mso]>
+	<style type="text/css">
+	body, table, td {font-family: Barlow !important;}
+	</style>
+	<![endif]-->
 	<div style="width: 100%; margin-bottom: 50px; text-align: center;">
-		<img src="{{ $message->embed(asset('images/pictures/logo_benu_green.png')) }}" style="height: 180px; margin: auto;" />
+		<img src="{{ $message->embed(public_path('/images/pictures/logo_benu_sloow.png')) }}" style="height: 180px; margin: auto;" />
 	</div>
 	<div>
 		<p>

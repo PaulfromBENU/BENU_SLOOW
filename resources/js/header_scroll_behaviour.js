@@ -38,8 +38,8 @@ $(function() {
             }
 
             // Hosts table concept background parallax
-            if ($('#welcome-concept__bg').length > 0 && scrollTop > 1500 && scrollTop < initialBgPos + 1000) {
-                $('#welcome-concept__bg').css('top', scrollTop / 6.2 - 450); //initialBgPos - 650 + 
+            if ($('#welcome-concept__bg').length > 0 && scrollTop > 1500 && scrollTop < initialBgPos + 1300) {
+                $('#welcome-concept__bg').css('top', scrollTop / 6.2 - 470); //initialBgPos - 650 + 
             }
         });
     }
