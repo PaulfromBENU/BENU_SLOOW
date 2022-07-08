@@ -98,16 +98,16 @@
                             Website launch: 2nd semester 2022
                         </p>
                         <p class="central_textbox__desc">
-                            <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. High Quality. Social inclusion. Yes, all this is possible in one restaurant! 
+                            <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. High quality. Social inclusion. Yes, all this is possible in one restaurant! 
                         </p>
                         <p class="central_textbox__desc">
-                            This first "rescued food" restaurant in the Greater Region has set itself the goal of using 80% of the food it processes as "rescued", i.e. organic food that is rejected by the market even though it meets EU standards and is of unquestionable quality. In most cases, the rejection is due to fluctuating demand or to the aesthetic appearance of the goods: too crooked, too small, too...
+                            This first "Rescued Food" restaurant in the Greater Region has set itself the goal of using 80% of the food it processes as "rescued", i.e. organic food that is rejected by the market even though it meets EU standards and is of unquestionable quality. In most cases, the rejection is due to fluctuating demand or to the aesthetic appearance of the goods: too crooked, too small, too...
                         </p>
                         <p class="central_textbox__desc">
                             By offering sustainable, vegetarian and vegan cuisine, the BENU restaurant follows the principles of circular economy and UpCycling and has as its main objective to raise awareness among the general public on the issue of food waste, worldwide but also in the Grand Duchy.
                         </p>
                         <p class="central_textbox__desc">
-                            <strong>BENU SLO0W</strong> is a place of discovery and learning for anyone interested in innovative cuisine and forgotten preparation and preservation methods. With its overall concept, the restaurant lays the foundation for a new, sustainable and informative form of gastronomy in Luxembourg and above all wants to show that even a crooked carrot can be presented exquisitely and with surprising taste!
+                            <strong>BENU SLO0W</strong> is a place of discovery and learning for anyone interested in innovative cuisine and forgotten preparation and preservation methods. With its overall concept, the restaurant lays the foundation for a new, sustainable and informative form of gastronomy in Luxembourg and, above all, wants to show that even a crooked carrot can be presented exquisitely and with surprising taste!
                         </p>
                         <ul class="central_textbox__desc">
                             <li class="mb-3"><strong>BENU SLO0W</strong></li>
@@ -135,6 +135,22 @@
                         <p class="central_textbox__desc">
                             A first website <strong>BENU SLO0W</strong> is expected to go online at the end of June 2022. Find out more details about the launch of the BENU SLOOW restaurant here! Until then, we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                         </p>
+                    </div>
+                    <div class="contact-form-container">
+                        <div>
+                            <h2 class="text-center mb-6">
+                                Keep in touch
+                            </h2>
+                            <!-- <div>
+                                <form method="POST" class="contact_form">
+                                    <input type="email" name="newsletter_email" placeholder="Je m'inscris à la newsletter">
+                                    <input type="submit" name="newsletter_btn" value="Je m'inscris">
+                                </form>
+                            </div> -->
+                            <div class="contact-link text-center">
+                                <a href="https://benu.lu/en/contact-us/" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">I subscribe to the newsletter</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

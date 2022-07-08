@@ -104,10 +104,10 @@
                             Dësen éischte “Rescued Food”-Restaurant an der Groussregioun huet sech als Zil gesat, 80 % vun den agesate Liewensmëttel als “gerett” ze benotzen, d.h. Bio-Liewensmëttel, déi vum Handel ofgeleent gi sinn, obwuel si d’EU-Normen erfëllen a vu beschter Qualitéit sinn. An deene meeschte Fäll ass d’Ofleenung zeréckzeféieren op eng schwankend Nofro oder op dat ästheetescht Ausgesi vun der Wuer: ze kromm, ze kleng, ze...
                         </p>
                         <p class="central_textbox__desc">
-                            Mat enger Offer vun nohalteger, vegetarescher a veganer Kiche geet de BENU Restaurant de Prinzippie vun der Kreeslafwirtschaft an dem Upcycling no. D’Haaptzil vum Restaurant ass d’Sensibiliséierung vun der breeder Ëffentlechkeet fir d’Theema Liewensmëttelverschwendung, weltwäit an och lokal zu Lëtzebuerg.
+                            Mat enger Offer vun nohalteger, vegetarescher a veganer Kiche geet de BENU Restaurant de Prinzippie vun der Kreeslafwirtschaft an dem Upcycling no. D’Haaptzil vum Restaurant ass d’Sensibiliséierung vun der breeder Ëffentlechkeet fir d’Theema Liewensmëttelverschwendung weltwäit an och lokal zu Lëtzebuerg.
                         </p>
                         <p class="central_textbox__desc">
-                            <strong>BENU SLO0W</strong> ass eng Plaz fir ze entdecken an ze léiere fir jiddwereen, deen sech fir innovativ Kichen interesséiert. Hei kanns Du Preparatiouns- a Konservéierungsmethode kenneléieren, déi e bëssen a Vergiess gerode sinn. Mat sengem Gesamtkonzept leet de Restaurant de Grondstee fir eng nei, nohalteg an informativ Gastronomieform zu Lëtzebuerg a wëll virun allem weisen, dass och eng kromm Muert exquisit a mat iwwerraschendem Geschmaach präsentéiert ka ginn!
+                            <strong>BENU SLO0W</strong> ass eng Plaz fir z'entdecken an ze léiere fir jiddwereen dee sech fir innovativ Kichen interesséiert. Hei kanns Du Preparatiouns- a Konservéierungsmethode kenneléieren, déi e bëssen a Vergiess gerode sinn. Mat sengem Gesamtkonzept leet de Restaurant de Grondstee fir eng nei, nohalteg an informativ Gastronomieform zu Lëtzebuerg a wëll virun allem weisen, dass och eng kromm Muert exquisit a mat iwwerraschendem Geschmaach präsentéiert ka ginn!
                         </p>
                         <ul class="central_textbox__desc">
                             <li class="mb-3"><strong>BENU SLO0W</strong></li>
@@ -175,7 +175,7 @@
                 <div class="landing-footer__links">
                     <div class="landing-footer__links__header-container">
                         <div class="landing-footer__links__header">
-                            Verfolleg eis op
+                            Suivéier eis op
                         </div>
                     </div>
                     <div class="landing-footer__links__icons">
