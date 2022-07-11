@@ -104,7 +104,7 @@
                             This first "Rescued Food" restaurant in the Greater Region has set itself the goal of using 80% of the food it processes as "rescued", i.e. organic food that is rejected by the market even though it meets EU standards and is of unquestionable quality. In most cases, the rejection is due to fluctuating demand or to the aesthetic appearance of the goods: too crooked, too small, too...
                         </p>
                         <p class="central_textbox__desc">
-                            By offering sustainable, vegetarian and vegan cuisine, the BENU restaurant follows the principles of circular economy and UpCycling and has as its main objective to raise awareness among the general public on the issue of food waste, worldwide but also in the Grand Duchy.
+                            By offering sustainable, vegetarian and vegan cuisine, the BENU restaurant follows the principles of circular economy and UpCycling and has as its main objective to raise awareness among the general public on the issue of food waste worldwide, but also in the Grand Duchy.
                         </p>
                         <p class="central_textbox__desc">
                             <strong>BENU SLO0W</strong> is a place of discovery and learning for anyone interested in innovative cuisine and forgotten preparation and preservation methods. With its overall concept, the restaurant lays the foundation for a new, sustainable and informative form of gastronomy in Luxembourg and, above all, wants to show that even a crooked carrot can be presented exquisitely and with surprising taste!
