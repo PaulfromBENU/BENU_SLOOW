@@ -1,6 +1,6 @@
 <section class="benu-container welcome-presentation">
     <div class="welcome-presentation__illustration">
-        <img src="{{ asset('images/pictures/sloow_main_picture_v4.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
+        <img src="{{ asset('images/pictures/sloow_main_picture_v5.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
     </div>
     <div class="welcome-presentation__desc">
         <div>
