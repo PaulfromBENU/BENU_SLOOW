@@ -21,6 +21,6 @@
 		</div>
 	</div>
 	<div class="welcome-transition-1__transition welcome-transition-1__transition--bottom">
-		<img src="{{ asset('images/pictures/benu-sloow-white-transition-vegetables-OK-1.png') }}">
+		<img src="{{ asset('images/pictures/benu-sloow-white-transition-vegetables-OK-1-25-07.png') }}">
 	</div>
 </section>
