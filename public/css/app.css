@@ -4537,7 +4537,6 @@ input[type=checkbox]:focus {
 }
 .footer-contact__map {
   width: 100%;
-  background: #96B221;
   padding-top: 2px;
   padding-bottom: 2px;
 }
@@ -6167,10 +6166,19 @@ input[type=checkbox]:focus {
     font: normal normal 700 28px/34px "Barlow Condensed";
   }
 }
+.welcome-concept__fader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 0;
+}
 .welcome-concept__bg {
   width: 100%;
   position: absolute;
-  top: -100px;
+  top: -150px;
   left: 0;
   z-index: -1;
 }

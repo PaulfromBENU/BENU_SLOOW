@@ -39,7 +39,7 @@ $(function() {
 
             // Hosts table concept background parallax
             if ($('#welcome-concept__bg').length > 0 && scrollTop > 1500 && scrollTop < initialBgPos + 1300) {
-                $('#welcome-concept__bg').css('top', (scrollTop - initialBgPos) / 6.2); //initialBgPos - 650 + 
+                $('#welcome-concept__bg').css('top', -150 + (scrollTop - initialBgPos) / 6.2); //initialBgPos - 650 + 
             }
         });
     }

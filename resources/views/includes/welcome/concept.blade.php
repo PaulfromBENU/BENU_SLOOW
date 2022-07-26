@@ -1,4 +1,5 @@
 <section class="welcome-concept relative">
+	<div class="welcome-concept__fader"></div>
 	<img src="{{ asset('images/pictures/transition_sloow_2_25_07.png') }}" class="welcome-concept__bg" id="welcome-concept__bg" />
 	<h3>
 		{!! __('welcome.concept-title-1') !!}
