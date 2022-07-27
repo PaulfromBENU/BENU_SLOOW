@@ -6357,8 +6357,7 @@ input[type=checkbox]:focus {
 }
 
 .welcome-mobile-nav {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   height: 55px;
