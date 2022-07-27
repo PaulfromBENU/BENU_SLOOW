@@ -6278,6 +6278,8 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .welcome-concept__box__date {
     font: normal normal 700 24px/33px "Barlow Condensed";
+    width: 90%;
+    margin-left: 5%;
   }
 }
 .welcome-concept__box__border {
@@ -6289,6 +6291,11 @@ input[type=checkbox]:focus {
   top: 0px;
   height: 100%;
   z-index: 2;
+}
+@media (max-width: 767px) {
+  .welcome-concept__box__border--left {
+    left: -100px;
+  }
 }
 .welcome-concept__box__border--top {
   left: 0px;

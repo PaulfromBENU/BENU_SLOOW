@@ -1307,6 +1307,8 @@
 			margin-left: 25%;
 			@include mobile {
 				font: normal normal 700 24px/33px 'Barlow Condensed';
+				width: 90%;
+				margin-left: 5%;
 			}
 		}
 		&__border {
@@ -1320,6 +1322,9 @@
 				// height: calc(100% + 100px);
 				height: 100%;
 				z-index: 2;
+				@include mobile {
+					left: -100px;
+				}
 			}
 			&--top {
 				// left: -90px;
