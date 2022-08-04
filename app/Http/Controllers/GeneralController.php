@@ -108,23 +108,6 @@ class GeneralController extends Controller
         return redirect()->route('news-'.app()->getLocale());
     }
 
-    public function startImport()
-    {
-        $this->importTranslations();
-        // if(auth::check() && auth::user()->role == 'admin') {
-        //     set_time_limit(3600);
-        //     // echo "*** Importation started...<br/>";
-        //     // $this->importDataFromSophie();
-        //     // $this->importCreationsFromLou();
-        //     // $this->importCreationsFromSabine();
-        //     // $this->createArticlesFromPictures();
-        //     // $this->updateArticlesFromLouAndSophie();
-        //     $this->importTranslations();
-        // } else {
-        //     return redirect()->route('login-fr');
-        // }
-    }
-
     public function showNewsletter()
     {
         return view('newsletter');
@@ -196,5 +179,23 @@ class GeneralController extends Controller
     public function footerLegal()
     {
         return view('footer.pages.legal');
+    }
+
+
+    public function startImport()
+    {
+        $this->importTranslations();
+        // if(auth::check() && auth::user()->role == 'admin') {
+        //     set_time_limit(3600);
+        //     // echo "*** Importation started...<br/>";
+        //     // $this->importDataFromSophie();
+        //     // $this->importCreationsFromLou();
+        //     // $this->importCreationsFromSabine();
+        //     // $this->createArticlesFromPictures();
+        //     // $this->updateArticlesFromLouAndSophie();
+        //     $this->importTranslations();
+        // } else {
+        //     return redirect()->route('login-fr');
+        // }
     }
 }

@@ -3,17 +3,17 @@
     "page": "Home",
     "key": "header.universe",
     "de": "Entdecke die BENU Welten",
-    "fr": "Découvre les univers BENU",
-    "en": "Discover the BENU universes",
-    "lu": "Entdeck déi ganz Welt vum BENU"
+    "fr": "Découvre l'univers BENU",
+    "en": "Discover the BENU universe",
+    "lu": "Entdeck d'Welt vu BENU"
   },
   {
     "page": "Home",
     "key": "header.village-desc",
-    "de": "Erstes Ökodorf in der Großregion Luxemburg, das alle BENU-Aktivitäten (Restaurant, Shop, Kunst) vereint. Wir organisieren partizipative, kreative und pädagogische Aktivitäten rund um Themen der sozial-ökologische Kreislaufwirtschaft.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Premier éco-village dans la Grande Région du Luxembourg qui regroupe l’ensemble des activités BENU (restauration, boutique, art). Nous organisons des activités participatives, créatives et éducatives autour des sujets liés à l’économie circulaire socio-écologique. Un nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "First eco-village in the Greater Region of Luxembourg that groups all BENU activities (restaurant, shop, art). We organize participative, creative and educational activities around topics related to the socio-ecological circular economy.\nA new, more complete website will be set up before the end of 2023. For more information:",
-    "lu": "Dat éischt Ekoduerf an der Groussregioun, dat all d'BENU-Aktivitéiten (Restaurant, Buttek, Konscht) regroupéiert. Mir organiséiere participativ, kreativ a pedagogesch Aktivitéite ronderëm Theeme vun der sozial-ekologescher Kreeslafwirtschaft. Eng nei Internetsäit mat méi Informatioune wäert bis Enn 2023 ageriicht ginn. Méi dozou  hei:"
+    "de": "Erstes Ökodorf in der Großregion Luxemburg, das alle BENU Aktivitäten (Restaurant, Shop, Kunst) vereint. Wir organisieren partizipative, kreative und pädagogische Aktivitäten rund um Themen der sozial-ökologische Kreislaufwirtschaft.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
+    "fr": "Premier écovillage dans la Grande Région du Luxembourg qui regroupe l’ensemble des activités BENU (restauration, boutique, art). Nous organisons des activités participatives, créatives et éducatives autour des sujets liés à l’économie circulaire socio-écologique. Un nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
+    "en": "First ecovillage in the Greater Region of Luxembourg that groups all BENU activities (restaurant, shop, art). We organize participative, creative and educational activities around topics related to the socio-ecological circular economy.\nA new, more complete website will be set up before the end of 2023. For more information:",
+    "lu": "Dat éischt Ekoduerf an der Groussregioun, dat all d'BENU Aktivitéite (Restaurant, Buttek, Konscht) regruppéiert. Mir organiséiere participativ, kreativ a pedagogesch Aktivitéite ronderëm Theeme vun der sozial-ekologescher Kreeslafwirtschaft. Eng méi informatiounsräich Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -26,10 +26,10 @@
   {
     "page": "Home",
     "key": "header.sis-desc",
-    "de": "Eine Gesellschaft mit beschränkter Haftung, die den Prinzipien der Sozial- und Solidarwirtschaft entspricht. BENU VILLAGE SIS repräsentiert BENU im Herzen des Privatmarktes und ermutigt private Arbeitgeber, sozial-ökologische Aspekte in ihren Unternehmen umzusetzen.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Une société à responsabilité limitée qui répond aux principes de l’économie sociale et solidaire. BENU VILLAGE SIS représente BENU au cœur du marché privé et encourage les employeurs privés à mettre en place des aspects socio-écologiques au sein de leurs entreprises. \nUn nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "A limited liability company which responds to the principles of the social and solidarity economy. BENU VILLAGE SIS represents BENU at the heart of the private market and encourages private employers to implement socio-ecological aspects in their companies. \nA new, more complete website will be set up before the end of 2023. For more information:",
-    "lu": "Eng Gesellschaft mat beschränkter Responsabilitéit, déi de Prinzippie vun der Sozial- a Solidarwirtschaft entsprécht. BENU VILLAGE SIS representéiert BENU am Häerze vum private Marché an encouragéiert privat Patrone sozial-ekologesch Aspekter an hire Betriber ëmzesetzen. Eng nei Internetsäit mat weideren Informatioune wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
+    "de": "Eine Gesellschaft mit beschränkter Haftung, die den Prinzipien der Sozial- und Solidarwirtschaft entspricht. BENU Village SIS repräsentiert BENU im Herzen des Privatmarktes und ermutigt private Arbeitgeber:innen, sozial-ökologische Aspekte in ihren Unternehmen umzusetzen.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
+    "fr": "Une société à responsabilité limitée qui répond aux principes de l’économie sociale et solidaire. BENU Village SIS représente BENU au sein du marché privé et encourage les employeurs·e privé·e·s à mettre en place des aspects socio-écologiques au sein de leurs entreprises. \nUn nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
+    "en": "A limited liability company which responds to the principles of the social and solidarity economy. BENU Village SIS represents BENU in private market and encourages private employers to implement socio-ecological aspects in their companies. \nA new, more complete website will be set up before the end of 2023. For more information:",
+    "lu": "Eng Gesellschaft mat beschränkter Verantwortung, déi de Prinzippie vun der Sozial- a Solidarwirtschaft entsprécht. BENU Village SIS representéiert BENU um private Marché an encouragéiert privat Patrone/onnë sozial-ekologesch Aspekter an hire Betriber ëmzesetzen. Eng méi informatiounsräich Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -42,10 +42,10 @@
   {
     "page": "Home",
     "key": "header.sloow-desc",
-    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste Restaurant \"rescued food\" der Großregion, das eine Bio-Küche anbietet, originell, aber vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Frühjahr 2022 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant « rescued food » de la Grande Région qui propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place au printemps 2022. Pour en savoir plus :",
-    "en": "Because food and food waste are subjects that are close to our hearts, we have created BENU SLOOW. The first rescued food restaurant in the Greater Region that offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in spring 2022. For more information:",
-    "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"rescued food\" Restaurant an der Groussregioun, deen eng Bio-Kichen ubitt, originell a virun allem nohalteg ass! \nEng nei Internetsäit mat méi Informatioune wäert am Fréijoer 2022 ageriicht ginn. Méi dozou hei:"
+    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste Restaurant \"Rescued Food\" der Großregion, das eine Bio-Küche anbietet, originell, aber vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Frühjahr 2022 eingerichtet. Mehr dazu hier:",
+    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région qui propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place au printemps 2022. Pour en savoir plus :",
+    "en": "Because food and food waste are subjects that are close to our hearts, we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region that offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in spring 2022. For more information:",
+    "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"Rescued Food\" Restaurant an der Groussregioun, deen eng Bio-Kichen ubitt, originell a virun allem nohalteg ass! \nEng méi informatiounsräich Internetsäit wäert am Fréijoer 2022 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -58,10 +58,10 @@
   {
     "page": "Home",
     "key": "header.couture-desc",
-    "de": "Dies ist die erste Upcycling-Nähwerkstatt in Luxemburg! Wir bieten einzigartige Stücke an, die in Luxemburg aus alten Kleidungsstücken entworfen und hergestellt werden. BENU COUTURE, das sind lustige, farbenfrohe und ansprechende Kleidungsstücke, die Kinder und Erwachsene von XS bis 5XL einkleiden. Du kannst Deine Kleidung auch nach Deinen eigenen Ideen umgestalten!",
-    "fr": "C’est le premier atelier de couture Upcycling au Luxembourg ! Nous proposons des pièces uniques conçues et produites au Luxembourg à partir de vieux vêtements. BENU COUTURE, ce sont des vêtements éveillés, colorés et attrayants qui vêtent les enfants et les adultes du XS au 5XL. Tu peux aussi remodeler tes vêtements selon tes propres idées !",
-    "en": "This is the first Upcycling sewing workshop in Luxembourg! We offer unique pieces designed and produced in Luxembourg using old clothes. BENU COUTURE offers fun, colourful and appealing clothing for children and adults from XS to 5XL. You can also transform your clothes according to your own ideas!",
-    "lu": "Dëst ass den éischten Upcycling-Schneideratelier zu Lëtzebuerg! Mir bidden eenzegaarteg Stécker un, déi zu Lëtzebuerg aus alem Gezei entworf a produzéiert ginn. BENU COUTURE, dat si lëschteg, faarweg a flott Kleedungsstécker, déi Kanner an Erwuessener vun XS bis 5XL akleeden. Du kanns Deng Kleeder och no Dengen Iddie modifizéieren!"
+    "de": "Dies ist die erste UpCycling-Nähwerkstatt in Luxemburg! Wir bieten einzigartige Stücke an, die in Luxemburg aus alten Kleidungsstücken entworfen und hergestellt werden. BENU COUTURE, das sind lustige, farbenfrohe und ansprechende Kleidungsstücke, die Kinder und Erwachsene von XS bis 5XL einkleiden. Du kannst Deine Kleidung auch nach Deinen eigenen Ideen umgestalten!",
+    "fr": "C’est le premier atelier de couture UpCycling au Luxembourg ! Nous proposons des pièces uniques, conçues et produites au Luxembourg à partir de vieux vêtements. BENU COUTURE, ce sont des vêtements gais, colorés et attrayants qui habillent les enfants et les adultes du XS au 5XL. Tu peux aussi remodeler tes vêtements selon tes propres idées !",
+    "en": "This is the first UpCycling sewing workshop in Luxembourg! We offer unique pieces designed and produced in Luxembourg using old clothes. BENU COUTURE offers fun, colourful and pleasing clothing for children and adults from XS to 5XL. You can also transform your clothes according to your own ideas!",
+    "lu": "Dëst ass den éischten UpCycling-Schneideratelier zu Lëtzebuerg! Mir bidden eenzegaarteg Stécker un, déi zu Lëtzebuerg aus alem Gezei entworf a produzéiert ginn. BENU COUTURE, dat si lëschteg, faarweg an uspriechend Kleedungsstécker, déi Kanner an Erwuessener vun XS bis 5XL akleeden. Du kanns Deng Kleeder och no Dengen eegenen Iddie modifizéieren!"
   },
   {
     "page": "Home",
@@ -74,10 +74,10 @@
   {
     "page": "Home",
     "key": "header.reuse-desc",
-    "de": "Du möchtest gebrauchte Möbel oder Gegenstände verschenken? Du suchst einen bestimmten Gegenstand? Entdecke die neue Plattform BENU REUSE, die das Spenden von gebrauchten Möbeln und Gegenständen in ganz Luxemburg erleichtert. Das BENU REUSE-Team kümmert sich um alles! Wir holen Deine gebrauchten Gegenstände kostenlos ab und bringen sie zu ihren neuen Besitzern. \nMehr dazu hier:",
-    "fr": "Tu souhaites donner des meubles ou des objets d’occasion ? Tu recherches un objet en particulier ? Découvre la nouvelle plateforme BENU REUSE  qui facilite le don de meubles et d’objets d’occasion à travers le Luxembourg. L’équipe BENU REUSE s’occupe de tout ! Nous récupérons tes objets d’occasion, sans frais, et nous les emmenons chez leurs nouveaux propriétaires. \nPour en savoir plus :",
+    "de": "Du möchtest gebrauchte Möbel oder Gegenstände verschenken? Du suchst einen bestimmten Gegenstand? Entdecke die neue Plattform BENU REUSE, die das Spenden von gebrauchten Möbeln und Gegenständen in ganz Luxemburg erleichtert. Das BENU REUSE-Team kümmert sich um alles! Wir holen Deine gebrauchten Gegenstände kostenlos ab und bringen sie zu ihren neuen Besitzern/innen. \nMehr dazu hier:",
+    "fr": "Tu souhaites donner des meubles ou des objets d’occasion ? Tu recherches un objet en particulier ? Découvre la nouvelle plateforme BENU REUSE qui facilite le don de meubles et d’objets d’occasion à travers le Luxembourg. L’équipe de BENU REUSE s’occupe de tout ! Nous récupérons tes objets d’occasion, sans frais, et les apportons à leurs nouveaux·elles propriétaires. \nPour en savoir plus :",
     "en": "You want to donate second-hand furniture or objects? You are looking for a particular object? Discover the new BENU REUSE platform which simplifies the donation of second-hand furniture and objects throughout Luxembourg. The BENU REUSE team takes care of everything! We collect your second-hand items, free of charge, and take them to their new owners. \nFor more information:",
-    "lu": "Du wëlls gebrauchte Miwwel oder Géigestänn verschenken? Du sichs e bestëmmten Objet? Entdeck déi nei Plattform BENU REUSE, déi den Don vu gebrauchte Miwwel a Géigestänn erliichtert. D'BENU REUSE-Team këmmert sech ëm alles! Mir kommen Deng gebrauchte Saache gratis sichen an transportéieren se bei hir nei Besëtzer. Méi dozou hei:"
+    "lu": "Du wëlls gebrauchte Miwwelen oder Géigestänn verschenken? Du sichs e bestëmmten Objet? Entdeck déi nei Plattform BENU REUSE, déi d'Spende vu gebrauchte Miwwelen a Géigestänn a Lëtzebuerg vereinfacht. D'BENU REUSE-Ekipp këmmert sech ëm alles! Mir kommen Deng gebrauchte Saache gratis sichen a transportéiere se bei hir nei Besëtzer:innen.\nMéi dozou hei:"
   },
   {
     "page": "Home",
@@ -90,10 +90,10 @@
   {
     "page": "Home",
     "key": "header.lasa-desc",
-    "de": "Du stellst Upcycling-Kreationen her? Du möchtest lokale Künstler kennenlernen, die das Konzept des Upcyclings in ihre Kreationen einfließen lassen? BENU LaSA im Zentrum von BENU VILLAGE ist der perfekte Ort für Dich, um Deine nachhaltigen Kreationen zu präsentieren, Dich inspirieren zu lassen und ungewöhnliche Künstler zu entdecken.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Tu réalises des créations upcyclées ? Tu souhaites rencontrer des artistes locaux qui utlisent le concept de l’upcycling dans leurs créations ? BENU LaSA qui se trouve au centre du BENU VILLAGE est l’endroit idéal pour promouvoir tes créations durables, pour t’inspirer et découvrir des artistes hors du commun.\nUn nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "Do you make upcycled creations? Would you like to meet local artists who use the concept of upcycling in their creations? BENU LaSA can be found in the centre of BENU VILLAGE and is the perfect place to promote your sustainable creations, to get inspired and to discover unusual artists.\nA new, more complete website will be set up before the end of 2023. For more information:",
-    "lu": "Du stells UpCycling-Kreatiounen hier? Du wëlls lokal Kënschtler:inne kenne léieren, déi am Beräich vum UpCyling schaffen? BENU LaSA am Zentrum vum BENU VILLAGE ass déi perfekt Plaz fir Deng nohalteg Kreatiounen ze presentéieren, Dech inspiréieren ze loossen an ongewéinlech Kënschtler:innen ze entdecken. Eng nei Internetsäit mat méi Informatioune wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
+    "de": "Du stellst UpCycling-Kreationen her? Du möchtest lokale Künstler:innen kennenlernen, die das Konzept des UpCyclings in ihre Kreationen einfließen lassen? BENU LaSA im Zentrum von BENU VILLAGE ist der perfekte Ort für Dich, um Deine nachhaltigen Kreationen zu präsentieren, Dich inspirieren zu lassen und ungewöhnliche Künstler:innen zu entdecken.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
+    "fr": "Tu réalises des créations en UpCycling ? Tu souhaites rencontrer des artistes locaux·les qui utlisent le concept de l'UpCycling dans leurs créations ? BENU LaSA, qui se trouve au centre du BENU VILLAGE, est l’endroit idéal pour promouvoir tes créations durables, t’inspirer et découvrir des artistes hors du commun.\nUn nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
+    "en": "Do you make upcycled creations? Would you like to meet local artists who use the concept of UpCycling in their creations? BENU LaSA can be found in the centre of BENU VILLAGE and is the perfect place to promote your sustainable creations, get inspired and discover unusual artists.\nA new, more complete website will be set up before the end of 2023. For more information:",
+    "lu": "Du stells UpCycling-Kreatiounen hier? Du wëlls lokal Kënschtler:inne kenneléieren, déi am Beräich vum UpCycling schaffen? BENU LaSA, am Zentrum vum BENU VILLAGE, ass déi perfekt Plaz fir Deng nohalteg Kreatiounen ze presentéieren, Dech z'inspiréieren an ongewéinlech Kënschtler:innen z'entdecken. Eng méi informatiounsräich Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -106,10 +106,10 @@
   {
     "page": "Home",
     "key": "header.design-desc",
-    "de": "Weil Upcycling nicht nur Kleidung betrifft, sondern weit darüber hinausgeht! BENU FORM entwirft und bietet einzigartige Möbel an, die aus alten Möbeln geupcycelt sind und für die Müllhalde vorgesehen waren. Du kannst alle BENU FORM-Kreationen im BENU VILLAGE finden. \nEine neue, umfangreichere Website wird bis Sommer 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l’upcycling ne concerne pas que les vêtements, mais va bien au-delà ! BENU FORM conçoit et propose des meubles uniques en Upcycling à partir d’anciens meubles qui étaient destinés à la déchetterie. Tu pourras retrouver l’ensemble des créations BENU FORM dans le BENU VILLAGE.\nUn nouveau site plus complet sera mis en place avant été 2023. Pour en savoir plus :",
-    "en": "Because upcycling is not only about clothes, but goes far beyond! BENU FORM designs and offers unique upcycled furniture from old furniture that was destined for the rubbish dump. You can find all the BENU FORM creations in the BENU VILLAGE.\nA new, more complete website will be set up before summer 2023. For more information:",
-    "lu": "Well UpCycling net just Kleedung concernéiert, mee wäit doriwwer eraus geet! BENU FORM entwërft a bitt eenzegaarteg Miwwel un, déi geupcycelt sinn aus ale Miwwel, déi soss um Tipp gelant wieren. All d'BENU FORM-Kreatioune fënns du am BENU VILLAGE.  Eng nei Internetsäit mat méi Informatioune wäert bis Summer 2023 ageriicht ginn. Méi dozou hei:"
+    "de": "Weil UpCycling nicht nur Kleidung betrifft, sondern weit darüber hinausgeht! BENU FORM entwirft und bietet einzigartige Möbel an, die aus alten Möbeln geupcycelt sind und für die Müllhalde vorgesehen waren. Du kannst alle BENU FORM Kreationen im BENU VILLAGE finden. \nEine neue, umfangreichere Website wird bis Sommer 2023 eingerichtet. Mehr dazu hier:",
+    "fr": "Parce que l'UpCycling ne concerne pas que les vêtements, mais va bien au-delà ! BENU FORM conçoit et propose des meubles uniques en UpCycling à partir d’anciens meubles qui étaient destinés à la déchetterie. Tu peux retrouver l’ensemble des créations BENU FORM au BENU VILLAGE.\nUn nouveau site plus complet sera mis en place avant l'été 2023. Pour en savoir plus :",
+    "en": "Because UpCycling is not only about clothes, but goes far beyond! BENU FORM designs and offers unique upcycled furniture from old furniture that was destined for the rubbish dump. You can find all the BENU FORM creations in the BENU VILLAGE.\nA new, more complete website will be set up before summer 2023. For more information:",
+    "lu": "Well UpCycling net just Kleedung concernéiert, mee wäit doriwwer eraus geet! BENU FORM entwërft a bitt eenzegaarteg Miwwelen un, déi aus ale Miwwele geupcycelt sinn déi soss um Tipp gelant wieren. All d'BENU FORM Kreatioune fënns du am BENU VILLAGE. Eng méi informatiounsräich Internetsäit wäert bis Summer 2023 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -123,9 +123,9 @@
     "page": "Home",
     "key": "header.break-desc",
     "de": "Brauchst Du eine Pause, um Dich zu erholen? Dir Zeit zu nehmen oder einfach nur Anregungen zu bekommen? \nWie wäre es, wenn Du ein paar Tage bei BENU BREAK verbringst, dem einzigen Hotelzimmer im BENU VILLAGE, einem rätselhaften, freundlichen und einzigartigen Ort. Ein Ort der einfach ideal ist.\nEin neue Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Tu as besoin d´une pause pour récuperer? De prendre ton temps ou tout simplement de trouver de l’inspiration ? Et si tu passais quelques jours chez BENU BREAK, la seule chambre d'hôtel \nqui se trouve au sein du BENU VILLAGE, un lieu énigmatique, chaleureux et unique, mais surtout idéal.\nUn nouveau site sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "Do you need a break to relax? Take some time out or just get some inspiration? \nHow about spending a few days at BENU BREAK, the only hotel room in BENU VILLAGE, an enigmatic, friendly and unique place. A place that is simply ideal.\nA new website will be in place by the end of 2023. Read more here:",
-    "lu": "Brauchs Du eng Paus fir Dech ze erhuelen? Dir Zäit ze huelen oder einfach nëmmen Ureegungen ze kréien?\nWéi wier et, wann s Du e puer Deeg beim BENU BREAK verbréngs, dem eenzegen Hotelszëmmer am BENU VILLAGE, eng rätselhaft, frëndlech an eenzegaarteg Plaz. Eng Plaz, déi einfach ideal ass.\nEng nei Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
+    "fr": "Tu as besoin d´une pause pour récuperer ? De prendre ton temps ou tout simplement de trouver de l’inspiration ? Et si tu passais quelques jours chez BENU BREAK, la seule chambre d'hôtel du BENU VILLAGE ? Un lieu énigmatique, chaleureux et unique, tout bonnement idéal.\nUn nouveau site sera mis en place avant la fin 2023. Pour en savoir plus :",
+    "en": "Do you need a break to relax? Take some time out or just get some inspiration? \nHow about spending a few days at BENU BREAK, the only hotel room in BENU VILLAGE. An enigmatic, friendly and unique place, simply ideal.\nA new website will be set up by the end of 2023. For more information:",
+    "lu": "Brauchs Du eng Paus fir Dech ze erhuelen? Dir Zäit ze huelen oder Dech z'inspiréieren?\nWéi wier et, e puer Deeg bei BENU BREAK ze verbréngen, dat eenzegt Hotelszëmmer am BENU VILLAGE? Eng rätselhaft, frëndlech an eenzegaarteg Plaz, einfach ideal.\nEng nei Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -155,7 +155,7 @@
     "page": "Newsletter",
     "key": "auth.newsletter-subscribe-newsletter",
     "de": "Der BENU Newsletter",
-    "fr": "La newsletter de BENU",
+    "fr": "La newsletter BENU",
     "en": "The BENU newsletter",
     "lu": "D’BENU Newsletter"
   },
@@ -173,7 +173,7 @@
     "de": "die Neuigkeiten von BENU verfolgen",
     "fr": "suivre l'actualité de BENU",
     "en": "follow the BENU news",
-    "lu": "d'Neiegkeete vum BENU suivéieren"
+    "lu": "d'Neiegkeete vu BENU suivéieren"
   },
   {
     "page": "Newsletter",
@@ -220,24 +220,24 @@
     "key": "auth.newsletter-subscribe-back-to-home",
     "de": "Zurück zur Startseite",
     "fr": "Retour à la page d'accueil",
-    "en": "Back to the home page",
+    "en": "Back to the homepage",
     "lu": "Zeréck op d'Startsäit"
   },
   {
     "page": "Newsletter",
     "key": "auth.newsletter-subscribe-newsletter",
     "de": "BENU Newsletter",
-    "fr": "BENU newsletter",
+    "fr": "Newsletter BENU",
     "en": "BENU newsletter",
     "lu": "BENU Newsletter"
   },
   {
     "page": "Newsletter",
     "key": "auth.newsletter-subscribe-success",
-    "de": "Du wurdest erfolgreich beim BENU Newsletter angemeldet.",
-    "fr": "Tu as été inscrit avec succès à la newsletter BENU.",
-    "en": "You have been successfully subscribed to the BENU newsletter.",
-    "lu": "Du hues d'BENU Newsletter erfollegräich abonéiert."
+    "de": "Wir freuen uns, dass Du unseren BENU Newsletter abonnieren möchtest! Deine Anfrage ist erfolgreich bei uns eingegangen und wird schnellstmöglich bearbeitet. Du erhältst eine Bestätigung per E-Mail, sobald die Anmeldung beim Newsletter abgeschlossen ist.",
+    "fr": "Nous nous réjouissons que tu souhaites t'abonner à la newsletter BENU ! Ta demande nous est parvenue avec succès et sera traitée dans les plus brefs délais. Tu recevras un e-mail de confirmation dès que ton abonnement à la newsletter sera effectif.",
+    "en": "We are pleased that you want to subscribe to the BENU newsletter! Your request was successful and will be processed as soon as possible. You will receive a confirmation by e-mail as soon as your subscription to the newsletter has been completed.",
+    "lu": "Mir freeën eis, datt s Du d'BENU Newsletter abonéiere wëlls! Deng Ufro ass erfollegräich bei eis ukomm a gëtt schnellstméiglech traitéiert. Du kriss eng Bestätegung per E-Mail, esoubal ewéi däin Abonement effektiv ass."
   },
   {
     "page": "Newsletter",
@@ -245,7 +245,7 @@
     "de": "Abmeldung vom BENU Newsletter",
     "fr": "Se désinscrire de la newsletter BENU",
     "en": "Unsubscribe from the BENU Newsletter",
-    "lu": "Ofmeldung  vun der Newsletter"
+    "lu": "Ofmeldung vun der Newsletter"
   },
   {
     "page": "Newsletter",
@@ -259,16 +259,16 @@
     "page": "Newsletter",
     "key": "auth.newsletter-unsubscribe-details",
     "de": "Wenn Du möchtest, kannst Du Dich jederzeit wieder bei unserem BENU Newsletter anmelden.",
-    "fr": "Si tu le souhaites, tu peux t'inscrire à tout moment à notre newsletter BENU.",
-    "en": "If you wish, you can at any time subscribe to our BENU newsletter again.",
-    "lu": "Wanns du wëlls, kanns du zu all Moment erëm eis BENU Newsletter abonéieren."
+    "fr": "Si tu le souhaites, tu peux te réinscrire à tout moment à notre newsletter BENU.",
+    "en": "If you wish, you can subscribe to our BENU newsletter again at any time.",
+    "lu": "Wann s Du wëlls, kanns Du zu all Moment eis BENU Newsletter nees abonéieren."
   },
   {
     "page": "Home",
     "key": "HEADER.BACK-TO-HOME",
     "de": "Zurück zur Startseite",
     "fr": "Retour à la page d'accueil",
-    "en": "Back to the home page",
+    "en": "Back to the homepage",
     "lu": "Zeréck op d’Startsäit"
   },
   {
@@ -387,71 +387,71 @@
     "page": "Home",
     "key": "welcome.side-menu-newsletter-register",
     "de": "Abonniere unseren Newsletter",
-    "fr": "S'abonner à notre newsletter",
+    "fr": "S'inscrire à notre newsletter",
     "en": "Subscribe to our newsletter",
     "lu": "Eis Newsletter abonéieren"
   },
   {
     "page": "Home",
     "key": "welcome.subtitle-1",
-    "de": "Das erste vegetarisch-vegane Rescued Food Restaurant der Großregion öffnet seine Türen in Esch-sur-Alzette !",
-    "fr": "Le premier restaurant végétarien-végétalien Rescued Food de la Grande Région ouvre ses portes à Esch-sur-Alzette !",
-    "en": "The first vegetarian-vegan rescued food restaurant in the Greater Region opens its doors in Esch-sur-Alzette !",
-    "lu": "Den éischte vegetaresch-vegane Rescued Food Restaurant aus der Groussregioun mécht seng Dieren zu Esch/Uelzecht op !"
+    "de": "Das erste vegetarisch-vegane \"Rescued Food\" Restaurant der Großregion öffnet seine Türen in Esch-sur-Alzette!",
+    "fr": "Le premier restaurant \"Rescued Food\" végétarien-végétalien de la Grande Région ouvre ses portes à Esch-sur-Alzette !",
+    "en": "The first vegetarian-vegan \"Rescued Food\" restaurant in the Greater Region opens its doors in Esch-sur-Alzette!",
+    "lu": "Den éischte vegetaresch-vegane \"Rescued Food\" Restaurant aus der Groussregioun mécht seng Dieren zu Esch/Uelzecht op!"
   },
   {
     "page": "Home",
     "key": "welcome.pres-txt-1",
-    "de": "Das BENU-Küchenteam komponiert aus hochwertigen „geretteten“ Lebensmitteln, ergänzt durch aromatische lokale Wildkräuter, feinste Gewürze und sorgsam ausgewählte Zutaten, täglich neue innovative Geschmacksexplosionen!  \nUnd nicht nur das:  Alle Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich auch aus lokaler Produktion. Alles frisch. Alles unter dem Motto Slow-Food …",
-    "fr": "Notre équipe de cuisine compose chaque jour de nouvelles explosions de saveurs innovantes à partir d'aliments \"sauvés\" de grande qualité, complétés par des herbes sauvages locales aromatiques, des épices très fines et des ingrédients soigneusement sélectionnés !  \n\nEt ce n'est pas tout : tous les ingrédients proviennent d'une agriculture écologiquement contrôlée et, si possible, de la production locale. Tout est frais. Le tout sous la devise Slow-Food ...",
-    "en": "The BENU kitchen team composes new innovative taste explosions every day from high-quality rescued food, complemented by aromatic local wild herbs, the finest spices and carefully selected ingredients! \n \nAnd not only that: all ingredients come from ecologically controlled agriculture and, if possible, from local production. Everything fresh. Everything under the Slow Food motto",
-    "lu": "D´BENU Kichenteam komponéiert deeglech nei innovativ Geschmaachsexplosiounen aus héichwäertege gerettene Liewensmëttel, déi duerch aromatesch, lokal Wëldkraider, feinst Gewürzer a suergfälteg ausgewielten Zutaten verfeinert ginn ! A net nëmmen dat: All d’Zutaten sinn aus ökologesch kontrolléierter Landwirtschaft a wa méigeleg och aus lokaler Produktioun. Alles frësch. Alles ënnert dem Motto Slow-Food..."
+    "de": "Das BENU Küchenteam komponiert aus hochwertigen \"geretteten“ Lebensmitteln, ergänzt durch aromatische lokale Wildkräuter, feinste Gewürze und sorgsam ausgewählte Zutaten, täglich neue innovative Geschmacksexplosionen!  \nUnd nicht nur das: Alle Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich auch aus lokaler Produktion. Alles frisch. Alles unter dem Motto Slow-Food …",
+    "fr": "Notre équipe de cuisine compose chaque jour de nouvelles explosions de saveurs innovantes à partir d'aliments \"sauvés\" de grande qualité, complétés par des herbes aromatiques sauvages et locales, des épices très fines et des ingrédients soigneusement sélectionnés !  \nEt ce n'est pas tout : tous les ingrédients proviennent d'une agriculture écologique contrôlée et, si possible, de la production locale. Tout est frais. Le tout sous la devise Slow-Food ...",
+    "en": "The BENU kitchen team composes new innovative taste explosions every day from high-quality \"rescued\" food, complemented by aromatic local wild herbs, the finest spices and carefully selected ingredients! \nAnd not only that: all ingredients come from controlled ecological agriculture and, if possible, from local production. Everything fresh. Everything under the Slow-Food motto...",
+    "lu": "D´BENU Kichen-Ekipp komponéiert deeglech nei innovativ Geschmaachsexplosiounen aus héichwäertege \"gerette\" Liewensmëttel, déi duerch lokal a wëll aromatesch Kraider, feinste Gewürzer a suergfälteg ausgewielten Ingrediente verfeinert ginn! An net nëmmen dat: all d'Ingrediente stamen aus ekologesch kontrolléierter Landwirtschaft a wa méiglech och aus lokaler Produktioun. Alles frësch. Alles ënnert dem Motto Slow-Food..."
   },
   {
     "page": "Home",
     "key": "welcome.pres-txt-2",
-    "de": "BENU SLOOW startet am XX.XX.XXXX mit seinem Table d’Hôtes.",
-    "fr": "BENU SLOOW débute le XX.XX.XXXX avec sa Table d'Hôtes.",
-    "en": "BENU SLOOW starts on XX.XX.XXXX with its Table d'Hôtes.",
-    "lu": "BENU SLOOW start de XX.XX.XXXX mat senger Table d'Hôtes"
+    "de": "BENU SLOOW startet am XX.XX.XXXX mit seinem Table d’Hôtes. Im Anschluss öffnet BENU SLOOW als (mehr oder weniger ;) klassisches Restaurant \"à la carte“ mit einer vielfältigen Speisekarte für jeden Geschmack.",
+    "fr": "BENU SLOOW démarre le XX.XX.XXXX avec sa Table d'Hôtes. Ensuite, BENU SLOOW ouvrira en tant que restaurant \"à la carte\" (plus ou moins ;) classique avec une carte variée pour tous les goûts.",
+    "en": "BENU SLOOW starts on XX.XX.XXXX with its Table d'Hôtes. Afterwards, BENU SLOOW opens as a (more or less ;) classic \"à la carte\" restaurant with a varied menu for every taste.",
+    "lu": "BENU SLOOW start den XX.XX.XXXX mat senger Table d'Hôtes. Am Uschloss mécht BENU SLOOW als (méi oder wéineger ;) klassesche Restaurant \"à la carte\" op mat enger villfälteger Kaart fir all Geschmaach."
   },
   {
     "page": "Home",
     "key": "welcome.pres-link-1",
-    "de": "Mehr über den Table d’hôtes erfahren",
-    "fr": "En savoir plus sur la table d’hôtes",
-    "en": "Learn more about the Table d'hôtes",
-    "lu": "Méi iwwert d’Table d'hôtes gewuer ginn"
+    "de": "Mehr über den Table d’Hôtes erfahren",
+    "fr": "En savoir plus sur la Table d’Hôtes",
+    "en": "Learn more about the Table d'Hôtes",
+    "lu": "Méi iwwert d’Table d'Hôtes gewuer ginn"
   },
   {
     "page": "Home",
     "key": "welcome.transition-1-text-1",
-    "de": "Warum Rescued Food?",
-    "fr": "Pourquoi Rescued Food?",
-    "en": "Why Rescued Food?",
-    "lu": "Firwat Rescued Food?"
+    "de": "Warum \"Rescued Food\"?",
+    "fr": "Pourquoi \"Rescued Food\" ?",
+    "en": "Why \"Rescued Food\"?",
+    "lu": "Firwat \"Rescued Food\"?"
   },
   {
     "page": "Home",
     "key": "welcome.transition-1-text-2",
     "de": "(Zu) viel frisches Obst und Gemüse, das sowohl hochwertig ist als auch den EU Normen entspricht, erreicht den Einzelhandel nie. Wieso? \n\nWeil der Laden immer, also auch kurz vor Schluss, voll sein muss. Viel Ware wartet so auf die Abnahme während die neue Ware bereits angeliefert wird.",
-    "fr": "Une (trop) grande quantité de fruits et légumes frais, à la fois de qualité et conformes aux normes européennes, n'atteint jamais le commerce de détail. Pourquoi ? \n\nParce que le magasin doit toujours être plein, même juste avant la fermeture. Une grande partie de la marchandise attend ainsi d'être achetée alors que la nouvelle marchandise est déjà livrée.",
-    "en": "(Too) much fresh fruit and vegetable, that is both high quality and meet EU standards, never reaches the retail sector. Why? \n\nBecause the shop always has to be full, even shortly before closing time. So a lot of goods are waiting to be bought while the new goods are already being delivered.",
-    "lu": "(Vill) ze vill frëscht Uebst a Geméis, dat souwuel héichwäerteg ass, wéi och den EU Normen entsprécht, erreechen den Eenzelhandel ni. Wisou? \n\nWell de Buttek ëmmer, also och kuerz viru Schluss, voll muss sinn. Vill Wuer waart sou drop ofgeholl ze ginn, wärend déi nei Wuer schonn ugeliwwert gëtt."
+    "fr": "Une (trop) grande quantité de fruits et légumes frais, à la fois de qualité et conforme aux normes européennes, n'atteint jamais le commerce de détail. Pourquoi ? \n\nParce que le magasin doit toujours être plein, même juste avant la fermeture. Une grande partie de la marchandise attend ainsi d'être achetée alors que la nouvelle marchandise est déjà livrée.",
+    "en": "(Too) much fresh fruit and vegetable, that meets high quality and EU standards, never reaches the retail sector. Why? \n\nBecause the shop always has to be full, even shortly before closing time. So a lot of goods are waiting to be bought while the new goods are already being delivered.",
+    "lu": "(Vill) ze vill frëscht Uebst a Geméis, dat souwuel héichwäerteg ass wéi och den EU Normen entsprécht, erreecht den Eenzelhandel ni. Wisou? \n\nWell de Buttek ëmmer voll muss sinn, och kuerz viru Schluss. Vill Wuer waart nach drop ofgeholl ze ginn, wa gläichzäiteg déi nei Wuer scho geliwwert gëtt."
   },
   {
     "page": "Home",
     "key": "welcome.transition-1-text-3",
-    "de": "Die \"überschüssigen\" Lebensmittel werden regelmäßig entsorgt …",
-    "fr": "Les aliments \"en surplus\" sont régulièrement jetés ...",
-    "en": "The \"surplus\" food is regularly disposed of ...",
-    "lu": "Déi \"iwwerschësseg\" Liewensmëttel gi reegelméisseg entsuergt"
+    "de": "Die \"überschüssigen\" Lebensmittel werden regelmäßig entsorgt…",
+    "fr": "Les aliments \"excédentaires\" sont régulièrement jetés...",
+    "en": "The \"surplus\" food is regularly disposed of...",
+    "lu": "Déi \"iwwerschësseg\" Liewensmëttel gi reegelméisseg entsuergt..."
   },
   {
     "page": "Home",
     "key": "welcome.content-1-title",
     "de": "Lass Dich überraschen",
-    "fr": "Laisse-toi te surprendre",
+    "fr": "Laisse-toi surprendre",
     "en": "Let yourself be surprised",
     "lu": "Looss Dech iwwerraschen"
   },
@@ -483,73 +483,73 @@
     "page": "Home",
     "key": "welcome.content-1-zero-waste",
     "de": "Null Abfall",
-    "fr": "Zéro déchet",
-    "en": "Zero waste",
+    "fr": "zéro déchet",
+    "en": "zero waste",
     "lu": "Null Offall"
   },
   {
     "page": "Home",
     "key": "welcome.content-1-discover-sloow",
-    "de": "Du entdeckst BENU SLOOW im neu entstehenden Ökodorf BENU VILLAGE Esch !",
-    "fr": "Tu découvres BENU SLOOW dans le nouveau village écologique BENU VILLAGE Esch !",
-    "en": "You will discover BENU SLOOW in the new eco-village BENU VILLAGE Esch !",
-    "lu": "Du entdecks BENU SLOOW am nei entstoenden Ökoduerf BENU VILLAGE Esch"
+    "de": "Du entdeckst BENU SLOOW im neu entstehenden Ökodorf BENU Village Esch !",
+    "fr": "Tu peux découvrir BENU SLOOW au nouvel écovillage BENU Village Esch !",
+    "en": "Discover BENU SLOOW in the new ecovillage BENU Village Esch !",
+    "lu": "Du entdecks BENU SLOOW am neien Ekoduerf BENU Village Esch !"
   },
   {
     "page": "Home",
     "key": "welcome.transition-2-text-1",
-    "de": "Alte Schiffscontainer, eine ausgebaute Tür, überzähliges Holz….",
-    "fr": "Des vieux conteneurs maritimes, une porte démontée, du bois excédentaire...",
-    "en": "Old shipping containers, a dismantled door, surplus wood....",
-    "lu": "Al Schëffscontainer, eng ausgebauten Dier, iwwreg gebliwwent Holz"
+    "de": "Alte Schiffscontainer, eine ausgebaute Tür, überzähliges Holz…",
+    "fr": "De vieux conteneurs maritimes, une porte démontée, du bois excédentaire...",
+    "en": "Old shipping containers, a dismantled door, surplus wood...",
+    "lu": "Al Schëffscontainer, eng ausgebauten Dier, iwwerschëssegt Holz..."
   },
   {
     "page": "Home",
     "key": "welcome.transition-2-text-2",
-    "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE Esch setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, Upcycling und ZeroWaste. Unterstützt wird das Restaurant BENU SLOOW von der Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
-    "fr": "BENU SLOOW voit le jour, et pourtant, des matériaux démontés d'autres projets de construction et des restes d'entreprises ont été utilisés pour sa construction. En tant que première partie centrale du BENU VILLAGE Esch, BENU SLOOW mise systématiquement sur l'économie circulaire, l'upcycling et le ZeroWaste. Le restaurant BENU SLOOW est soutenu par l'Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
-    "en": "BENU SLOOW emerges from scratch, yet for its construction, dismantled materials from other building projects and leftover materials from businesses were used. As the first and central part of BENU VILLAGE Esch, BENU SLOOW consistently focuses on circular economy, upcycling and ZeroWaste. The BENU SLOOW restaurant is supported by the Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
-    "lu": "BENU SLOOW gëtt nei gebaut, mee fir de Bau gëtt ofgebautent Material vun anere Bauprojeten a Reschter vun anere Betriber benotzt. Als éischt an zentralen Deel vu BENU VILLAGE Esch setzt BENU SLOOW konsequent op Kreeslafwirtschaft, Upcycling a Zero Waste. Ënnerstëtz gëtt de Restaurant BENU SLOOW vun der Œuvre Nationale de Secours Grande-Duchesse Charlotte"
+    "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE Esch setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, UpCycling und ZeroWaste. Unterstützt wird das Restaurant BENU SLOOW von der Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
+    "fr": "BENU SLOOW est crée et construit de A à Z pourtant, seuls des matériaux et des ressources de récupération, provenant d'autres projets de construction ou d'entreprises, sont utilisés. En tant qu'élément initial et central du BENU VILLAGE Esch, BENU SLOOW mise de manière intransigeante sur l'économie circulaire, l'UpCycling et le ZeroWaste. Le restaurant BENU SLOOW est soutenu par l'Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
+    "en": "BENU SLOOW emerges from scratch, yet for its construction, dismantled materials from other building projects and leftover materials from businesses were used. As the first and central part of BENU VILLAGE Esch, BENU SLOOW consistently focuses on circular economy, UpCycling and ZeroWaste. The BENU SLOOW restaurant is supported by the Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
+    "lu": "BENU SLOOW entsteet ganz nei mee fir de Bau ginn exklusiv Materialien a Ressourcë verwäert, déi aus anere Bauprojeten a Betriber stamen. Als éischt an zentraalt Element vum BENU VILLAGE Esch, setzt BENU SLOOW konsequent op Kreeslafwirtschaft, UpCycling an ZeroWaste. De Restaurant BENU SLOOW gëtt vun der Œuvre Nationale de Secours Grande-Duchesse Charlotte ënnerstëtzt."
   },
   {
     "page": "Home",
     "key": "welcome.transition-2-text-3",
-    "de": "Die Realisierung des Ökodorfes BENU VILLAGE Esch wird durch die großzügige Unterstützung der Gemeinde Esch-sur-Alzette ermöglicht !  Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung und das Wirtschaftsministerium.",
-    "fr": "La réalisation de l'écovillage BENU VILLAGE Esch a été rendue possible grâce au généreux soutien de la commune d'Esch-sur-Alzette !  Les autres partisants engagés sont le Ministère de l'Environnement, du Climat et du Développement durable et le Ministère de l'Economie.",
-    "en": "The creation of the ecovillage BENU VILLAGE Esch is possible thanks to the generous support of the municipality of Esch-sur-Alzette !  Other committed supporters are the Ministry of Environment, Climate and Sustainable Development and the Ministry of Economy.",
-    "lu": "D'Realiséierung vum Ökoduerf BENU VILLAGE Esch gëtt duerch déi generéis Ënnerstëtzung vun der Gemeng Esch/Uelzecht erméigelegt. Weider engageiert ....sinn den Ministere vun der Emwelt, dem Klima an der nohalteger Entwcklung an de Ministere vun der Economie"
+    "de": "Die Realisierung des Ökodorfes BENU VILLAGE Esch wird durch die großzügige Unterstützung der Gemeinde Esch-sur-Alzette ermöglicht!  Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung und das Wirtschaftsministerium.",
+    "fr": "La réalisation de l'écovillage BENU VILLAGE Esch est rendue possible grâce au généreux soutien de la commune d'Esch-sur-Alzette ! D'autres précieux acteurs engagés dans le projet sont le Ministère de l'Environnement, du Climat et du Développement durable ainsi que le Ministère de l'Economie.",
+    "en": "The creation of the ecovillage BENU VILLAGE Esch is possible thanks to the generous support of the municipality of Esch-sur-Alzette! Other committed supporters are the Ministry of Environment, Climate and Sustainable Development and the Ministry of Economy.",
+    "lu": "D'Realisatioun vum Ekoduerf BENU VILLAGE Esch gëtt duerch déi generéis Ënnerstëtzung vun der Gemeng Esch/Uelzecht erméiglecht! Weider engagéiert Acteure sinn de Ministère fir Emwelt, Klima an nohalteg Entwécklung an de Wirtschaftsministère."
   },
   {
     "page": "",
     "key": "welcome.transition-2-text-4",
-    "de": "Wir danken all unseren Unterstützern für ihr großartiges  Engagement!",
-    "fr": "Nous remercions tous nos partisants pour leur formidable engagement !",
+    "de": "Wir danken all unseren Unterstützern/innen für ihr großartiges  Engagement!",
+    "fr": "Nous remercions tous·tes nos partisan·ne·s pour leur formidable engagement !",
     "en": "We thank all our supporters for their great commitment!",
-    "lu": "Mir soen all eisen Ënnerstëtzer Merci vir hiert Engagement"
+    "lu": "Mir soen all eisen Ënnerstëtzer:inne Merci fir hiert Engagement!"
   },
   {
     "page": "Home",
     "key": "welcome.transition-2-text-5",
     "de": "Als Teil von BENU VILLAGE ist BENU SLOOW mehr als ein Restaurant. Es ist vielmehr ein Ort der Entdeckung, des Erlebens und der Begegnung…",
-    "fr": "Faisant partie du BENU VILLAGE, BENU SLOOW est plus qu'un restaurant. C'est plutôt un lieu de découverte, d'expérience et de rencontre...",
+    "fr": "Faisant partie de BENU VILLAGE, BENU SLOOW est plus qu'un restaurant. C'est un lieu de découverte, d'expérience et de rencontre...",
     "en": "As part of BENU VILLAGE, BENU SLOOW is more than a restaurant. It is rather a place of discovery, experience and encounter...",
-    "lu": "Als Deel vum BENU VILLAGE ass de BENU SLOOW méi wei ee Restaurant. Et ass vill méi eng Platz vun der Entdeckung, vum Erliewen an der Begéinung"
+    "lu": "Als Deel vu BENU VILLAGE ass BENU SLOOW méi ewéi ee Restaurant. Et ass eng Plaz vum Entdecken, Erliewen a Begéinen..."
   },
   {
     "page": "Home",
     "key": "welcome.transition-2-text-6",
-    "de": "…. zwischen jung und alt, zwischen unterschiedlichen Menschen und Kulturen !",
-    "fr": ".... entre jeunes et moins jeunes, entre personnes et cultures différentes !",
-    "en": ".... between young and old, between different people and cultures !",
-    "lu": "zwëschent jonk an al, zwëschent ënnerschiddleche Persounen a Kulturen !"
+    "de": "…zwischen jung und alt, zwischen unterschiedlichen Menschen und Kulturen!",
+    "fr": "...entre jeunes et moins jeunes, différentes personnes et cultures !",
+    "en": "...between young and old, different people and cultures!",
+    "lu": "...tëscht jonk an al, ënnerschiddleche Persounen a Kulturen!"
   },
   {
     "page": "Home",
     "key": "welcome.concept-title-1",
-    "de": "Wir freuen uns auf Dich !",
+    "de": "Wir freuen uns auf Dich!",
     "fr": "Nous nous réjouissons de t'accueillir !",
-    "en": "We are looking forward to seeing you !",
-    "lu": "Mir freeën eis op Dech !"
+    "en": "We are looking forward to seeing you!",
+    "lu": "Mir freeën eis op Dech!"
   },
   {
     "page": "Home",
@@ -562,18 +562,18 @@
   {
     "page": "Home",
     "key": "welcome.concept-subtitle-1",
-    "de": "Wer kennt es nicht, das gemütliche Konzept aus Frankreich, ganz nah an der Küche : der Table d'Hôtes, der Tisch für die geladenen Gäste.",
-    "fr": "Qui ne connaît pas ce concept convivial venu de France, tout près de la cuisine : la Table d’Hôtes destinée aux invités.",
-    "en": "Who is not familiar with this cosy concept that originates from France, very close to the kitchen : the Table d'Hôtes, the table for the invited guests.",
-    "lu": "Wien kennt et net, dat gemittlecht Konzept aus Frankräich, ganz no un der Kichen: la table d'hôtes, den Dësch fir Invitéierter."
+    "de": "Wer kennt es nicht, das gemütliche Konzept aus Frankreich, ganz nah an der Küche: der Table d'Hôtes, der Tisch für die geladenen Gäste/innen.",
+    "fr": "Qui ne connaît pas ce concept convivial venu de France, proche de la cuisine : la Table d’Hôtes, la table pour les invité·e·s.",
+    "en": "Who is not familiar with this cosy concept from France, very close to the kitchen: the Table d'Hôtes, the table for invited guests.",
+    "lu": "Wie kennt et net, dat gemittlecht Konzept aus Frankräich, ganz no un der Kichen: d'Table d'Hôtes, den Dësch fir d'Gäscht:innen."
   },
   {
     "page": "Home",
     "key": "welcome.concept-explanation-1",
-    "de": "In einer ersten vierwöchigen Phase führt BENU SLOOW exklusiv diesen Table d’Hôtes ein, an dem 12 Gäste einen bequemen Platz direkt neben dem partizipativ gebauten Lehmofen finden. De/die Küchenchef:in erzählt Geschichten über das Konzept BENU SLOOW und lässt Dich viele Details über die Zubereitung jedes der 7 Gänge des Entdeckungsmenüs entdecken. Die gemeinsame Verkostung wird so zu einem einzigartigen Moment des Wohlbefindens. Überraschend und disruptiv.",
-    "fr": "Dans une première phase de 4 semaines, BENU SLOOW lance en exclusivité cette Table d'Hôtes, où 12 invités trouvent une place confortable directement près du four en argile construit de manière participative. Le ou la chef raconte des histoires sur le concept BENU SLOOW et te fait découvrir de nombreux détails sur la préparation de chacun des 7 plats du menu découverte. La dégustation commune se transforme ainsi en un moment de bien-être unique. Surprenant et disruptif.",
-    "en": "In an initial four-week phase, BENU SLOOW will exclusively introduce this Table d’Hôtes, where 12 guests will find a comfortable seat right next to the participative clay oven. The chef tells stories about the BENU SLOOW concept and lets you discover many details about the preparation of each of the 7 courses of the discovery menu. The tasting together becomes a unique moment of well-being. Surprising and disruptive.",
-    "lu": "An enger veierwöcheger Phas feiert de BENU SLOOW exklusiv en able d’Hôtes,, wou 12 Klienten zesummen"
+    "de": "In einer ersten vierwöchigen Phase führt BENU SLOOW exklusiv diesen Table d’Hôtes ein, an dem 12 Gäste/innen einen bequemen Platz direkt neben dem partizipativ gebauten Lehmofen finden. Der/die Küchenchef:in erzählt Geschichten über das Konzept BENU SLOOW und lässt Dich viele Details über die Zubereitung jedes der 7 Gänge des Entdeckungsmenüs entdecken. Die gemeinsame Verkostung wird so zu einem einzigartigen Moment des Wohlbefindens. Überraschend und disruptiv.",
+    "fr": "Dans une première phase de 4 semaines, BENU SLOOW lance tout d'abord sa Table d'Hôtes. 12 invité·e·s peuvent s'y installer confortablement, près du four en argile construit de manière participative. Le/la chef·fe t'en apprend davantage sur le concept BENU SLOOW et te dévoile des détails sur la préparation de chacun des 7 plats composant le menu découverte. La dégustation commune devient un moment de bien-être unique. Surprenant et disruptif.",
+    "en": "In an initial four-week phase, BENU SLOOW will exclusively introduce this Table d’Hôtes, where 12 guests will find a comfortable seat right next to the participatively built clay oven. The chef tells you more about the BENU SLOOW concept and lets you discover many details about the preparation of each of the 7 courses of the discovery menu. The shared tasting becomes a unique moment of well-being. Surprising and disruptive.",
+    "lu": "An enger éischter Phas vu 4 Wochen, féiert BENU SLOOW exklusiv dës Table d'Hôtes an. 12 Gäscht:inne kënnen drun deelhuelen a sech op eng gemittlech Plaz, niewent dem participativ gebaute Leemuewen, installéieren. De/D'Kichechef:fin féiert Dech an d'Konzept vu BENU SLOOW an a léisst Dech Detailer zum 7-Gang-Entdeckungsmenü wëssen. Déi gemeinsam Degustatioun gëtt zu engem eenzegaartege Moment vum Wuelbefannen. Iwwerraschend an disruptiv."
   },
   {
     "page": "Home",
@@ -589,7 +589,7 @@
     "de": "Preis pro Person mit ausgewählten alkoholischen Getränken",
     "fr": "Prix par personne avec une sélection de boissons alcoolisées",
     "en": "Price per person with selected alcoholic beverages",
-    "lu": "Präis pro Persoun mat selektionéiertem alkoholesche Gedrénks"
+    "lu": "Präis pro Persoun mat selektionéiertem alkoholeschem Gedrénks"
   },
   {
     "page": "Home",
@@ -597,7 +597,7 @@
     "de": "Preis pro Person mit ausgewählten nicht-alkoholischen Getränken",
     "fr": "Prix par personne avec une sélection de boissons non alcoolisées",
     "en": "Price per person with selected non-alcoholic beverages",
-    "lu": "Präis pro Persoun mat selektionéiertem net-alkoholesche Gedrénks"
+    "lu": "Präis pro Persoun mat selektionéiertem net-alkoholeschem Gedrénks"
   },
   {
     "page": "Home",
@@ -613,13 +613,13 @@
     "de": "Personen mit Kulturpass erhalten einen 50% Rabatt auf sämtliche BENU Leistungen.",
     "fr": "Les personnes titulaires du Kulturpass bénéficient d'une réduction de 50% sur toutes les prestations BENU.",
     "en": "People with a Kulturpass receive a 50% discount on all BENU services.",
-    "lu": "Persoune mat engem Kulturpass kréie 50% op all BENU Servicer."
+    "lu": "Leit mat engem Kulturpass kréie 50% op all de BENU Servicer."
   },
   {
     "page": "Home",
     "key": "welcome.concept-kulturpass-learn-more",
     "de": "Mehr über den Kulturpass erfahren",
-    "fr": "En savoir plus sur la Kulturpass",
+    "fr": "En savoir plus sur le Kulturpass",
     "en": "Learn more about the Kulturpass",
     "lu": "Méi iwwert de Kulturpass"
   },
@@ -645,22 +645,22 @@
     "de": "Nachname",
     "fr": "Nom",
     "en": "Surname",
-    "lu": "Nonumm"
+    "lu": "Numm"
   },
   {
     "page": "Home",
     "key": "forms.email",
-    "de": "E-Mail Adresse",
+    "de": "E-Mail-Adresse",
     "fr": "Adresse e-mail",
-    "en": "Email address",
-    "lu": "E-mail Adress"
+    "en": "E-mail address",
+    "lu": "E-Mail-Adress"
   },
   {
     "page": "Home",
     "key": "forms.phone",
     "de": "Telefonnummer (mit Vorwahl)",
     "fr": "Numéro de téléphone (avec indicatif)",
-    "en": "Telephone number (with area code)",
+    "en": "Phone number (with area code)",
     "lu": "Telefonsnummer (mat Virwal)"
   },
   {
@@ -786,10 +786,10 @@
   {
     "page": "Home",
     "key": "forms.res-guests",
-    "de": "Anzahl der Gäste",
-    "fr": "Nombre d'invités",
+    "de": "Anzahl der Gäste/innen",
+    "fr": "Nombre d'invité·e·s",
     "en": "Number of guests",
-    "lu": "Unzuel vu Gäscht"
+    "lu": "Unzuel u Gäscht:innen"
   },
   {
     "page": "Home",
@@ -802,18 +802,18 @@
   {
     "page": "Home",
     "key": "welcome.desc-normal-restaurant",
-    "de": "Wir begrüßen Dich im Restaurant BENU SLOOW \"à la carte\" !",
+    "de": "Wir begrüßen Dich im Restaurant BENU SLOOW \"à la carte\"!",
     "fr": "Nous te souhaitons la bienvenue au restaurant BENU SLOOW \"à la carte\" !",
-    "en": "We welcome you to the restaurant BENU SLOOW \"à la carte\" !",
-    "lu": "Mir begréissen Dech am Restaurant BENU SLOOW \"à la carte\" !"
+    "en": "We welcome you to the restaurant BENU SLOOW \"à la carte\"!",
+    "lu": "Mir begréissen Dech am Restaurant BENU SLOOW \"à la carte\"!"
   },
   {
     "page": "Home",
     "key": "welcome.desc-hosts-table",
-    "de": "Wir begrüßen Dich zum Table d'hôtes mit einem 7 Gänge- Erlebnismenü!",
-    "fr": "Nous te souhaitons la bienvenue à la table d'hôtes avec un menu découverte de 7 plats !",
-    "en": "We welcome you to the table d'hôtes with a 7-course experience menu!",
-    "lu": "Mir begréissen Dech fir d'Table d'hôtes mat engem 7-Gäng Erliefnismenü!"
+    "de": "Wir begrüßen Dich zum Table d'Hôtes mit einem 7 Gänge- Erlebnismenü!",
+    "fr": "Nous te souhaitons la bienvenue à la Table d'Hôtes pour un menu découverte de 7 plats !",
+    "en": "We welcome you to the Table d'Hôtes with a 7 course experience menu!",
+    "lu": "Mir begréissen Dech un der Table d'Hôtes mat engem 7-Gang-Erliefnismenü!"
   },
   {
     "page": "Home",
@@ -826,26 +826,26 @@
   {
     "page": "Home",
     "key": "forms.mandatory-fields",
-    "de": "Pflichtfelder",
-    "fr": "Champs obligatoires",
-    "en": "Mandatory fields",
-    "lu": "Obligatoresch Felder"
+    "de": "Pflichtfeld",
+    "fr": "Champ obligatoire",
+    "en": "Mandatory field",
+    "lu": "Flichtfeld"
   },
   {
     "page": "Home",
     "key": "forms.personal-data-agreement",
-    "de": "Mit der Nutzung dieses Formulars erkläre ich mich mit der Speicherung \nund Verarbeitung meiner Daten durch diese Website einverstanden",
-    "fr": "En utilisant ce formulaire, je confirme la sauvegarde et le traitement de mes données par ce site",
-    "en": "By using this form, I confirm that my data will be saved and processed by this site",
-    "lu": "Mat dësem Formulaire stëmmen ech der Späicherung an der Veraarbechtung vu mengen Daten duerch dëse Site zou"
+    "de": "Mit der Nutzung dieses Formulars erkläre ich mich mit der Speicherung und Verarbeitung meiner Daten durch diese Website einverstanden.",
+    "fr": "En utilisant ce formulaire, j'accepte que mes données soient enregistrées et traitées par ce site Internet.",
+    "en": "By using this form I agree to the storage and processing of my data by this website.",
+    "lu": "Mat dësem Formulaire stëmmen ech dem Späicheren an der Veraarbechtung vu mengen Daten duerch dësen Internetsite zou."
   },
   {
     "page": "Home",
     "key": "forms.security-question",
     "de": "Sicherheitsfrage: Wie viel ergibt",
-    "fr": "Question de sécurité: Combien font",
+    "fr": "Question de sécurité : Combien font",
     "en": "Security question: How much is",
-    "lu": "Sécherheetsfro: Wéi vill gëtt"
+    "lu": "Sécherheetsfro: Wéi vill gëtt"
   },
   {
     "page": "Home",
@@ -877,7 +877,7 @@
     "de": "Deine Anfrage ist bei BENU SLOOW eingegangen",
     "fr": "Ta demande a été reçue par BENU SLOOW",
     "en": "Your request has been received by BENU SLOOW",
-    "lu": "Deng Ufro ass beim BENU SLOOW erakomm"
+    "lu": "Deng Ufro ass bei BENU SLOOW ukomm"
   },
   {
     "page": "Home",
@@ -890,42 +890,42 @@
   {
     "page": "Home",
     "key": "services.faq-group-title-1",
-    "de": "Was bedeutet „Rescued Food“?",
+    "de": "Was bedeutet \"Rescued Food\"?",
     "fr": "Que signifie \"Rescued Food\" ?",
-    "en": "What does „Rescued Food“ mean?",
-    "lu": "Wat bedeit „Rescued Food“?"
+    "en": "What does \"Rescued Food\" mean?",
+    "lu": "Wat bedeit \"Rescued Food\"?"
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-1-1",
-    "de": "Als „Rescued Food“ werden Lebensmittel bezeichnet, die im Handel nicht verkauft werden konnten, obwohl sie genießbar sind. Diese Lebensmittel werden “gerettet”, damit  sie doch noch verzehrt werden können und nicht im Abfall landen.",
-    "fr": "On appelle \"rescued food\" les aliments qui n'ont pas pu être vendus dans le commerce alors qu'ils sont comestible. Ces aliments sont \"sauvés\" afin qu'ils puissent encore être consommés et ne finissent pas dans la poubelle.",
-    "en": "Rescued food\" refers to foods that could not be sold in the trade, although they are edible.These foods are \"saved\" so that they can still be consumed",
-    "lu": "Als „Rescued Food“ bezeechent ee Liewensmëttel, déi am Handel net verkaaft konnte ginn, obwuel se nach iessbar sinn. Dës Liewensmëttel gi gerett, domat se nach giess kënne ginn an net an der Dreckskëscht landen."
+    "de": "Als \"Rescued Food\" werden Lebensmittel bezeichnet, die im Handel nicht verkauft werden konnten, obwohl sie genießbar sind. Diese Lebensmittel werden “gerettet”, damit sie doch noch verzehrt werden können und nicht im Abfall landen.",
+    "fr": "On appelle \"Rescued Food\" les aliments qui n'ont pas été vendus dans le commerce alors qu'ils sont encore comestibles. Ces aliments sont \"sauvés\" afin d'être consommés au lieu de finir à la poubelle.",
+    "en": "Rescued Food\" is food that haven't been sold even though it is edible. These foods are \"rescued\" so that they can still be eaten and do not end up in the waste.",
+    "lu": "Als \"Rescued Food\" bezeechent ee Liewensmëttel, déi am Handel net verkaf konnte ginn, obwuel se nach iessbar sinn. Dës Liewensmëttel gi \"gerett\", an domat consomméiert amplaz an der Dreckskëscht ze landen."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-1-2",
-    "de": "Im Einzelhandel werden Lebensmittel aus dem Regal genommen, weil sie kurz vor ihrem Verfallsdatum sind oder wegen optischer Mängel nicht gekauft werden. Auch im Großhandel werden Lebensmittel aussortiert, die noch genießbar sind. Wenn zum Beispiel mehr frische Ware eingekauft wird, als innerhalb von ein paar Tagen an den Einzelhandel weitergegeben werden kann, muss beim Eintreffen neuer Lebensmittel die alte Ware entsorgt werden.",
-    "fr": "Dans le commerce de détail, les aliments sont retirés des rayons parce qu'ils sont proches de leur date de péremption ou parce qu'ils ne sont pas achetés en raison de défauts visuels. Dans le commerce de gros également, les aliments qui sont encore consommables sont triés. Si, par exemple, la quantité de produits frais achetés est supérieure à celle qui peut être transmise au commerce de détail en l'espace de quelques jours, l'arrivée de nouveaux aliments oblige à jeter les anciens.",
-    "en": "In the retail trade, food is taken off the shelf because it is about to expire or because it is not purchased due to optical defects. Wholesalers also sort out foods that are still edible.For example, if more fresh goods are purchased than can be handed over to retailers within a few days, the old goods have to be disposed of when new food arrives.",
-    "lu": "Am Eenzelhandel gi Liewensmëttel aus dem Regal geholl, well se kuerz virum Oflafdatum stinn oder wéinst optesche Mängel net verkaaft ginn. Och am Grousshandel gi Liewensmëttel aussortéiert, déi nach iessbar sinn. Wa zum Beispill méi frësch Wuer akaaft gëtt als ënnerhalb vu e puer Deeg un den Eenzelhandel weidergi ka ginn, muss beim Antreffe vun neie Liewensmëttel déi Wuer entsuergt ginn."
+    "de": "Im Einzelhandel werden Lebensmittel aus dem Regal genommen, weil sie kurz vor ihrem Verfallsdatum sind oder wegen optischer Mängel nicht gekauft werden. Auch im Großhandel werden Lebensmittel aussortiert, die taufrisch sind. Wie ist das möglich?",
+    "fr": "Dans le commerce de détail, des aliments sont retirés des rayons parce que leur date de péremption approche ou qu'ils comportent des défauts visuels. Dans le commerce de gros également, des aliments pourtant frais sont écartés. Comment est-ce possible ?",
+    "en": "In retail, food is taken off the shelf because it is close to its expiry date or is not bought because of visual defects. In wholesale, too, food that is dewy is sorted out. How is this possible?",
+    "lu": "Am Eenzelhandel gi Liewensmëttel aus dem Regal geholl, déi wéinst hirem noe Verfallsdatum oder hiren optesche \"Feeler\", net verkaf goufen. Och am Grousshandel gi Liewensmëttel aussortéiert, déi nach frësch sinn. Wéi ass dat méiglech?"
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-1-3",
-    "de": "Das im Restaurant BENU SLOOW verarbeitete „Rescued Food“ stammt aus dem Einzelhandel und Großhandel. Es handelt sich um Produkte, die noch ausreichend lang haltbar sind, den EU-Normen entsprechen und grundsätzlich aus ökologischer Landwirtschaft stammen.",
-    "fr": "Le \"Rescued Food\" utilisés dans le restaurant BENU SLOOW provient du commerce de détail et de gros. Il s’agit de produits qui ont une durée de conservation suffisante, qui sont conformes aux normes de l’UE et qui, en principe, sont issus de l’agriculture biologique.",
-    "en": "The “Rescued Food” processed in the restaurant BENU SLOOW comes from the retail and wholesale sectors. These are products that have a sufficiently long -lasting, comply with EU standards and, in principle, come from organic farming.",
-    "lu": "BENU SLOOW veraarbecht gëtt, kennt aus dem Eenzel a Grousshandel. Et handelt sech em Produiten, déi nach laang genuch haltbar sinn, den EU-Normen entspriechen a grondsätzlech aus ökologescher Landwirtschaft kommen."
+    "de": "Das im Restaurant BENU SLOOW verarbeitete \"Rescued Food\" stammt aus dem Einzelhandel und Großhandel. Es handelt sich um Produkte, die noch taufrisch, direkt vom Feld kommen, aber in jedem Fall noch ausreichend lang haltbar sind, den EU-Normen entsprechen und grundsätzlich aus ökologischer Landwirtschaft stammen.",
+    "fr": "Les aliments \"Rescued Food\" utilisés au restaurant BENU SLOOW proviennent du commerce de détail et de gros. Il s’agit de produits frais, provenant directement du champ, ayant avant tout une durée de conservation suffisante, sont conformes aux normes de l’UE et qui, par principe, sont issus de l’agriculture écologique.",
+    "en": "The \"Rescued Food\" processed in the BENU SLOOW restaurant comes from the retail and wholesale trade. These products are dewy fresh, come directly from the field, have in any case a sufficiently long shelf life, comply with EU standards and basically come from ecological farming.",
+    "lu": "BENU SLOOW veraarbecht Liewensmëttel, déi aus dem Eenzel- an dem Grousshandel kommen. Et handelt sech ëm Produiten, déi ganz frësch sinn, direkt vum Feld kommen, op jidde Fall nach laang genuch haltbar sinn, den EU-Normen entspriechen a grondsätzlech aus ekologescher Landwirtschaft stamen."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-1-4",
-    "de": "Die kulinarische Verwertung und der Verzehr von „Rescued Food“ ist ein entschiedener Schritt gegen die systematische Lebensmittelverschwendung und stellt sich gegen die gängige Methode der thermischen Verwertung für Lebensmittelreste, die im Restmüll landen.",
-    "fr": "La valorisation culinaire et la consommation de «rescued Food» constituent une étape décisive contre le gaspillage alimentaire systématique et s’opposent à la méthode courante de valorisation thermique des déchets alimentaires qui finissent dans les déchets résiduels.",
-    "en": "The culinary recycling and consumption of “rescued food” is a decisive step against the systematic waste of food and opposes the conventional method of thermal recycling of food residues that end up in residual waste.",
-    "lu": "Déi kulinaresch Verwäertung an Consommatioun vu Rescued Food ass een entscheedende Schrëtt géint déi systematesch Liewensmëttelverschwendung a stellt sech géint déi gängeg Method vun der thermescher Verwäertung vir Liewensmëttelreschter, déi an der Dreckskëscht landen"
+    "de": "Die kulinarische Verwertung und der Verzehr von \"Rescued Food\" ist ein entschiedener Schritt gegen die systematische Lebensmittelverschwendung und stellt sich gegen die gängige Methode der thermischen Verwertung für Lebensmittelreste, die im Restmüll landen.",
+    "fr": "La valorisation culinaire et la consommation de \"Rescued Food\" sont des démarches importantes dans la lutte contre le gaspillage alimentaire systématique et s’opposent à la valorisation thermique habituelle des déchets alimentaires, qui finissent à la poubelle.",
+    "en": "Food recovery and consumption of \"Rescued Food\" are important steps in the fight against systematic food waste and resist the usual thermal processing of food waste, that ends up in the garbage.",
+    "lu": "Iesswuere verwäerten a \"Rescued Food\" consomméiere si wichteg Schrëtt am Kampf géint déi systematesch Liewensmëttelverschwendung déi sech och der gängeger Liewensmëttelverwäertung entgéintsetzten."
   },
   {
     "page": "Home",
@@ -933,55 +933,55 @@
     "de": "Serviert das Restaurant BENU SLOOW auch Fleisch und Fisch?",
     "fr": "Le restaurant BENU SLOOW sert-il aussi de la viande et du poisson ?",
     "en": "Does the restaurant BENU SLOOW also serve meat and fish?",
-    "lu": "Serveiert de Restaurant BENU SLOOW och Fleesch an Fësch?"
+    "lu": "Zerwéiert de Restaurant BENU SLOOW och Fleesch a Fësch?"
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-2-1",
-    "de": "Nein! Wir haben uns entschieden, bei BENU SLOOW vollständig auf Fleisch und Fisch zu verzichten und ausschließlich vegetarische und vegane Gerichte anzubieten.",
-    "fr": "Non ! Nous avons décidé de renoncer complètement à la viande et au poisson chez BENU SLOOW et de proposer uniquement des plats végétariens et végétaliens.",
-    "en": "No! At BENU SLOOW, we decided to renounce  meat and fish  and to offer only vegetarian and vegan dishes",
-    "lu": "Nee! Mir hunn eis dozou entscheet, beim BENU SLOOW komplett op Fleesch a Fësch ze verzichten an ausschliisslech vegetaresch a vegan Platen ze offréieren."
+    "de": "Nein! Wir haben uns entschieden, bei BENU SLOOW vollständig auf Fleisch und Fisch zu verzichten und ausschließlich vegetarische und vegane Gerichte anzubieten. Die meisten Menschen wissen mittlerweile, dass der sozio-ökologische Fußabdruck von Fleisch und Fisch erheblich ist. Wir möchten zeigen, wie attraktive, kreative, duftende Alternativen schmecken können.",
+    "fr": "Non ! Nous avons décidé de renoncer complètement à la viande et au poisson chez BENU SLOOW et de proposer uniquement des plats végétariens et végétaliens. La majorité des gens sait entre-temps, que l'empreinte socio-écologique de la viande et du poisson est considérable. Nous voulons montrer quelles alternatives attractives, créatives et parfumées, sont possibles.",
+    "en": "No! We have decided to completely avoid meat and fish at BENU SLOOW and only offer vegetarian and vegan dishes. Most people know by now that the socio-ecological footprint of meat and fish is considerable. We want to show how attractive, creative, parfumed alternatives can taste.",
+    "lu": "Nee! Mir hunn eis dozou entscheet, beim BENU SLOOW komplett op Fleesch a Fësch ze verzichte fir ausschliisslech vegetaresch a vegan Platen unzebidden. Déi meescht Leit wësse mëttlerweil, datt de sozio-ekologesche Foussofdrock vu Fleesch a Fësch considerabel ass. Mir wëlle weisen, wéi attraktiv, kreativ, parfüméiert Alternative schmaache kënnen."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-2-2",
-    "de": "Bei den veganen Gerichten werden keinerlei Lebensmittel verwendet, die tierischen Ursprungs sind bzw. denen Zutaten tierischen Ursprungs - in verarbeiteter oder unverarbeiteter Form - zugesetzt wurden. Bei den vegetarischen Gerichten können tierische Produkte, wie Milch, Eier, Bienenhonig oder deren Bestandteile bzw. daraus gewonnene Erzeugnisse verwendet werden.",
-    "fr": "Les plats végétaliens contiennent aucun aliment d'origine animale ou des ingrédients d'origine animale,qu'ils soient transformés ou non. Pour les plats végétariens, il est possible d'utiliser des produits d'origine animale, comme le lait, les œufs, le miel d'abeille ou leurs composants ou produits dérivés.",
-    "en": "Vegan dishes do not use any foods of animal origin or to which ingredients of animal origin, whether processed or unprocessed, have been added. Vegetarian dishes may use animal products such as milk, eggs, honey bees or their components or products derived from them.",
-    "lu": "Bei de vegane Platen gi keng Liewensmëttel verwent, déi vun animalescher Origine ass bzw. deenen Ingrediente vun Déieren dobäi gesat gouf. Bei de vegetaresche Platen kenne Liewensmëttel vum Déier, wéi Eeër, Mëllech Hunneg hier Bestanddeeler oder dovu gewonnene Produite verwent ginn.."
+    "de": "Bei den veganen Gerichten werden keinerlei Lebensmittel verwendet, die tierischen Ursprungs sind bzw. denen Zutaten tierischen Ursprungs - in verarbeiteter oder unverarbeiteter Form - zugesetzt wurden. \n\nBei den vegetarischen Gerichten können tierische Produkte, wie Milch, Eier, Bienenhonig oder deren Bestandteile bzw. daraus gewonnene Erzeugnisse verwendet werden.",
+    "fr": "Les plats végétaliens ne contiennent aucun aliment ou ingrédient d'origine animale, que ce soit sous forme transformée ou brute. \n\nLes plats végétariens peuvent comporter des produits d'origine animale tels que le lait, les œufs, le miel d'abeille ainsi que leurs composants ou produits dérivés.",
+    "en": "Vegan dishes do not use any foods of animal origin or to which ingredients of animal origin, whether processed or unprocessed, have been added. \n\nVegetarian dishes may use animal products such as milk, eggs, honey bees or their components or products derived from them.",
+    "lu": "Bei de vegane Plate gi keng Déiereproduiten oder Ingrediente verwent oder verschafft, ënner egal wéi enger Form.\n\nBei de vegetaresche Platen, kënnen Déiereproduiten ewéi Mëllech, Eeër, Beienhunneg esouwuel ewéi och hir Bestanddeeler oder dérivéiert Produiten, verwent ginn."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-2-3",
     "de": "Ob pflanzlichen oder tierischen Ursprungs, BENU SLOOW verwendet ausschließlich Zutaten aus ökologischer Landwirtschaft.",
-    "fr": "Qu'ils soient d'origine végétale ou animale, BENU SLOOW utilise exclusivement des ingrédients issus de l'agriculture biologique.",
-    "en": "Whether of plant or animal origin, BENU SLOOW uses only ingredients from organic farming",
-    "lu": "Ob vun de Planzen oder vum Déier, BENU SLOOW verwent ausschliisslech Zutaten aus ökologescher Landwirtschaft."
+    "fr": "Qu'ils soient d'origine végétale ou animale, BENU SLOOW utilise exclusivement des ingrédients issus de l'agriculture écologique.",
+    "en": "Whether of plant or animal origin, BENU SLOOW uses only ingredients from ecological farming.",
+    "lu": "Vun der Planz oder vum Déier, am BENU SLOOW ginn nëmmen Ingredienten aus ekologescher Landwirtschaft verwent."
   },
   {
     "page": "Home",
     "key": "services.faq-group-title-3",
     "de": "Kann ich im Restaurant BENU SLOOW mein Menü auswählen?",
     "fr": "Puis-je choisir mon menu au restaurant BENU SLOOW ?",
-    "en": "Can I select my menu at the BENU SLOOW Restaurant?",
-    "lu": "Kann ech am Restaurant BENU SLOOW mäin Menü auswielen?"
+    "en": "Can I select my menu at the BENU SLOOW restaurant?",
+    "lu": "Kann ech am Restaurant BENU SLOOW mäi Menü auswielen?"
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-3-1",
-    "de": "Wenn du Dich zu einem Table d’hôtes angemeldet hast, erhältst du ein festgelegtes 7-Gänge-Menü. Unser BENU SLOOW-Team serviert dieses vegetarische Überraschungsmenü am gemeinsamen Tisch exklusiv für 12 Personen und nur nach Voranmeldung.",
-    "fr": "Si vous vous inscrivez à une table d’hôtes, vous recevrez un menu de 7 plats prédéfinis. Notre équipe BENU SLOOW sert ce menu surprise végétarien à la table commune exclusivement pour 12 personnes et uniquement sur rendez-vous.",
-    "en": "If you have signed up for a table d’hôtes, you will receive a set 7-course menu. Our BENU SLOOW team serves this vegetarian surprise menu at the common table exclusively for 12 people and by appointment only",
-    "lu": "Wann s Du Dech vir eng Table d’hôtes ugemellt hues, kriss du een festen 7-Gang-Menü. Eist BENU SLOOW Team servéiert dëse vegetareschen Iwwerraschungmenü um kollektiven Dësch exklusiv vir 12 Persounen an nëmmen mat Virumeldung."
+    "de": "Wenn Du Dich zu einem Table d’Hôtes angemeldet hast, erhältst du ein festgelegtes 7-Gänge-Menü. Unser BENU SLOOW-Team serviert dieses vegetarische Überraschungsmenü am gemeinsamen Tisch exklusiv für 12 Personen und nur nach Voranmeldung. Wir treffen uns alle zusammen und essen dann gemeinsam.",
+    "fr": "Si tu t'inscris à une Table d’Hôtes, tu dégusteras un menu de 7 plats prédéfini. Notre équipe BENU SLOOW sert ce menu végétarien surprise aux 12 personnes présentes à la table commune et uniquement sur réservation. Nous nous rassemblons puis mangeons ensemble.",
+    "en": "If you have signed up for a Table d’Hôtes, you will receive a set 7 course menu. Our BENU SLOOW team serves this vegetarian surprise menu at the common table exclusively for 12 people and by appointment only. We meet up and then eat together.",
+    "lu": "Wann s Du Dech fir d'Table d’Hôtes ugemellt hues, kriss Du ee feste 7-Gang-Menü. Eis BENU SLOOW-Ekipp zerwéiert dëse vegetareschen Iwwerraschungsmenü um gemeinsamen Dësch, exklusiv fir 12 Leit an nëmme mat Reservatioun. Mir treffen eis all an iessen da gemeinsam."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-3-2",
     "de": "An den Tagen, an denen das Restaurant ganz geöffnet ist, kannst Du Dein Menü oder Dein Gericht von der täglich wechselnden Speisekarte auswählen.",
-    "fr": "Les jours où le restaurant est entièrement ouvert, tu peux choisir ton menu ou ton plat sur la carte qui change tous les jours.",
+    "fr": "Aux jours d'ouverture complète du restaurant, tu peux choisir ton menu ou ton plat sur la carte qui change quotidiennement.",
     "en": "On days when the restaurant is fully open, you can choose your menu or dish from the daily changing menu.",
-    "lu": "Un deenen Deeg wou de Restaurant ganz op huet, kanns Du Däin Plat vun der deeglech wiesselender Kaart wielen"
+    "lu": "Wann de Restaurant ganz op huet, kanns Du vun der Kaart, déi all Dag wiesselt, däi Plat eraussichen."
   },
   {
     "page": "Home",
@@ -989,23 +989,23 @@
     "de": "Kann ich die Uhrzeit für meinen Besuch bei BENU SLOOW ändern?",
     "fr": "Puis-je changer l'heure de ma visite chez BENU SLOOW ?",
     "en": "Can I change the time of my visit to BENU SLOOW?",
-    "lu": "Kann ech all Zäit d`Auerzäit vu mengem Besuch änneren?"
+    "lu": "Kann ech d'Auerzäit vu mengem Besuch bei BENU SLOOW änneren?"
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-4-1",
-    "de": "Die Table d’hôtes beginnt jeweils um 19:00Uhr. Der Beginn des Abendessens ist festgelegt, da bis zu 12 Personen an einem Tisch das 7-Gänge-Menü gemeinsam genießen. Wir bitten Dich pünktlich zu kommen, damit Du nichts vom Erlebnis verpasst.",
-    "fr": "La table d’hôtes commence à 19h00. Le début du dîner est fixé, car jusqu’à 12 personnes autour d’une même table profitent du menu de 7 plats. Nous vous demandons de venir à l’heure pour que vous ne manquiez rien de l’expérience",
-    "en": "The Table d’hôtes starts at 19:00. The beginning of the dinner is fixed, as up to 12 people at one table can enjoy the 7-course menu together. We ask you to arrive on time so that you don’t miss any of the experience",
-    "lu": "Table d’hôtes fänkt all kéiers um 19 Auer un. De Start vum Dinner ass festgeluecht well bis zu 12 Persoune gemeinsam un engem Dësch de 7 Gang Menü genéissen. Mir géifen Dech biede pünktlech ze kommen, sou datt du näischt vum Erliefnis verpasst"
+    "de": "Die Table d’Hôtes beginnt jeweils um 19:00 Uhr. Der Beginn des Abendessens ist festgelegt, da bis zu 12 Personen an einem Tisch das 7-Gänge-Menü gemeinsam genießen. Wir bitten Dich deshalb pünktlich zu kommen, damit Du nichts vom Erlebnis verpasst.",
+    "fr": "La Table d’Hôtes débute à 19h00. Cet horaire est défini, car un même menu de 7 plats est dégusté simultanément par un groupe de 12 personnes, à la table commune. Ainsi, nous te prions d'arriver à l’heure afin de ne rien manquer de l'expérience.",
+    "en": "The Table d’Hôtes starts at 7:00 pm. The beginning of the dinner is fixed, as up to 12 people can enjoy the 7 course menu together at the same table. Therefore, we would be pleased if you arrive on time so you don’t miss any of the experience.",
+    "lu": "D'Table d’Hôtes fänkt ëmmer um 19:00 Auer un. De Start ass festgeluecht well bis zu 12 Leit gemeinsam un engem Dësch de 7-Gang-Menü genéissen. Mir bieden Dech dowéinst pünktlech ze kommen, sou datt s Du näischt vum Erliefnis verpass."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-4-2",
     "de": "An den Tagen, an denen das Restaurant ganz geöffnet ist, kannst Du einen Tisch für Dich und Deine Liebsten reservieren. Dieser Tisch bleibt dann den ganzen Abend für Euch reserviert, wir nehmen keine Doppelreservierungen vor.",
-    "fr": "Les jours où le restaurant est entièrement ouvert, tu peux réserver une table pour toi et tes proches. Cette table reste alors réservée pour vous toute la soirée, nous ne faisons pas de doubles réservations.",
-    "en": "When the restaurant is completely open, you can reserve a table for you and your loved ones. This table will be reserved for you all evening, we do not make double reservations.",
-    "lu": "Un deenen Deeg wou de Restaurant ganz op ass, kanns Du een Dësch reservéieren. Dësen Dësch bleift dann de ganzen Owend vir Dech reservéiert, mir maache keng Duebelreservatiounen."
+    "fr": "Aux jours d'ouverture complète du restaurant, tu peux réserver une table individuelle pour toi et tes proches. Elle restera disponible pour vous toute la soirée, puisque nous ne faisons pas de doubles réservations.",
+    "en": "When the restaurant is completely open, you can reserve a table for you and your loved ones. This table will be reserved for you all evening, as we do not make double reservations.",
+    "lu": "Wann de Restaurant ganz op huet, kanns Du en Dësch fir Dech an Deng Léifste reservéieren. Dësen Dësch bleift dann de ganzen Owend fir Dech reservéiert, mir maache keng Duebelreservatiounen."
   },
   {
     "page": "Home",
@@ -1019,33 +1019,33 @@
     "page": "Home",
     "key": "services.faq-group-desc-5-1",
     "de": "Falls Du Deine Reservierung nicht wahrnehmen kannst bitten wir Dich, uns so schnell wie möglich Bescheid zu geben. Melde Dich telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu ne peux pas réaliser ta réservation, nous te prions de nous en informer le plus rapidement possible. Contacte-nous par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
-    "en": "If you are unable to make your reservation, please let us know as soon as possible. Contact us by phone at +352 2791 1949 or by e-mail at info@benusloow.lu",
-    "lu": "Am Fall wous Du deng Reservatioun net wouer huelen kanns, gëff eis w.e.g sou séier ewéi méigeleg Bescheed. Mell Dech per Telefon op den  +352 2791 1949  oder per Mail op info@benusloow.lu"
+    "fr": "Si tu ne peux pas honorer ta réservation, informe-nous en le plus rapidement possible. Contacte-nous par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
+    "en": "If you are unable to make your reservation, please let us know as soon as possible. Contact us by phone at +352 2791 1949 or by e-mail at info@benusloow.lu.",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi wéi méiglech Bescheed. Mell Dech iwwer Telefon ënner der Nummer  +352 2791 1949  oder iwwer E-Mail op info@benusloow.lu."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-5-2",
     "de": "Bitte storniere Deinen reservierten Tisch im Restaurant BENU SLOOW bis 24 Stunden im Voraus.",
-    "fr": "Veuillez annuler votre table réservée au restaurant BENU SLOOW au moins 24 heures à l'avance.",
-    "en": "Please cancel your reserved table at Restaurant BENU SLOOW up to 24 hours in advance.",
-    "lu": "W.e.g. annuléier däi reservéierten Dësch am BENU SLOOW bis 24 Stonnen am Viraus"
+    "fr": "Nous te prions d'annuler la table au restaurant BENU SLOOW au moins 24 heures à l'avance.",
+    "en": "Please cancel your reserved table at the BENU SLOOW restaurant up to 24 hours in advance.",
+    "lu": "Wgl. so Däin Dësch am BENU SLOOW bis 24 Stonnen am Viraus of."
   },
   {
     "page": "Home",
     "key": "services.faq-group-desc-5-3",
-    "de": "An einer Table d’hôtes nehmen nur 12 Personen teil. Daher soll die Teilnahme bis spätestens 4 Werktage vor dem reservierten Termin storniert werden. Nur so haben wir die Möglichkeit, Ersatzteilnehmer:innen zu finden bzw. den Service neu zu organisieren.",
-    "fr": "Uniquement 12 personnes participent à une table d'hôtes. C'est pourquoi la participation à la table d'hôtes doit être annulée au plus tard 4 jours ouvrables avant la date réservée. Ce n'est qu'ainsi que nous aurons la possibilité de trouver des remplaçants ou de réorganiser le service.",
-    "en": "Only 12 people take part in a table d’hôtes. Therefore, the participation should be cancelled no later than 4 working days before the reserved date. This is the only way for us to find replacement participants or to reorganize the service.",
-    "lu": ""
+    "de": "An einer Table d’Hôtes nehmen nur 12 Personen teil. Daher sollte die Teilnahme bis spätestens 4 Werktage vor dem reservierten Termin storniert werden. Nur so haben wir die Möglichkeit, Ersatzteilnehmer:innen zu finden bzw. den Service neu zu organisieren.",
+    "fr": "En ce qui concerne la Table d'Hôtes, puisque la participation est limitée à 12 personnes, nous te prions d'annuler au moins 4 jours ouvrables avant la date de l'évènement. De cette manière, nous pourrons trouver des remplaçant·e·s ou réorganiser le service.",
+    "en": "Only 12 people can take part in a Table d’Hôtes. Therefore, the participation should be cancelled no later than 4 working days before the reserved date. This is the only way for us to find replacement participants or to reorganize the service.",
+    "lu": "Well d'Participatioun op 12 Leit limitéiert ass, biede mir Dech fir d'Table d'Hôtes, op d'mannst 4 Schaffdeeg am Viraus ofzesoen. Esou kënne mir eng Ersatzpersoun fannen oder de Service ëmorganiséieren."
   },
   {
     "page": "Home",
     "key": "welcome.sponsor-thanks-1",
-    "de": "Wir danken der OEuvre Nationale de Secours Grande-Duchesse Charlotte für die großzügige Unterstützung des Projektes BENU SLOOW.",
-    "fr": "BENU SLOOW remercie l'OEuvre Nationale de Secours Grande-Duchesse Charlotte pour son soutien du projet.",
-    "en": "We thank the OEuvre Nationale de Secours Grande-Duchesse Charlotte for the generous support of the BENU SLOOW project.",
-    "lu": "Mir soen der OEuvre Nationale de Secours Grande-Duchesse Charlotte Merci fir dee generéise Support vum BENU SLOOW Projet."
+    "de": "Wir danken der Œuvre Nationale de Secours Grande-Duchesse Charlotte für die großzügige Unterstützung des Projektes BENU SLOOW.",
+    "fr": "BENU SLOOW remercie l'Œuvre Nationale de Secours Grande-Duchesse Charlotte pour son soutien au projet.",
+    "en": "We thank the Œuvre Nationale de Secours Grande-Duchesse Charlotte for the generous support of the BENU SLOOW project.",
+    "lu": "Mir soen der Œuvre Nationale de Secours Grande-Duchesse Charlotte Merci fir déi generéis Ennerstëtzung zum BENU SLOOW Projet."
   },
   {
     "page": "Home",
@@ -1053,7 +1053,7 @@
     "de": "Mehr erfahren",
     "fr": "En savoir plus",
     "en": "Learn more",
-    "lu": "Méi Infoen"
+    "lu": "Méi gewuer ginn"
   },
   {
     "page": "Home",
@@ -1061,7 +1061,7 @@
     "de": "Öffnungszeiten",
     "fr": "Heures d'ouverture",
     "en": "Opening hours",
-    "lu": "Auerzäiten"
+    "lu": "Ëffnungszäiten"
   },
   {
     "page": "Home",
@@ -1115,7 +1115,7 @@
     "page": "Home",
     "key": "forms.madam",
     "de": "Frau",
-    "fr": "Mme.",
+    "fr": "Mme",
     "en": "Ms.",
     "lu": "Madamm"
   },
@@ -1139,9 +1139,9 @@
     "page": "Home",
     "key": "welcome.map-explanation",
     "de": "Du findest den Eingang zum Restaurant BENU SLOOW am Bd Prince Henri in Esch-sur-Alzette. Der Zugang von der Rue d'Audun ist im Moment noch nicht möglich.",
-    "fr": "Tu trouveras l'entrée du restaurant BENU SLOOW au Bd Prince Henri à Esch-sur-Alzette. L'accès depuis la rue d'Audun n'est pas encore possible.",
+    "fr": "L'entrée du restaurant BENU SLOOW est accessible par le Bd Prince Henri à Esch-sur-Alzette. L'accès depuis la rue d'Audun n'est pas encore possible.",
     "en": "You will find the entrance to the BENU SLOOW restaurant on Bd Prince Henri in Esch-sur-Alzette. Access from Rue d'Audun is not possible at the moment.",
-    "lu": "Du fënns d'Entrée vum Restaurant BENU SLOOW um Bd Prince Henri zu Esch/Uelzecht. Den Agang an der Rue d'Audun ass am Moment nach net zougänglech"
+    "lu": "Du fënns d'Entrée vum Restaurant BENU SLOOW um Bd Prince Henri zu Esch/Uelzecht. Den Agang an der Rue d'Audun ass am Moment nach net zougänglech."
   },
   {
     "page": "Home",
@@ -1197,7 +1197,7 @@
     "de": "Impressum",
     "fr": "Mentions légales",
     "en": "Legal notices",
-    "lu": "Juristesch Informatiounen"
+    "lu": "Legal Informatiounen"
   },
   {
     "page": "Home",
@@ -1211,16 +1211,16 @@
     "page": "Home",
     "key": "welcome.footer-general-conditions",
     "de": "Nutzungsbedingungen",
-    "fr": "Conditions générales",
-    "en": "Terms & Conditions",
-    "lu": "Allgemeng Konditiounen"
+    "fr": "Conditions d'utilisation",
+    "en": "Terms of use",
+    "lu": "Gebrauchsbedéngungen"
   },
   {
     "page": "extra infos",
     "key": "breadcrumbs.home",
     "de": "Startseite",
     "fr": "Accueil",
-    "en": "Home page",
+    "en": "Homepage",
     "lu": "Startsäit"
   },
   {
@@ -1250,50 +1250,50 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-1",
-    "de": "Persönliche Daten wie Name, Vorname, E-Mail-Adresse und Telefonnummer werden vertraulich behandelt. Sie werden nur im Rahmen der Online-Reservierung bis zum Abschluss der Transaktion durch BENU VILLAGE Esch asbl verwendet. Die Daten werden für die gesetzliche Frist im Sinne des Datenschutzrechts gespeichert.",
-    "fr": "Les données personnelles telles que le nom, le prénom, l'adresse e-mail et le numéro de téléphone sont traitées de manière confidentielle. Elles ne sont utilisées que dans le cadre de la réservation en ligne par BENU VILLAGE Esch asbl. Les données sont utilisées jusqu'à la conclusion de la transaction et sont conservées pendant la durée légale au sens de la législation sur la protection des données.",
-    "en": "Personal data such as surname, first name, e-mail address and telephone number are treated confidentially. They are only used within the framework of the online reservation by BENU VILLAGE Esch asbl. The data will be used until the transaction is completed and will be stored for the legal period as defined by data protection law.",
-    "lu": "Perséinlech Daten wéi Numm, Virnumm, E-Mail-Adress a Telefonsnummer gi vertraulech behandelt. Se gi nëmmen am Kader vun der Online-Reservéierung bis zum Ofschloss vun der Transaktioun duerch BENU VILLAGE Esch asbl verwent. Déi Date ginn fir déi gesetzlech Frist am Sënn vum Dateschutz gespäichert."
+    "de": "Persönliche Daten wie Name, Vorname, E-Mail-Adresse und Telefonnummer werden vertraulich behandelt. Sie werden nur im Rahmen der Online-Reservierung bis zum Abschluss der Transaktion durch BENU Village Esch asbl verwendet. Die Daten werden für die gesetzliche Frist im Sinne des Datenschutzrechts gespeichert.",
+    "fr": "Les données personnelles telles que le nom, le prénom, l'adresse e-mail et le numéro de téléphone, sont traitées de manière confidentielle. Elles ne sont utilisées que dans le cadre de la réservation en ligne par BENU Village Esch asbl jusqu'à conclusion de la transaction et sont conservées pendant la durée légale au sens de la législation sur la protection des données.",
+    "en": "Personal data such as surname, first name, e-mail address and phone number are treated confidentially. They are only used within the framework of the online reservation by BENU Village Esch asbl. The data will be used until the transaction is completed and be stored for the legal period as defined by data protection law.",
+    "lu": "Perséinlech Daten ewéi den Numm, de Virnumm, d'E-Mail-Adress an d'Telefonsnummer, gi vertraulech behandelt. Se ginn exklusiv am Kader vun der Online-Reservatioun, a bis zum Ofschloss vun der Transaktioun, duerch BENU Village Esch asbl traitéiert a ginn der gesetzlecher Frist zum Dateschutz entspriechend gespäichert."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-2",
-    "de": "sloow.benu.lu anerkennt und verpflichtet sich, die Gesetze und Vorschriften zum Schutz personenbezogener Daten einzuhalten, einschließlich, aber nicht beschränkt auf die Verordnung (EU) 2016/679 des Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen in Bezug auf die Verarbeitung personenbezogener Daten und den freien Datenverkehr (die „DSGVO“) und alle anderen anwendbaren nationalen Gesetze oder Verordnungen, die die Verarbeitung dieser personenbezogenen Daten regeln.",
-    "fr": "sloow.benu.lu reconnaît et s'engage à respecter les lois et règlements régissant la protection des données personnelles, y compris, mais sans s’y limiter, le règlement (UE) 2016/679 du Parlement et du Conseil du 27 avril 2016 sur la protection des personnes en ce qui concerne le traitement des données personnelles et sur la libre circulation de ces données (le « RGPD ») et toute autre loi ou réglementation nationale applicable régissant le traitement de ces données personnelles.",
-    "en": "sloow.benu.lu recognizes and undertakes to comply with the laws and regulations governing the protection of personal data, including, but not limited to, Regulation (EU) 2016/679 of the Parliament and of the Council of April 27, 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data (the “GDPR”) and any other applicable national law or regulation governing the processing of such personal data.",
-    "lu": "sloow.benu.lu erkennt un a verflicht sech de Gesetzer a Reglementer ze respektéieren, déi de Schutz vu perséinlechen Donnéeë regéieren, dorënner, awer net limitéiert op, Regulatioun (EU) 2016/679 vum Parlament a vum Conseil vum 27. Abrëll 2016 iwwer de Schutz vun Individue wat d'Veraarbechtung vu perséinlechen Donnéeën ugeet an iwwer de fräie Verkéier vun esou Donnéeën (\"GDPR\") an all aner uwennbar national Gesetz oder Regulatioun fir d'Veraarbechtung vun esou perséinlechen Donnéeën."
+    "de": "sloow.benu.lu anerkennt und verpflichtet sich, die Gesetze und Vorschriften zum Schutz personenbezogener Daten einzuhalten, einschließlich, aber nicht beschränkt auf die Verordnung (EU) 2016/679 des Parlaments und des Rates vom 27. April 2016 zum Schutz von Personen in Bezug auf die Verarbeitung personenbezogener Daten und den freien Datenverkehr (die \"DSGVO“) und alle anderen anwendbaren nationalen Gesetze oder Verordnungen, die die Verarbeitung dieser personenbezogenen Daten regeln.",
+    "fr": "sloow.benu.lu reconnaît et s'engage à respecter les lois et règlements régissant la protection des données personnelles, y compris, mais sans s’y limiter, le règlement (UE) 2016/679 du Parlement et du Conseil du 27 avril 2016 sur la protection des personnes en ce qui concerne le traitement des données personnelles et sur la libre circulation de ces données (le \"RGPD\") et toute autre loi ou réglementation nationale applicable régissant le traitement de ces données personnelles.",
+    "en": "sloow.benu.lu acknowledges and agrees to comply with laws and regulations governing the protection of personal data, including, but not limited to, the Regulation (EU) 2016/679 of the Parliament and Council from 27th of april 2016 regarding the protection of individuals concerning the processing of personal data and the free movement of such data (the \"GDPR\") and any other applicable national laws or regulations governing the processing of such personal data.",
+    "lu": "sloow.benu.lu erkennt un a verflicht sech, d'Gesetzer a Reglementer ze respektéieren, déi de Schutz vu perséinlechen Donnéeë regéieren, dorënner, awer net beschränkt op, d'Reglement (EU) 2016/679 vum Parlament a vum Conseil vum 27. Abrëll 2016 iwwer de Schutz vun de Persoune bezüglech der Veraarbechtung an dem fräie Verkéier vu perséinlechen Donnéeën (\"GDPR\") an all aner uwennbar nationaalt Gesetz oder Reglement fir d'Veraarbechtung vun dëse perséinlechen Donnéeën."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-3",
     "de": "Wir erheben und verarbeiten insbesondere Deinen Namen, Vornamen, E-Mail-Adresse, Telefonnummer, IP-Adresse, historische Verbindungsdaten für Reservierungen ausschließlich im Rahmen und für den Zeitraum, der für die Reservierung unbedingt erforderlich ist. Der obligatorische oder optionale Charakter der Datenerhebung wird Dir bei der Erhebung durch ein Sternchen angezeigt.",
-    "fr": "Nous collectons et traitons en particulier vos nom, prénom, adresse e-mail, numéro de téléphone, adresse IP, données de connexion historique pour les réservations uniquement dans le cadre et pour la période strictement nécessaires à la réservation. Le caractère obligatoire ou facultatif de la collecte des données t’ est signalé lors de la collecte par un astérisque.",
-    "en": "We collect and process in particular your name, first name, email address, telephone number, IP address, historical connection data for reservations, functional and behavioral analysis data exclusively within the framework of and for a period strictly necessary for the reservation. The compulsory or optional nature of the data collection is indicated to you during the collection by an asterisk.",
-    "lu": "Mir sammelen a veraarbechten besonnesch Däi Numm, Virnumm, E -Mail Adress, Telefonsnummer, IP Adress, historesch Verbindungsdate fir Reservatiounen funktionell a Verhalensanalysedaten exklusiv am Kader vun a fir eng Period strikt noutwendeg fir d'Reservatioun. Déi obligatoresch oder fakultativ Natur vun der Datesammlung gëtt Dir wärend der Sammlung vun engem Asterisk uginn."
+    "fr": "Nous collectons et traitons plus particulièrement tes nom, prénom, adresse e-mail, numéro de téléphone, adresse IP ainsi que l'historique des données de connexion dans le cadre exclusif des réservations et pour une période limitée au traitement de celles-ci. Le caractère obligatoire ou facultatif de la collecte des données est signalé lors de la collecte par un astérisque.",
+    "en": "We collect and process in particular your name, first name, e-mail address, phone number, IP address and historical connection data within the exclusive framework of reservations and for a period limited to the processing thereof. The compulsory or optional nature of data collection is indicated by an asterisk at the time of collection.",
+    "lu": "Mir sammelen a veraarbechte besonnesch Däin Numm, Virnumm, E-Mail-Adress, Telefonsnummer, IP-Adress a Verbindungsverlaf fir Reservatiounen, exklusiv am Kader vun de Reservatiounen a fir de strikt noutwendegen Zäitraum. Déi obligatoresch oder fakultativ Natur vun der Datesammlung gëtt wärend der Sammlung mat engem Stärchen ugewisen."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-4",
     "de": "Die für die Anmeldung zum BENU Newsletter erhobenen Daten (Vorname, Name und E-Mail-Adresse) werden ausschließlich genutzt, um Dir BENU Informations-E-Mails zuzuschicken. Die Daten tauschen wir mit niemandem, demnach auch mit keiner beliebigen Organisation, Verwaltung, Unternehmen, Interessensgruppe oder anderen.",
-    "fr": "Les données collectées pour l’inscription à la newsletter BENU (prénom, nom et adresse e-mail) sont exclusivement utilisées pour vous envoyer des e-mails d’information BENU. Nous ne partageons les données avec personne, et donc avec aucune organisation, administration, entreprise, groupe d’intérêt ou autre.",
-    "en": "The data collected for the registration to the BENU newsletter (first name, last name and e-mail address) are used exclusively to send you BENU information e-mails. We do not share the data with anyone, including any organisation, administration, company, interest group or others.",
-    "lu": "Déi Daten déi Du uginn hues vir den Newsletter (Numm, Virnumm an E-Mail-Adress) ginn nëmmen benotzt vir Dir BENU-Informatiouns-E-mailen ze schécken. Déi Daten gi mir ne un eng Drëttpersoun wieder, also och net mat enger anerer Organisatioun, Verwaltung, Entreprise, Interessegrupp oder anerem"
+    "fr": "Les données collectées pour l’inscription à la newsletter BENU (prénom, nom et adresse e-mail) sont destinées exclusivement à l'envoi d'e-mails d’informations concernant BENU. Nous ne partageons les données avec aucun tiers, ce qui inclut toute organisation, administration, entreprise, tout groupe d’intérêt ou autre.",
+    "en": "The data collected for the registration to the BENU newsletter (first name, surname and e-mail address) are exclusively intended for the sending of information e-mails concerning BENU. We do not share the data with any third party, including any organisation, administration, company, group of interest or others.",
+    "lu": "D'Daten déi bei der Umeldung fir d'Newsletter gesammelt ginn (Numm, Virnumm an E-Mail-Adress), ginn nëmme benotzt fir Dir BENU Informatiouns-E-Mailen ze schécken. Dës Date ginn u kee weider, deemno och u keng aner Organisatioun, Verwaltung, Entreprise, Interessegrupp oder anerwäerts."
   },
   {
     "page": "extra infos",
     "key": "infos.title-2",
     "de": "Impressum",
     "fr": "Mentions légales",
-    "en": "Impressum",
-    "lu": "Impressum"
+    "en": "Legal notices",
+    "lu": "Legal Informatiounen"
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-2-1",
-    "de": "Willkommen auf der Internetseite sloow.benu.lu (benusloow.lu), die von BENU VILLAGE ESCH asbl betrieben wird.\n\nSitz der BENU VILLAGE ESCH asbl :",
-    "fr": "Bienvenue sur le site sloow.benu.lu exploité par BENU VILLAGE ESCH asbl.\n\nSiège de BENU VILLAGE ESCH asbl :",
-    "en": "Welcome to the website sloow.benu.lu operated by BENU VILLAGE ESCH asbl.\n\nSeat of BENU VILLAGE ESCH asbl :",
-    "lu": "Wëllkomm op der Websäit sloow.benu.lu bedriwwe vum BENU VILLAGE ESCH asbl. \n\nSëtz vun BENU VILLAGE ESCH asbl:"
+    "de": "Willkommen auf der Internetseite sloow.benu.lu (benusloow.lu), die von BENU Village Esch asbl betrieben wird.\n\nSitz der BENU Village Esch asbl:",
+    "fr": "Bienvenue sur le site Internet sloow.benu.lu exploité par BENU Village Esch asbl.\n\nSiège de BENU Village Esch asbl :",
+    "en": "Welcome to the website sloow.benu.lu operated by BENU Village Esch asbl.\n\nSeat of BENU Village Esch asbl:",
+    "lu": "Wëllkomm op der Internetsäit sloow.benu.lu bedriwwe vu BENU Village Esch asbl. \n\nSëtz vu BENU Village Esch asbl:"
   },
   {
     "page": "extra infos",
@@ -1322,26 +1322,26 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-2-3",
-    "de": "Registriert im „Registre de Commerce et des Sociétés de Luxembourg“ unter der Nummer F11364.",
-    "fr": "Immatriculée au Registre de Commerce et des Sociétés de Luxembourg sous le numéro F11364",
-    "en": "Registered in the “Registre de Commerce et des Sociétés de Luxembourg” under number F11364.",
+    "de": "Registriert im \"Registre de Commerce et des Sociétés de Luxembourg“ unter der Nummer F11364.",
+    "fr": "Immatriculée au \"Registre de Commerce et des Sociétés de Luxembourg\" sous le numéro F11364.",
+    "en": "Registered in the “Registre de Commerce et des Sociétés de Luxembourg” under the number F11364.",
     "lu": "Registréiert am \"Registre de Commerce et des Sociétés de Luxembourg\" ënner der Nummer F11364."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-2-4",
-    "de": "Der Herausgeber der Webseite verpflichtet sich, alle gesetzlichen Bestimmungen bezüglich der Erstellung und des Betriebs einer Webseite einzuhalten. BENU VILLAGE Esch asbl. ist verantwortlich für den Inhalt der Internetseite.",
-    "fr": "L'éditeur du site Internet s'engage à respecter toutes les dispositions légales relatives à la création et à l'exploitation d'un site Internet. BENU VILLAGE Esch asbl. est responsable du contenu du site web.",
-    "en": "The publisher of the website undertakes to comply with all legal provisions relating to the creation and operation of a website. BENU VILLAGE Esch asbl. is responsible for the content of the website.",
-    "lu": "Den Editeur vun der Websäit verflicht sech un all gesetzlech Bestëmmungen ze halen, déi mat der Schafung an der Operatioun vun enger Websäit ze dinn hunn. BENU VILLAGE Esch asbl. ass verantwortlech fir den Inhalt vun der Websäit."
+    "de": "Der Herausgeber der Webseite verpflichtet sich, alle gesetzlichen Bestimmungen bezüglich der Erstellung und des Betriebs einer Webseite einzuhalten. BENU Village Esch asbl ist verantwortlich für den Inhalt der Internetseite.",
+    "fr": "L'éditeur du site Internet s'engage à respecter toutes les dispositions légales relatives à la création et à l'exploitation d'un site Internet. BENU Village Esch asbl est responsable du contenu du site Internet.",
+    "en": "The publisher of the website undertakes to comply with all legal provisions relating to the creation and operation of a website. BENU Village Esch asbl is responsible for the content of the website.",
+    "lu": "Den Editeur vun der Internetsäit verflicht sech, all gesetzlech Bestëmmungen anzehalen, déi mam Opbau an der Verwaltung vun enger Internetsäit ze dinn hunn. BENU Village Esch asbl ass verantwortlech fir den Inhalt vun der Internetsäit."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-2-5",
     "de": "Nutzer:innen der Webseite werden gebeten, die Allgemeinen Nutzungsbedingungen und die Bedingungen zum Datenschutz aufmerksam zu lesen.",
-    "fr": "Les utilisateurs du site Web sont priés de lire attentivement les conditions générales et la déclaration de protection des données.",
-    "en": "Users of the website are asked to read the terms & conditions and the privacy policy carefully.",
-    "lu": "D'Benotzer:innen vun der Websäit ginn opgefuerdert d'allgemeng Konditiounen  an d'Konditiounen zum Dateschutz opmierksam ze liesen."
+    "fr": "Les utilisateurs·rices du site Internet sont prié·e·s de lire attentivement les conditions générales d'utilisation ainsi que la politique de confidentialité.",
+    "en": "Users of the website are asked to read the general terms of use and the privacy policy carefully.",
+    "lu": "D'Benotzer:inne vun der Internetsäit ginn opgefuerdert, déi allgemeng Gebrauchsbedéngungen an d'Dateschutzrichtlinnen opmierksam ze liesen."
   },
   {
     "page": "extra infos",
@@ -1362,34 +1362,34 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-3-1",
-    "de": "Der Kulturpass soll es allen Menschen - unabhängig vom ihrem Einkommen - ermöglichen, am kulturellen Leben in Luxemburg teilzunehmen. Als Kulturpassinhaber:in erhältst Du schon heute freien Zugang zu den verschiedenen Partnermuseen und eine Eintrittskarte für kulturelle Veranstaltungen wie Tanzaufführungen, Konzerte und Theaterstücke, für die Cinémathèque oder Festivals zum Preis von 1,50 Euro.",
-    "fr": "Le Kulturpass permet à toutes les personnes - indépendamment de leurs revenus - de participer à la vie culturelle au Luxembourg. En tant que détenteur:trice  du Kulturpass, tu bénéficies déjà aujourd'hui d'un accès gratuit aux différents musées partenaires et d'un billet d'entrée pour des manifestations culturelles telles que des spectacles de danse, des concerts et des pièces de théâtre, pour la Cinémathèque ou des festivals au prix de 1,50 euro.",
-    "en": "The Culture Pass is intended to enable all people - regardless of their income - to participate in cultural life in Luxembourg. As a culture pass holder, you already receive free access to the various partner museums and a ticket for cultural events such as dance performances, concerts and plays, for the Cinémathèque or festivals for the price of 1.50 euros.",
-    "lu": "De Kulturpass soll et alle Léit onofhängeg vun hierem Akommes ermeiglegen un kulturellen Aktivitéiten ennerhalb Letzebuerg,  deel ze huelen."
+    "de": "Der Kulturpass soll es allen Menschen - unabhängig von ihrem Einkommen - ermöglichen, am kulturellen Leben in Luxemburg teilzunehmen. Als Kulturpassinhaber:in erhältst Du schon heute freien Zugang zu den verschiedenen Partnermuseen und eine Eintrittskarte für kulturelle Veranstaltungen wie Tanzaufführungen, Konzerte und Theaterstücke, für die Cinémathèque oder Festivals zum Preis von 1,50 Euro.",
+    "fr": "Le Kulturpass permet à toute personne - indépendamment de ses revenus - de participer à la vie culturelle luxembourgeoise. En tant que détenteur·rice du Kulturpass, tu bénéficies dès aujourd'hui d'un accès gratuit aux musées partenaires et d'un billet d'entrée pour des manifestations culturelles telles que des spectacles de danse, des concerts, des festivals et des pièces de théâtre ainsi que pour la Cinémathèque au prix de 1,50 euro.",
+    "en": "The Kulturpass is intended to enable all people - regardless of their income - to participate in cultural life in Luxembourg. As a Kulturpass holder, you already receive free access to various partner museums and a ticket for cultural events such as dance performances, concerts and plays, as for the Cinémathèque or festivals for the price of 1.50 euro.",
+    "lu": "De Kulturpass soll jiddwerengem – onofhängeg vum Akommes – erméiglechen, um kulturelle Liewe vu Lëtzebuerg deelzehuelen. Als Kulturpassbesëtzer:in hues Du haut schonn Zougang zu diverse Partnermuséeën an eng Entréeskaart fir kulturell Veranstaltungen ewéi Danzopféierungen, Concerten, Festivaller an Theaterstécker ewéi och fir d’Cinémathéik fir de Präis vun 1,50 Euro."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-3-2",
-    "de": "Wir bei BENU möchten ein Stück weiter gehen. Wir wünschen uns, dass das Angebot des Kulturpasses über kulturelle Veranstaltungen hinaus auch auf andere Bereiche ausgeweitet wird. Daher gewähren wir Dir als Kulturpassinhaber:in eine Ermäßigung auf alle unsere Serviceleistungen und Produkte. Ob ein Besuch im Restaurant BENU SLOOW oder der Kauf eines Kleidungsstückes im BENU Shop…. Du zahlst überall die Hälfte des regulären Preises.",
-    "fr": "Chez BENU, nous souhaitons aller un peu plus loin. Nous souhaitons que l'offre du Kulturpass s'étende au-delà des manifestations culturelles à d'autres domaines. C'est pourquoi, en tant que détenteur du Kulturpass, nous t'accordons une réduction sur tous nos services et produits. Qu'il s'agisse d'une visite au restaurant BENU SLOOW ou de l'achat d'un vêtement dans la boutique BENU.... Tu paieras partout la moitié du prix normal.",
-    "en": "We at BENU would like to go a bit further. We would like to see the offer of the culture pass extended beyond cultural events to other areas. Therefore, we grant you a discount on all our services and products as a culture pass holder. Whether a visit to the BENU SLOOW restaurant or the purchase of a piece of clothing in the BENU Shop.... You pay half the regular price everywhere.",
-    "lu": ""
+    "de": "Wir bei BENU möchten ein Stück weiter gehen. Wir wünschen uns, dass das Angebot des Kulturpasses über kulturelle Veranstaltungen hinaus auch auf andere Bereiche ausgeweitet wird. Daher gewähren wir Dir als Kulturpassinhaber:in eine Ermäßigung auf alle unsere Serviceleistungen und Produkte. Ob ein Besuch im Restaurant BENU SLOOW oder der Kauf eines Kleidungsstückes im BENU Shop… Du zahlst überall die Hälfte des regulären Preises.",
+    "fr": "Chez BENU, nous voulons aller encore plus loin. Nous voulons que l'offre du Kulturpass s'étende au-delà des manifestations culturelles, à d'autres domaines. C'est pourquoi, en tant que détenteur·rice du Kulturpass, nous t'accordons une réduction sur tous nos services et produits. Qu'il s'agisse d'une visite au restaurant BENU SLOOW ou de l'achat d'un vêtement au BENU Shop... Tu paieras moitié prix partout.",
+    "en": "We at BENU would like to go a bit further. We would like to see the offer of the Kulturpass extended beyond cultural events to other areas. Therefore, we grant you a discount on all our services and products as a Kulturpass holder. Whether a visit to the BENU SLOOW restaurant or the purchase of a piece of clothing in the BENU Shop... You pay half the regular price everywhere.",
+    "lu": "Bei BENU wëlle mer nach méi wäit goen. Mir wënschen eis, datt d’Angebot vum Kulturpass iwwer déi kulturell Veranstaltungen erausgeet an op aner Beräicher ausgebreet gëtt. Dowéinst kriss Du, als Kulturpassbesëtzer:in, eng Reduktioun op all eis Servicer a Produiten. Ob et sech ëm eng Visitt am Restaurant BENU SLOOW oder dem Akafe vu Kleeder am BENU Shop handelt… Du bezils den hallwe Präis op alles."
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-3-3",
     "de": "Weitere Informationen zum Kulturpass findest Du auf",
     "fr": "Tu trouveras plus d'informations sur le Kulturpass sur",
-    "en": "You can find more information about the Culture Pass at",
-    "lu": "Weider Informatiounen iwwert de Kulturpass fënns de op"
+    "en": "You can find more information about the Kulturpass at",
+    "lu": "Weider Informatiounen zum Kulturpass fënns Du op"
   },
   {
     "page": "extra infos",
     "key": "infos.title-4",
     "de": "Allgemeine Nutzungsbedingungen",
-    "fr": "Conditions générales",
+    "fr": "Conditions générales d'utilisation",
     "en": "Terms & Conditions",
-    "lu": "Allgemeng Konditiounen"
+    "lu": "Allgemeng Gebrauchsbedéngungen"
   },
   {
     "page": "extra infos",
@@ -1402,10 +1402,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-1",
-    "de": "Die Adresse http://www.sloow.benu.lu (www.benusloow.lu) ist eine im Internet zugängliche Website der BENU VILLAGE ESCH asbl mit Sitz in 50, Rue des Celtes, L-1318 Luxembourg.\nDie vorliegenden Nutzungsbedingungen definieren die Bedingungen und Modalitäten, nach denen die Nutzer:innen Serviceleistungen der Internetseite in Anspruch nehmen können, z.B. die Möglichkeit Online-Reservierungen für das Restaurant BENU SLOOW vorzunehmen.",
-    "fr": "L'adresse http://www.sloow.benu.lu (www.benusloow.lu) est un site web accessible sur Internet de BENU VILLAGE ESCH asbl, dont le siège social est situé à 50, Rue des Celtes, L-1318 Luxembourg.\nLes présentes conditions d'utilisation ont pour objet de définir les conditions et modalités dans lesquelles les utilisateurs peuvent accéder aux services proposés par le site, tels que la possibilité d'effectuer des réservations en ligne pour le restaurant BENU SLOOW.",
-    "en": "The address http://www.sloow.benu.lu (www.benusloow.lu) is an Internet-accessible website of BENU VILLAGE ESCH asbl, whose registered office is at 50, Rue des Celtes, L-1318 Luxembourg.\nThe present terms of use define the conditions and modalities according to which users may use the services of the website, such as the possibility of making online reservations for the BENU SLOOW restaurant.",
-    "lu": ""
+    "de": "Die Adresse http://www.sloow.benu.lu (www.benusloow.lu) ist eine im Internet zugängliche Webseite der BENU Village Esch asbl mit Sitz in 50, Rue des Celtes, L-1318 Luxembourg.\nDie vorliegenden Nutzungsbedingungen definieren die Bedingungen und Modalitäten, nach denen die Nutzer:innen Serviceleistungen der Internetseite in Anspruch nehmen können, z.B. die Möglichkeit Online-Reservierungen für das Restaurant BENU SLOOW vorzunehmen.",
+    "fr": "L'adresse http://www.sloow.benu.lu (www.benusloow.lu) est un site Internet, accessible par Internet, de BENU Village Esch asbl, dont le siège social est situé à 50, Rue des Celtes, L-1318 Luxembourg.\nLes présentes conditions d'utilisation ont pour objet de définir les conditions et modalités dans lesquelles les utilisateurs·rices peuvent accéder aux services proposés par le site Internet, tels que la possibilité d'effectuer des réservations en ligne pour le restaurant BENU SLOOW.",
+    "en": "The address http://www.sloow.benu.lu (www.benusloow.lu) is an Internet-accessible website of BENU Village Esch asbl, whose registered office is at 50, Rue des Celtes, L-1318 Luxembourg.\nThe present terms of use define the conditions and modalities according to which users may use the services of the website, such as the possibility of making online reservations for the BENU SLOOW restaurant.",
+    "lu": "D'Adress http://www.sloow.benu.lu (www.benusloow.lu) ass eng Internetsäit, iwwer Internet zougänglech, vu BENU Village Esch asbl mat Sëtz op der Adress 50, rue des Celtes, L-1318 Lëtzebuerg. Dës Gebrauchsbedéngungen hunn als Objet d’Konditiounen a Modalitéiten ze definéieren, ënner deenen d’Benotzer:innen op de Servicer vum Internetsite kënnen zougräifen, esouwéi z.B. d’Méiglechkeet, online Reservatioune fir de Restaurant BENU SLOOW kënnen ze maachen."
   },
   {
     "page": "extra infos",
@@ -1418,26 +1418,26 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-2",
-    "de": "Das Restaurant BENU SLOOW verarbeitet für die Zubereitung seiner Gerichte und Produkte „gerettete“ Lebensmittel (rescued food). Hierbei handelt es sich um überschüssige Lebensmittel, die weggeworfen würden, obwohl sie noch ausreichend lang haltbar und hochwertig sind und den EU Normen entsprechen.\nBENU SLOOW strebt einen Anteil von 80% an „geretteten“ Lebensmitteln als Zutaten für die Zubereitung seiner Gerichte und Produkte an. \nEs wird weder Fleisch noch Fisch verarbeitet. Neben vegetarischen Gerichten werden im Restaurant auch rein vegane Gerichte angeboten. Alle verwendeten Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich aus lokaler Produktion.",
-    "fr": "Le restaurant BENU SLOOW utilise des aliments \"sauvés\" (rescued food) pour la préparation de ses plats et produits. Il s'agit d'aliments excédentaires qui seraient jetés alors qu'ils se conservent encore longtemps, qui sont de bonne qualité et qui répondent aux normes européennes.\nBENU SLOOW vise une proportion de 80% d'aliments \"sauvés\" comme ingrédients pour la préparation de ses plats et produits. \nNi de viande ni du poisson ne sont utilisés. Outre les plats végétariens, le restaurant propose également des plats entièrement végétaliens. Tous les ingrédients utilisés proviennent de l'agriculture écologiquement contrôlée et, si possible, de la production locale.",
-    "en": "The BENU SLOOW restaurant uses \"rescued\" food in the preparation of its dishes and products. This is surplus food that would be thrown away even though it has a sufficiently long shelf life, is of high quality and complies with EU standards.\nBENU SLOOW strives for an 80% share of \"rescued\" food as ingredients for the preparation of its dishes and products. \nNeither meat nor fish is processed. In addition to vegetarian dishes, the restaurant also offers purely vegan dishes. All ingredients used come from ecologically controlled agriculture and, if possible, from local production.",
-    "lu": ""
+    "de": "Das Restaurant BENU SLOOW verarbeitet für die Zubereitung seiner Gerichte und Produkte \"gerettete“ Lebensmittel (Rescued Food). Hierbei handelt es sich um überschüssige Lebensmittel, die weggeworfen würden, obwohl sie noch ausreichend lang haltbar und hochwertig sind und den EU Normen entsprechen.\nBENU SLOOW strebt einen Anteil von 80% an \"geretteten“ Lebensmitteln als Zutaten für die Zubereitung seiner Gerichte und Produkte an. \nEs wird weder Fleisch noch Fisch verarbeitet. Neben vegetarischen Gerichten werden im Restaurant auch rein vegane Gerichte angeboten. Alle verwendeten Zutaten stammen aus ökologisch kontrollierter Landwirtschaft und wenn möglich aus lokaler Produktion.",
+    "fr": "Le restaurant BENU SLOOW utilise des aliments \"sauvés\" (Rescued Food) pour la préparation de ses plats et produits. Il s'agit d'aliments excédentaires qui seraient normalement jetés, alors qu'ils ont une durée de conservation suffisante, sont de bonne qualité et répondent aux normes européennes.\nBENU SLOOW vise une proportion de 80% d'aliments \"sauvés\" pour la préparation de ses plats et produits. \nNous ne proposons ni viande ni poisson. Outre les plats végétariens, le restaurant propose également des plats exclusivement végétaliens. Tous les ingrédients utilisés proviennent de l'agriculture écologique contrôlée et, si possible, de la production locale.",
+    "en": "The BENU SLOOW restaurant uses \"rescued\" food for the preparation of its dishes and products. This is surplus food that would be thrown away even though it has a sufficiently long shelf life, is of high quality and complies with EU standards.\nBENU SLOOW strives for an 80% share of \"rescued\" food as ingredients for the preparation of its dishes and products. \nNeither meat nor fish is served. In addition to vegetarian dishes, the restaurant also offers purely vegan dishes. All ingredients used come from controlled ecological agriculture and, if possible, from local production.",
+    "lu": "De Restaurant BENU SLOOW schafft mat \"geretten\" Iesswuere (Rescued Food) fir d’Zoubereedung vu senge Platen a Produiten. Et handelt sech ëm iwwerschësseg Iesswueren, déi anescht ewechgehäit gi wieren, obwuel se nach laang genuch haltbar sinn, eng gutt Qualitéit opweisen an den EU-Normen entspriechen. BENU SLOOW strieft e Prozentsaz vun 80% vu \"gerette\" Liewensmëttel a senge Preparatiounen un. Mir bidde weder Fleesch nach Fësch un. Ausser de vegetaresche Platen, bitt de Restaurant och exklusiv vegan Platen un. All d’Ingrediente stamen aus kontrolléierter ekologescher Landwirtschaft an, wa méiglech, aus der lokaler Produktioun."
   },
   {
     "page": "extra infos",
     "key": "infos.content-title-4-3",
-    "de": "Table d’hôtes",
-    "fr": "Table d’hôtes",
-    "en": "Table d’hôtes",
-    "lu": "Table d’hôtes"
+    "de": "Table d'Hôtes",
+    "fr": "Table d'Hôtes",
+    "en": "Table d'Hôtes",
+    "lu": "Table d'Hôtes"
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-3",
-    "de": "In der Anfangsphase startet das Restaurant BENU SLOOW mit einer Table d’hôtes. Diese empfängt die Gäste an den auf der Homepage angegebenen Terminen jeweils um 19:00Uhr. Die Teilnahme an der Table d’hôtes ist nur unter Voranmeldung möglich. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 2791 1949 vorgenommen werden. \nBei der Table d’hôtes werden jeweils bis zu maximal 12 Personen angenommen, die gemeinsam an einem Tisch ein täglich wechselndes 7-gängiges vegetarisches Menü serviert bekommen.\nDer Preis beträgt pro Person",
-    "fr": "Dans sa phase initiale, le restaurant BENU SLOOW démarre avec une table d'hôtes. Celle-ci accueille les hôtes aux dates indiquées sur la page d'accueil, à 19 heures. La participation à la table d'hôtes n'est possible que sur réservation. L'inscription peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 2791 1949. \nLa table d'hôtes accueille jusqu'à 12 personnes recevant un menu végétarien à sept plats changeant tous les jours sur une table commune \nLe prix par personne est de",
-    "en": "In the initial phase, the BENU SLOOW restaurant will start with a table d'hôtes. The table d'hôtes welcomes guests on the dates listed on the homepage at 7:00 pm. Participation in the table d'hôtes is only possible with advance reservation. Reservations can be made online using the reservation form or by calling +352 2791 1949. \nThe table d'hôtes accepts a maximum of 12 people at a time, who are served a daily changing 7-course vegetarian menu together at one table.\nThe price per person is",
-    "lu": ""
+    "de": "In der Anfangsphase startet das Restaurant BENU SLOOW mit einer Table d'Hôtes. Diese empfängt die Gäste/innen an den auf der Homepage angegebenen Terminen jeweils um 19:00 Uhr. Die Teilnahme an der Table d'Hôtes ist nur unter Voranmeldung möglich. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 2791 1949 vorgenommen werden. \nBei der Table d’hôtes werden jeweils bis zu maximal 12 Personen angenommen, die gemeinsam an einem Tisch ein täglich wechselndes 7-gängiges vegetarisches Menü serviert bekommen.\nDer Preis beträgt pro Person",
+    "fr": "Dans sa phase initiale, le restaurant BENU SLOOW démarre avec une Table d'Hôtes. Celle-ci accueille les invité·e·s aux dates indiquées sur la page d'accueil, à 19h00. La participation à la Table d'Hôtes n'est possible que sur réservation. L'inscription peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 2791 1949. \nLa Table d'Hôtes invite jusqu'à 12 personnes à déguster un menu végétarien prédéfini de 7 plats, changeant chaque jour, autour d'une table commune.\nLe prix par personne est de",
+    "en": "In an initial phase, the BENU SLOOW restaurant will start with a Table d'Hôtes. The Table d'Hôtes welcomes guests on the dates listed on the homepage at 7:00 pm. Participation at the Table d'Hôtes is only possible with advance reservation. Reservations can be made online using the reservation form or by phone at +352 2791 1949. \nThe Table d'Hôtes accepts a maximum of 12 people at a time, who are served a daily changing 7 course vegetarian menu together at one table.\nThe price per person is",
+    "lu": "A senger Ugangsphas, start de Restaurant BENU SLOOW mat enger Table d’Hôtes. Dës empfänkt d’Gäscht:innen, op den ewéi op der Startsäit matgedeelten Datumer, jeeweils um 19:00 Auer. D’Deelhuelen un enger Table d’Hôtes ass nëmmen iwwer Reservatioun méiglech. D’Umeldung kann iwwer en Online-Formulaire gemaach ginn oder iwwer Telefon ënner der Nummer +352 2791 1949. D’Table d’Hôtes invitéiert bis zu 12 Leit, op engem gemeinsamen Dësch, un engem virdefinéierten, vegetaresche Menü deelzehuelen deen all Dag wiesselt. \nDe Präis pro Persoun ass"
   },
   {
     "page": "extra infos",
@@ -1453,7 +1453,7 @@
     "de": "mit ausgewählten alkoholischen Getränken: 200 Euro",
     "fr": "avec une sélection de boissons alcoolisées : 200 euros",
     "en": "with selected alcoholic beverages: 200 euros",
-    "lu": "mat selektionéiertem alkoholeschen Gedrénks: 200 Euro"
+    "lu": "mat selektionéiertem alkoholeschem Gedrénks: 200 Euro"
   },
   {
     "page": "extra infos",
@@ -1461,12 +1461,12 @@
     "de": "mit ausgewählten nicht-alkoholischen Getränken: 180 Euro",
     "fr": "avec une sélection de boissons non alcoolisées : 180 euros",
     "en": "with selected non-alcoholic beverages: 180 euros",
-    "lu": "mat selektionéiertem net-alkoholeschen Gedrénks: 180 Euro"
+    "lu": "mat selektionéiertem net-alkoholeschem Gedrénks: 180 Euro"
   },
   {
     "page": "extra infos",
     "key": "infos.content-title-4-4",
-    "de": "Restaurant à la carte",
+    "de": "Restaurant \"à la carte",
     "fr": "Restaurant \"à la carte",
     "en": "Restaurant \"à la carte",
     "lu": "Restaurant \"à la carte"
@@ -1474,10 +1474,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-4",
-    "de": "Im Anschluss an das Angebot der Table d’hôtes öffnet das Restaurant BENU SLOOW an den auf der Homepage angegebenen Terminen als reguläres Restaurant „à la carte“. Das Restaurant kann mit und ohne Voranmeldung zu den angegebenen Öffnungszeiten besucht werden. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 2791 1949 vorgenommen werden.\nDas Restaurant bietet eine täglich wechselnde Speisekarte mit unterschiedlichen vegetarischen und veganen Gerichten.",
-    "fr": "Suite à l'offre de la table d'hôtes, le restaurant BENU SLOOW ouvre ses portes en tant que restaurant régulier \"à la carte\" aux dates indiquées sur la page d'accueil. Le restaurant peut être visité avec ou sans réservation aux heures d'ouverture indiquées. La réservation peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 2791 1949.\nLe restaurant propose une carte qui change tous les jours et qui comprend différents plats végétariens et végétaliens.",
-    "en": "After the table d'hôtes offer, the BENU SLOOW restaurant opens as a regular \"à la carte\" restaurant on the dates indicated on the homepage. The restaurant can be visited with or without advance reservation during the opening hours indicated. Reservations can be made online using the reservation form or by calling +352 2791 1949.\nThe restaurant offers a daily changing menu with different vegetarian and vegan dishes.",
-    "lu": ""
+    "de": "Im Anschluss an das Angebot der Table d'Hôtes öffnet das Restaurant BENU SLOOW an den auf der Homepage angegebenen Terminen als reguläres Restaurant \"à la carte“. Das Restaurant kann mit und ohne Voranmeldung zu den angegebenen Öffnungszeiten besucht werden. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 2791 1949 vorgenommen werden.\nDas Restaurant bietet eine täglich wechselnde Speisekarte mit unterschiedlichen vegetarischen und veganen Gerichten.",
+    "fr": "Faisant suite à l'offre de la Table d'Hôtes, le restaurant BENU SLOOW ouvre ses portes en tant que restaurant régulier \"à la carte\" aux dates spécifiées sur la page d'accueil. Le restaurant peut être fréquenté avec ou sans réservation aux heures d'ouverture indiquées. La réservation peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 2791 1949.\nLe restaurant propose une carte changeant tous les jours et comprenant différents plats végétariens et végétaliens.",
+    "en": "After the Table d'Hôtes offer, BENU SLOOW opens his regular \"à la carte\" restaurant on the dates indicated on the homepage. The restaurant can be visited with or without reservation during the opening hours as indicated. Reservations can be made online using the reservation form or by phone at +352 2791 1949.\nThe restaurant offers a daily changing menu with different vegetarian and vegan dishes.",
+    "lu": "No der Table d’Hôtes, mécht de Restaurant BENU SLOOW och elo, op den ewéi op der Startsäit matgedeelten Datumen, als reguläre Restaurant \"à la carte\" op. De Restaurant ka mat oder ouni Reservatioun, zu de matgedeelten Ëffnungszäiten, besicht ginn. D’Umeldung kann iwwer en Online-Formulaire gemaach ginn oder iwwer Telefon ënner der Nummer +352 2791 1949. De Restaurant bitt all Dag eng eenzegaarteg Kaart un, mat ënnerschiddleche vegetareschen a vegane Platen un."
   },
   {
     "page": "extra infos",
@@ -1490,10 +1490,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-5",
-    "de": "Bei der Reservierung gibt der/die Nutzer:in den Vornamen, den Namen, die Telefonnummer und die E-Mail-Adresse an, wählt das gewünschte Datum aus und nennt die Anzahl der Gäste.\nMit der Auswahl des Datums wird gleichzeitig gewählt, ob es sich um die Teilnahme an einer Table d’hôtes handelt oder um die Reservierung eines Tisches im Restaurant „à la carte“. \nDer/die Nutzer:in verpflichtet sich, bei der Reservierung BENU aktuelle, vollständige und richtige Angaben zur Verfügung zu stellen. BENU ist demzufolge über jede Änderung der Angaben zu unterrichten. Mit der Reservierung stimmt der/die Nutzer:in den Allgemeinen Nutzungsbedingungen und den Datenschutzrichtlinien von BENU zu.\nDer/die Nutzer:in erhält eine Bestätigung der Reservierung per E-Mail.\nBENU ist berechtigt, vom Kunden eine angemessene Vorauszahlung oder Sicherheitsleistung in Form einer Kreditkartengarantie, einer Anzahlung oder Ähnlichem zu verlangen.",
-    "fr": "Lors de la réservation, l’utilisateur:trice indique le prénom, le nom, le numéro de téléphone et l’adresse e-mail, choisit la date souhaitée et indique le nombre de personnes.\nAvec le choix de la date, on choisit en même temps s’il s’agit de la participation à une table d’hôtes ou de la réservation d’une table au restaurant à la carte.\nL’Utilisateur:trice s’engage à fournir des informations à jour, complètes et exactes lors de la réservation BENU. Le BENU doit donc être informé de toute modification des informations. En réservant, l’Utilisateur:trice accepte les Conditions Générales d’Utilisation et la Politique de Confidentialité de BENU.\nL’Utilisateur:trice recevra une confirmation de réservation par e-mail.\nBENU est en droit d’exiger du Client un paiement anticipé ou une garantie raisonnable sous la forme d’une garantie de carte de crédit, d’un acompte ou autre.",
-    "en": "When making a reservation, the user enters his/her first name, surname, telephone number and e-mail address, selects the desired date and indicates the number of guests.\nWith the selection of the date, it is simultaneously selected whether it is a question of participation in a table d'hôtes or the reservation of a table in the restaurant \"à la carte\". \nThe user is obliged to provide BENU with up-to-date, complete and correct information when making the reservation. BENU must therefore be informed of any changes. By making a reservation, the user agrees to the General Terms of Use and the Privacy Policy of BENU.\nThe user will receive a confirmation  by e-mail.\nBENU is entitled to demand a reasonable advance payment or security deposit from the customer in the form of a credit card guarantee, a deposit or similar.",
-    "lu": ""
+    "de": "Bei der Reservierung gibt der/die Kunde/in den Vornamen, den Namen, die Telefonnummer und die E-Mail-Adresse an, wählt das gewünschte Datum aus und nennt die Anzahl der Gäste/innen.\nMit der Auswahl des Datums wird gleichzeitig gewählt, ob es sich um die Teilnahme an einer Table d’Hôtes handelt oder um die Reservierung eines Tisches im Restaurant \"à la carte“. \nDer/Die Kunde/in verpflichtet sich, bei der Reservierung BENU aktuelle, vollständige und richtige Angaben zur Verfügung zu stellen. BENU ist demzufolge über jede Änderung der Angaben zu unterrichten. Mit der Reservierung stimmt der/die Kunde/in den Allgemeinen Nutzungsbedingungen und den Datenschutzrichtlinien von BENU zu.\nDer/Die Kunde/in erhält eine Bestätigung der Reservierung per E-Mail.\nBENU ist berechtigt, vom/von der Kunden/in eine angemessene Vorauszahlung oder Sicherheitsleistung in Form einer Kreditkartengarantie, einer Anzahlung oder Ähnlichem zu verlangen.",
+    "fr": "Lors de la réservation, le·la client·e indique ses prénom, nom, numéro de téléphone et adresse e-mail, choisit la date souhaitée et indique le nombre d'invité·e·s.\nLe choix entre une réservation à la Table d'Hôtes ou au restaurant \"à la carte\" se fait en même temps que la sélection de la date.\nLe·La client·e s’engage à fournir à BENU des informations à jour, complètes et exactes lors de la réservation. BENU est ainsi tenu d'être informé de toute modification des informations. En réservant, le·la client·e accepte les conditions générales d’utilisation et la politique de confidentialité de BENU.\nLe·la client·e reçoit une confirmation de réservation par e-mail.\nBENU est en droit d’exiger du·de la client·e un prépaiement ou dépôt de garantie raisonnable sous forme de garantie de carte de crédit, d'acompte ou autre.",
+    "en": "When making a reservation, the client enters his/her first name, surname, phone number and e-mail address, selects the desired date and indicates the number of guests.\nWith the selection of the date, it is simultaneously selected whether it is a participation at a Table d'Hôtes or a reservation at the restaurant \"à la carte\". \nThe client is obliged to provide BENU with up-to-date, complete and correct information when making the reservation. BENU must therefore be informed of any changes. By making a reservation, the client agrees to the Terms & Conditions and the Privacy Policy of BENU.\nThe client will receive a confirmation  by e-mail.\nBENU is entitled to demand a reasonable advance payment or security deposit from the customer in the form of a credit card guarantee, a deposit or similar.",
+    "lu": "Bei der Reservatioun deelt de/d’Client:e säi Virnumm, Numm, Telefonsnummer an E-Mail-Adress mat, wielt den Datum aus a gëtt d’Unzuel u Gäscht:innen un. \nGläichzäiteg mat der Datumauswiel kann ee sech fir d’Table d’Hôtes oder fir de Restaurant \"à la carte\" entscheeden. \nDe/D’Client:e verflicht sech, BENU bei der Reservatioun aktuell, vollstänneg a korrekt Informatioune matzedeelen. BENU soll deemno iwwer all Ännerung vun den Donnéeën informéiert ginn. Mam reservéieren, stëmmt de/d’Client:e den allgemenge Gebrauchsbedéngungen an Dateschutzrichtlinne vu BENU zou. \nDe/D'Client:e kritt eng Reservatiounsbestätegung iwwer E-Mail.\nBENU ass berechtegt, vum/vun der Client:e eng räsonabel Ubezuelung oder e Sécherheetsbetrag an der Form vun enger Kreditkaartgarantie, engem Acompte oder Änleches, ze verlaangen."
   },
   {
     "page": "extra infos",
@@ -1506,10 +1506,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-6",
-    "de": "Die Reservierung an der Table d’hôtes kann bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu storniert werden.\nErfolgt die Stornierung später, also in weniger als 4 Werktagen vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.\nDie Stornierungsfrist für einen Tisch im Restaurant „à la carte“ beträgt 24 Stunden. Erfolgt die Stornierung später, also innerhalb der 24 Stunden vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.",
-    "fr": "La réservation à la table d'hôtes peut être annulée au plus tard 4 jours ouvrables avant la date réservée, par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.\nSi l'annulation intervient plus tard, c'est-à-dire moins de 4 jours ouvrables avant la date réservée, ou pas du tout, BENU peut facturer au client/à la cliente les frais occasionnés.\nLe délai d'annulation pour une table au restaurant \"à la carte\" est de 24 heures. Si l'annulation a lieu plus tard, c'est-à-dire dans les 24 heures avant la date réservée, ou si elle n'a pas lieu, BENU peut facturer au client les frais occasionnés.",
-    "en": "The reservation at the table d'hôtes can be cancelled at least 4 working days before the reserved date by calling +352 2791 1949 or by sending an email to info@benusloow.lu.\nIf the cancellation is made later, i.e. less than 4 working days before the reserved date, or not at all, BENU may charge the customer for any expenses incurred.\nThe cancellation period for a table in the \"à la carte\" restaurant is 24 hours. If the cancellation is made later, i.e. within the 24 hours before the reserved date, or not at all, BENU may charge the customer for the expenses incurred.",
-    "lu": ""
+    "de": "Die Reservierung an der Table d’Hôtes kann bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu storniert werden.\nErfolgt die Stornierung später, also in weniger als 4 Werktagen vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.\nDie Stornierungsfrist für einen Tisch im Restaurant \"à la carte“ beträgt 24 Stunden. Erfolgt die Stornierung später, also innerhalb der 24 Stunden vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.",
+    "fr": "Une réservation à la Table d'Hôtes peut être annulée jusqu'à 4 jours ouvrables avant la date de l'évènement, par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.\nSi l'annulation intervient plus tard, c'est-à-dire moins de 4 jours ouvrables avant la date réservée, ou si elle n'intervient pas, BENU se réserve le droit de facturer au·à la client·e les frais occasionnés.\nLe délai d'annulation pour une table au restaurant \"à la carte\" est de 24 heures. Si l'annulation intervient plus tard, c'est-à-dire moins de 24 heures avant la date et l'horaire réservés, ou si elle n'intervient pas, BENU se réserve le droit de facturer au·à la client·e les frais occasionnés.",
+    "en": "The reservation at the Table d'Hôtes can be cancelled at least 4 working days before the reserved date by calling +352 2791 1949 or sending an e-mail at info@benusloow.lu.\nIf the cancellation is made later, i.e. less than 4 working days before the reserved date, or not at all, BENU may charge the customer for any expenses incurred.\nThe cancellation period for a table in the \"à la carte\" restaurant is 24 hours. If the cancellation is made later, i.e. within the 24 hours before the reserved date, or not at all, BENU may charge the customer for the expenses incurred.",
+    "lu": "Eng Reservatioun bei der Table d’Hôtes ka bis zu 4 Schaffdeeg am Viraus, iwwer Telefon ënner der Nummer +352 2791 1949 oder iwwer E-Mail op info@benusloow.lu, annuléiert ginn. Wann d’Annulatioun zu engem spéideren Zäitpunkt erfollegt, d. h. manner ewéi 4 Schaffdeeg am Viraus, oder wa se iwwerhaapt net erfollegt, ass BENU berechtegt d’Onkäschte vum/vun der Client:e ze verlaangen. Eng Reservatioun fir en Dësch am Restaurant \"à la carte\" ka bis zu 24 Stonnen am Viraus annuléiert ginn. Wann d’Annulatioun zu engem spéideren Zäitpunkt erfollegt, d. h. manner ewéi 24 Stonnen am Viraus, oder wa se iwwerhaapt net erfollegt, ass BENU berechtegt d’Onkäschte vum/vun der Client:e ze verlaangen."
   },
   {
     "page": "extra infos",
@@ -1523,17 +1523,17 @@
     "page": "extra infos",
     "key": "infos.content-txt-4-7-1",
     "de": "Inhaber:innen eines Kulturpasses erhalten auf alle Leistungen von BENU eine Ermäßigung von 50%. Kulturpassinhaber:innen sind gebeten ihren Kulturpass beim Besuch des Restaurants BENU SLOOW mitzubringen.\nÜber die Cultur’All asbl können folgende Personengruppen einen Kulturpass erhalten:",
-    "fr": "Les détenteurs d'un Kulturpass bénéficient d'une réduction de 50% sur toutes les prestations de BENU. Les détenteurs du Kulturpass sont priés d'apporter leur Kulturpass lors de leur visite au restaurant BENU SLOOW.\nLes groupes de personnes suivants peuvent obtenir un Kulturpass par le biais de Cultur'All asbl :",
-    "en": "Holders of a culture pass receive a 50% discount on all BENU services. Culture pass holders are requested to bring their culture pass with them when visiting the BENU SLOOW restaurant.\nThrough Cultur'All asbl, the following groups of people can obtain a culture pass:",
-    "lu": "Persounen mat engem Kulturpass kréien 50% op all BENU Servicer. Persounen sinn gebieden hieren Kulturpass matzebrengen wann se an den BENU SLOOW kommen."
+    "fr": "Les détenteurs·rices d'un Kulturpass bénéficient d'une réduction de 50% sur toutes les prestations de BENU. Les détenteurs·rices du Kulturpass sont prié·e·s d'apporter leur Kulturpass lors de leur visite au restaurant BENU SLOOW.\nLes groupes de personnes suivants peuvent obtenir un Kulturpass par le biais de Cultur'All asbl :",
+    "en": "Holders of a Kulturpass receive a 50% discount on all BENU services. Kulturpass holders are asked to carry their Kulturpass with them when visiting the BENU SLOOW restaurant.\nThrough Cultur'All asbl, the following groups of people can obtain a Kulturpass:",
+    "lu": "D'Besëtzer:inne vun engem Kulturpass kréien eng Reduktioun vu 50% op all de BENU Servicer. D'Besëtzer:inne vum Kulturpass si gebieden, hire Kulturpass bei der Visitt am Restaurant BENU SLOOW virzeweisen. \nFolgend Gruppe sinn iwwer d'asbl Cultur'All fir de Kulturpass eligibel:"
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-7-bullet-1",
     "de": "Jede Person oder Familie mit einem bescheidenen Einkommen, die in Luxemburg wohnt",
-    "fr": "Toute personne ou famille à revenus modestes résidant au Luxembourg.",
-    "en": "Any person or family with a modest income living in Luxembourg.",
-    "lu": "All Persoun oder Famill mat engem nidderegen Akommes"
+    "fr": "Toute personne ou famille à revenus modestes résidant au Luxembourg",
+    "en": "Any person or family with a modest income living in Luxembourg",
+    "lu": "All Persoun oder Famill mat engem nidderegen Akommes, déi a Lëtzebuerg wunnt"
   },
   {
     "page": "extra infos",
@@ -1541,13 +1541,13 @@
     "de": "Jede Person, die einen Antrag auf internationalen Schutz gestellt hat",
     "fr": "Toute personne ayant introduit une demande de protection internationale",
     "en": "Any person who has submitted an application for international protection",
-    "lu": "All Persoun, déi eng Demande vir internationale Schutz gestallt huet"
+    "lu": "All Persoun, déi eng Demande fir internationale Schutz gestallt huet"
   },
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-7-bullet-3",
     "de": "Jede Person, die vorübergehenden Schutz erhalten hat",
-    "fr": "Toute personne ayant obtenue une protection temporaire.",
+    "fr": "Toute personne ayant obtenu une protection temporaire",
     "en": "Any person granted temporary protection",
     "lu": "All Persoun, déi temporäre Schutz kritt"
   },
@@ -1555,9 +1555,9 @@
     "page": "extra infos",
     "key": "infos.content-txt-4-7-2",
     "de": "Weitere Informationen über den Kulturpass sind erhältlich auf https://kulturpass.lu.",
-    "fr": "De plus amples informations sur le Kulturpass sont disponibles sur https://kulturpass.lu.",
+    "fr": "De plus amples informations au sujet du Kulturpass sont disponibles sur https://kulturpass.lu.",
     "en": "Further information about the Kulturpass is available at https://kulturpass.lu.",
-    "lu": "Weider Informatiounen iwwert de Kulturpass kriss  Du op https://kulturpass.lu"
+    "lu": "Weider Informatiounen zum Kulturpass fënns Du op https://kulturpass.lu."
   },
   {
     "page": "extra infos",
@@ -1570,10 +1570,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-8",
-    "de": "Auf der homepage http://www.sloow.benu.lu (www.benusloow.lu) ist die Anmeldung zum BENU Newsletter möglich. Für die Anmeldung gibt der/die Nutzer:in den Vornamen, den Namen und die E-Mail-Adresse an. \nEine Abmeldung vom Newsletter ist jederzeit formlos möglich, per E-Mail an admin@benuvillageesch.lu mit dem Zusatz ‚ABMELDEN‘.",
-    "fr": "Sur la page d'accueil http://www.sloow.benu.lu (www.benusloow.lu), il est possible de s'inscrire à la newsletter BENU. Pour s'inscrire, l'utilisateur:trice indique son prénom, son nom et son adresse e-mail. \nIl est possible de se désinscrire du newsletter à tout moment et sans formalité, par e-mail à admin@benuvillageesch.lu avec la mention 'ANNULER'.",
-    "en": "Registration for the BENU newsletter is possible on the homepage http://www.sloow.benu.lu (www.benusloow.lu). To register, the user must enter his/her first name, surname and e-mail address. \nIt is possible to unsubscribe from the newsletter at any time by sending an e-mail at  admin@benuvillageesch.lu with the addition 'UNSUBSCRIBE'.",
-    "lu": ""
+    "de": "Auf der homepage http://www.sloow.benu.lu (www.benusloow.lu) ist die Anmeldung zum BENU Newsletter möglich. Für die Anmeldung gibt der/die Nutzer:in den Vornamen, den Namen und die E-Mail-Adresse an. \nEine Abmeldung vom Newsletter ist jederzeit formlos möglich, per E-Mail an admin@benuvillageesch.lu mit dem Zusatz 'ABMELDEN‘.",
+    "fr": "Sur la page d'accueil http://www.sloow.benu.lu (www.benusloow.lu), il est possible de s'inscrire à la newsletter de BENU. Pour s'inscrire, l'utilisateur·rice indique ses prénom, nom et adresse e-mail. \nIl est possible de se désinscrire de la newsletter à tout moment et sans formalité, par e-mail à admin@benuvillageesch.lu avec la mention 'ANNULER'.",
+    "en": "Registration for the BENU newsletter is possible on the homepage http://www.sloow.benu.lu (www.benusloow.lu). To register, the user must enter his/her first name, surname and e-mail address. \nIt is possible to unsubscribe from the newsletter at any time by sending an e-mail at admin@benuvillageesch.lu with the mention 'UNSUBSCRIBE'.",
+    "lu": "Op der Startsäit http://www.sloow.benu.lu (www.benusloow.lu), kann een d’BENU Newsletter abonéieren. Fir sech unzemellen, gëtt de/d’Benotzer:in säi Virnumm, Numm an E-Mail-Adress un. Eng Ofmeldung vun der Newsletter ass zu all Moment, ouni Formalitéiten, méiglech an dat mat enger E-Mail op admin@benuvillageesch.lu mam Vermierk 'OFMELLEN'."
   },
   {
     "page": "extra infos",
@@ -1587,9 +1587,9 @@
     "page": "extra infos",
     "key": "infos.content-txt-4-9",
     "de": "BENU Gutscheine, erhältlich auf allen BENU Webseiten, ausser www.benu.lu und www.benureuse.lu, können für sämtliche BENU Leistungen und Produkte, so auch beim Besuch im BENU SLOOW Restaurant, eingesetzt werden. Sie sind zeitlich nicht begrenzt.",
-    "fr": "Les bons d'achat BENU, disponibles sur tous les sites Internet BENU, à l'exception de www.benu.lu et www.benureuse.lu, peuvent être utilisés pour toutes les prestations et tous les produits BENU, y compris pour une visite au restaurant BENU SLOOW. Ils ne sont pas limités dans le temps.",
+    "fr": "Les bons d'achat BENU, disponibles sur tous les sites Internet BENU, à l'exception de www.benu.lu et www.benureuse.lu, peuvent être utilisés pour l'ensemble des produits et prestations BENU, y compris une visite au restaurant BENU SLOOW. Ils ne sont pas limités dans le temps.",
     "en": "BENU vouchers, available on all BENU websites except www.benu.lu and www.benureuse.lu, can be used for all BENU services and products, including a visit to the BENU SLOOW restaurant. They are not limited in time.",
-    "lu": ""
+    "lu": "Akafsbonge vu BENU, op all de BENU Internetsitte verfügbar, ausser op www.benu.lu an www.benureuse.lu, kënne fir déi gesamt Produiten a Servicer vu BENU ageléist ginn, inklusiv fir eng Visitt am Restaurant BENU SLOOW. Se sinn zäitlech net begrenzt."
   },
   {
     "page": "E-Mails",
@@ -1603,25 +1603,25 @@
     "page": "E-Mails",
     "key": "emails.new-request-txt-1",
     "de": "Deine Reservierungsanfrage für das Restaurant BENU SLOOW ist eingegangen! Wir werden uns in Kürze per E-Mail melden, ob wir Deine Reservierung bestätigen können. Solltest Du bis dahin noch Fragen haben, kannst Du uns telefonisch unter +352 2791 1949 oder per E-Mail auf info@benusloow.lu kontaktieren.",
-    "fr": "Ta demande de réservation pour le restaurant BENU SLOOW a bien été reçue ! Nous te contacterons prochainement par e-mail pour te confirmer ta réservation. Si tu as encore des questions , tu peux nous contacter par téléphone au +352 2791 1949 ou par e-mail sur info@benusloow.lu",
-    "en": "Your reservation request for the restaurant BENU SLOOW has been received! We will contact you shortly by e-mail if we can confirm your reservation. If you still have any questions, please contact us by phone at +352 2791 1949 or by e-mail at info@benusloow. lu.",
-    "lu": ""
+    "fr": "Ta demande de réservation pour le restaurant BENU SLOOW a bien été reçue ! Tu recevras un e-mail de confirmation prochainement. Si tu as encore des questions, tu peux nous contacter par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
+    "en": "Your reservation request for the restaurant BENU SLOOW has been received! We will contact you shortly by e-mail to confirm your reservation. If you have any questions, please contact us by phone at +352 2791 1949 or by e-mail at info@benusloow.lu.",
+    "lu": "Deng Ufro fir eng Reservatioun am Restaurant BENU SLOOW ass ukomm! Du kriss deemnächst eng Bestätegung per E-Mail. Wann s Du nach Froen hues, kanns Du eis iwwer Telefon ënner der Nummer +352 2791 1949 oder iwwer E-Mail op info@benusloow.lu kontaktéieren."
   },
   {
     "page": "E-Mails",
     "key": "emails.new-request-txt-2",
     "de": "Nähere Informationen zum Restaurant BENU SLOOW findest Du unter",
-    "fr": "Tu trouveras de plus amples informations sur le restaurant BENU SLOOW sur",
+    "fr": "Tu trouveras de plus amples informations au sujet du restaurant BENU SLOOW sur",
     "en": "More information about the restaurant BENU SLOOW can be found at",
-    "lu": ""
+    "lu": "Weider Informatiounen zum Restaurant BENU SLOOW fënns Du ënner"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-request-regards",
-    "de": "Herzliche Grüße, Dein  BENU SLOOW Team",
-    "fr": "Cordialement, ton équipe de BENU SLOOW",
+    "de": "Herzliche Grüße, Dein BENU SLOOW Team",
+    "fr": "Cordialement, ton équipe BENU SLOOW",
     "en": "Best regards, your BENU SLOOW team",
-    "lu": ""
+    "lu": "Häerzlech Gréiss, Deng BENU SLOOW-Ekipp"
   },
   {
     "page": "E-Mails",
@@ -1634,26 +1634,26 @@
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-hosts-table-confirmation",
-    "de": "Wir bestätigen Deine Reservierung für die Table d’hôtes mit einem vegetarischen 7 Gänge-Erlebnismenü in unserem Restaurant BENU SLOOW!",
-    "fr": "Nous confirmons ta réservation pour la table d'hôtes avec un menu découverte végétarien de 7 plats dans notre restaurant BENU SLOOW !",
-    "en": "We confirm your reservation for the Table d’hôtes with a vegetarian 7 course experience menu in our restaurant BENU SLOOW!",
-    "lu": ""
+    "de": "Wir bestätigen Deine Reservierung für die Table d’Hôtes mit einem vegetarischen 7 Gänge-Erlebnismenü in unserem Restaurant BENU SLOOW!",
+    "fr": "Nous confirmons ta réservation à la Table d'Hôtes pour un menu découverte végétarien de 7 plats dans notre restaurant BENU SLOOW !",
+    "en": "We confirm your reservation at the Table d’Hôtes with a vegetarian 7 course experience menu in our restaurant BENU SLOOW!",
+    "lu": "Mir bestätegen Deng Reservatioun fir d'Table d'Hôtes mat engem vegetaresche 7-Gang-Erliefnismenü an eisem Restaurant BENU SLOOW!"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-hosts-details-1",
     "de": "Du hast für",
-    "fr": "Tu as réservé une place à la table d'hôtes pour",
-    "en": "You have reserved a place at the Table d’hôtes for",
+    "fr": "Tu as réservé une place à la Table d'Hôtes pour",
+    "en": "You have reserved a place at the Table d'Hôtes for",
     "lu": "Du hues fir"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-host-people",
-    "de": "Person(en) einen Platz am Table d’hôtes reserviert",
+    "de": "Person(en) einen Platz am Table d’Hôtes reserviert",
     "fr": "personne(s)",
-    "en": "person (s)",
-    "lu": "fir Persoun(en) eng Platz um Table d’hôtes reservéiert"
+    "en": "person(s)",
+    "lu": "Persoun(en) eng Plaz op der Table d’Hôtes reservéiert"
   },
   {
     "page": "E-Mails",
@@ -1682,66 +1682,66 @@
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-restaurant-address",
-    "de": "Restaurant BENU SLOOW am Bvd John Fitzgerald Kennedy in Esch-sur-Alzette Wir besitzen noch keine Hausnummer. Du findest das Restaurant gegenüber der Hausnummer 11, Bd Prince Henri, 4280 Esch-sur-Alzette, wenn Du über den Parkstreifen hinweg und unter der Bahnlinie hindurch gehst.",
-    "fr": "Restaurant BENU SLOOW au Bvd John Fitzgerald Kennedy à Esch-sur-Alzette Nous ne possédons pas encore de numéro de rue. Tu trouveras le restaurant en face du numéro 11, Bd Prince Henri, 4280 Esch-sur-Alzette, en traversant la bande de parking et en passant sous la voie ferrée.",
-    "en": "Restaurant BENU SLOOW at Bvd John Fitzgerald Kennedy in Esch-sur-Alzette We don’t have a house number yet. You will find the restaurant opposite the house number 11, Bd Prince Henri, 4280 Esch-sur-Alzette if you walk over the park strip and under the railway line.",
-    "lu": ""
+    "de": "Restaurant BENU SLOOW am Bd John Fitzgerald Kennedy in Esch-sur-Alzette. Wir besitzen noch keine Hausnummer. Du findest das Restaurant gegenüber der Hausnummer 11, Bd Prince Henri, 4280 Esch-sur-Alzette, wenn Du über den Parkstreifen hinweg und unter der Bahnlinie hindurch gehst.",
+    "fr": "Restaurant BENU SLOOW, Bd John Fitzgerald Kennedy à Esch-sur-Alzette.\nNous ne possédons pas encore de numéro de rue. Tu trouveras le restaurant en face du numéro 11, Bd Prince Henri, 4280 Esch-sur-Alzette, en traversant le parking et passant sous la voie ferrée.",
+    "en": "Restaurant BENU SLOOW at Bd John Fitzgerald Kennedy in Esch-sur-Alzette.\nWe don’t have a house number yet. You will find the restaurant opposite the house number 11, Bd Prince Henri, 4280 Esch-sur-Alzette if you walk over the park strip and under the railway line.",
+    "lu": "Restaurant BENU SLOOW, Bd John Fitzgerald Kennedy zu Esch/Uelzecht. \nMir hunn nach keng Stroossennummer. Du fënns de Restaurant vis-à-vis vun der Nummer 11, Bd Prince Henri, 4280 Esch/Uelzecht, wann s Du duerch de Parking an ënnert d'Zuchschinne gees."
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-be-on-time",
-    "de": "Der Service beginnt zur angegebenen Zeit. Bitte sei möglichst pünktlich, damit Du nichts von dem Erlebnis verpasst !",
+    "de": "Der Service beginnt zur angegebenen Zeit. Bitte sei möglichst pünktlich, damit Du nichts von dem Erlebnis verpasst!",
     "fr": "Le service commence à l'heure indiquée. Sois le plus ponctuel possible afin de ne rien manquer de l'expérience !",
     "en": "The service starts at the specified time. Please be as punctual as possible so that you don’t miss any of the experience!",
-    "lu": ""
+    "lu": "De Service fänkt zur matgedeelten Zäit un. Sief esou pünktlech ewéi méiglech fir näischt vum Erliefnis ze verpassen!"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-hosts-cancellation",
     "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu dois annuler ta réservation, fais-le nous savoir le plus rapidement possible afin que nous puissions réorganiser le service. Annonce ton annulation au plus tard 4 jours ouvrables avant la date réservée par téléphone au +352 2791 1949 ou par e-mail sur info@benusloow.lu.",
-    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 4 working days before the booked date by phone on +352 2791 1949 or by e-mail on info@benusloow. lu",
-    "lu": ""
+    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 4 jours ouvrables avant la date réservée par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
+    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 4 working days before the booked date by phone at +352 2791 1949 or by e-mail at info@benusloow.lu.",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 4 Schaffdeeg am Viraus iwwer Telefon ënner der Nummer +352 2791 1949 oder iwwer E-Mail op info@benusloow.lu of."
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-more-info-1",
     "de": "Nähere Informationen zum Restaurant BENU SLOOW findest Du unter",
-    "fr": "Tu trouveras de plus amples informations sur le restaurant BENU SLOOW sur",
+    "fr": "Tu trouveras de plus amples informations au sujet du restaurant BENU SLOOW sur",
     "en": "More information about the restaurant BENU SLOOW can be found at",
-    "lu": ""
+    "lu": "Weider Informatiounen zum Restaurant BENU SLOOW fënns Du ënner"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-more-info-2",
-    "de": "Bei weiteren Fragen kannst Du uns telefonisch unter +352 2791 1949 oder per E-Mail auf info@benusloow.lu kontaktieren.",
-    "fr": "Si tu as d'autres questions, tu peux nous contacter par téléphone au +352 2791 1949 ou par e-mail sur info@benusloow.lu.",
+    "de": "Bei weiteren Fragen kannst Du uns telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu kontaktieren.",
+    "fr": "Si tu as d'autres questions, tu peux nous contacter par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
     "en": "If you have any further questions, please contact us by phone at +352 2791 1949 or by e-mail at info@benusloow.lu",
-    "lu": ""
+    "lu": "Wann s Du nach Froen hues, kanns Du eis iwwer Telefon ënner der Nummer +352 2791 1949 oder iwwer E-Mail op info@benusloow.lu kontaktéieren."
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-hosts-welcome",
-    "de": "Wir freuen uns, Dich bald beim Table d’hôtes von BENU SLOOW zu begrüßen!",
-    "fr": "Nous nous réjouissons de t'accueillir bientôt à la table d'hôtes de BENU SLOOW !",
-    "en": "We look forward to welcoming you soon at the table d’hôtes of BENU SLOOW",
-    "lu": "Mir freeën eis, Dechbeim Table d’hôtes begréissen ze dierfen"
+    "de": "Wir freuen uns, Dich bald beim Table d’Hôtes von BENU SLOOW zu begrüßen!",
+    "fr": "Nous nous réjouissons de t'accueillir prochainement à la Table d'Hôtes de BENU SLOOW !",
+    "en": "We look forward to welcoming you soon at the Table d’Hôtes of BENU SLOOW!",
+    "lu": "Mir freeën eis, Dech geschwënn op der Table d’Hôtes vu BENU SLOOW begréissen ze däerfen!"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-regards",
     "de": "Herzliche Grüße, Dein Team von",
-    "fr": "Cordialement, ton équipe",
+    "fr": "Cordialement, ton équipe de",
     "en": "Best regards, your team of",
-    "lu": "Hërzlech Gréiss, däin Team"
+    "lu": "Häerzlech Gréiss, Deng Ekipp vu"
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-restaurant-confirmation",
     "de": "Wir bestätigen Deine Reservierung für das Restaurant",
-    "fr": "Nous confirmons ta réservation pour le restaurant",
+    "fr": "Nous confirmons ta réservation au restaurant",
     "en": "We confirm your reservation for the restaurant",
-    "lu": "Mir bestätegen Déng Reservarioun fir den Restaurant"
+    "lu": "Mir bestätegen Deng Reservatioun fir de Restaurant"
   },
   {
     "page": "E-Mails",
@@ -1763,17 +1763,17 @@
     "page": "E-Mails",
     "key": "emails.new-reservation-restaurant-cancellation",
     "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 24 Stunden vor dem reservierten Termin telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu dois annuler ta réservation, fais-le nous savoir le plus rapidement possible afin que nous puissions réorganiser le service. Annonce ton annulation au plus tard 24 heures avant la date réservée par téléphone au +352 2791 1949 ou par e-mail sur info@benusloow.lu.",
-    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 24 hours before the booked date by phone on +352 2791 1949 or by e-mail on info@benusloow.lu .",
-    "lu": "Falls Du Deng Reservatioun annuléiere muss, gëff eis w.e.g. sou schnell ewéi méigeleg Bescheed. Mell Deng Stornéierung bis spéitstens 24 Stonne virum Rendezvous per Telefon ënnert der Nummer +352 2791 1949 oder per E-Mail op info@benusloow.lu"
+    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 24 heures avant la date et l'horaire réservés par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
+    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 24 hours before the booked date by phone at +352 2791 1949 or by e-mail at info@benusloow.lu.",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 24 Stonnen am Viraus iwwer Telefon ënner der Nummer +352 2791 1949 oder iwwer E-Mail op info@benusloow.lu of."
   },
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-restaurant-welcome",
     "de": "Wir freuen uns, Dich bald in unserem Restaurant BENU SLOOW begrüßen zu können!",
-    "fr": "Nous nous réjouissons de t'accueillir bientôt dans notre restaurant BENU SLOOW !",
+    "fr": "Nous nous réjouissons de t'accueillir prochainement dans notre restaurant BENU SLOOW !",
     "en": "We look forward to welcome you soon in our restaurant BENU SLOOW!",
-    "lu": "Mir freeën eis, Dech an eisem Restaurant BENU SLOOW begréissen ze dierfen"
+    "lu": "Mir freeën eis, Dech an eisem Restaurant BENU SLOOW begréissen ze däerfen!"
   },
   {
     "page": "E-Mails",
@@ -1786,34 +1786,34 @@
   {
     "page": "E-Mails",
     "key": "emails.newsletter-confirmation-txt-1",
-    "de": "Vielen Dank für Deine Anmeldung zum BENU Newsletter. Hiermit bestätigen wir Dir, dass wir Deine Mailadresse in den Verteiler der künftigen BENU Nachrichten aufgenommen haben. Diese Nachrichten erhältst Du in deutscher Sprache. Möchtest Du die Mails lieber in einer anderen Sprache lesen?",
-    "fr": "Nous te remercions de ton inscription à la newsletter BENU. Par la présente, nous te confirmons que ton adresse e-mail a été ajoutée à la liste de distribution des futures nouvelles de BENU. Tu recevras ces messages en langue francais. Est-ce que tu préfères les lire dans une autre langue?",
-    "en": "Thank you for subscribing to the BENU newsletter. We hereby confirm that your e-mail address has been added to BENU’s future news mailing list. You will receive these messages in French. Would you rather read them in another language?",
-    "lu": "Villmools Merci vir Deng Umeldung vun der BENU Newsletter. Heimat bestätege mir Dir, dass mir Deng E-Mail Adress an de Verdeeler vun den zukünftege BENU Noriichten opgeholl hunn. Des Noriicht erhäls Du a Lëtzebuerger Sprooch. Wëllst Du d'Maile léiwer an enger anerer Sprooch liesen?"
+    "de": "Vielen Dank für Deine Anmeldung zum BENU Newsletter. Hiermit bestätigen wir Dir, dass wir Deine E-Mail-Adresse in den Verteiler der künftigen BENU Nachrichten aufgenommen haben. Diese Nachrichten erhältst Du in deutscher Sprache. Möchtest Du die E-Mails lieber in einer anderen Sprache lesen?",
+    "fr": "Nous te remercions de ton inscription à la newsletter de BENU. Par la présente, nous te confirmons que ton adresse e-mail a été ajoutée à la liste de distribution des futures nouvelles de BENU. Tu recevras ces messages en langue française. Est-ce que tu préfères les lire dans une autre langue ?",
+    "en": "Thank you for subscribing to the BENU newsletter. We hereby confirm that your e-mail address has been added to BENU’s future news mailing list. You will receive these messages in english. Would you rather read them in another language?",
+    "lu": "Merci fir Deng Umeldung fir d'BENU Newsletter. Heimat bestätege mir, datt Deng E-Mail-Adress an de Verdeeler fir d'BENU Neiegkeete bäigefüügt gouf. Du kriss dës Noriichten op Lëtzebuergesch. Wëlls Du se léiwer op enger anerer Sprooch liesen?"
   },
   {
     "page": "E-Mails",
     "key": "emails.newsletter-confirmation-txt-2",
     "de": "Dann sende uns bitte eine E-Mail auf xxxx@xxx.lu mit einem entsprechenden Hinweis. Vielen Dank!",
-    "fr": "Merci de nous envoyer un e-mail à xxxx@xxx.lu avec une mention correspondante. Merci beaucoup !",
-    "en": "Please send us an e-mail to xxxx@xxx.lu with the corresponding mention. Thank you very much!",
-    "lu": "Dann schéck eis w.e.g. eng Email op xxxx@xxx.lu mat engem entspriechendem Hiweis"
+    "fr": "Dans ce cas, envoie-nous un e-mail à xxxx@xxx.lu avec la mention correspondante s'il te plaît. Merci beaucoup !",
+    "en": "In that case, please send us an e-mail at xxxx@xxx.lu with the corresponding mention. Thank you very much!",
+    "lu": "Da schéck eis wgl. eng E-Mail op xxx@xxx.lu mam passende Vermierk. Merci villmools!"
   },
   {
     "page": "E-Mails",
     "key": "emails.newsletter-confirmation-info-1",
     "de": "Deine Daten tauschen wir mit niemandem, demnach auch mit keiner beliebigen Organisation, Verwaltung, Unternehmen, Interessensgruppe oder anderen. Wir nutzen sie ausschließlich, um Dir BENU Informations-E-Mails zuzuschicken.",
-    "fr": "Nous n'échangeons tes données avec personne, ni avec aucune organisation, administration, entreprise, groupe d'intérêt ou autre. Nous les utilisons uniquement pour t'envoyer des e-mails d'information BENU.",
-    "en": "We do not share your data with anyone, or with any organisation, administration, company, interest group or other. We only use them to send you BENU information emails.",
-    "lu": "Deng Daten tausche mir mat kengem, deemno och net mat kenger beléiften Organisatioun, Verwaltung, Firma, Interessegrupp oder aneren. Mir notzen se ausschliisslech, vir Dir BENU Informatiouns-E-Mailen ze schécken"
+    "fr": "Nous ne partageons tes données avec aucun tiers, ce qui inclut toute organisation, administration, entreprise, tout groupe d’intérêt ou autre. Elles sont destinées exclusivement à l'envoi d'e-mails d’informations concernant BENU.",
+    "en": "We do not share the data with any third party, including any organisation, administration, company, group of interest or others. We only use them to send you BENU information e-mails.",
+    "lu": "Dës Date ginn u kee weider, deemno och u keng aner Organisatioun, Verwaltung, Entreprise, Interessegrupp oder anerwäerts. Mir benotze se ausschliisslech, fir Dir BENU Informatiouns-E-Mailen ze schécken."
   },
   {
     "page": "E-Mails",
     "key": "emails.newsletter-confirmation-cancellation",
-    "de": "Dieses Abonnement kannst Du jederzeit formlos kündigen indem Du uns eine einfache E-Mail auf xxxx @xxx.lu zuschickst mit dem Zusatz 'ABMELDEN'.",
-    "fr": "Tu peux résilier cet abonnement à tout moment et sans formalité en nous envoyant un simple e-mail à xxxx @xxx.lu avec la mention 'ANNULER'.",
-    "en": "You can unsubscribe at any time and without formality by sending us a simple e-mail to xxxx @xx.lu with the mention ’Cancel'.",
-    "lu": "Dësen Abonnement kanns Du all Moment formlos kënnegen andeems Du eis eng einfach E-Mail op xxxx@xxx.lu mam Zousatz 'OFMELLEN' schécks"
+    "de": "Eine Abmeldung vom Newsletter ist jederzeit formlos möglich, per E-Mail an admin@benuvillageesch.lu mit dem Zusatz 'ABMELDEN‘",
+    "fr": "Il est possible de se désinscrire de la newsletter à tout moment et sans formalité, par e-mail à admin@benuvillageesch.lu avec la mention 'ANNULER'.",
+    "en": "It is possible to unsubscribe the newsletter at any time by sending an e-mail at admin@benuvillageesch.lu with the mention 'UNSUBSCRIBE'.",
+    "lu": "Eng Ofmeldung vun der Newsletter ass zu all Moment, ouni Formalitéiten, méiglech an dat mat enger E-Mail op admin@benuvillageesch.lu mam Vermierk 'OFMELLEN'"
   },
   {
     "page": "E-Mails",
@@ -1827,16 +1827,16 @@
     "page": "E-Mails",
     "key": "emails.newsletter-confirmation-regards",
     "de": "Wir freuen uns sehr darauf, die kommenden BENU Abenteuer mit Dir zu teilen!",
-    "fr": "Nous nous réjouissons de partager avec toi les prochaines aventures de BENU !",
-    "en": "We look forward to sharing with you the upcoming BENU adventures!",
-    "lu": "Mir freeën eis dorop, déi kommend BENU Aventurë mat Dir ze deelen!"
+    "fr": "Nous nous réjouissons de partager les prochaines aventures de BENU avec toi !",
+    "en": "We look forward to sharing the upcoming BENU adventures with you!",
+    "lu": "Mir freeën eis, déi kommend BENU Aventurë mat Dir ze deelen!"
   },
   {
     "page": "E-Mails",
     "key": "emails.newsletter-confirmation-your-team",
     "de": "Herzliche Grüße, Dein Team von",
-    "fr": "Cordialement, ton équipe",
-    "en": "Sincerely, your team",
-    "lu": "Herzlech Greiss, Däin Team"
+    "fr": "Cordialement, ton équipe de",
+    "en": "Best regards, your team of",
+    "lu": "Häerzlech Greiss, Deng Ekipp vu"
   }
 ]

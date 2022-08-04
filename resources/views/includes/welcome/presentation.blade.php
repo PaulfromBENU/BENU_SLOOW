@@ -1,7 +1,4 @@
-<section class="benu-container welcome-presentation">
-    <div class="welcome-presentation__illustration">
-        <img src="{{ asset('images/pictures/sloow_main_picture_v3.png') }}" class="welcome-illustration-1 welcome-presentation__img">
-    </div>
+<section class="benu-container welcome-presentation flex justify-between flex-col-reverse lg:flex-row">
     <div class="welcome-presentation__desc">
         <div>
             <h3 class="welcome-presentation__desc__title welcome-illustration-1">
@@ -22,5 +19,8 @@
         <div class="">
             <button onclick="document.getElementById('host-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="btn-slider-left btn-slider-left--secondary font-bold text-lg">{!! __('welcome.pres-link-1') !!}</button>
         </div>
+    </div>
+    <div class="welcome-presentation__illustration">
+        <img src="{{ asset('images/pictures/sloow_main_picture_v5.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
     </div>
 </section>
