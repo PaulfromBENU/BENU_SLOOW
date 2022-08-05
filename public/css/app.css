@@ -5729,6 +5729,8 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .welcome-transition-1__transition--bottom {
     margin-top: -60px;
+    width: 130%;
+    left: -15%;
   }
 }
 .welcome-transition-1__content {
@@ -5860,7 +5862,7 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .welcome-content-1 {
-    margin-top: -40px;
+    margin-top: -120px;
     padding-top: 0px;
   }
 }
@@ -6091,7 +6093,7 @@ input[type=checkbox]:focus {
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-transition-2__content__img {
     position: absolute;
-    max-height: max(300px, 50vh);
+    max-height: max(300px, 40vh);
     top: auto;
     bottom: -5vh;
     right: 0;
@@ -6107,15 +6109,15 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .welcome-transition-2__content__img {
     position: absolute;
-    max-height: max(300px, 50vh);
+    max-height: max(300px, 30vh);
     top: auto;
     bottom: -5vh;
-    right: 0;
+    left: 0;
     padding-top: 0px;
     margin-top: -20px;
     padding-bottom: 30px;
     opacity: 0.4;
-    width: 100%;
+    width: 110%;
     max-width: 100%;
     margin-left: 0%;
   }
