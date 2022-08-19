@@ -19,7 +19,7 @@
         <meta property="og:description" content="" />
         <meta property="og:image" content="{{ asset('images/pictures/og-picture-sloow.jpeg') }}" />
         <meta property="og:locale" content="{{ str_replace('_', '-', app()->getLocale()) }}" />
-        <meta property="og:author" content="BENU VILLAGE Esch ASBL" />
+        <meta property="og:author" content="BENU VILLAGE Esch asbl" />
 
         <!-- Meta-data for Google -->
         <title>BENU SLOOW : Slow Food. Rescued Food. Zero Waste. High quality. Social inclusion.</title>
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 <div class="text-center landing-footer__copyright">
-                    &#169; 2022 - Design: Kamoo Studio <br/> & Development: BENU Village ASBL
+                    &#169; 2022 - Design: Kamoo Studio <br/> & Development: BENU Village Esch asbl
                 </div>
             </footer>
         </main>
