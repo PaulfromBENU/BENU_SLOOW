@@ -127,7 +127,7 @@
 				</div>
 			</div>
 			<div class="text-center lg:text-left flex flex-col justify-center" style="min-width: 200px;">
-				<a href="https://www.oeuvre.lu/" target="_blank" class="btn-couture">{{ __('welcome.sponsor-link-1') }}</a>
+				<a href="https://www.oeuvre.lu/" target="_blank" class="btn-couture welcome-faq__sponsor__btn">{{ __('welcome.sponsor-link-1') }}</a>
 			</div>
 		</div>
 	</div>

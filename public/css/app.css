@@ -5419,6 +5419,12 @@ input[type=checkbox]:focus {
 .welcome-faq__sponsor__logo img {
   margin-top: 4px;
 }
+.welcome-faq__sponsor__btn {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 
 .welcome-reservation {
   position: relative;
@@ -5436,6 +5442,11 @@ input[type=checkbox]:focus {
 .welcome-reservation__bg svg {
   position: absolute;
   bottom: -60px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__bg svg {
+    bottom: -40px;
+  }
 }
 @media (max-width: 767px) {
   .welcome-reservation__bg {
@@ -5456,6 +5467,11 @@ input[type=checkbox]:focus {
   position: absolute;
   bottom: 0;
   height: 60%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-reservation__bottom-bg {
+    height: 70%;
+  }
 }
 @media (max-width: 767px) {
   .welcome-reservation__bottom-bg {
@@ -5983,11 +5999,13 @@ input[type=checkbox]:focus {
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-transition-2 {
     margin-bottom: 0;
+    overflow: hidden;
   }
 }
 @media (max-width: 767px) {
   .welcome-transition-2 {
     margin-bottom: 0;
+    overflow: hidden;
   }
 }
 .welcome-transition-2__transition {
@@ -6133,11 +6151,13 @@ input[type=checkbox]:focus {
 @media (min-width: 768px) and (max-width: 1023px) {
   .welcome-concept {
     margin-top: -100px;
+    padding-top: 150px;
   }
 }
 @media (max-width: 767px) {
   .welcome-concept {
     margin-top: -40px;
+    padding-top: 100px;
   }
 }
 .welcome-concept h3 {

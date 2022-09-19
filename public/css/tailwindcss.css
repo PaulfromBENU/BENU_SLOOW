@@ -1173,14 +1173,19 @@ select {
 .w-screen {
   width: 100vw;
 }
-.w-0 {
-  width: 0px;
-}
 .w-32 {
   width: 8rem;
 }
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 .w-1\/5 {
   width: 20%;
+}
+.w-0 {
+  width: 0px;
 }
 .w-5\/6 {
   width: 83.333333%;
@@ -1193,11 +1198,6 @@ select {
 }
 .w-1 {
   width: 0.25rem;
-}
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 .w-12 {
   width: 3rem;
@@ -1941,14 +1941,11 @@ select {
 .pl-9 {
   padding-left: 2.25rem;
 }
-.pr-9 {
-  padding-right: 2.25rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 .pr-4 {
   padding-right: 1rem;
-}
-.pt-6 {
-  padding-top: 1.5rem;
 }
 .pr-8 {
   padding-right: 2rem;
@@ -1964,6 +1961,9 @@ select {
 }
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+.pr-9 {
+  padding-right: 2.25rem;
 }
 .pl-10 {
   padding-left: 2.5rem;
@@ -2061,11 +2061,11 @@ select {
 .leading-4 {
   line-height: 1rem;
 }
-.leading-6 {
-  line-height: 1.5rem;
-}
 .leading-none {
   line-height: 1;
+}
+.leading-6 {
+  line-height: 1.5rem;
 }
 .leading-normal {
   line-height: 1.5;
