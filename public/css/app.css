@@ -3400,7 +3400,7 @@ input[type=checkbox]:focus {
   height: 50px;
   width: 100%;
   z-index: 10;
-  background: #f3f3f3 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   cursor: pointer;
   color: #2E1739;
   transition: color 0.2s, background 0.3s;
@@ -8462,6 +8462,7 @@ input[type=checkbox]:focus {
   width: 100%;
   height: 704px;
   background: #793162 0% 0% no-repeat padding-box;
+  padding-top: 50px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .landing-header {
@@ -8470,7 +8471,8 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .landing-header {
-    height: 450px;
+    height: 500px;
+    padding-top: 40px;
   }
 }
 
@@ -8482,13 +8484,13 @@ input[type=checkbox]:focus {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .header-bckgnd__bird {
-    top: 80px;
+    top: 120px;
     left: calc(50vw - 110px);
   }
 }
 @media (max-width: 767px) {
   .header-bckgnd__bird {
-    top: 80px;
+    top: 120px;
     left: calc(50vw - 125px);
   }
 }
@@ -8571,14 +8573,14 @@ input[type=checkbox]:focus {
 }
 .header_logo {
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: 10vw;
   color: white;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .header_logo {
     position: absolute;
-    top: 0px;
+    top: 40px;
     left: calc(50vw - 17px);
     color: white;
   }
@@ -8586,7 +8588,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .header_logo {
     position: absolute;
-    top: 0px;
+    top: 40px;
     left: calc(50vw - 17px);
     color: white;
   }
@@ -8619,7 +8621,7 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .header_socialmedia {
     right: 3vw;
-    top: 10px;
+    top: 50px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -8643,6 +8645,7 @@ input[type=checkbox]:focus {
   background: #fcfcfc;
   background-size: 150px;
   z-index: -1;
+  padding-bottom: 200px;
 }
 
 .text-center {

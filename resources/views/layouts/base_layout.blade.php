@@ -110,7 +110,7 @@
 @endsection
 
 @section('scripts-top')
-	<script type="text/javascript" src="{{ asset('js/services/slick-1.8.1/slick/slick.min.js') }}"></script>
+	<!-- <script type="text/javascript" src="{{ asset('js/services/slick-1.8.1/slick/slick.min.js') }}"></script> -->
 	@if($errors->any())
 	<script type="text/javascript">
 		$(function() {
