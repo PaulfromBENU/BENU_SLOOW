@@ -44,9 +44,13 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="{{ asset('images/favicon/ms-icon-144x144.png') }}">
         <meta name="theme-color" content="#ffffff">
+
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="landing-body">
         <header class="landing-header">
+            @include('header.harmonica_menu')
             <div class="header-bckgnd">
                 <div class="header-bckgnd__font">
                     <div class="header-bckgnd__moving header-bckgnd__moving--1">
@@ -133,7 +137,7 @@
                             </li>
                         </ul>
                         <p class="central_textbox__desc mb-1">
-                            Eine erste Webseite <strong>BENU SLO0W</strong> wird voraussichtlich Ende Juni 2022 online gehen. Hier erfährst du mehr Details zum Start des Restaurants BENU SLOOW! Bis dahin laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
+                            Eine erste Webseite <strong>BENU SLO0W</strong> soll im Herbst 2022 online gehen. Hier erfährst du mehr Details zum Start des Restaurants BENU SLOOW! Bis dahin laden wir Dich ein, unsere Hauptseite <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> zu besuchen.
                         </p>
                     </div>
                     <div class="contact-form-container">
@@ -155,7 +159,7 @@
                 </div>
             </section>
 
-            <section class="universe">
+            <!-- <section class="universe">
                 <div class="text-center">
                     <h2>
                         Die BENU-Welt
@@ -169,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <footer class="landing-footer">
                 <div class="landing-footer__links">

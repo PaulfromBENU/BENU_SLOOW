@@ -101,7 +101,7 @@ if (app('env') == 'landing') {
 		// Route::get('/'.trans("slugs.vouchers", [], "fr"), 'GeneralController@showVouchers')->name('vouchers-fr')->middleware('createcart');
 		// Route::get('/'.trans("slugs.news", [], "fr").'/{slug?}', 'GeneralController@showNews')->name('news-fr');
 
-		Route::get('/import-creations', 'GeneralController@startImport');
+		Route::get('/import-data', 'GeneralController@startImport');
 
 		// // Test of the landing page
 		Route::get('/test-landing', 'GeneralController@landingFr')->name('landing-fr');

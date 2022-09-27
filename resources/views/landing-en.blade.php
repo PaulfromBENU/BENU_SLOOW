@@ -44,9 +44,13 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="{{ asset('images/favicon/ms-icon-144x144.png') }}">
         <meta name="theme-color" content="#ffffff">
+
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="landing-body">
         <header class="landing-header">
+            @include('header.harmonica_menu')
             <div class="header-bckgnd">
                 <div class="header-bckgnd__font">
                     <div class="header-bckgnd__moving header-bckgnd__moving--1">
@@ -133,7 +137,7 @@
                             </li>
                         </ul>
                         <p class="central_textbox__desc">
-                            A first website <strong>BENU SLO0W</strong> is expected to go online at the end of June 2022. Find out more details about the launch of the BENU SLOOW restaurant here! Until then, we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
+                            A first website <strong>BENU SLO0W</strong> is expected to go online at Fall 2022. Find out more details about the launch of the BENU SLOOW restaurant here! Until then, we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                         </p>
                     </div>
                     <div class="contact-form-container">
@@ -155,7 +159,7 @@
                 </div>
             </section>
 
-            <section class="universe">
+            <!-- <section class="universe">
                 <div class="text-center">
                     <h2>
                         The BENU universe
@@ -170,7 +174,7 @@
                     </div>
                 </div>
             </section>
-
+ -->
             <footer class="landing-footer">
                 <div class="landing-footer__links">
                     <div class="landing-footer__links__header-container">
