@@ -51,6 +51,8 @@ if (app('env') == 'landing') {
 			// });
 			// Route::post('/dashboard/addresses', 'UserController@addAddress')->name('dashboard.add-address');
 			Route::post('/store-newsletter', 'GeneralController@storeNewsletter')->name('newsletter-subscribe');
+
+			Route::post('/validate-stage-session', 'GeneralController@accessStage')->name('stage-access');
 			
 			//Auth routes
 			require __DIR__.'/auth.php';

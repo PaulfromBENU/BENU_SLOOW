@@ -3400,7 +3400,7 @@ input[type=checkbox]:focus {
   height: 50px;
   width: 100%;
   z-index: 10;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #F3F3F3 0% 0% no-repeat padding-box;
   cursor: pointer;
   color: #2E1739;
   transition: color 0.2s, background 0.3s;
