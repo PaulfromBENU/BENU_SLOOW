@@ -1,7 +1,11 @@
 @extends('layouts.base_layout')
 
 @section('title')
-    {{ __('slugs.welcome-sloow') }}
+    {{ __('welcome.seo-title') }}
+@endsection
+
+@section('description')
+    {{ __('welcome.seo-description') }}
 @endsection
 
 @section('main-content')
