@@ -37,7 +37,7 @@ class Datepicker extends Component
         $this->days_with_info = [];
 
         $latest_opening = Opening::orderBy('date', 'desc')->first();
-        $this->max_year = Carbon::parse($latest_opening->date)->format('Y');
+        $this->max_year = max('2023', Carbon::parse($latest_opening->date)->format('Y'));
     }
 
     public function computeCalendarDates()
@@ -143,7 +143,7 @@ class Datepicker extends Component
         if ($direction == 'up') {
             if ($this->selected_month == '12') {
                 if ($this->selected_year < $this->max_year) {
-                    $this->selected_month = '01';
+                    $this->selected_month = 1;
                     $this->selected_year += 1;
                 }
             } else {
@@ -152,7 +152,7 @@ class Datepicker extends Component
         } elseif ($direction == 'down') {
             if ($this->selected_month == '01') {
                 if ($this->selected_year > 2022) {
-                    $this->selected_month = '12';
+                    $this->selected_month = 12;
                     $this->selected_year -= 1;
                 }
             } else {

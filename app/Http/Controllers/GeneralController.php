@@ -182,6 +182,17 @@ class GeneralController extends Controller
     }
 
 
+    public function accessStage(Request $request)
+    {
+        if ($request->stage_password == 'benew') {
+            session(['stage_checked' => 'OK']);
+            return redirect()->back();
+        } else {
+            return redirect()->back()->with('msg', "Wrong password :(");
+        }
+    }
+
+
     public function startImport()
     {
         $this->importTranslations();
