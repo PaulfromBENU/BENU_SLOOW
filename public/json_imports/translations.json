@@ -4792,6 +4792,22 @@
     "lu": "BENU COUTURE designt, produzéiert a verkeeft nohalteg UpCycling-Kleeder an Haute Couture-Qualitéit zu Lëtzebuerg."
   },
   {
+    "page": "Kontakt",
+    "key": "service.seo-title",
+    "de": "BENU VILLAGE kontaktieren",
+    "fr": "Contacter BENU VILLAGE",
+    "en": "Contact BENU VILLAGE",
+    "lu": "BENU VILLAGE kontaktéieren"
+  },
+  {
+    "page": "Kontakt",
+    "key": "service.seo-description",
+    "de": "Du findest uns im BENU VILLAGE in der Stadt Esch-sur-Alzette im Süden Luxemburgs.",
+    "fr": "Tu nous trouveras au BENU VILLAGE dans la ville d'Esch-sur-Alzette, au sud du Luxembourg.",
+    "en": "You will find us in the BENU VILLAGE located in Esch-sur-Alzette, a town in the south of Luxembourg.",
+    "lu": "Du fënns eis am BENU VILLAGE zu Esch-Uelzecht am Süde vu Lëtzebuerg."
+  },
+  {
     "page": "slug",
     "key": "slugs.extra-infos",
     "de": "nuetzliche-informationen",
@@ -4833,7 +4849,7 @@
   },
   {
     "page": "extra infos",
-    "key": "info.seo-title",
+    "key": "infos.seo-title",
     "de": "Alle Informationen zum Restaurant BENU SLOOW",
     "fr": "Toutes les informations sur le restaurant BENU SLOOW",
     "en": "All information on the restaurant BENU SLOOW",
@@ -4841,283 +4857,11 @@
   },
   {
     "page": "extra infos",
-    "key": "info.seo-description",
+    "key": "infos.seo-description",
     "de": "Wissenswertes über unser vegetarisch-veganes \"Rescued Food\" Restaurant BENU SLOOW!",
     "fr": "Tout ce qu'il faut savoir sur notre restaurant végétarien/végétalien \"Rescued Food\" BENU SLOOW !",
     "en": "Interesting facts about our vegetarian-vegan \"rescued food\" restaurant BENU SLOOW!",
     "lu": "Alles wat een iwwer eise vegetaresch-vegane Restaurant BENU SLOOW wësse muss!"
-  },
-  {
-    "page": "newsletter sub",
-    "key": "auth.newsletter-subscribe-seo-title",
-    "de": "Mit dem Newsletter die Neuigkeiten von BENU verfolgen",
-    "fr": "Suivre l'actualité de BENU avec la newsletter",
-    "en": "Follow the news from BENU with the BENU newsletter",
-    "lu": "Mam BENU Newsletter d'Neiegkeete vu BENU suivéieren"
-  },
-  {
-    "page": "newsletter sub",
-    "key": "auth.newsletter-subscribe-seo-desc",
-    "de": "Gut informiert sein heißt nicht, alles zu wissen, sondern das, worauf es ankommt - zum Beispiel, was in unserem Newsletter steht!",
-    "fr": "Être bien informé ne signifie pas savoir tout, mais savoir ce qui compte - comme le contenu de notre bulletin d'information, par exemple!",
-    "en": "Being well informed is not about knowing everything, but knowing about what matters - like our newsletter’s content, for example!",
-    "lu": "Gutt informéiert sinn heescht net, alles ze wëssen, mee dat ze wëssen, wat wichteg ass - ewéi zum Beispill alles, wat an eisem Newsletter steet!"
-  },
-  {
-    "page": "newsletter can",
-    "key": "auth.newsletter-cancelled-seo-title",
-    "de": "BENU Newsletter kündigen",
-    "fr": "Se désabonner de la newsletter BENU",
-    "en": "Unsubscribe from the BENU newsletter",
-    "lu": "BENU Newsletter kënnegen"
-  },
-  {
-    "page": "newsletter can",
-    "key": "auth.newsletter-cancelled-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "header.universe",
-    "de": "Entdecke die BENU Welten",
-    "fr": "Découvre l'univers BENU",
-    "en": "Discover the BENU universe",
-    "lu": "Entdeck d'Welt vu BENU"
-  },
-  {
-    "page": "Home",
-    "key": "header.village-desc",
-    "de": "Erstes Ökodorf in der Großregion Luxemburg, das alle BENU Aktivitäten (Restaurant, Shop, Kunst) vereint. Wir organisieren partizipative, kreative und pädagogische Aktivitäten rund um Themen der sozial-ökologische Kreislaufwirtschaft.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Premier écovillage dans la Grande Région du Luxembourg qui regroupe l’ensemble des activités BENU (restauration, boutique, art). Nous organisons des activités participatives, créatives et éducatives autour des sujets liés à l’économie circulaire socio-écologique. Un nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "First ecovillage in the Greater Region of Luxembourg that groups all BENU activities (restaurant, shop, art). We organize participative, creative and educational activities around topics related to the socio-ecological circular economy.\nA new, more complete website will be set up before the end of 2023. For more information:",
-    "lu": "Dat éischt Ekoduerf an der Groussregioun, dat all d'BENU Aktivitéite (Restaurant, Buttek, Konscht) regruppéiert. Mir organiséiere participativ, kreativ a pedagogesch Aktivitéite ronderëm Theeme vun der sozial-ekologescher Kreeslafwirtschaft. Eng méi informatiounsräich Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-village",
-    "de": "Entdecke die Website von BENU VILLAGE ESCH ASBL",
-    "fr": "Découvre le site de BENU VILLAGE ESCH ASBL",
-    "en": "Discover the website of BENU VILLAGE ESCH ASBL",
-    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
-  },
-  {
-    "page": "Home",
-    "key": "header.sis-desc",
-    "de": "Eine Gesellschaft mit beschränkter Haftung, die den Prinzipien der Sozial- und Solidarwirtschaft entspricht. BENU Village SIS repräsentiert BENU im Herzen des Privatmarktes und ermutigt private Arbeitgeber:innen, sozial-ökologische Aspekte in ihren Unternehmen umzusetzen.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Une société à responsabilité limitée qui répond aux principes de l’économie sociale et solidaire. BENU Village SIS représente BENU au sein du marché privé et encourage les employeurs·ses privé·e·s à mettre en place des aspects socio-écologiques au sein de leurs entreprises. \nUn nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "A limited liability company which responds to the principles of the social and solidarity economy. BENU Village SIS represents BENU in private market and encourages private employers to implement socio-ecological aspects in their companies. \nA new, more complete website will be set up before the end of 2023. For more information:",
-    "lu": "Eng Gesellschaft mat beschränkter Verantwortung, déi de Prinzippie vun der Sozial- a Solidarwirtschaft entsprécht. BENU Village SIS representéiert BENU um private Marché an encouragéiert privat Patrone/onnë sozial-ekologesch Aspekter an hire Betriber ëmzesetzen. Eng méi informatiounsräich Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-sis",
-    "de": "Entdecke die Website von BENU VILLAGE ESCH ASBL",
-    "fr": "Découvre le site de BENU VILLAGE ESCH ASBL",
-    "en": "Discover the website of BENU VILLAGE ESCH ASBL",
-    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
-  },
-  {
-    "page": "Home",
-    "key": "header.sloow-desc",
-    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste \n \"Rescued Food\"-Restaurant der Großregion, bietet eine Bio-Küche an, originell und vor allem nachhaltig!\nEine neue, umfangreichere Website wird im Frühjahr 2022 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place au printemps 2022. Pour en savoir plus :",
-    "en": "Food and food waste are subjects that are close to our hearts. That's why we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in spring 2022. For more information:",
-    "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"Rescued Food\" Restaurant an der Groussregioun, bitt eng Bio-Kichen un, originell a virun allem nohalteg! \nEng méi informatiounsräich Internetsäit wäert am Fréijoer 2022 ageriicht ginn. Méi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-sloow",
-    "de": "Entdecke die Website von BENU VILLAGE ESCH ASBL",
-    "fr": "Découvre le site de BENU VILLAGE ESCH ASBL",
-    "en": "Discover the website of BENU VILLAGE ESCH ASBL",
-    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
-  },
-  {
-    "page": "Home",
-    "key": "header.couture-desc",
-    "de": "Dies ist die erste UpCycling-Nähwerkstatt in Luxemburg! Wir bieten einzigartige Stücke an, die in Luxemburg aus alten Kleidungsstücken entworfen und hergestellt werden. BENU COUTURE, das sind lustige, farbenfrohe und ansprechende Kleidungsstücke, die Kinder und Erwachsene von XS bis 5XL einkleiden. Du kannst Deine Kleidung auch nach Deinen eigenen Ideen umgestalten!",
-    "fr": "C’est le premier atelier de couture UpCycling au Luxembourg ! Nous proposons des pièces uniques, conçues et produites au Luxembourg à partir de vieux vêtements. BENU COUTURE, ce sont des vêtements gais, colorés et attrayants qui habillent les enfants et les adultes du XS au 5XL. Tu peux aussi remodeler tes vêtements selon tes propres idées !",
-    "en": "This is the first UpCycling sewing workshop in Luxembourg! We offer unique pieces designed and produced in Luxembourg using old clothes. BENU COUTURE offers fun, colourful and pleasing clothing for children and adults from XS to 5XL. You can also transform your clothes according to your own ideas!",
-    "lu": "Dëst ass den éischten UpCycling-Schneideratelier zu Lëtzebuerg! Mir bidden eenzegaarteg Stécker un, déi zu Lëtzebuerg aus alem Gezei entworf a produzéiert ginn. BENU COUTURE, dat si lëschteg, faarweg an uspriechend Kleedungsstécker fir Kanner an Erwuessener vun XS bis 5XL. Du kanns Deng Kleeder och no Dengen eegenen Iddie modifizéieren!"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-couture",
-    "de": "Entdecke die Website BENU COUTURE",
-    "fr": "Découvre le site BENU COUTURE",
-    "en": "Discover the BENU COUTURE website",
-    "lu": "Entdeck d'Internetsäit vu BENU COUTURE"
-  },
-  {
-    "page": "Home",
-    "key": "header.reuse-desc",
-    "de": "Du möchtest gebrauchte Möbel oder Gegenstände verschenken? Du suchst einen bestimmten Gegenstand? Entdecke die neue Plattform BENU REUSE, die das Spenden von gebrauchten Möbeln und Gegenständen in ganz Luxemburg erleichtert. Das BENU REUSE Team kümmert sich um alles! Wir holen Deine gebrauchten Gegenstände kostenlos ab und bringen sie zu ihren neuen Besitzern/innen. \nMehr dazu hier:",
-    "fr": "Tu souhaites donner des meubles ou des objets d’occasion ? Tu recherches un objet en particulier ? Découvre la nouvelle plateforme BENU REUSE qui facilite le don de meubles et d’objets d’occasion à travers le Luxembourg. L’équipe BENU REUSE s’occupe de tout ! Nous récupérons tes objets d’occasion, sans frais, et les livrons à leurs nouveaux·elles propriétaires. \nPour en savoir plus :",
-    "en": "You want to donate second-hand furniture or objects? You are looking for a particular object? Discover the new BENU REUSE platform which simplifies the donation of second-hand furniture and objects throughout Luxembourg. The BENU REUSE team takes care of everything! We collect your second-hand items, free of charge, and take them to their new owners. \nFor more information:",
-    "lu": "Du wëlls gebrauchte Miwwelen oder Géigestänn verschenken? Du sichs e bestëmmten Objet? Entdeck déi nei Plattform BENU REUSE, déi d'Spende vu gebrauchte Miwwelen a Géigestänn a Lëtzebuerg vereinfacht. D'BENU REUSE Ekipp këmmert sech ëm alles! Mir kommen Deng gebrauchte Saache gratis sichen an transportéiere se bei hir nei Besëtzer:innen.\nMéi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-reuse",
-    "de": "Entdecke die Website BENU REUSE",
-    "fr": "Découvre le site BENU REUSE",
-    "en": "Discover the BENU REUSE website",
-    "lu": "Entdeck d'Internetsäit vu BENU REUSE"
-  },
-  {
-    "page": "Home",
-    "key": "header.lasa-desc",
-    "de": "Du stellst UpCycling-Kreationen her? Du möchtest lokale Künstler:innen kennenlernen, die das Konzept des UpCyclings in ihre Kreationen einfließen lassen? BENU LaSA im Zentrum von BENU VILLAGE ist der perfekte Ort für Dich, um Deine nachhaltigen Kreationen zu präsentieren, Dich inspirieren zu lassen und ungewöhnliche Künstler:innen zu entdecken.\nEine neue, umfangreichere Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Tu réalises des créations en UpCycling ? Tu souhaites rencontrer des artistes locaux·les qui utlisent le concept de l'UpCycling dans leurs créations ? BENU LaSA, qui se trouve au centre du BENU VILLAGE, est l’endroit idéal pour promouvoir tes créations durables, t’inspirer et découvrir des artistes hors du commun.\nUn nouveau site plus complet sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "Do you make upcycled creations? Would you like to meet local artists who use the concept of UpCycling in their creations? BENU LaSA can be found in the centre of BENU VILLAGE and is the perfect place to promote your sustainable creations, get inspired and discover unusual artists.\nA new, more complete website will be set up before the end of 2023. For more information:",
-    "lu": "Du stells UpCycling-Kreatiounen hier? Du wëlls lokal Kënschtler:inne kenneléieren, déi am Beräich vum UpCycling schaffen? BENU LaSA, am Zentrum vum BENU VILLAGE, ass déi perfekt Plaz fir Deng nohalteg Kreatiounen ze presentéieren, Dech z'inspiréieren an ongewéinlech Kënschtler:innen z'entdecken. Eng méi informatiounsräich Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-lasa",
-    "de": "Entdecke die Website von BENU VILLAGE ESCH ASBL",
-    "fr": "Découvre le site de BENU VILLAGE ESCH ASBL",
-    "en": "Discover the website of BENU VILLAGE ESCH ASBL",
-    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
-  },
-  {
-    "page": "Home",
-    "key": "header.design-desc",
-    "de": "Weil UpCycling nicht nur Kleidung betrifft, sondern weit darüber hinausgeht! BENU FORM entwirft und bietet einzigartige Möbel an, die aus alten Möbeln geupcycelt sind und für die Müllhalde vorgesehen waren. Du kannst alle BENU FORM Kreationen im BENU VILLAGE finden. \nEine neue, umfangreichere Website wird bis Sommer 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l'UpCycling ne concerne pas que les vêtements, mais va bien au-delà ! BENU FORM conçoit et propose des meubles uniques en UpCycling à partir d’anciens meubles qui étaient destinés à la déchetterie. Tu peux retrouver l’ensemble des créations BENU FORM au BENU VILLAGE.\nUn nouveau site plus complet sera mis en place avant l'été 2023. Pour en savoir plus :",
-    "en": "Because UpCycling is not only about clothes, but goes far beyond! BENU FORM designs and offers unique upcycled furniture from old furniture that was destined for the rubbish dump. You can find all the BENU FORM creations in the BENU VILLAGE.\nA new, more complete website will be set up before summer 2023. For more information:",
-    "lu": "Well UpCycling net just Kleedung concernéiert, mee wäit doriwwer eraus geet! BENU FORM entwërft a bitt eenzegaarteg Miwwelen un, déi aus ale Miwwele geupcycelt sinn déi soss um Tipp gelant wieren. All d'BENU FORM Kreatioune fënns du am BENU VILLAGE. Eng méi informatiounsräich Internetsäit wäert bis Summer 2023 ageriicht ginn. Méi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-design",
-    "de": "Entdecke die Website von BENU VILLAGE ESCH ASBL",
-    "fr": "Découvre le site de BENU VILLAGE ESCH ASBL",
-    "en": "Discover the website of BENU VILLAGE ESCH ASBL",
-    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
-  },
-  {
-    "page": "Home",
-    "key": "header.break-desc",
-    "de": "Brauchst Du eine Pause, um Dich zu erholen, Dir Zeit zu nehmen oder einfach nur Anregungen zu bekommen? \nWie wäre es, wenn Du ein paar Tage bei BENU BREAK verbringst, dem einzigen Hotelzimmer im BENU VILLAGE, einem rätselhaften, freundlichen und einzigartigen Ort. Ein Ort der einfach ideal ist.\nEin neue Website wird bis Ende 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Tu as besoin d´une pause pour récuperer ? Prendre du temps pour toi ou tout simplement trouver de l’inspiration ? Et si tu passais quelques jours chez BENU BREAK, la seule chambre d'hôtel du BENU VILLAGE ? Un lieu énigmatique, chaleureux et unique, tout bonnement idéal.\nUn nouveau site sera mis en place avant la fin 2023. Pour en savoir plus :",
-    "en": "Do you need a break to relax? Take some time out or just get some inspiration? \nHow about spending a few days at BENU BREAK, the only hotel room in BENU VILLAGE. An enigmatic, friendly and unique place, simply ideal.\nA new website will be set up by the end of 2023. For more information:",
-    "lu": "Brauchs Du eng Paus fir Dech ze erhuelen, Dir Zäit ze huelen oder Dech z'inspiréieren?\nWéi wier et, e puer Deeg bei BENU BREAK ze verbréngen, dat eenzegt Hotelszëmmer am BENU VILLAGE? Eng rätselhaft, frëndlech an eenzegaarteg Plaz, einfach ideal.\nEng nei Internetsäit wäert bis Enn 2023 ageriicht ginn. Méi dozou hei:"
-  },
-  {
-    "page": "Home",
-    "key": "header.discover-break",
-    "de": "Entdecke die Website von BENU VILLAGE ESCH ASBL",
-    "fr": "Découvre le site de BENU VILLAGE ESCH ASBL",
-    "en": "Discover the website of BENU VILLAGE ESCH ASBL",
-    "lu": "Entdeck d'Internetsäit vu BENU VILLAGE ESCH ASBL"
-  },
-  {
-    "page": "Newsletter",
-    "key": "breadcrumbs.newsletter-subscribe",
-    "de": "Newsletter",
-    "fr": "Newsletter",
-    "en": "Newsletter",
-    "lu": "Newsletter"
-  },
-  {
-    "page": "Newsletter",
-    "key": "header.newsletter-unsubscribe",
-    "de": "Newsletter kündigen",
-    "fr": "Se désabonner de la newsletter",
-    "en": "Unsubscribe from the newsletter",
-    "lu": "D’Newsletter kënnegen"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-newsletter",
-    "de": "Der BENU Newsletter",
-    "fr": "La newsletter BENU",
-    "en": "The BENU newsletter",
-    "lu": "D’BENU Newsletter"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-title-1",
-    "de": "Hier kannst Du Dich anmelden und",
-    "fr": "Ici, tu peux t'inscrire et",
-    "en": "Here you can sign up and",
-    "lu": "Hei kanns Du Dech umellen an"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-title-2",
-    "de": "die Neuigkeiten von BENU verfolgen",
-    "fr": "suivre l'actualité de BENU",
-    "en": "follow the BENU news",
-    "lu": "d'Neiegkeete vu BENU suivéieren"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-first-name",
-    "de": "Vorname",
-    "fr": "Prénom",
-    "en": "First name",
-    "lu": "Virnumm"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-last-name",
-    "de": "Nachname",
-    "fr": "Nom",
-    "en": "Surname",
-    "lu": "Numm"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-email",
-    "de": "E-Mail-Adresse",
-    "fr": "Adresse e-mail",
-    "en": "E-mail address",
-    "lu": "E-Mail-Adress"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-mandatory",
-    "de": "Pflichtfeld",
-    "fr": "Champ obligatoire",
-    "en": "Mandatory field",
-    "lu": "Flichtfeld"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-subscribe",
-    "de": "Newsletter abonnieren",
-    "fr": "S'inscrire à la newsletter",
-    "en": "Subscribe to the newsletter",
-    "lu": "D’Newsletter abonéieren"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-back-to-home",
-    "de": "Zurück zur Startseite",
-    "fr": "Retour à la page d'accueil",
-    "en": "Back to the homepage",
-    "lu": "Zeréck op d'Startsäit"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-newsletter",
-    "de": "BENU Newsletter",
-    "fr": "Newsletter BENU",
-    "en": "BENU newsletter",
-    "lu": "BENU Newsletter"
-  },
-  {
-    "page": "Newsletter",
-    "key": "auth.newsletter-subscribe-success",
-    "de": "Wir freuen uns, dass Du unseren BENU Newsletter abonnieren möchtest! Deine Anfrage ist erfolgreich bei uns eingegangen und wird schnellstmöglich bearbeitet. Du erhältst eine Bestätigung per E-Mail, sobald die Anmeldung beim Newsletter abgeschlossen ist.",
-    "fr": "Nous nous réjouissons que tu souhaites t'abonner à la newsletter BENU ! Ta demande nous est parvenue avec succès et sera traitée dans les plus brefs délais. Tu recevras un e-mail de confirmation dès que ton abonnement à la newsletter sera effectif.",
-    "en": "We are pleased that you want to subscribe to the BENU newsletter! Your request was successful and will be processed as soon as possible. You will receive a confirmation by e-mail as soon as your subscription to the newsletter has been completed.",
-    "lu": "Mir freeën eis, datt s Du d'BENU Newsletter abonéiere wëlls! Deng Ufro ass erfollegräich bei eis ukomm a gëtt schnellstméiglech traitéiert. Du kriss eng Bestätegung per E-Mail, esoubal ewéi däin Abonement effektiv ass."
   },
   {
     "page": "Newsletter",
@@ -5801,6 +5545,14 @@
   },
   {
     "page": "Home",
+    "key": "services.faq-group-desc-1-2bis",
+    "de": "Wir Kunden/innen verlangen mittlerweile, dass die Regale unseres Supermarkts auch noch kurz vor Schließung voll sind mit ganz frischer Ware. Aus diesem Grund lassen sich die Supermärkte immer häufiger beliefern. Stets mit ganz frischer Ware. Wenn nun der Supermarkt feststellt, dass die Kunden/innen nur wenig von diesem Obst oder jenem Gemüse gekauft haben an dem Tag, storniert er kurzerhand die für den folgenden Morgen geplante Lieferung. Diese ganz frische Ware wird entsorgt, weil die nächste Lieferung bereits geplant ist.",
+    "fr": "En tant que client·e·s, nous souhaitons que les étals de notre supermarché soient remplis de produits frais, même juste avant la fermeture. Ainsi, les supermarchés se font livrer de plus en plus souvent. Toujours avec des produits frais. Par contre, si le supermarché se rend compte que les client·e·s n'ont acheté que peu de fruits et légumes ce jour-là, il annule la livraison prévue pour le lendemain matin. Ces aliments tout frais sont jetés, car la prochaine livraison est déjà programmée.",
+    "en": "We customers now want our supermarket having shelves full of very fresh produce even shortly before closing. For this reason, supermarkets are getting more and more deliveries. Always with very fresh produce. When the supermarket notices that customers have only bought a few of these fruits or vegetables that day, it cancels the delivery planned for the following morning. These very fresh goods are disposed of because the next delivery is already planned.",
+    "lu": "Als Client:e verlaange mir mëttlerweil, datt d'Regaler an eisem Supermarché ëmmer voll si mat frëscher Wuer, och kuerz viru Schluss. Aus dësem Grond ginn d'Supermarchéen ëmmer méi oft beliwwert. Ëmmer mat frëscher Wuer. Wann awer de Supermarché feststellt, datt d'Clienten/eën deen Dag net vill Friichten a Geméis kaf hunn, annuléiert hie kuerzfristeg d'Liwwerung vum nächste Mueren. Dës ganz frësch Iesswuere ginn ewechgehäit, well déi nächst Liwwerung scho geplangt ass."
+  },
+  {
+    "page": "Home",
     "key": "services.faq-group-desc-1-3",
     "de": "Das im Restaurant BENU SLOOW verarbeitete \"Rescued Food\" stammt aus dem Einzelhandel und Großhandel. Es handelt sich um Produkte, die noch taufrisch, direkt vom Feld kommen, aber in jedem Fall noch ausreichend lang haltbar sind, den EU-Normen entsprechen und grundsätzlich aus ökologischer Landwirtschaft stammen.",
     "fr": "Les aliments \"Rescued Food\" utilisés au restaurant BENU SLOOW proviennent du commerce de détail et de gros. Il s’agit de produits frais, provenant directement du champ, ayant avant tout une durée de conservation suffisante, sont conformes aux normes de l’UE et qui, par principe, sont issus de l’agriculture écologique.",
@@ -5906,10 +5658,10 @@
   {
     "page": "Home",
     "key": "services.faq-group-desc-5-1",
-    "de": "Falls Du Deine Reservierung nicht wahrnehmen kannst bitten wir Dich, uns so schnell wie möglich Bescheid zu geben. Melde Dich telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu ne peux pas honorer ta réservation, informe-nous en le plus rapidement possible. Contacte-nous par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
-    "en": "If you are unable to make your reservation, please let us know as soon as possible. Contact us by phone at +352 2791 1949 or by e-mail at info@benusloow.lu.",
-    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi wéi méiglech Bescheed. Mell Dech iwwer Telefon ënner der Nummer  +352 2791 1949  oder iwwer E-Mail op info@benusloow.lu."
+    "de": "Falls Du Deine Reservierung nicht wahrnehmen kannst bitten wir Dich, uns so schnell wie möglich Bescheid zu geben. Melde Dich telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf",
+    "fr": "Si tu ne peux pas honorer ta réservation, informe-nous en le plus rapidement possible. Contacte-nous par téléphone au +352 2791 1949 ou par e-mail à",
+    "en": "If you are unable to make your reservation, please let us know as soon as possible. Contact us by phone at +352 2791 1949 or by e-mail at",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi wéi méiglech Bescheed. Mell Dech iwwer Telefon ënner der Nummer  +352 2791 1949  oder iwwer E-Mail op"
   },
   {
     "page": "Home",
@@ -6146,10 +5898,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-1-2",
-    "de": "sloow.benu.lu anerkennt und verpflichtet sich, die Gesetze und Vorschriften zum Schutz personenbezogener Daten einzuhalten, einschließlich, aber nicht beschränkt auf die Verordnung (EU) 2016/679 des Parlaments und des Rates vom 27. April 2016 zum Schutz von Personen in Bezug auf die Verarbeitung personenbezogener Daten und den freien Datenverkehr (die \"DSGVO“) und alle anderen anwendbaren nationalen Gesetze oder Verordnungen, die die Verarbeitung dieser personenbezogenen Daten regeln.",
-    "fr": "sloow.benu.lu reconnaît et s'engage à respecter les lois et règlements régissant la protection des données personnelles, y compris, mais sans s’y limiter, le règlement (UE) 2016/679 du Parlement et du Conseil du 27 avril 2016 sur la protection des personnes en ce qui concerne le traitement des données personnelles et sur la libre circulation de ces données (le \"RGPD\") et toute autre loi ou réglementation nationale applicable régissant le traitement de ces données personnelles.",
-    "en": "sloow.benu.lu acknowledges and agrees to comply with laws and regulations governing the protection of personal data, including, but not limited to, the Regulation (EU) 2016/679 of the Parliament and Council from 27th of april 2016 regarding the protection of individuals concerning the processing of personal data and the free movement of such data (the \"GDPR\") and any other applicable national laws or regulations governing the processing of such personal data.",
-    "lu": "sloow.benu.lu erkennt un a verflicht sech, d'Gesetzer a Reglementer ze respektéieren, déi de Schutz vu perséinlechen Donnéeë regéieren, dorënner, awer net beschränkt op, d'Reglement (EU) 2016/679 vum Parlament a vum Conseil vum 27. Abrëll 2016 iwwer de Schutz vun de Persoune bezüglech der Veraarbechtung an dem fräie Verkéier vu perséinlechen Donnéeën (\"GDPR\") an all aner uwennbar nationaalt Gesetz oder Reglement fir d'Veraarbechtung vun dëse perséinlechen Donnéeën."
+    "de": "anerkennt und verpflichtet sich, die Gesetze und Vorschriften zum Schutz personenbezogener Daten einzuhalten, einschließlich, aber nicht beschränkt auf die Verordnung (EU) 2016/679 des Parlaments und des Rates vom 27. April 2016 zum Schutz von Personen in Bezug auf die Verarbeitung personenbezogener Daten und den freien Datenverkehr (die \"DSGVO“) und alle anderen anwendbaren nationalen Gesetze oder Verordnungen, die die Verarbeitung dieser personenbezogenen Daten regeln.",
+    "fr": "reconnaît et s'engage à respecter les lois et règlements régissant la protection des données personnelles, y compris, mais sans s’y limiter, le règlement (UE) 2016/679 du Parlement et du Conseil du 27 avril 2016 sur la protection des personnes en ce qui concerne le traitement des données personnelles et sur la libre circulation de ces données (le \"RGPD\") et toute autre loi ou réglementation nationale applicable régissant le traitement de ces données personnelles.",
+    "en": "acknowledges and agrees to comply with laws and regulations governing the protection of personal data, including, but not limited to, the Regulation (EU) 2016/679 of the Parliament and Council from 27th of april 2016 regarding the protection of individuals concerning the processing of personal data and the free movement of such data (the \"GDPR\") and any other applicable national laws or regulations governing the processing of such personal data.",
+    "lu": "erkennt un a verflicht sech, d'Gesetzer a Reglementer ze respektéieren, déi de Schutz vu perséinlechen Donnéeë regéieren, dorënner, awer net beschränkt op, d'Reglement (EU) 2016/679 vum Parlament a vum Conseil vum 27. Abrëll 2016 iwwer de Schutz vun de Persoune bezüglech der Veraarbechtung an dem fräie Verkéier vu perséinlechen Donnéeën (\"GDPR\") an all aner uwennbar nationaalt Gesetz oder Reglement fir d'Veraarbechtung vun dëse perséinlechen Donnéeën."
   },
   {
     "page": "extra infos",
@@ -6614,117 +6366,5 @@
     "fr": "Nous nous réjouissons de t'accueillir prochainement à la Table d'Hôtes de BENU SLOOW !",
     "en": "We look forward to welcoming you soon at the Table d’Hôtes of BENU SLOOW!",
     "lu": "Mir freeën eis, Dech geschwënn op der Table d’Hôtes vu BENU SLOOW begréissen ze däerfen!"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.new-reservation-regards",
-    "de": "Herzliche Grüße, Dein Team von",
-    "fr": "Cordialement, ton équipe de",
-    "en": "Best regards, your team of",
-    "lu": "Häerzlech Gréiss, Deng Ekipp vu"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.new-reservation-restaurant-confirmation",
-    "de": "Wir bestätigen Deine Reservierung für das Restaurant",
-    "fr": "Nous confirmons ta réservation au restaurant",
-    "en": "We confirm your reservation for the restaurant",
-    "lu": "Mir bestätegen Deng Reservatioun fir de Restaurant"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.new-reservation-restaurant-details-1",
-    "de": "Du hast für",
-    "fr": "Tu as réservé une table pour",
-    "en": "You booked a table for",
-    "lu": "Du hues fir"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.new-reservation-restaurant-people",
-    "de": "Person(en) einen Tisch reserviert",
-    "fr": "personne(s)",
-    "en": "person(s)",
-    "lu": "Persoun(en) een Dësch reservéiert"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.new-reservation-restaurant-cancellation",
-    "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 24 Stunden vor dem reservierten Termin telefonisch unter der Telefonnummer +352 2791 1949 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 24 heures avant la date et l'horaire réservés par téléphone au +352 2791 1949 ou par e-mail à info@benusloow.lu.",
-    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 24 hours before the booked date by phone at +352 2791 1949 or by e-mail at info@benusloow.lu.",
-    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 24 Stonnen am Viraus iwwer Telefon ënner der Nummer +352 2791 1949 oder iwwer E-Mail op info@benusloow.lu of."
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.new-reservation-restaurant-welcome",
-    "de": "Wir freuen uns, Dich bald in unserem Restaurant BENU SLOOW begrüßen zu können!",
-    "fr": "Nous nous réjouissons de t'accueillir prochainement dans notre restaurant BENU SLOOW !",
-    "en": "We look forward to welcome you soon in our restaurant BENU SLOOW!",
-    "lu": "Mir freeën eis, Dech an eisem Restaurant BENU SLOOW begréissen ze däerfen!"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-hello",
-    "de": "Hallo",
-    "fr": "Bonjour",
-    "en": "Hello",
-    "lu": "Moien"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-txt-1",
-    "de": "Vielen Dank für Deine Anmeldung zum BENU Newsletter. Hiermit bestätigen wir Dir, dass wir Deine E-Mail-Adresse in den Verteiler der künftigen BENU Nachrichten aufgenommen haben. Diese Nachrichten erhältst Du in deutscher Sprache. Möchtest Du die E-Mails lieber in einer anderen Sprache lesen?",
-    "fr": "Nous te remercions de ton inscription à la newsletter de BENU. Par la présente, nous te confirmons que ton adresse e-mail a été ajoutée à la liste de distribution des futures nouvelles de BENU. Tu recevras ces messages en langue française. Est-ce que tu préfères les lire dans une autre langue ?",
-    "en": "Thank you for subscribing to the BENU newsletter. We hereby confirm that your e-mail address has been added to BENU’s future news mailing list. You will receive these messages in english. Would you rather read them in another language?",
-    "lu": "Merci fir Deng Umeldung fir d'BENU Newsletter. Heimat bestätege mir, datt Deng E-Mail-Adress an de Verdeeler fir d'BENU Neiegkeete bäigefüügt gouf. Du kriss dës Noriichten op Lëtzebuergesch. Wëlls Du se léiwer op enger anerer Sprooch liesen?"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-txt-2",
-    "de": "Dann sende uns bitte eine E-Mail auf xxxx@xxx.lu mit einem entsprechenden Hinweis. Vielen Dank!",
-    "fr": "Dans ce cas, envoie-nous un e-mail à xxxx@xxx.lu avec la mention correspondante s'il te plaît. Merci beaucoup !",
-    "en": "In that case, please send us an e-mail at xxxx@xxx.lu with the corresponding mention. Thank you very much!",
-    "lu": "Da schéck eis wgl. eng E-Mail op xxx@xxx.lu mam passende Vermierk. Merci villmools!"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-info-1",
-    "de": "Deine Daten tauschen wir mit niemandem, demnach auch mit keiner beliebigen Organisation, Verwaltung, Unternehmen, Interessensgruppe oder anderen. Wir nutzen sie ausschließlich, um Dir BENU Informations-E-Mails zuzuschicken.",
-    "fr": "Nous ne partageons tes données avec aucun tiers, ce qui inclut toute organisation, administration, entreprise, tout groupe d’intérêt ou autre. Elles sont destinées exclusivement à l'envoi d'e-mails d’informations concernant BENU.",
-    "en": "We do not share the data with any third party, including any organisation, administration, company, group of interest or others. We only use them to send you BENU information e-mails.",
-    "lu": "Dës Date ginn u kee weider, deemno och u keng aner Organisatioun, Verwaltung, Entreprise, Interessegrupp oder anerwäerts. Mir benotze se ausschliisslech, fir Dir BENU Informatiouns-E-Mailen ze schécken."
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-cancellation",
-    "de": "Eine Abmeldung vom Newsletter ist jederzeit formlos möglich, per E-Mail an admin@benuvillageesch.lu mit dem Zusatz 'ABMELDEN‘",
-    "fr": "Il est possible de se désinscrire de la newsletter à tout moment et sans formalité, par e-mail à admin@benuvillageesch.lu avec la mention 'ANNULER'.",
-    "en": "It is possible to unsubscribe the newsletter at any time by sending an e-mail at admin@benuvillageesch.lu with the mention 'UNSUBSCRIBE'.",
-    "lu": "Eng Ofmeldung vun der Newsletter ass zu all Moment, ouni Formalitéiten, méiglech an dat mat enger E-Mail op admin@benuvillageesch.lu mam Vermierk 'OFMELLEN'"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-conclusion",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-regards",
-    "de": "Wir freuen uns sehr darauf, die kommenden BENU Abenteuer mit Dir zu teilen!",
-    "fr": "Nous nous réjouissons de partager les prochaines aventures de BENU avec toi !",
-    "en": "We look forward to sharing the upcoming BENU adventures with you!",
-    "lu": "Mir freeën eis, déi kommend BENU Aventurë mat Dir ze deelen!"
-  },
-  {
-    "page": "E-Mails",
-    "key": "emails.newsletter-confirmation-your-team",
-    "de": "Herzliche Grüße, Dein Team von",
-    "fr": "Cordialement, ton équipe de",
-    "en": "Best regards, your team of",
-    "lu": "Häerzlech Greiss, Deng Ekipp vu"
   }
 ]
