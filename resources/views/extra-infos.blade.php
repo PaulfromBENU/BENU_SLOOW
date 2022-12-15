@@ -217,7 +217,7 @@
                 <li>• {{ __('infos.content-txt-4-7-bullet-3') }}</li>
             </ul>
             <p>
-                {{ __('infos.content-txt-4-7-2') }}
+                {{ __('infos.content-txt-4-7-2') }} <a href="https://kulturpass.lu" target="_blank" class="primary-color hover:text-gray-800 transition font-semibold">https://kulturpass.lu</a>.
             </p>
         </div>
 

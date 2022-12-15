@@ -9,10 +9,10 @@
 
 	<h4 class="footer-contact__title" id="contact-anchor">{{ __('footer.contact-title-1') }}</h4>
 	<p class="footer-contact__txt">
-		BENU VILLAGE Esch ASBL
+		BENU Village Esch asbl
 	</p>
 	<p class="footer-contact__txt mb-10">
-		51 rue d'Audun, L-4018 Esch-sur-Alzette, Luxembourg
+		32 rue d'Audun, L-4018 Esch-sur-Alzette, Luxembourg
 	</p>
 
 	<p class="footer-contact__phone">

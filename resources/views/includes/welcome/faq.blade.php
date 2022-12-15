@@ -20,6 +20,9 @@
 						{!! __('services.faq-group-desc-1-2') !!}
 					</p>
 					<p class="welcome-faq__accordion__answer__txt">
+						{!! __('services.faq-group-desc-1-2bis') !!}
+					</p>
+					<p class="welcome-faq__accordion__answer__txt">
 						{!! __('services.faq-group-desc-1-3') !!}
 					</p>
 					<p class="welcome-faq__accordion__answer__txt">
