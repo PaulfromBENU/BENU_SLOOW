@@ -545,7 +545,14 @@
 				margin-top: -40px;
 			}
 			img {
-				margin-top: 4px;
+				// margin-top: 4px;
+				transform: scale(0.75);
+				@include tablet {
+					transform: scale(0.9);
+				}
+				@include mobile {
+					transform: scale(0.95);
+				}
 			}
 		}
 		&__btn {
