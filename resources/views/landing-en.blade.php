@@ -99,7 +99,7 @@
                         </div>
                         <h1>BENU SLO0W</h1>
                         <p class="central_textbox__sub">
-                            Website launch: 2nd semester 2022
+                            Website launch: in winter 2022/2023
                         </p>
                         <p class="central_textbox__desc">
                             <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. High quality. Social inclusion. Yes, all this is possible in one restaurant! 
@@ -137,7 +137,7 @@
                             </li>
                         </ul>
                         <p class="central_textbox__desc">
-                            A first website <strong>BENU SLO0W</strong> is expected to go online at Fall 2022. Find out more details about the launch of the BENU SLOOW restaurant here! Until then, we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
+                            A first website <strong>BENU SLO0W</strong> is expected to go online in winter 2022/2023. Find out more details about the launch of the BENU SLOOW restaurant here! Until then, we invite you to visit our main site <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                         </p>
                     </div>
                     <div class="contact-form-container">
@@ -152,7 +152,7 @@
                                 </form>
                             </div> -->
                             <div class="contact-link text-center">
-                                <a href="https://benu.lu/en/contact-us/" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">I subscribe to the newsletter</a>
+                                <a href="https://benu.lu/en/subscribe-to-the-newsletter" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">I subscribe to the newsletter</a>
                             </div>
                         </div>
                     </div>

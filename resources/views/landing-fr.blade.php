@@ -95,7 +95,7 @@
                         </div>
                         <h1>BENU SLO0W</h1>
                         <p class="central_textbox__sub">
-                            Lancement du site&nbsp;: 2ème trimestre 2022
+                            Lancement du site&nbsp;: en hiver 2022/2023
                         </p>
                         <p class="central_textbox__desc">
                             <strong>BENU SLO0W</strong>&nbsp;: Slow Food. Rescued Food. Zero Waste. Haute qualité. Inclusion sociale. Oui, tout ceci est possible dans un seul et même restaurant&nbsp;! 
@@ -133,7 +133,7 @@
                             </li>
                         </ul>
                         <p class="central_textbox__desc">
-                            Un premier site web <strong>BENU SLO0W</strong> devrait être mis en ligne à l'automne 2022. Tu trouveras ici plus de détails sur le lancement du restaurant BENU SLOOW ! D'ici là, nous t'invitons à visiter notre site principal <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
+                            Un premier site web <strong>BENU SLO0W</strong> devrait être mis en ligne à l'hiver 2022/2023. Tu trouveras ici plus de détails sur le lancement du restaurant BENU SLOOW ! D'ici là, nous t'invitons à visiter notre site principal <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a>.
                         </p>
                     </div>
                     <div class="contact-form-container">
@@ -148,7 +148,7 @@
                                 </form>
                             </div> -->
                             <div class="contact-link text-center">
-                                <a href="https://benu.lu/fr/contactez-nous/" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">Je m'inscris à la newsletter</a>
+                                <a href="https://benu.lu/fr/inscription-newsletter" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">Je m'inscris à la newsletter</a>
                             </div>
                         </div>
                     </div>

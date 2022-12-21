@@ -20,6 +20,9 @@
 						{!! __('services.faq-group-desc-1-2') !!}
 					</p>
 					<p class="welcome-faq__accordion__answer__txt">
+						{!! __('services.faq-group-desc-1-2bis') !!}
+					</p>
+					<p class="welcome-faq__accordion__answer__txt">
 						{!! __('services.faq-group-desc-1-3') !!}
 					</p>
 					<p class="welcome-faq__accordion__answer__txt">
@@ -120,7 +123,7 @@
 		<div class="benu-container flex justify-between flex-col lg:flex-row" style="height: 100%;">
 			<div class="flex flex-col lg:flex-row justify-start" style="height: 100%;">
 				<div class="lg:mr-10 welcome-faq__sponsor__logo">
-					<img src="{{ asset('images/pictures/logo-oeuvre-gdc.jpg') }}">
+					<img src="{{ asset('images/pictures/oeuvre.png') }}" class="p-4">
 				</div>
 				<div class="text-center lg:text-left flex flex-col justify-center">
 					<p>{{ __('welcome.sponsor-thanks-1') }}</p>
