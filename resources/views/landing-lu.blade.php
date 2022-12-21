@@ -99,7 +99,7 @@
                         </div>
                         <h1>BENU SLO0W</h1>
                         <p class="central_textbox__sub">
-                            Lancement vun der Websäit: 2. Quartal 2022
+                            Lancement vun der Websäit: am Wanter 2022/2023
                         </p>
                         <p class="central_textbox__desc">
                             <strong>BENU SLO0W</strong>: Slow Food. Rescued Food. Zero Waste. Héich Qualitéit. Sozial Inklusioun. Jo, dat alles ass an engem eenzege Restaurant méiglech!
@@ -137,7 +137,7 @@
                             </li>
                         </ul>
                         <p class="central_textbox__desc">
-                            Déi éischt <strong>BENU SLO0W</strong> Websäit wäert am Hierscht 2022 online goen. Hei kanns Du méi Detailer iwwer de Start vum BENU SLOOW Restaurant gewuer ginn! Bis dohinner invitéiere mir Dech eis Haaptsäit <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> ze besichen.
+                            Déi éischt <strong>BENU SLO0W</strong> Websäit wäert am Wanter 2022/2023 online goen. Hei kanns Du méi Detailer iwwer de Start vum BENU SLOOW Restaurant gewuer ginn! Bis dohinner invitéiere mir Dech eis Haaptsäit <a href="https://benu.lu/fr" class="primary-color hover:text-gray-800 transition">www.benu.lu</a> ze besichen.
                         </p>
                     </div>
                     <div class="contact-form-container">
@@ -152,7 +152,7 @@
                                 </form>
                             </div> -->
                             <div class="contact-link text-center">
-                                <a href="https://benu.lu/fr/contactez-nous/" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">Ech abonéieren d'Newsletter</a>
+                                <a href="https://benu.lu/lu/newsletter-abon%C3%A9ieren" class="btn-couture-plain btn-couture-plain--dark-hover" target="_blank">Ech abonéieren d'Newsletter</a>
                             </div>
                         </div>
                     </div>
