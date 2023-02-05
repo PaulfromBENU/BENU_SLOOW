@@ -3,10 +3,12 @@
 	<p class="footer-contact__txt">
 		{{ __('footer.opening-hours-text-1') }}
 	</p>
-	<p class="footer-contact__txt mb-10">
-		<em>{{ __('footer.opening-hours-text-2') }}</em>
+	<p class="footer-contact__txt">
+		{{ __('footer.opening-hours-text-2') }}
 	</p>
-
+	<p class="footer-contact__txt mb-10">
+		{{ __('footer.opening-hours-text-3') }}
+	</p>
 	<h4 class="footer-contact__title" id="contact-anchor">{{ __('footer.contact-title-1') }}</h4>
 	<p class="footer-contact__txt">
 		BENU Village Esch asbl
