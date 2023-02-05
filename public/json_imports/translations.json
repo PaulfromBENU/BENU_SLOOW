@@ -5690,18 +5690,26 @@
   {
     "page": "Home",
     "key": "footer.opening-hours-text-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Dienstag bis Freitag: 12:00 - 14:00 Uhr und 19:00 - 22:00 Uhr",
+    "fr": "Du mardi au vendredi : 12h00 - 14h00 et 19h00 - 22h00",
+    "en": "Tuesday to Friday: 12pm - 2pm and 7pm - 10pm",
+    "lu": "Dënschdes bis Freides: 12:00h - 14:00h an 19:00h - 22:00h"
   },
   {
     "page": "Home",
     "key": "footer.opening-hours-text-2",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Samstag: 19:00 - 22:00 Uhr",
+    "fr": "Samedi: 19h00 - 22h00",
+    "en": "Saturday: 7pm - 10pm",
+    "lu": "Samschdes: 19:00h - 22:00h"
+  },
+  {
+    "page": "Home",
+    "key": "footer.opening-hours-text-3",
+    "de": "Sonntag (Brunch): 10:30 bis 15:00 Uhr",
+    "fr": "Dimanche (brunch): 10h30 à 15h00",
+    "en": "Sunday (brunch): 10.30am - 3pm",
+    "lu": "Sonndes (Brunch): 10:30h - 15:00h"
   },
   {
     "page": "Home",
