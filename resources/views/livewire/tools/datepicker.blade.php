@@ -171,5 +171,17 @@
                 @endif
             </table>
         </div>
+        <div>
+            <table style="width:100%">
+                <tr style="height:12px">
+                    <td class="datepicker__legend__cell_color__active"></td>
+                    <td class="datepicker__legend__cell_text">{!! __('forms.calendar-legend1') !!}</td>
+                    <td class="datepicker__legend__cell_color__inactive"></td>
+                    <td class="datepicker__legend__cell_text">{!! __('forms.calendar-legend2') !!}</td>
+                    <td class="datepicker__legend__cell_color__vide" ></td>
+                    <td class="datepicker__legend__cell_text">{!! __('forms.calendar-legend3') !!}</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>

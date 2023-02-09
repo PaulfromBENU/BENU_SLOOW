@@ -4,9 +4,15 @@
 	<h3>
 		{!! __('welcome.concept-title-1') !!}
 	</h3>
-	<h2>
+	<h2 >
 		{!! __('welcome.concept-hosts-table') !!}
 	</h2>
+	<h4 class="text-lg lg:text-xl" >
+		{!! __('welcome.concept-hosts-table-text1') !!}
+	</h4>
+	 <h5 class="text-lg lg:text-xl" >
+		{!! __('welcome.concept-hosts-table-text2') !!}
+	</h5>
 	<div class="welcome-concept__box relative">
 		<div class="welcome-concept__box__border welcome-concept__box__border--bottom">
 			<img src="{{ asset('images/pictures/benu-sloow-partie-table-hotes-border-bottom.png') }}">
@@ -43,7 +49,17 @@
 			<a href="{{ route('extra-infos-'.app()->getLocale()) }}#kulturpass">{!! __('welcome.concept-kulturpass-learn-more') !!}</a>
 		</p>
 	</div>
-	<p class="welcome-concept__box__date">
+	<h4 >
 		{!! __('welcome.concept-start-date') !!}
-	</p>
+	</h4>
+	<h3>
+		{!! __('welcome.concept-start-date-text1') !!}
+	</h3>
+	<center><h6 >
+		<span class="third-color">{!! __('welcome.concept-start-date-text2') !!}</span>
+		<span class="secondary-color">{!! __('welcome.concept-start-date-text3') !!}</span>
+		<span class="third-color">{!! __('welcome.concept-start-date-text4') !!}</span>
+		<span class="secondary-color"><a href="mailto:{!! __('welcome.concept-start-date-text5') !!}">{!! __('welcome.concept-start-date-text5') !!}</a></span>
+	</h6>
+	</center>
 </section>
