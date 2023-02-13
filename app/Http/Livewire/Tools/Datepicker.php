@@ -7,6 +7,7 @@ use Livewire\Component;
 use Carbon\Carbon;
 
 use App\Models\Opening;
+use App\Models\Reservation;
 
 class Datepicker extends Component
 {
@@ -18,7 +19,9 @@ class Datepicker extends Component
     public $days_by_month;
     public $max_year;
     public $days_with_info;
-
+    public $opening_id;
+    public $opening;
+    public $opening_seats;
     public $show_selector;
 
     public function mount()
@@ -84,10 +87,20 @@ class Datepicker extends Component
         }
 
         $opening_date_string = $this->selected_year.'-'.str_pad($this->selected_month, 2, 0, STR_PAD_LEFT).'-01 00:00:00';
-        $with_opening = 0;
+        $with_opening = 0; //FERME
+
         if (Opening::where('date', $opening_date_string)->count() > 0) {
-            $with_opening = 1;
+            $with_opening = 1; //OUVERT
+/*
+            $this->opening = Opening::where('date', $opening_date_string)->first();
+            $this->opening_id = $this->opening->id;
+            $this->opening_seats = $this->opening->seats;
+            if (Reservation::where('opening_id', $this->opening_id)->sum('seats') >= $this->opening_seats) {
+                $with_opening = 2; //FULL
+            }
+            */
         }
+        
 
         $this->days_with_info[$days_equivalence[$first_day]] = [
             "day" => '01',
@@ -111,6 +124,8 @@ class Datepicker extends Component
                 $remaining_seats = max(0, $remaining_seats);
                 if ($remaining_seats > 0) {
                     $with_opening = 1;
+                }else{
+                    $with_opening = 2;
                 }
             }
             $this->days_with_info[$index] = [

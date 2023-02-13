@@ -66,7 +66,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td wire:key="daypicker-{{ $i }}"></td>
@@ -82,7 +86,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive">{{ $days_with_info[$i]['day'] }}</td>
+                                 @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td></td>
@@ -97,7 +105,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive">{{ $days_with_info[$i]['day'] }}</td>
+                                 @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td></td>
@@ -112,7 +124,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive">{{ $days_with_info[$i]['day'] }}</td>
+                                 @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td></td>
@@ -128,7 +144,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive">{{ $days_with_info[$i]['day'] }}</td>
+                                 @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td></td>
@@ -145,7 +165,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive">{{ $days_with_info[$i]['day'] }}</td>
+                                 @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td></td>
@@ -162,7 +186,11 @@
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
-                                <td class="datepicker__selector__days__inactive">{{ $days_with_info[$i]['day'] }}</td>
+                                 @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '2')
+                                    <td class="datepicker__selector__days__full" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @else
+                                    <td class="datepicker__selector__days__inactive" wire:key="daypicker-{{ $i }}">{{ $days_with_info[$i]['day'] }}</td>
+                                @endif
                             @endif
                         @else
                             <td></td>
