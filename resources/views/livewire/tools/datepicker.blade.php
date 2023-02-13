@@ -77,7 +77,8 @@
                     @for($i = 7; $i < 14; $i ++)
                         @if(isset($days_with_info[$i]))
                             @if(Carbon\Carbon::parse($days_with_info[$i]['day'].'-'.$selected_month.'-'.$selected_year) >= Carbon\Carbon::now() && $days_with_info[$i]['with_opening'] == '1')
-                                <td class="datepicker__selector__days__active" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
+                               
+                                <td class="datepicker__selector__days__full" wire:click="selectDate('{{ $days_with_info[$i]['day'] }}')" wire:key="daypicker-{{ $i }}-{{ $selected_month }}-{{ $selected_year }}">
                                     {{ $days_with_info[$i]['day'] }}
                                 </td>
                             @else
