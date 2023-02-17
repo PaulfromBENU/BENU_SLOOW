@@ -6356,7 +6356,7 @@ input[type=checkbox]:focus {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-  font: normal normal 500 15px/28px "Barlow";
+  font: normal normal 500 18px/28px "Barlow";
   letter-spacing: 0px;
   margin-bottom: 40px;
 }
@@ -6467,7 +6467,7 @@ input[type=checkbox]:focus {
 .welcome-concept__info {
   margin: auto;
   text-align: center;
-  font: normal normal 500 15px/28px "Barlow";
+  font: normal normal 500 18px/28px "Barlow";
   letter-spacing: 0px;
   margin-bottom: 20px;
   color: #2E1739;
