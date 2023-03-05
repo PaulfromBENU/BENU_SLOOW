@@ -89,8 +89,8 @@
 
 
     <div class="mt-12 mb-5" style="position: relative;">
-        <label style="position: absolute; top: 10px; left: 20px;" class="primary-color">{!! __('forms.res-message') !!}</label>
-        <textarea maxlength="500" rows="1" class="w-full rounded p-10" tabindex="5" wire:model="res_message"></textarea>
+       <!-- <label style="position: absolute; top: 10px; left: 20px;" class="primary-color">{!! __('forms.res-message') !!}</label>-->
+        <textarea placeholder="{!! __('forms.res-message') !!}" maxlength="500" rows="1" class="w-full rounded" tabindex="5" wire:model="res_message"></textarea>
         <p class="welcome-reservation__form__mandatory">
             * {{ __('forms.mandatory-fields') }}
         </p>
