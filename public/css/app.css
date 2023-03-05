@@ -5554,6 +5554,8 @@ input[type=checkbox]:focus {
   margin-bottom: 15px;
 }
 .welcome-reservation__form textarea {
+  margin-bottom: 15px;
+  height: 150px;
   border: 2px solid #793162;
 }
 .welcome-reservation__form textarea:focus {

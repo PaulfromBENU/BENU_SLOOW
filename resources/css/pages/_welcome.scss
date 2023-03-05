@@ -687,6 +687,8 @@
 			margin-bottom: 15px;
 		}
 		textarea {
+				margin-bottom: 15px;
+				height: 150px;
 			border: 2px solid $primary-color;
 			&:focus {
 				outline: none;
