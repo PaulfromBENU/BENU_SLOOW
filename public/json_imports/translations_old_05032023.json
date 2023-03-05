@@ -323,7 +323,7 @@
     "page": "Home",
     "key": "welcome.transition-2-text-2",
     "de": "BENU SLOOW entsteht neu, doch für den Bau kamen abgebaute Materialien von anderen Bauprojekten und Restbestände von Betrieben zum Einsatz. Als erster und zentraler Teil von BENU VILLAGE setzt BENU SLOOW konsequent auf Kreislaufwirtschaft, UpCycling und ZeroWaste. Unterstützt wird das Restaurant BENU SLOOW von der Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
-    "fr": "BENU SLOOW  a été construit de A à Z pourtant, seuls des matériaux et des ressources de récupération, provenant d'autres projets de construction ou d'entreprises, sont utilisés. En tant qu'élément initial et central du BENU VILLAGE, BENU SLOOW mise de manière intransigeante sur l'économie circulaire, l'UpCycling et le ZeroWaste. Le restaurant BENU SLOOW est soutenu par l'Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
+    "fr": "BENU SLOOW est crée et construit de A à Z pourtant, seuls des matériaux et des ressources de récupération, provenant d'autres projets de construction ou d'entreprises, sont utilisés. En tant qu'élément initial et central du BENU VILLAGE, BENU SLOOW mise de manière intransigeante sur l'économie circulaire, l'UpCycling et le ZeroWaste. Le restaurant BENU SLOOW est soutenu par l'Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
     "en": "BENU SLOOW emerges from scratch, yet for its construction, dismantled materials from other building projects and leftover materials from businesses were used. As the first and central part of BENU VILLAGE, BENU SLOOW consistently focuses on circular economy, UpCycling and ZeroWaste. The BENU SLOOW restaurant is supported by the Œuvre Nationale de Secours Grande-Duchesse Charlotte.",
     "lu": "BENU SLOOW entsteet ganz nei mee fir de Bau ginn exklusiv Materialien a Ressourcë verwäert, déi aus anere Bauprojeten a Betriber stamen. Als éischt an zentraalt Element vum BENU VILLAGE, setzt BENU SLOOW konsequent op Kreeslafwirtschaft, UpCycling an ZeroWaste. De Restaurant BENU SLOOW gëtt vun der Œuvre Nationale de Secours Grande-Duchesse Charlotte ënnerstëtzt."
   },
@@ -397,7 +397,7 @@
     "de": "Wer kennt es nicht, das gemütliche Konzept aus Frankreich, ganz nah an der Küche: der Table d'Hôtes, der Tisch für die geladenen Gäste/innen.",
     "fr": "Qui ne connaît pas ce concept convivial venu de France, proche de la cuisine: la Table d’Hôtes, la table pour les invité·e·s.",
     "en": "Who is not familiar with this cosy concept from France, very close to the kitchen: the Table d'Hôtes, the table for invited guests.",
-    "lu": "Wie kennt et net, dat gemittlecht Konzept aus Frankräich, ganz no un der Kichen: d'Table d'Hôtes, den Dësch fir Invitéen."
+    "lu": "Wie kennt et net, dat gemittlecht Konzept aus Frankräich, ganz no un der Kichen: d'Table d'Hôtes, den Dësch fir d'Gäscht:innen."
   },
   {
     "page": "Home",
@@ -412,7 +412,7 @@
     "key": "welcome.concept-price-no-drinks",
     "de": "Preis pro Person ohne Getränke",
     "fr": "Prix par personne sans boissons",
-    "en": "Price per person without drinks",
+    "en": "Starter? Not sure. Main course? Maybe. How about dessert? Surprise! Just an excellent meal? Certainly not!",
     "lu": "Präis pro Persoun ouni Gedrénks"
   },
   {
@@ -420,7 +420,7 @@
     "key": "welcome.concept-price-with-drinks",
     "de": "Preis pro Person mit ausgewählten alkoholischen Getränken",
     "fr": "Prix par personne avec une sélection de boissons alcoolisées",
-    "en": "Price per person with selected alcoholic beverages",
+    "en": "",
     "lu": "Präis pro Persoun mat selektionéiertem alkoholeschem Gedrénks"
   },
   {
@@ -428,7 +428,7 @@
     "key": "welcome.concept-price-with-softs",
     "de": "Preis pro Person mit ausgewählten nicht-alkoholischen Getränken",
     "fr": "Prix par personne avec une sélection de boissons non alcoolisées",
-    "en": "Price per person with selected non-alcoholic beverages",
+    "en": "Translated with www.DeepL.com/Translator (free version)",
     "lu": "Präis pro Persoun mat selektionéiertem net-alkoholeschem Gedrénks"
   },
   {
@@ -437,7 +437,7 @@
     "de": "In einer zweiten Phase folgt das Restaurant",
     "fr": "Le restaurant suivra dans une deuxième phase",
     "en": "The restaurant will follow in a second phase",
-    "lu": "An enger zweeter Phas kënnt de Restaurant BENU SLOOW no"
+    "lu": "An enger zweeter Phas kënnt de Restaurant no"
   },
   {
     "page": "Home",
@@ -458,15 +458,15 @@
   {
     "page": "Home",
     "key": "welcome.concept-start-date-text3",
-    "de": "+352 27 38 01-81",
-    "fr": "+352 27 38 01-81",
-    "en": "+352 27 38 01-81",
-    "lu": "+352 27 38 01-81"
+    "de": "+352 273801-81",
+    "fr": "+352 273801-81",
+    "en": "+352 273801-81",
+    "lu": "+352 273801-81"
   },
   {
     "page": "Home",
     "key": "welcome.concept-start-date-text4",
-    "de": "oder per Mail an",
+    "de": "oder per Mail",
     "fr": "ou par courriel",
     "en": "or via email",
     "lu": "oder per Email"
@@ -485,7 +485,7 @@
     "de": "Kinder bis 12 Jahre und Personen mit Kulturpass erhalten einen 50% Rabatt auf das Erlebnismenü. Wir bieten allerdings kein spezielles Kindermenü an.",
     "fr": "Les enfants jusqu'à 12 ans et les personnes titulaires du Kulturpass bénéficient d'une réduction de 50% sur le menu aventure. Nous ne proposons toutefois pas de menu spécial pour les enfants.",
     "en": "Children up to 12 years of age, as well as persons in possession of a Kulturpass, receive a 50% discount on our experience menu. However, we do not offer a special children's menu.",
-    "lu": "Kanner bis 12 Joer, esou ewéi Persounen, déi e Kulturpass hunn, kréie 50% Remise um Erliefnismenü. Allerdéngs proposéiere mir kee spezielle Kannermenü."
+    "lu": "Kanner bis 12 Joer, esou ewéi Persounen, déi e Kulturpass hunn, kréie 50% Remise op den Erliefnismenü. Allerdéngs proposéiere mir kee spezielle Kannermenü."
   },
   {
     "page": "Home",
@@ -821,7 +821,7 @@
     "de": "Wir Kunden/innen verlangen mittlerweile, dass die Regale unseres Supermarkts auch noch kurz vor Schließung voll sind mit ganz frischer Ware. Aus diesem Grund lassen sich die Supermärkte immer häufiger beliefern. Stets mit ganz frischer Ware. Wenn nun der Supermarkt feststellt, dass die Kunden/innen nur wenig von diesem Obst oder jenem Gemüse gekauft haben an dem Tag, storniert er kurzerhand die für den folgenden Morgen geplante Lieferung. Diese ganz frische Ware wird entsorgt, weil die nächste Lieferung bereits geplant ist.",
     "fr": "En tant que client·e·s, nous souhaitons que les étals de notre supermarché soient remplis de produits frais, même juste avant la fermeture. Ainsi, les supermarchés se font livrer de plus en plus souvent. Toujours avec des produits frais. Par contre, si le supermarché se rend compte que les client·e·s n'ont acheté que peu de fruits et légumes ce jour-là, il annule la livraison prévue pour le lendemain matin. Ces aliments tout frais sont jetés, car la prochaine livraison est déjà programmée.",
     "en": "We customers now want our supermarket having shelves full of very fresh produce even shortly before closing. For this reason, supermarkets are getting more and more deliveries. Always with very fresh produce. When the supermarket notices that customers have only bought a few of these fruits or vegetables that day, it cancels the delivery planned for the following morning. These very fresh goods are disposed of because the next delivery is already planned.",
-    "lu": "Als Client:e verlaange mir mëttlerweil, datt d'Regaler an eisem Supermarché ëmmer voll si mat frëscher Wuer, och kuerz viru Schluss. Aus dësem Grond ginn d'Supermarchéen ëmmer méi oft beliwwert. Ëmmer mat frëscher Wuer. Wann awer de Supermarché feststellt, datt d'Clienten deen Dag net vill Friichten a Geméis kaf hunn, annuléiert hie kuerzfristeg d'Liwwerung vum nächste Mueren. Dës ganz frësch Iesswuere ginn ewechgehäit, well déi nächst Liwwerung scho geplangt ass."
+    "lu": "Als Client:e verlaange mir mëttlerweil, datt d'Regaler an eisem Supermarché ëmmer voll si mat frëscher Wuer, och kuerz viru Schluss. Aus dësem Grond ginn d'Supermarchéen ëmmer méi oft beliwwert. Ëmmer mat frëscher Wuer. Wann awer de Supermarché feststellt, datt d'Clienten/eën deen Dag net vill Friichten a Geméis kaf hunn, annuléiert hie kuerzfristeg d'Liwwerung vum nächste Mueren. Dës ganz frësch Iesswuere ginn ewechgehäit, well déi nächst Liwwerung scho geplangt ass."
   },
   {
     "page": "Home",
@@ -884,8 +884,8 @@
     "key": "services.faq-group-desc-3-1",
     "de": "Wenn Du Dich zu einer Table d’Hôtes angemeldet hast, servieren wir Dir ein festgelegtes mehrgängiges Erlebnismenü. Unser BENU SLOOW Team bereitet dieses vegetarische Überraschungsmenü nach entsprechender Voranmeldung am gemeinsamen Tisch exklusiv für 12 Personen zu. Wir treffen uns alle zusammen und essen dann gemeinsam.",
     "fr": "Si tu t'inscris à une Table d'Hôtes, nous te servirons un menu découverte à plusieurs plats. Notre équipe BENU SLOOW prépare ce menu végétarien surprise exclusivement pour 12 personnes, sur réservation préalable. Nous nous retrouvons tous ensemble et mangeons ensuite ensemble.",
-    "en": "If you have registered for a Table d'Hôtes, we will serve you a predefined multi-course experience menu. Our BENU SLOOW team will prepare a vegetarian surprise menu exclusively for 12 people at a shared table, only upon prior reservation. We will all meet and eat together.",
-    "lu": "Wann s Du Dech fir d'Table d’Hôtes ugemellt hues, zerwéiere mir Dir e Menü mat ville verschiddene Platen. \nEist BENU SLOOW Team preparéiert Dir dëse vegetareschen Erliefnismenü um gemeinsamen Dësch, exklusiv fir 12 Leit an nëmme mat Reservatioun. Mir treffen eis all an iessen zesummen."
+    "en": "If you have registered for a Table d'Hôtes, we will serve you a predefined multi-course experience menu. Subject to prior reservation, our BENU SLOOW team will prepare a vegetarian surprise menu exclusively for 12 people at a shared table. We will all meet and eat together.",
+    "lu": "Wann s Du Dech fir d'Table d’Hôtes ugemellt hues, zerwéiere mir dir e Menü mat ville verschiddene Platen. Nëmme mat Reservatioun presentéiert d’BENU SLOOW Dir e vegetareschen Erliefnismenü um gemeinsamen Dësch, exklusiv fir 12 Leit an nëmme mat Reservatioun. Mir treffen eis all an iesse gemeinsam."
   },
   {
     "page": "Home",
@@ -909,7 +909,7 @@
     "de": "Die Table d’Hôtes beginnt mittwochs bis freitags jeweils um 18:30 Uhr, samstags um 18:00 Uhr und sonntags um 12:00 Uhr. Der Beginn ist festgelegt, da bis zu 12 Personen an einem Tisch das Überraschungsmenü gemeinsam genießen. Wir bitten Dich deshalb pünktlich zu kommen, damit Du nichts vom Erlebnis verpasst.",
     "fr": "La Table d'Hôtes commence à 18h30 du mercredi au vendredi, à 18h00 le samedi et à 12h00 le dimanche. L'heure de début est fixe, car jusqu'à 12 personnes vont partager le menu surprise à la même table. Nous te prions donc d'arriver à l'heure afin de ne rien manquer de l'expérience.",
     "en": "The Table d'Hôtes starts at 6.30pm on Wednesdays to Fridays, at 6pm on Saturdays and at 12pm on Sundays. The start time is fixed, as up to 12 people will enjoy the surprise menu together at one big table. We kindly ask you to arrive on time so that you don't miss anything of the experience.",
-    "lu": "Mëttwochs bis Freides fänkt d'Table d’Hôtes ëmmer um 18:30 Auer, Samschdes um 19:00 Auer a Sonndes um 12:00 Auer un. D’Ufankszäit ass fix, well bis zu 12 Leit gemeinsam un engem groussen Dësch den Iwwerraschungsmenü genéisse wäerten. Mir bieden Dech dowéinst, pünktlech do ze sinn, fir dass Du näischt vum Erliefnis verpass."
+    "lu": "Mëttwochs bis Freides fänkt d'Table d’Hôtes ëmmer um 18:30h, Samschdes um 19:00 a Sonndes um 12:00h un. D’Ufankszäit ass fix, well bis zu 12 Leit gemeinsam un engem groussen Dësch de 7-Gang-Menü genéisse wäerten. Mir bieden Dech dowéinst, pünktlech do ze sinn, fir dass Du näischt vum Erliefnis verpass."
   },
   {
     "page": "Home",
@@ -917,7 +917,7 @@
     "de": "Wenn das Restaurant BENU SLOOW \"à la carte“ ab dem  24.05.2023 geöffnet ist, kannst Du einen Tisch für Dich und Deine Liebsten reservieren. Dieser Tisch bleibt dann den ganzen Mittag oder Abend für Euch reserviert, wir nehmen keine Doppelreservierungen vor.",
     "fr": "Dès que le restaurant BENU SLOOW \"à la carte\" sera ouvert à partir du 24.05.2023, tu pourras réserver une table pour toi et tes proches. Cette table restera alors réservée pour toi tout le midi ou tout le soir; nous ne faisons pas de réservations doubles.",
     "en": "When the BENU SLOOW \"à la carte\" restaurant opens on 24.05.2023, you can reserve a table for you and your loved ones. This table will then remain reserved for you for the entire lunch or evening - we do not accept double reservations.",
-    "lu": "Wann de BENU SLOOW Restaurant “à la carte” de 24.05.2023 opmécht, kanns Du en Dësch fir Dech an Deng Léifst reservéieren. Dësen Dësch bleift de ganze Mëtteg oder Owend fir Dech reservéiert - mir maache keng duebel Reservatiounen."
+    "lu": "Wann de BENU SLOOW Restaurant “à la carte” de 24.05.2023 op mécht, kanns Du en Dësch fir Dech an Deng Léifst reservéieren. Dësen Dësch bleift de ganze Mëtteg oder Owend fir Dech reservéiert - mir maache keng duebel Reservatiounen."
   },
   {
     "page": "Home",
@@ -930,10 +930,10 @@
   {
     "page": "Home",
     "key": "services.faq-group-desc-5-1",
-    "de": "Falls Du Deine Reservierung nicht wahrnehmen kannst bitten wir Dich, uns so schnell wie möglich Bescheid zu geben. Melde Dich telefonisch unter der Telefonnummer +352 27 38 01-81 oder per E-Mail auf",
-    "fr": "Si tu ne peux pas honorer ta réservation, informe-nous en le plus rapidement possible. Contacte-nous par téléphone au +352 27 38 01-81 ou par e-mail à",
-    "en": "If you are unable to make your reservation, please let us know as soon as possible. Contact us by phone at +352 27 38 01-81 or by e-mail at",
-    "lu": "Falls Du Deng Reservatioun net anhale kanns, gëff eis wgl. esou fréi wéi méiglech Bescheed. Mell Dech iwwer Telefon ënner der Nummer  +352 27 38 01-81 oder iwwer E-Mail op"
+    "de": "Falls Du Deine Reservierung nicht wahrnehmen kannst bitten wir Dich, uns so schnell wie möglich Bescheid zu geben. Melde Dich telefonisch unter der Telefonnummer +352 273801-81 oder per E-Mail auf",
+    "fr": "Si tu ne peux pas honorer ta réservation, informe-nous en le plus rapidement possible. Contacte-nous par téléphone au +352 273801-81 ou par e-mail à",
+    "en": "If you are unable to make your reservation, please let us know as soon as possible. Contact us by phone at +352 273801-81 or by e-mail at",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi wéi méiglech Bescheed. Mell Dech iwwer Telefon ënner der Nummer  +352 273801-81  oder iwwer E-Mail op"
   },
   {
     "page": "Home",
@@ -957,7 +957,7 @@
     "de": "Wir danken der Œuvre Nationale de Secours Grande-Duchesse Charlotte für die großzügige Unterstützung des Projektes BENU SLOOW.",
     "fr": "BENU SLOOW remercie l'Œuvre Nationale de Secours Grande-Duchesse Charlotte pour son soutien au projet.",
     "en": "We thank the Œuvre Nationale de Secours Grande-Duchesse Charlotte for the generous support of the BENU SLOOW project.",
-    "lu": "Mir soen der Œuvre Nationale de Secours Grande-Duchesse Charlotte Merci fir déi generéis Ennerstëtzung vum BENU SLOOW Projet."
+    "lu": "Mir soen der Œuvre Nationale de Secours Grande-Duchesse Charlotte Merci fir déi generéis Ennerstëtzung zum BENU SLOOW Projet."
   },
   {
     "page": "Home",
@@ -1018,10 +1018,10 @@
   {
     "page": "Home",
     "key": "footer.contact-text-2",
-    "de": "32 rue d’Audun, L-4018 Esch-sur-Alzette, info@benusloow.lu",
-    "fr": "32 rue d’Audun, L-4018 Esch-sur-Alzette, info@benusloow.lu",
-    "en": "32 rue d’Audun, L-4018 Esch-sur-Alzette, info@benusloow.lu",
-    "lu": "32 rue d’Audun, L-4018 Esch-sur-Alzette, info@benusloow.lu"
+    "de": "32 rue d’Audun, L-4018 Esch-sur-Alzette",
+    "fr": "32 rue d’Audun, L-4018 Esch-sur-Alzette",
+    "en": "32 rue d’Audun, L-4018 Esch-sur-Alzette",
+    "lu": "32 rue d’Audun, L-4018 Esch-sur-Alzette"
   },
   {
     "page": "Home",
@@ -1034,10 +1034,10 @@
   {
     "page": "Home",
     "key": "footer.contact-text-4",
-    "de": "+352 27 38 01-81",
-    "fr": "+352 27 38 01-81",
-    "en": "+352 27 38 01-81",
-    "lu": "+352 27 38 01-81"
+    "de": "+352 273801-81",
+    "fr": "+352 273801-81",
+    "en": "+352 273801-81",
+    "lu": "+352 273801-81"
   },
   {
     "page": "Home",
@@ -1075,9 +1075,9 @@
     "page": "Home",
     "key": "welcome.map-explanation",
     "de": "Du findest den Eingang zum Restaurant BENU SLOOW am Bd Prince Henri in Esch-sur-Alzette, gegenüber der Hausnummer 11. Der Zugang von der rue d'Audun ist im Moment noch nicht möglich.",
-    "fr": "L'entrée du restaurant BENU SLOOW est accessible par le bd Prince Henri à Esch-sur-Alzette, en face du numéro 11. L'accès depuis la rue d'Audun n'est pas encore possible.",
-    "en": "You will find the entrance to the BENU SLOOW restaurant on bd Prince Henri in Esch-sur-Alzette, just across from house number 11. Access from rue d'Audun is not possible at the moment.",
-    "lu": "Du fënns d'Entrée vum Restaurant BENU SLOOW um bd Prince Henri zu Esch/Uelzecht, direkt vis-à-vis vun der Hausnummer 11. Den Agang an der rue d'Audun ass am Moment nach net zougänglech."
+    "fr": "L'entrée du restaurant BENU SLOOW est accessible par le Bd Prince Henri à Esch-sur-Alzette, en face du numéro 11. L'accès depuis la rue d'Audun n'est pas encore possible.",
+    "en": "You will find the entrance to the BENU SLOOW restaurant on Bd Prince Henri in Esch-sur-Alzette, just across from house number 11. Access from rue d'Audun is not possible at the moment.",
+    "lu": "Du fënns d'Entrée vum Restaurant BENU SLOOW um Bd Prince Henri zu Esch/Uelzecht, direkt vis-à-vis vun der Hausnummer 11. Den Agang an der rue d'Audun ass am Moment nach net zougänglech."
   },
   {
     "page": "Home",
@@ -1213,7 +1213,7 @@
     "de": "Die für die Anmeldung zum BENU Newsletter erhobenen Daten (Vorname, Name und E-Mail-Adresse) werden ausschließlich genutzt, um Dir BENU Informations-E-Mails zuzuschicken. Die Daten tauschen wir mit niemandem, demnach auch mit keiner beliebigen Organisation, Verwaltung, Unternehmen, Interessensgruppe oder anderen.",
     "fr": "Les données collectées pour l’inscription à la newsletter BENU (prénom, nom et adresse e-mail) sont destinées exclusivement à l'envoi d'e-mails d’informations concernant BENU. Nous ne partageons les données avec aucun tiers, ce qui inclut toute organisation, administration, entreprise, tout groupe d’intérêt ou autre.",
     "en": "The data collected for the registration to the BENU newsletter (first name, surname and e-mail address) are exclusively intended for the sending of information e-mails concerning BENU. We do not share the data with any third party, including any organisation, administration, company, group of interest or others.",
-    "lu": "D'Daten, déi bei der Umeldung fir d'Newsletter gesammelt ginn (Numm, Virnumm an E-Mail-Adress), ginn nëmme benotzt fir Dir BENU Informatiouns-E-Mailen ze schécken. Dës Date ginn u kee weider, deemno och u keng aner Organisatioun, Verwaltung, Entreprise, Interessegrupp oder anerwäerts."
+    "lu": "D'Daten déi bei der Umeldung fir d'Newsletter gesammelt ginn (Numm, Virnumm an E-Mail-Adress), ginn nëmme benotzt fir Dir BENU Informatiouns-E-Mailen ze schécken. Dës Date ginn u kee weider, deemno och u keng aner Organisatioun, Verwaltung, Entreprise, Interessegrupp oder anerwäerts."
   },
   {
     "page": "extra infos",
@@ -1250,10 +1250,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-bullet-1-3",
-    "de": "Tel. +352 27 38 01-80",
-    "fr": "Tel. +352 27 38 01-80",
-    "en": "Tel. +352 27 38 01-80",
-    "lu": "Tel. +352 27 38 01-80"
+    "de": "Tel. +352 2738018 - 0",
+    "fr": "Tel. +352 2738018 - 0",
+    "en": "Tel. +352 2738018 - 0",
+    "lu": "Tel. +352 2738018 - 0"
   },
   {
     "page": "extra infos",
@@ -1370,10 +1370,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-3",
-    "de": "In der Anfangsphase startet das Restaurant BENU SLOOW mit einer Table d'Hôtes. Diese empfängt die Gäste/innen an den auf der Homepage angegebenen Terminen. Die Teilnahme an der Table d'Hôtes ist nur unter Voranmeldung möglich. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 27 38 01-81 vorgenommen werden. \nBei der Table d’Hôtes werden jeweils bis zu maximal 12 Personen angenommen, die gemeinsam an einem Tisch ein täglich wechselndes mehrgängiges vegetarisches Menü serviert bekommen. Kinder bis 12 Jahre erhalten einen 50% Rabatt auf das Erlebnismenü. Es wird allerdings kein spezielles Kindermenü angeboten.\nDer Preis für Personen über 12 Jahre beträgt pro Person",
-    "fr": "Dans sa phase initiale, le restaurant BENU SLOOW démarre avec une Table d'Hôtes. Celle-ci accueille les client:es aux dates indiquées sur le site internet. La participation à la Table d'Hôtes n'est possible que sur réservation. L'inscription peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 27 38 01-81. \nLa Table d'Hôtes invite jusqu'à 12 personnes à déguster un menu végétarien prédéfini à plusieurs plats, changeant chaque jour, autour d'une table commune.\nLes enfants jusqu'à 12 ans bénéficient d'une réduction de 50% sur le menu découverte. Il n'y a toutefois pas de menu spécial pour les enfants.\nLe prix par personne pour les personnes de plus de 12 ans est de",
-    "en": "In its initial phase, the BENU SLOOW restaurant will start with a table d'Hôtes. This welcomes guests on the dates indicated on the homepage. Participating in the Table d'Hôtes is only possible with prior reservation. Reservations can be made online using the reservation form or by calling +352 27 38 01-81. \nThe table d'Hôtes accepts a maximum of 12 people at a time, who will be served a daily changing, multi-course vegetarian menu together at one table.\nChildren up to 12 years receive a 50% discount on the experience menu. However, no special children's menu is offered.\nThe price for persons over 12 years is per person",
-    "lu": "A senger éischter Phas start de Restaurant BENU SLOOW mat enger Table d’Hôtes, déi op am Viraus festgeluechten Datumer Gäscht begréisst. Eng Participatioun un der Table d’Hôtes ass nëmme mat Reservatioun méiglech. D’Reservatioun kann iwwer en Online-Formulaire oder iwwer Telefon ënnert der Nummer +352 27 38 01-81 entgéint geholl ginn. D’Table d’Hôtes invitéiert bis zu 12 Leit un engem virdefinéierten, vegetaresche Menü deelzehuelen, deen all Dag wiesselt - an dat op engem groussen, gemeinsamen Dësch.\nKanner bis 12 Joer kréie 50% Remise op eisen Erliefnismenü. Allerdéngs proposéiere mir kee spezielle Kannermenü. De Präis pro Persoun iwwer 12 Joer ass"
+    "de": "In der Anfangsphase startet das Restaurant BENU SLOOW mit einer Table d'Hôtes. Diese empfängt die Gäste/innen an den auf der Homepage angegebenen Terminen. Die Teilnahme an der Table d'Hôtes ist nur unter Voranmeldung möglich. Die Anmeldung kann online über das Reservierungs-Formular oder telefonisch unter der Telefonnummer +352 273801-81 vorgenommen werden. \nBei der Table d’Hôtes werden jeweils bis zu maximal 12 Personen angenommen, die gemeinsam an einem Tisch ein täglich wechselndes mehrgängiges vegetarisches Menü serviert bekommen. Kinder bis 12 Jahre erhalten einen 50% Rabatt auf das Erlebnismenü. Es wird allerdings kein spezielles Kindermenü angeboten.\nDer Preis für Personen über 12 Jahre beträgt pro Person",
+    "fr": "Dans sa phase initiale, le restaurant BENU SLOOW démarre avec une Table d'Hôtes. Celle-ci accueille les client:es aux dates indiquées sur le site internet. La participation à la Table d'Hôtes n'est possible que sur réservation. L'inscription peut se faire en ligne via le formulaire de réservation ou par téléphone au +352 273801-81. \nLa Table d'Hôtes invite jusqu'à 12 personnes à déguster un menu végétarien prédéfini à plusieurs plats, changeant chaque jour, autour d'une table commune.\nLes enfants jusqu'à 12 ans bénéficient d'une réduction de 50% sur le menu découverte. Il n'y a toutefois pas de menu spécial pour les enfants.\nLe prix par personne pour les personnes de plus de 12 ans est de",
+    "en": "In its initial phase, the BENU SLOOW restaurant will start with a table d'Hôtes. This welcomes guests on the dates indicated on the homepage. Participating in the Table d'Hôtes is only possible with prior reservation. Reservations can be made online using the reservation form or by calling +352 273801-81. \nThe table d'Hôtes accepts a maximum of 12 people at a time, who will be served a daily changing, multi-course vegetarian menu together at one table.\nChildren up to 12 years receive a 50% discount on the experience menu. However, no special children's menu is offered.\nThe price for persons over 12 years is per person",
+    "lu": "A senger éischter Phas start de Restaurant BENU SLOOW mat enger Table d’Hôtes, déi op am Viraus festgeluechten Datumer Gäscht begréisst. Eng Participatioun un der Table d’Hôtes ass nëmme mat Reservatioun méiglech. D’Reservatioun kann iwwer en Online-Formulaire oder iwwer Telefon ënnert der Nummer +352 273801-81 entgéint geholl ginn. D’Table d’Hôtes invitéiert bis zu 12 Leit un engem virdefinéierten, vegetaresche Menü deelzehuelen, deen all Dag wiesselt - an dat op engem groussen, gemeinsamen Dësch.\nKanner bis 12 Joer kréie 50% Remise op eisen Erliefnismenü. Allerdéngs proposéiere mir kee spezielle Kannermenü. De Präis pro Persoun iwwer 12 Joer ass"
   },
   {
     "page": "extra infos",
@@ -1411,9 +1411,9 @@
     "page": "extra infos",
     "key": "infos.content-txt-4-4",
     "de": "Im Anschluss an das Angebot der Table d'Hôtes öffnet das Restaurant BENU SLOOW als reguläres Restaurant \"à la carte“. Das Restaurant kann mit und ohne Voranmeldung zu den angegebenen Öffnungszeiten besucht werden. Die Anmeldung kann telefonisch unter der Telefonnummer +352 27380-81 oder per E-Mail an info@benusloow.lu vorgenommen werden.\nDas Restaurant bietet eine täglich wechselnde Speisekarte mit unterschiedlichen vegetarischen und veganen Gerichten.",
-    "fr": "Suite à l'offre de la Table d'Hôtes, le restaurant BENU SLOOW ouvre ses portes en tant que restaurant régulier \"à la carte\". Le restaurant peut être visité avec ou sans réservation aux heures d'ouverture indiquées. La réservation peut se faire soit par téléphone au +352 27 38 01-81, soit par courriel à info@benusloow.lu.\nLe restaurant propose un menu qui change tous les jours avec différents plats végétariens et végétaliens.",
-    "en": "Following the Table d'Hôtes offer, the BENU SLOOW restaurant opens as a regular \"à la carte\" restaurant. The restaurant can be visited either with or without prior reservation during the specified opening hours. Reservations can be made by calling +352 27 38 01-81 or by emailing info@benusloow.lu.\nThe restaurant offers a daily changing menu with different vegetarian and vegan dishes.",
-    "lu": "No der Offer vun der Table d’Hôtes begréisst de Restaurant BENU SLOOW Dech och elo och als reguläre Restaurant \"à la carte\". De Restaurant ka wärend eisen Ëffnungszäiten entweder mat oder ouni Reservatioun besicht ginn. Deng Reservatioun huele mir iwwer Telefon - ënnert der Nummer +352 27 38 01-81, oder per Mail un d’Emailadress info@benusloow.lu entgéint. De Restaurant bitt all Dag en anere Menü aus ënnerschiddleche vegetareschen a vegane Platen un."
+    "fr": "Suite à l'offre de la Table d'Hôtes, le restaurant BENU SLOOW ouvre ses portes en tant que restaurant régulier \"à la carte\". Le restaurant peut être visité avec ou sans réservation aux heures d'ouverture indiquées. La réservation peut se faire soit par téléphone au +352 273801-81, soit par courriel à info@benusloow.lu.\nLe restaurant propose un menu qui change tous les jours avec différents plats végétariens et végétaliens.",
+    "en": "Following the Table d'Hôtes offer, the BENU SLOOW restaurant opens as a regular \"à la carte\" restaurant. The restaurant can be visited either with or without prior reservation during the specified opening hours. Reservations can be made by calling +352 273801-81 or by emailing info@benusloow.lu.\nThe restaurant offers a daily changing menu with different vegetarian and vegan dishes.",
+    "lu": "No der Offer vun der Table d’Hôtes begréisst de Restaurant BENU SLOOW Dech och elo och als reguläre Restaurant \"à la carte\". De Restaurant ka wärend eisen Ëffnungszäiten entweder mat oder ouni Reservatioun besicht ginn. Deng Reservatioun huele mir iwwer Telefon - ënnert der Nummer +352 273801-81, oder per Mail un d’Emailadress info@benusloow.lu entgéint. De Restaurant bitt all Dag en anere Menü aus ënnerschiddleche vegetareschen a vegane Platen un."
   },
   {
     "page": "extra infos",
@@ -1442,10 +1442,10 @@
   {
     "page": "extra infos",
     "key": "infos.content-txt-4-6",
-    "de": "Die Reservierung an der Table d’Hôtes kann bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 27 38 01-81 oder per E-Mail auf info@benusloow.lu storniert werden.\nErfolgt die Stornierung später, also in weniger als 4 Werktagen vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.",
-    "fr": "Une réservation à la Table d'Hôtes peut être annulée jusqu'à 4 jours ouvrables avant la date de l'évènement, par téléphone au +352 27 38 01-81 ou par e-mail à info@benusloow.lu.\nSi l'annulation intervient plus tard, c'est-à-dire moins de 4 jours ouvrables avant la date réservée, ou si elle n'intervient pas, BENU se réserve le droit de facturer au·à la client·e les frais occasionnés.",
-    "en": "The reservation at the Table d'Hôtes can be cancelled at least 4 working days before the reserved date by calling +352 27 38 01-81 or sending an e-mail at info@benusloow.lu.\nIf the cancellation is made later, i.e. less than 4 working days before the reserved date, or not at all, BENU may charge the customer for any expenses incurred.",
-    "lu": "Eng Reservatioun bei der Table d’Hôtes ka bis zu 4 Schaffdeeg am Viraus, iwwer Telefon ënner der Nummer +352 27 38 01-81 oder iwwer E-Mail op info@benusloow.lu, annuléiert ginn. Wann d’Annulatioun zu engem spéideren Zäitpunkt erfollegt, d. h. manner ewéi 4 Schaffdeeg am Viraus, oder wa se iwwerhaapt net erfollegt, ass BENU berechtegt d’Onkäschte vum/vun der Client:e ze verlaangen."
+    "de": "Die Reservierung an der Table d’Hôtes kann bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 273801-81 oder per E-Mail auf info@benusloow.lu storniert werden.\nErfolgt die Stornierung später, also in weniger als 4 Werktagen vor dem reservierten Termin, oder gar nicht, kann BENU dem/der Kunden/in die anfallenden Unkosten berechnen.",
+    "fr": "Une réservation à la Table d'Hôtes peut être annulée jusqu'à 4 jours ouvrables avant la date de l'évènement, par téléphone au +352 273801-81 ou par e-mail à info@benusloow.lu.\nSi l'annulation intervient plus tard, c'est-à-dire moins de 4 jours ouvrables avant la date réservée, ou si elle n'intervient pas, BENU se réserve le droit de facturer au·à la client·e les frais occasionnés.",
+    "en": "The reservation at the Table d'Hôtes can be cancelled at least 4 working days before the reserved date by calling +352 273801-81 or sending an e-mail at info@benusloow.lu.\nIf the cancellation is made later, i.e. less than 4 working days before the reserved date, or not at all, BENU may charge the customer for any expenses incurred.",
+    "lu": "Eng Reservatioun bei der Table d’Hôtes ka bis zu 4 Schaffdeeg am Viraus, iwwer Telefon ënner der Nummer +352 273801-81 oder iwwer E-Mail op info@benusloow.lu, annuléiert ginn. Wann d’Annulatioun zu engem spéideren Zäitpunkt erfollegt, d. h. manner ewéi 4 Schaffdeeg am Viraus, oder wa se iwwerhaapt net erfollegt, ass BENU berechtegt d’Onkäschte vum/vun der Client:e ze verlaangen."
   },
   {
     "page": "extra infos",
@@ -1546,10 +1546,10 @@
   {
     "page": "E-Mails",
     "key": "emails.new-request-txt-1",
-    "de": "Deine Reservierungsanfrage für das Restaurant BENU SLOOW ist eingegangen! Wir werden uns in Kürze per E-Mail melden, ob wir Deine Reservierung bestätigen können. Solltest Du bis dahin noch Fragen haben, kannst Du uns telefonisch unter +352 27 38 01-81 oder per E-Mail auf info@benusloow.lu kontaktieren.",
-    "fr": "Ta demande de réservation pour le restaurant BENU SLOOW a bien été reçue ! Tu recevras un e-mail de confirmation prochainement. Si tu as encore des questions, tu peux nous contacter par téléphone au +352 27 38 01-81 ou par e-mail à info@benusloow.lu.",
-    "en": "Your reservation request for the restaurant BENU SLOOW has been received! We will contact you shortly by e-mail to confirm your reservation. If you have any questions, please contact us by phone at +352 27 38 01-81 or by e-mail at info@benusloow.lu.",
-    "lu": "Deng Ufro fir eng Reservatioun am Restaurant BENU SLOOW ass ukomm! Du kriss deemnächst eng Bestätegung per E-Mail. Wann s Du nach Froen hues, kanns Du eis iwwer Telefon ënner der Nummer +352 27 38 01-81 oder iwwer E-Mail op info@benusloow.lu kontaktéieren."
+    "de": "Deine Reservierungsanfrage für das Restaurant BENU SLOOW ist eingegangen! Wir werden uns in Kürze per E-Mail melden, ob wir Deine Reservierung bestätigen können. Solltest Du bis dahin noch Fragen haben, kannst Du uns telefonisch unter +352 273801-81 oder per E-Mail auf info@benusloow.lu kontaktieren.",
+    "fr": "Ta demande de réservation pour le restaurant BENU SLOOW a bien été reçue ! Tu recevras un e-mail de confirmation prochainement. Si tu as encore des questions, tu peux nous contacter par téléphone au +352 273801-81 ou par e-mail à info@benusloow.lu.",
+    "en": "Your reservation request for the restaurant BENU SLOOW has been received! We will contact you shortly by e-mail to confirm your reservation. If you have any questions, please contact us by phone at +352 273801-81 or by e-mail at info@benusloow.lu.",
+    "lu": "Deng Ufro fir eng Reservatioun am Restaurant BENU SLOOW ass ukomm! Du kriss deemnächst eng Bestätegung per E-Mail. Wann s Du nach Froen hues, kanns Du eis iwwer Telefon ënner der Nummer +352 273801-81 oder iwwer E-Mail op info@benusloow.lu kontaktéieren."
   },
   {
     "page": "E-Mails",
@@ -1642,10 +1642,10 @@
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-hosts-cancellation",
-    "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 27 38 01-81 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 4 jours ouvrables avant la date réservée par téléphone au +352 27 38 01-81 ou par e-mail à info@benusloow.lu.",
-    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 4 working days before the booked date by phone at +352 27 38 01-81 or by e-mail at info@benusloow.lu.",
-    "lu": "Falls Du Deng Reservatioun net anhale kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 4 Schaffdeeg am Viraus iwwer Telefon ënner der Nummer +352 27 38 01-81 oder iwwer E-Mail op info@benusloow.lu of."
+    "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 4 Werktage vor dem reservierten Termin telefonisch unter der Telefonnummer +352 273801-81 oder per E-Mail auf info@benusloow.lu.",
+    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 4 jours ouvrables avant la date réservée par téléphone au +352 273801-81 ou par e-mail à info@benusloow.lu.",
+    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 4 working days before the booked date by phone at +352 273801-81 or by e-mail at info@benusloow.lu.",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 4 Schaffdeeg am Viraus iwwer Telefon ënner der Nummer +352 273801-81 oder iwwer E-Mail op info@benusloow.lu of."
   },
   {
     "page": "E-Mails",
@@ -1658,10 +1658,10 @@
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-more-info-2",
-    "de": "Bei weiteren Fragen kannst Du uns telefonisch unter der Telefonnummer +352 27 38 01-81 oder per E-Mail auf info@benusloow.lu kontaktieren.",
-    "fr": "Si tu as d'autres questions, tu peux nous contacter par téléphone au +352 27 38 01-81 ou par e-mail à info@benusloow.lu.",
-    "en": "If you have any further questions, please contact us by phone at +352 27 38 01-81 or by e-mail at info@benusloow.lu",
-    "lu": "Wann s Du nach Froen hues, kanns Du eis iwwer Telefon ënner der Nummer +352 27 38 01-81 oder iwwer E-Mail op info@benusloow.lu kontaktéieren."
+    "de": "Bei weiteren Fragen kannst Du uns telefonisch unter der Telefonnummer +352 273801-81 oder per E-Mail auf info@benusloow.lu kontaktieren.",
+    "fr": "Si tu as d'autres questions, tu peux nous contacter par téléphone au +352 273801-81 ou par e-mail à info@benusloow.lu.",
+    "en": "If you have any further questions, please contact us by phone at +352 273801-81 or by e-mail at info@benusloow.lu",
+    "lu": "Wann s Du nach Froen hues, kanns Du eis iwwer Telefon ënner der Nummer +352 273801-81 oder iwwer E-Mail op info@benusloow.lu kontaktéieren."
   },
   {
     "page": "E-Mails",
@@ -1706,10 +1706,10 @@
   {
     "page": "E-Mails",
     "key": "emails.new-reservation-restaurant-cancellation",
-    "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 24 Stunden vor dem reservierten Termin telefonisch unter der Telefonnummer +352 27 38 01-81 oder per E-Mail auf info@benusloow.lu.",
-    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 24 heures avant la date et l'horaire réservés par téléphone au +352 27 38 01-81 ou par e-mail à info@benusloow.lu.",
-    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 24 hours before the booked date by phone at +352 27 38 01-81 or by e-mail at info@benusloow.lu.",
-    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 24 Stonnen am Viraus iwwer Telefon ënner der Nummer +352 27 38 01-81 oder iwwer E-Mail op info@benusloow.lu of."
+    "de": "Falls Du Deine Reservierung annulieren musst, gib uns bitte schnellst möglich Bescheid, damit wir den Service neu organisieren können. Melde Deine Stornierung bis spätestens 24 Stunden vor dem reservierten Termin telefonisch unter der Telefonnummer +352 273801-81 oder per E-Mail auf info@benusloow.lu.",
+    "fr": "Si tu dois annuler ta réservation, contacte-nous le plus rapidement possible afin que nous puissions réorganiser le service. Fais-nous part de ton annulation au plus tard 24 heures avant la date et l'horaire réservés par téléphone au +352 273801-81 ou par e-mail à info@benusloow.lu.",
+    "en": "If you need to cancel your reservation, please let us know as soon as possible so that we can reorganize the service. Notify your cancellation no later than 24 hours before the booked date by phone at +352 273801-81 or by e-mail at info@benusloow.lu.",
+    "lu": "Falls Du Deng Reservatioun net éiere kanns, gëff eis wgl. esou fréi ewéi méiglech Bescheed fir datt mir de Service ëmorganiséiere kënnen. So spéitstens 24 Stonnen am Viraus iwwer Telefon ënner der Nummer +352 273801-81 oder iwwer E-Mail op info@benusloow.lu of."
   },
   {
     "page": "E-Mails",
