@@ -19,7 +19,7 @@ use App\Mail\UserRegistered;
 
 // In case of landing page activated (use 'landing' as APP_ENV), only the landing page is available from the root address
 
-if (app('env') == 'landing') {
+if (app('env') == 'oldlanding') {
 	Route::get('/{slug}', function() {
 		return redirect()->route('landing-fr');
 	})->where('slug', '^([a-zA-Z0-9-]{3,})$');
