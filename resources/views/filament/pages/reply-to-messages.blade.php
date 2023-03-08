@@ -35,7 +35,7 @@
 					</div>
 				@endforeach
 
-				@if(isset($is_registered[$messages->first()->email]) && $is_registered[$messages->first()->email])
+				@if(App\Models\User::where('email', $messages->first()->email)->where('role', '<>', 'newsletter')->where('role', '<>', 'guest_client')->count() > 0)
 				<h5>Add a reply:</h5>
 				<form method="POST" wire:submit.prevent="sendReply({{ $thread }})">
 					@csrf
@@ -46,12 +46,8 @@
 						</button>
 					</div>
 				</form>
-				@else
-				<div class="w-full text-center">
-					<a href="mailto:{{ $messages->first()->email }}?subject=BENU - Contact&body={{ $messages->last()->message }}" class="hover:underline">
-						No  BENU account - Send reply by e-mail
-					</a>
-				</div>
+				@else 
+				<h5>This user does not have an account. Please reply manually by sending an e-mail directly to this address: <a class="hover:underline" href="mailto:{{ $messages->first()->email }}">{{ $messages->first()->email }}</a> </h5>
 				@endif
 			</div>
 		</div>

@@ -18,3 +18,9 @@ mix.js('resources/js/app.js', 'public/js')
         require('autoprefixer'),
     ])
     .sass('resources/css/app.scss', 'public/css');
+
+mix.webpackConfig({
+    stats: {
+        children: true,
+    },
+});
