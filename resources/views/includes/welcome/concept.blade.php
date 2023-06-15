@@ -34,13 +34,13 @@
 		</p>
 		<div class="welcome-concept__box__prices">
 			<p>
-				{!! __('welcome.concept-price-no-drinks') !!}: <strong>140€</strong>
+				{!! __('welcome.concept-price-no-drinks') !!}: 
 			</p>
 			<p>
-				{!! __('welcome.concept-price-with-drinks') !!}: <strong>190€</strong>
+				{!! __('welcome.concept-price-with-drinks') !!}: 
 			</p>
 			<p>
-				{!! __('welcome.concept-price-with-softs') !!}: <strong>170€</strong>
+				{!! __('welcome.concept-price-with-softs') !!}: 
 			</p>
 		</div>
 		<p class="welcome-concept__info">
