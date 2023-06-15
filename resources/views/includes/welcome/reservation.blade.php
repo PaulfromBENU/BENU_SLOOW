@@ -1,3 +1,4 @@
+<!--
 <section class="welcome-reservation">
 	<div class="welcome-reservation__block">
 		<h2 class="welcome-reservation__block__title"  id="reservation-anchor-mobile">{!! __('welcome.reservation-title-1') !!}</h2>
@@ -9,3 +10,4 @@
 	</div>
 	<div class="welcome-reservation__bottom-bg"></div>
 </section>
+-->
