@@ -29,7 +29,7 @@
 				<h4>{{ __('welcome.footer-title-social') }}</h4>
 				<div class="flex justify-start">
 					<a href="https://www.facebook.com/benuvillageesch" class="footer__social"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://lu.linkedin.com/company/benu-village-esch class="footer__social"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://lu.linkedin.com/company/benu-village-esch" class="footer__social"><i class="fab fa-linkedin-in"></i></a>
 					<a href="https://www.instagram.com/benu_village/?hl=fr" class="footer__social"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
