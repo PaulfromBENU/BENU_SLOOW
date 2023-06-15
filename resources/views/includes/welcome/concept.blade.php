@@ -34,13 +34,13 @@
 		</p>
 		<div class="welcome-concept__box__prices">
 			<p>
-				{!! __('welcome.concept-price-no-drinks') !!}: 
+				{!! __('welcome.concept-price-no-drinks') !!}
 			</p>
 			<p>
-				{!! __('welcome.concept-price-with-drinks') !!}: 
+				{!! __('welcome.concept-price-with-drinks') !!}
 			</p>
 			<p>
-				{!! __('welcome.concept-price-with-softs') !!}: 
+				{!! __('welcome.concept-price-with-softs') !!}
 			</p>
 		</div>
 		<p class="welcome-concept__info">
