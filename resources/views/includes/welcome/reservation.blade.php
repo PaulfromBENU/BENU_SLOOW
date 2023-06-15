@@ -1,9 +1,7 @@
 
 <section class="welcome-reservation">
 	
-	<div class="welcome-reservation__block">
-		
-	</div>
+	
 	<div class="welcome-reservation__bg">
 		
 	</div>
