@@ -9,6 +9,9 @@
 						<li style="color: lightgrey;">|</li>
 						<li><a onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-2') !!}</a></li>
 						<li style="color: lightgrey;">|</li>
+						<li><a href="https://linktr.ee/benuvillage?fbclid=PAAaZgO9AHCk-2tMi7aV6dQo-3JMH7k1uKIoCGn2WulIcezR7KA-64ETKuWG4" target="_blank" style="cursor: pointer;">MENU</a></li>
+<!--{{ __('header.title-5') }}-->
+						<li style="color: lightgrey;">|</li>
 						<li><a onclick="document.getElementById('faq-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-3') !!}</a></li>
 						<li style="color: lightgrey;">|</li>
 						<li><a onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="cursor: pointer;">{!! __('welcome.footer-menu-4') !!}</a></li>

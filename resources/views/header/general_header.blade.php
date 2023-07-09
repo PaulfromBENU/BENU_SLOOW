@@ -55,9 +55,13 @@
 
                     <a onclick="document.getElementById('reservation-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-2') }}</a>
 
+                    <a href="https://linktr.ee/benuvillage?fbclid=PAAaZgO9AHCk-2tMi7aV6dQo-3JMH7k1uKIoCGn2WulIcezR7KA-64ETKuWG4" target="_blank" class="header__main-nav__link inline-block">MENU</a>
+
                     <a onclick="document.getElementById('faq-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-3') }}</a>
 
                     <a onclick="document.getElementById('contact-anchor').scrollIntoView({ behavior: 'smooth', block: 'center' });" class="header__main-nav__link inline-block">{{ __('header.title-4') }}</a>
+
+                    
                 </nav>
                 <nav class="mobile-only">
                     <div>
